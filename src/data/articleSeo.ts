@@ -46,6 +46,14 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Split Payment e Appalti Pubblici in Edilizia",
     "metaDescription": "IVA versata dall'ente, crediti IVA strutturali, fatturazione elettronica con CIG e CUP e tempi di incasso nella commessa pubblica."
   },
+  "bonus-edilizi-come-si-fatturano": {
+    "seoTitle": "Bonus Edilizi: Cosa Resta e Come si Fatturano",
+    "metaDescription": "Bonifico parlante e ritenuta dell'8%, congruità dei prezzi e fascicolo di commessa: cosa serve perché il committente possa portare la detrazione."
+  },
+  "fiscalita-fotovoltaico-impianti": {
+    "seoTitle": "Fotovoltaico: IVA, Ammortamenti e Comunità Energetiche",
+    "metaDescription": "Reverse charge sull'installazione, aliquota agevolata, qualificazione mobiliare o immobiliare, ammortamento e vendita dell'energia prodotta."
+  },
   "bilancio-impresa-edile-lavori-in-corso": {
     "seoTitle": "Lavori in Corso su Ordinazione: Come si Valutano",
     "metaDescription": "OIC 23, percentuale di completamento e artt. 92-93 TUIR: come si valutano le commesse aperte e perché i costi a finire decidono l'utile."
@@ -69,6 +77,22 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
   "assetti-adeguati-impresa-edile": {
     "seoTitle": "Assetti Adeguati e Crisi nell'Impresa Edile",
     "metaDescription": "Cosa impone l'art. 2086 c.c. a chi lavora per commessa, quali strumenti dimostrano l'adeguatezza e come funziona la composizione negoziata."
+  },
+  "durc-irregolare-impresa-edile": {
+    "seoTitle": "DURC Irregolare: Cosa Blocca e Come si Sblocca",
+    "metaDescription": "I quindici giorni del preavviso, la soglia di scostamento non grave, la rateazione che salva il documento e l'intervento sostitutivo del committente."
+  },
+  "cassa-edile-come-funziona": {
+    "seoTitle": "Cassa Edile: Come Funziona e Quanto Pesa",
+    "metaDescription": "Accantonamenti per ferie e gratifica, APE, denuncia mensile e trasferte: la voce che rende il costo orario dell'edilizia diverso da ogni altro settore."
+  },
+  "attestazione-soa-requisiti-economici": {
+    "seoTitle": "Attestazione SOA: Come il Bilancio Decide la Classifica",
+    "metaDescription": "Cifra d'affari in lavori, patrimonio netto, costo del personale e attrezzatura: come i bilanci determinano categorie e classifiche ottenibili."
+  },
+  "consorzi-ati-fiscalita": {
+    "seoTitle": "Consorzi e ATI: Fiscalità e Quando Conviene Ciascuno",
+    "metaDescription": "Il consorzio fattura e ribalta ai consorziati, l'ATI non è un soggetto autonomo: due meccanismi con effetti opposti su IVA, bilancio e responsabilità."
   },
   "verifica-fiscale-impresa-edile": {
     "seoTitle": "Verifica Fiscale all'Impresa Edile: Cosa Fare",

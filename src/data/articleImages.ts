@@ -88,6 +88,22 @@ export const articleImages: Record<string, string | null> = {
   // Certificato di pagamento SAL e fattura elettronica verso la PA
   "split-payment-e-fatturazione-pa-2": null,
 
+  // bonus-edilizi-come-si-fatturano
+  // Copertina — Fattura di lavori edili accanto alla ricevuta di un bonifico parlante
+  "bonus-edilizi-come-si-fatturano-cover": null,
+  // Fattura di lavori edili accanto alla ricevuta di un bonifico parlante
+  "bonus-edilizi-come-si-fatturano-1": null,
+  // Archivio digitale di commessa con foto datate, computi e asseverazioni
+  "bonus-edilizi-come-si-fatturano-2": null,
+
+  // fiscalita-fotovoltaico-impianti
+  // Copertina — Installazione di pannelli fotovoltaici sulla copertura di un capannone industriale
+  "fiscalita-fotovoltaico-impianti-cover": null,
+  // Installazione di pannelli fotovoltaici sulla copertura di un capannone industriale
+  "fiscalita-fotovoltaico-impianti-1": null,
+  // Contatore di produzione fotovoltaica e documentazione dell'impianto
+  "fiscalita-fotovoltaico-impianti-2": null,
+
   // bilancio-impresa-edile-lavori-in-corso
   // Copertina — Prospetto di avanzamento commessa con costi sostenuti e costi a finire
   "bilancio-impresa-edile-lavori-in-corso-cover": null,
@@ -129,6 +145,38 @@ export const articleImages: Record<string, string | null> = {
   "assetti-adeguati-impresa-edile-cover": null,
   // Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi
   "assetti-adeguati-impresa-edile-1": null,
+
+  // durc-irregolare-impresa-edile
+  // Copertina — Schermata del portale Durc On Line con esito di irregolarità
+  "durc-irregolare-impresa-edile-cover": null,
+  // Schermata del portale Durc On Line con esito di irregolarità
+  "durc-irregolare-impresa-edile-1": null,
+  // Prospetto di congruità della manodopera confrontato con il valore dell'opera
+  "durc-irregolare-impresa-edile-2": null,
+
+  // cassa-edile-come-funziona
+  // Copertina — Squadra di operai edili in cantiere con attrezzature e ponteggi
+  "cassa-edile-come-funziona-cover": null,
+  // Squadra di operai edili in cantiere con attrezzature e ponteggi
+  "cassa-edile-come-funziona-1": null,
+  // Denuncia mensile telematica con ore per operaio e attribuzione ai cantieri
+  "cassa-edile-come-funziona-2": null,
+
+  // attestazione-soa-requisiti-economici
+  // Copertina — Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio
+  "attestazione-soa-requisiti-economici-cover": null,
+  // Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio
+  "attestazione-soa-requisiti-economici-1": null,
+  // Riunione con bilanci, certificati di esecuzione lavori e progetto di scissione sul tavolo
+  "attestazione-soa-requisiti-economici-2": null,
+
+  // consorzi-ati-fiscalita
+  // Copertina — Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo
+  "consorzi-ati-fiscalita-cover": null,
+  // Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo
+  "consorzi-ati-fiscalita-1": null,
+  // Atto costitutivo di consorzio stabile con statuto e regolamento interno
+  "consorzi-ati-fiscalita-2": null,
 
   // verifica-fiscale-impresa-edile
   // Copertina — Fascicoli di cantiere e documentazione contabile su un tavolo riunioni

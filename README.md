@@ -3,7 +3,7 @@
 Sito dello studio **Edilizia Fiscale** — commercialisti e CFO per il settore costruzioni, doppio target
 (impresa edile / patrimonio dell'imprenditore) con due percorsi separati.
 
-- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (62 pagine prerenderizzate).
+- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (68 pagine prerenderizzate).
 - Design: palette di brand **nero `#0C0C0C` e arancione `#F2621D`**, font Inter Tight.
 - Dominio previsto: `https://www.ediliziafiscale.it` (placeholder — un solo punto di modifica, vedi sotto).
 
@@ -20,7 +20,7 @@ npm run preview   # serve la build da dist/
 
 - **Home a bivio** (`/`): due porte, "Ho un'impresa edile" / "Ho un patrimonio da proteggere".
 - **Hub silo**: `/imprese` (10 aree, schema Service) e `/patrimonio` (10 aree + verticali).
-- **Guide** (`/guide`, `/guide/[slug]`): 30 articoli in `src/data/articles/*.ts` — formato a blocchi
+- **Guide** (`/guide`, `/guide/[slug]`): 36 articoli in `src/data/articles/*.ts` — formato a blocchi
   (risposta diretta come intro, riquadro "In sintesi", tabelle, passi numerati, esempio numerico,
   FAQ visibili, CTA + disclaimer). Schema Article + FAQPage + BreadcrumbList.
 - **Domande frequenti** (`/domande-frequenti`, una URL per domanda): 21 pagine da `src/data/faq.ts`,
@@ -58,9 +58,11 @@ Quattro categorie (`src/data/articles.ts`), usate nei filtri di `/guide` e nelle
 
 | Categoria | Contenuto | Silo |
 |---|---|---|
-| `Impresa` | IVA, reverse charge, aliquote, adempimenti negli appalti, costi | `/imprese` |
+| `Impresa` | IVA, reverse charge, aliquote, bonus edilizi, costi, fotovoltaico | `/imprese` |
 | `Controllo` | Margine di commessa, lavori in corso, cassa, CFO, assetti adeguati | `/imprese` |
 | `Fisco` | Verifiche, accertamenti, crediti d'imposta, ravvedimento, ISA | `/imprese` |
+| `Lavoro` | DURC, Cassa Edile, congruità della manodopera | `/imprese` |
+| `Appalti` | Attestazione SOA, consorzi e ATI | `/imprese` |
 | `Patrimonio` | Holding, scissione, immobili, dividendi, passaggio generazionale | `/patrimonio` |
 
 ### File generati (non modificare a mano)
@@ -121,7 +123,7 @@ Tutti i placeholder sono centralizzati in **`src/data/site.ts`**:
   citabilità sui motori di risposta;
 - P.IVA, sede e dati d'albo in `/privacy`, `/note-legali`, schema `index.html`;
 - endpoint reale del form contatti (`src/components/EFContactModal.tsx`, oggi simulato);
-- immagini: 92 slot in tutto (30 copertine guida, 56 figure, 6 di sito), tutti a `null`.
+- immagini: 110 slot in tutto (36 copertine guida, 68 figure, 6 di sito), tutti a `null`.
   L'elenco operativo con slot, dimensioni e contenuto è in **[IMMAGINI.md](IMMAGINI.md)**,
   generato da `npm run immagini`. Finché uno slot è `null` la pagina mostra un
   segnaposto con il brief scritto dentro: il sito resta pubblicabile a immagini mancanti.

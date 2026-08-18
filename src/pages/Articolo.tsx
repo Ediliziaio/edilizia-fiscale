@@ -332,11 +332,12 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
         <div className="relative">
           <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-brand/15 text-brand rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 border border-brand/30">
             <Sparkles className="w-3 h-3" />
-            Analisi del caso
+            Analisi dei numeri
           </div>
-          <h3 className="text-lg font-bold mb-2 leading-tight">Vuoi capire se si applica al tuo caso?</h3>
+          <h3 className="text-lg font-bold mb-2 leading-tight">Vale anche per la tua impresa?</h3>
           <p className="text-white/75 text-sm leading-relaxed mb-4">
-            Mandaci i documenti: entro 48 ore lavorative ti diciamo in che termine sei e quali strade esistono.
+            Mandaci gli ultimi due bilanci e l'elenco delle commesse aperte: entro 2 giorni lavorativi ti
+            diciamo cosa cambia nel tuo caso.
           </p>
           <Button
             onClick={onOpenContact}

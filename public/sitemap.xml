@@ -85,7 +85,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.ediliziafiscale.it/guide/attestazione-soa-requisiti-economici</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ediliziafiscale.it/guide/bilancio-impresa-edile-lavori-in-corso</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/bonus-edilizi-come-si-fatturano</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/cassa-edile-come-funziona</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -104,6 +122,12 @@
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/consolidato-fiscale-gruppo-edile</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/consorzi-ati-fiscalita</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -134,6 +158,18 @@
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/dividendi-holding-pex</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/durc-irregolare-impresa-edile</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/fiscalita-fotovoltaico-impianti</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

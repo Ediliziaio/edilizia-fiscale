@@ -1,13 +1,15 @@
-import { Calculator, Landmark, Gauge, Scale, type LucideIcon } from "lucide-react";
+import { Calculator, Landmark, Gauge, Scale, HardHat, FileCheck, type LucideIcon } from "lucide-react";
 import { getArticleImage } from "@/data/articleImages";
 import type { ArticleMeta, Category } from "@/data/articles";
 
 /** Identità visiva per silo: la copertina dice a colpo d'occhio di chi parla la guida. */
 const CAT: Record<Category, { from: string; to: string; icon: LucideIcon }> = {
   Impresa: { from: "hsl(0 0% 6%)", to: "hsl(0 0% 26%)", icon: Calculator },
-  Controllo: { from: "hsl(0 0% 10%)", to: "hsl(19 45% 40%)", icon: Gauge },
-  Fisco: { from: "hsl(19 50% 26%)", to: "hsl(19 60% 48%)", icon: Scale },
-  Patrimonio: { from: "hsl(19 70% 38%)", to: "hsl(19 89% 56%)", icon: Landmark },
+  Controllo: { from: "hsl(0 0% 10%)", to: "hsl(19 40% 34%)", icon: Gauge },
+  Fisco: { from: "hsl(19 45% 24%)", to: "hsl(19 50% 42%)", icon: Scale },
+  Lavoro: { from: "hsl(19 55% 30%)", to: "hsl(19 62% 48%)", icon: HardHat },
+  Appalti: { from: "hsl(0 0% 8%)", to: "hsl(19 75% 44%)", icon: FileCheck },
+  Patrimonio: { from: "hsl(19 80% 44%)", to: "hsl(19 89% 58%)", icon: Landmark },
 };
 
 interface ArticleCoverProps {

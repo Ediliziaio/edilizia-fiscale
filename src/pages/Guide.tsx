@@ -21,14 +21,18 @@ const FILTERS: { key: FilterKey; label: string; short: string }[] = [
   { key: "Impresa", label: "Fiscalità dell'impresa", short: "Impresa" },
   { key: "Controllo", label: "Numeri e controllo di gestione", short: "Controllo" },
   { key: "Fisco", label: "Verifiche e contenzioso", short: "Fisco" },
+  { key: "Lavoro", label: "Lavoro e contributi", short: "Lavoro" },
+  { key: "Appalti", label: "Appalti pubblici", short: "Appalti" },
   { key: "Patrimonio", label: "Holding e patrimonio", short: "Patrimonio" },
 ];
 
 /** Accento cromatico per silo: il lettore capisce a colpo d'occhio se è roba sua. */
 const CAT_STYLE: Record<Category, { bar: string; badge: string }> = {
   Impresa: { bar: "from-ink to-ink-light", badge: "bg-ink/10 text-ink" },
-  Controllo: { bar: "from-ink to-trust", badge: "bg-ink/[0.07] text-trust-dark" },
-  Fisco: { bar: "from-trust-dark to-trust-light", badge: "bg-trust/15 text-trust-dark" },
+  Controllo: { bar: "from-ink to-trust-dark", badge: "bg-ink/[0.07] text-trust-dark" },
+  Fisco: { bar: "from-trust-dark to-trust", badge: "bg-trust/15 text-trust-dark" },
+  Lavoro: { bar: "from-trust to-brand-dark", badge: "bg-trust/20 text-trust-dark" },
+  Appalti: { bar: "from-ink to-brand-dark", badge: "bg-ink/[0.07] text-brand-dark" },
   Patrimonio: { bar: "from-brand-dark to-brand", badge: "bg-brand/20 text-brand-dark" },
 };
 

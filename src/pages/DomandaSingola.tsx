@@ -118,16 +118,16 @@ const DomandaSingola = () => {
 
                 {/* CTA */}
                 <div className="mt-10 bg-ink text-white rounded-2xl p-7">
-                  <h2 className="text-xl font-bold mb-2">Il tuo caso è diverso? Probabilmente sì.</h2>
+                  <h2 className="text-xl font-bold mb-2">La tua situazione è diversa? Probabilmente sì.</h2>
                   <p className="text-white/80 mb-5 leading-relaxed">
-                    Le risposte generali servono a orientarsi, ma i termini si calcolano sui documenti. Raccontaci il
-                    caso: entro 48 ore lavorative ti diciamo in che termine sei e quali strade esistono.
+                    Le risposte generali servono a orientarsi, ma i numeri si calcolano sui tuoi documenti.
+                    Mandaci bilanci e commesse aperte: entro 2 giorni lavorativi ti diciamo cosa cambia nel tuo caso.
                   </p>
                   <Button
                     onClick={() => setIsContactOpen(true)}
                     className="bg-brand hover:bg-brand-dark text-ink font-semibold"
                   >
-                    Richiedi l'analisi del caso <ArrowRight className="ml-2 w-4 h-4" />
+                    Richiedi l'analisi dei numeri <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
                 </div>
 

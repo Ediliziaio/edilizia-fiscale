@@ -195,6 +195,44 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "Negli appalti pubblici l'IVA non viene incassata dall'impresa ma versata direttamente dall'ente committente. L'effetto fiscale è neutro, quello finanziario no: si genera un credito IVA strutturale che va gestito con compensazione o rimborso. A questo si sommano gli obblighi di fatturazione elettronica verso la PA e i tempi di incasso, che in edilizia decidono la sostenibilità della commessa."
   },
   {
+    "slug": "bonus-edilizi-come-si-fatturano",
+    "title": "Bonus edilizi: cosa resta e come si fatturano oggi",
+    "excerpt": "Finita la stagione dello sconto in fattura generalizzato, il lavoro dell'impresa è cambiato: bonifico parlante con ritenuta dell'8%, congruità dei prezzi, fascicolo di commessa. Cosa serve davvero perché il committente porti la detrazione in dichiarazione.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "bonus edilizi come si fatturano",
+      "bonifico parlante ritenuta 8%",
+      "sconto in fattura cessione credito 2024",
+      "detrazione ristrutturazione fatturazione impresa",
+      "congruità prezzi bonus edilizi",
+      "documentazione detrazioni edilizie impresa"
+    ],
+    "intro": "Con il blocco generalizzato di sconto in fattura e cessione del credito disposto dal D.L. 39/2024, il ruolo dell'impresa nei bonus edilizi è tornato quello ordinario: eseguire, fatturare e incassare. Ma la fattura non basta. Perché il committente possa detrarre servono bonifico parlante, prezzi congrui e un fascicolo che regga a distanza di anni."
+  },
+  {
+    "slug": "fiscalita-fotovoltaico-impianti",
+    "title": "Fotovoltaico e impianti: IVA, ammortamenti e comunità energetiche",
+    "excerpt": "Chi installa e chi possiede l'impianto hanno problemi fiscali opposti. Reverse charge sull'installazione, aliquota agevolata, qualificazione mobiliare o immobiliare del bene, ammortamento, vendita dell'energia e incentivi per le comunità energetiche.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "fiscalità fotovoltaico impresa",
+      "iva installazione fotovoltaico reverse charge",
+      "ammortamento impianto fotovoltaico",
+      "fotovoltaico bene mobile o immobile",
+      "comunità energetiche rinnovabili tassazione",
+      "vendita energia fotovoltaico regime fiscale"
+    ],
+    "intro": "Il fotovoltaico pone due questioni fiscali diverse a seconda di chi guarda. Per l'impresa che installa, il tema è il regime IVA della prestazione: reverse charge sull'installazione di impianti relativi a edifici, aliquota agevolata sui beni. Per chi l'impianto lo possiede, il tema è la qualificazione del bene, il suo ammortamento e il trattamento dell'energia prodotta."
+  },
+  {
     "slug": "bilancio-impresa-edile-lavori-in-corso",
     "title": "Lavori in corso su ordinazione: la voce che decide l'utile di un'impresa edile",
     "excerpt": "OIC 23, percentuale di completamento e commessa completata, artt. 92 e 93 del TUIR: come si valutano le commesse aperte a fine anno e perché una stima sbagliata dei costi a finire produce utili che non esistono.",
@@ -307,6 +345,82 @@ export const articlesMeta: ArticleMeta[] = [
       "codice crisi impresa edilizia"
     ],
     "intro": "L'art. 2086, comma 2, del codice civile impone all'imprenditore che opera in forma societaria di istituire assetti organizzativi, amministrativi e contabili adeguati alla natura e alle dimensioni dell'impresa, anche in funzione della rilevazione tempestiva della crisi. In un'impresa che lavora per commessa, un assetto privo di margine di cantiere e di cassa prospettica difficilmente può dirsi adeguato."
+  },
+  {
+    "slug": "durc-irregolare-impresa-edile",
+    "title": "DURC irregolare: cosa blocca e come si sblocca",
+    "excerpt": "Senza DURC regolare si fermano gli incassi pubblici, le gare e i benefici contributivi. I quindici giorni del preavviso, la soglia di scostamento non grave, la rateazione che salva il documento e l'intervento sostitutivo della stazione appaltante.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "durc irregolare cosa fare",
+      "durc non regolare come sbloccarlo",
+      "preavviso di accertamento durc 15 giorni",
+      "durc rateazione inps",
+      "intervento sostitutivo stazione appaltante",
+      "scostamento non grave 150 euro durc"
+    ],
+    "intro": "Il DURC attesta la regolarità dell'impresa verso INPS, INAIL e Cassa Edile. Quando risulta irregolare, l'ente non lo nega subito: invia un preavviso e concede quindici giorni per regolarizzare. È l'unica finestra utile. Superata quella, il documento non viene rilasciato e si fermano incassi pubblici, gare e benefici contributivi."
+  },
+  {
+    "slug": "cassa-edile-come-funziona",
+    "title": "Cassa Edile: come funziona e quanto pesa sul costo del lavoro",
+    "excerpt": "Accantonamenti per ferie e gratifica, Anzianità Professionale Edile, denuncia mensile, trasferte tra province. È la voce che rende il costo orario dell'edilizia diverso da tutti gli altri settori — e quella che quasi nessun preventivo calcola bene.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "cassa edile come funziona",
+      "accantonamento cassa edile ferie gratifica",
+      "ape anzianità professionale edile",
+      "denuncia mensile mut cassa edile",
+      "contributi cassa edile percentuali",
+      "trasferta cassa edile altra provincia"
+    ],
+    "intro": "La Cassa Edile è un ente bilaterale territoriale che gestisce, per conto delle imprese, prestazioni che in altri settori restano in busta paga: ferie, gratifica natalizia, anzianità professionale, assistenza sanitaria, formazione. Per l'impresa significa un flusso di contribuzione mensile e un accantonamento che esce dalla cassa prima di diventare costo del lavoro nel senso ordinario."
+  },
+  {
+    "slug": "attestazione-soa-requisiti-economici",
+    "title": "Attestazione SOA: come il bilancio decide la classifica che puoi ottenere",
+    "excerpt": "Cifra d'affari in lavori, patrimonio netto, costo del personale, attrezzatura: i requisiti economico-finanziari della qualificazione si leggono nei tuoi bilanci. Le scelte contabili fatte oggi decidono a quali gare potrai partecipare fra tre anni.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "15 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-brand-dark",
+    "keywords": [
+      "attestazione soa requisiti",
+      "classifiche soa importi",
+      "cifra d'affari in lavori soa",
+      "requisiti economico finanziari qualificazione",
+      "soa costo del personale 15%",
+      "come ottenere la soa"
+    ],
+    "intro": "L'attestazione SOA certifica che l'impresa ha i requisiti per eseguire lavori pubblici sopra una certa soglia, in determinate categorie e fino a un determinato importo. I requisiti tecnici li dimostrano i certificati di esecuzione lavori; quelli economico-finanziari li dimostrano i bilanci. È il punto in cui le scelte contabili smettono di essere una questione contabile."
+  },
+  {
+    "slug": "consorzi-ati-fiscalita",
+    "title": "Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno",
+    "excerpt": "Il consorzio è un soggetto autonomo che fattura e ribalta ai consorziati; l'ATI non esiste come soggetto e ciascuna impresa fattura per la sua quota. Due meccanismi diversi con effetti opposti su IVA, bilancio e responsabilità.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-brand-dark",
+    "keywords": [
+      "consorzio stabile fiscalità",
+      "ati raggruppamento temporaneo imprese fatturazione",
+      "ribaltamento costi consorziati",
+      "differenza consorzio ati",
+      "consorzio ordinario partita iva",
+      "reverse charge consorzio consorziati"
+    ],
+    "intro": "Consorzio e raggruppamento temporaneo servono allo stesso scopo pratico — mettere insieme più imprese per un lavoro che nessuna reggerebbe da sola — ma sono strumenti giuridicamente opposti. Il consorzio è un soggetto autonomo con partita IVA che fattura e poi ribalta ai consorziati. L'ATI non è un soggetto: ogni impresa resta sé stessa e fattura la propria quota."
   },
   {
     "slug": "verifica-fiscale-impresa-edile",

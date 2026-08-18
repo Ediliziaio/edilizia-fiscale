@@ -1,4 +1,10 @@
-export type Category = "Impresa" | "Patrimonio" | "Controllo" | "Fisco";
+export type Category =
+  | "Impresa"
+  | "Controllo"
+  | "Fisco"
+  | "Lavoro"
+  | "Appalti"
+  | "Patrimonio";
 
 export type Block =
   | { type: "p"; text: string }

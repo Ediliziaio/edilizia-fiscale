@@ -12,10 +12,10 @@ node scripts/generate-image-brief.mjs
 
 | Tipo | Quantità | Dimensione | Dove appare |
 |---|---|---|---|
-| Copertine guide | 30 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
-| Figure dentro le guide | 56 | **1600 × 900** (16:9) | nel corpo dell'articolo |
+| Copertine guide | 36 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
+| Figure dentro le guide | 68 | **1600 × 900** (16:9) | nel corpo dell'articolo |
 | Immagini di sito | 6 | vedi sotto | home, hub, studio, contatti |
-| **Totale** | **92** | | |
+| **Totale** | **110** | | |
 
 ## Regole tecniche
 
@@ -62,7 +62,7 @@ Priorità alta: stanno sopra la piega su cinque pagine diverse.
 
 ---
 
-## 2. Copertine delle guide (30)
+## 2. Copertine delle guide (36)
 
 **1920 × 1080**, soggetto nella zona sicura centrale 1440 × 820.
 File in `public/images/guide/`.
@@ -83,30 +83,36 @@ immagini, parti da queste.
 | 8 | `costo-del-lavoro-impresa-edile-cover` | Costo del lavoro edile: calcolare il costo orario pieno e reggere la congruità <br><sub>Impresa</sub> | Squadra di operai al lavoro in cantiere con attrezzature |
 | 9 | `costi-deducibili-impresa-edile-cover` | Costi deducibili dell'impresa edile: mezzi, attrezzature, trasferte e magazzino <br><sub>Impresa</sub> | Deposito di cantiere con materiali accatastati e inventario |
 | 10 | `split-payment-e-fatturazione-pa-cover` | Split payment e appalti pubblici: fatturazione, crediti IVA e tempi di incasso <br><sub>Impresa</sub> | Cantiere di opera pubblica con cartello di lavori |
-| 11 | `bilancio-impresa-edile-lavori-in-corso-cover` | Lavori in corso su ordinazione: la voce che decide l'utile di un'impresa edile <br><sub>Controllo</sub> | Prospetto di avanzamento commessa con costi sostenuti e costi a finire |
-| 12 | `margine-di-commessa-edilizia-cover` | Margine di commessa: come si calcola davvero in un'impresa edile <br><sub>Controllo</sub> | Prospetto di margine di commessa con voci di costo dettagliate |
-| 13 | `preventivo-di-commessa-edilizia-cover` | Preventivo di commessa: costruire un prezzo che regge fino alla consegna <br><sub>Controllo</sub> | Computo metrico e analisi prezzi su scrivania con calcolatrice |
-| 14 | `flussi-di-cassa-impresa-edile-cover` | Flussi di cassa in edilizia: perché il fatturato cresce e il conto no <br><sub>Controllo</sub> | Prospetto di cassa prospettica settimanale con incassi e pagamenti |
-| 15 | `cfo-esterno-impresa-edile-cover` | CFO esterno per l'impresa edile: cosa fa, quando serve, cosa costa <br><sub>Controllo</sub> | Riunione di direzione con report mensile e prospetti di commessa |
-| 16 | `assetti-adeguati-impresa-edile-cover` | Assetti adeguati e allerta della crisi nell'impresa edile <br><sub>Controllo</sub> | Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi |
-| 17 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
-| 18 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
-| 19 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
-| 20 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
-| 21 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
-| 22 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
-| 23 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
-| 24 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
-| 25 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
-| 26 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
-| 27 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
-| 28 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
-| 29 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
-| 30 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
+| 11 | `bonus-edilizi-come-si-fatturano-cover` | Bonus edilizi: cosa resta e come si fatturano oggi <br><sub>Impresa</sub> | Fattura di lavori edili accanto alla ricevuta di un bonifico parlante |
+| 12 | `fiscalita-fotovoltaico-impianti-cover` | Fotovoltaico e impianti: IVA, ammortamenti e comunità energetiche <br><sub>Impresa</sub> | Installazione di pannelli fotovoltaici sulla copertura di un capannone industriale |
+| 13 | `bilancio-impresa-edile-lavori-in-corso-cover` | Lavori in corso su ordinazione: la voce che decide l'utile di un'impresa edile <br><sub>Controllo</sub> | Prospetto di avanzamento commessa con costi sostenuti e costi a finire |
+| 14 | `margine-di-commessa-edilizia-cover` | Margine di commessa: come si calcola davvero in un'impresa edile <br><sub>Controllo</sub> | Prospetto di margine di commessa con voci di costo dettagliate |
+| 15 | `preventivo-di-commessa-edilizia-cover` | Preventivo di commessa: costruire un prezzo che regge fino alla consegna <br><sub>Controllo</sub> | Computo metrico e analisi prezzi su scrivania con calcolatrice |
+| 16 | `flussi-di-cassa-impresa-edile-cover` | Flussi di cassa in edilizia: perché il fatturato cresce e il conto no <br><sub>Controllo</sub> | Prospetto di cassa prospettica settimanale con incassi e pagamenti |
+| 17 | `cfo-esterno-impresa-edile-cover` | CFO esterno per l'impresa edile: cosa fa, quando serve, cosa costa <br><sub>Controllo</sub> | Riunione di direzione con report mensile e prospetti di commessa |
+| 18 | `assetti-adeguati-impresa-edile-cover` | Assetti adeguati e allerta della crisi nell'impresa edile <br><sub>Controllo</sub> | Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi |
+| 19 | `durc-irregolare-impresa-edile-cover` | DURC irregolare: cosa blocca e come si sblocca <br><sub>Lavoro</sub> | Schermata del portale Durc On Line con esito di irregolarità |
+| 20 | `cassa-edile-come-funziona-cover` | Cassa Edile: come funziona e quanto pesa sul costo del lavoro <br><sub>Lavoro</sub> | Squadra di operai edili in cantiere con attrezzature e ponteggi |
+| 21 | `attestazione-soa-requisiti-economici-cover` | Attestazione SOA: come il bilancio decide la classifica che puoi ottenere <br><sub>Appalti</sub> | Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio |
+| 22 | `consorzi-ati-fiscalita-cover` | Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno <br><sub>Appalti</sub> | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
+| 23 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
+| 24 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
+| 25 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
+| 26 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
+| 27 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
+| 28 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
+| 29 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
+| 30 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
+| 31 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
+| 32 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
+| 33 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
+| 34 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
+| 35 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
+| 36 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
 
 ---
 
-## 3. Figure dentro le guide (56)
+## 3. Figure dentro le guide (68)
 
 **1600 × 900**. File in `public/images/guide/`.
 Sono le immagini che spezzano il testo a metà lettura: devono mostrare un
@@ -182,6 +188,20 @@ oggetto o una scena concreta, non un concetto astratto.
 | `split-payment-e-fatturazione-pa-1` | Cantiere di opera pubblica con cartello di lavori |
 | `split-payment-e-fatturazione-pa-2` | Certificato di pagamento SAL e fattura elettronica verso la PA |
 
+### Bonus edilizi: cosa resta e come si fatturano oggi
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `bonus-edilizi-come-si-fatturano-1` | Fattura di lavori edili accanto alla ricevuta di un bonifico parlante |
+| `bonus-edilizi-come-si-fatturano-2` | Archivio digitale di commessa con foto datate, computi e asseverazioni |
+
+### Fotovoltaico e impianti: IVA, ammortamenti e comunità energetiche
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `fiscalita-fotovoltaico-impianti-1` | Installazione di pannelli fotovoltaici sulla copertura di un capannone industriale |
+| `fiscalita-fotovoltaico-impianti-2` | Contatore di produzione fotovoltaica e documentazione dell'impianto |
+
 ### Lavori in corso su ordinazione: la voce che decide l'utile di un'impresa edile
 
 | Slot | Contenuto dell'immagine |
@@ -220,6 +240,34 @@ oggetto o una scena concreta, non un concetto astratto.
 | Slot | Contenuto dell'immagine |
 |---|---|
 | `assetti-adeguati-impresa-edile-1` | Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi |
+
+### DURC irregolare: cosa blocca e come si sblocca
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `durc-irregolare-impresa-edile-1` | Schermata del portale Durc On Line con esito di irregolarità |
+| `durc-irregolare-impresa-edile-2` | Prospetto di congruità della manodopera confrontato con il valore dell'opera |
+
+### Cassa Edile: come funziona e quanto pesa sul costo del lavoro
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `cassa-edile-come-funziona-1` | Squadra di operai edili in cantiere con attrezzature e ponteggi |
+| `cassa-edile-come-funziona-2` | Denuncia mensile telematica con ore per operaio e attribuzione ai cantieri |
+
+### Attestazione SOA: come il bilancio decide la classifica che puoi ottenere
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `attestazione-soa-requisiti-economici-1` | Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio |
+| `attestazione-soa-requisiti-economici-2` | Riunione con bilanci, certificati di esecuzione lavori e progetto di scissione sul tavolo |
+
+### Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `consorzi-ati-fiscalita-1` | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
+| `consorzi-ati-fiscalita-2` | Atto costitutivo di consorzio stabile con statuto e regolamento interno |
 
 ### Verifica fiscale all'impresa edile: cosa succede e cosa fare
 
@@ -326,7 +374,7 @@ oggetto o una scena concreta, non un concetto astratto.
 1. **6 immagini di sito** — stanno sopra la piega, si vedono subito.
 2. **4 copertine dei pilastri** (★) — sono in evidenza nel listing delle guide.
 3. **26 copertine restanti** — completano la griglia di `/guide`.
-4. **56 figure interne** — si possono aggiungere una guida alla volta,
+4. **68 figure interne** — si possono aggiungere una guida alla volta,
    senza toccare il codice oltre alla riga in `articleImages.ts`.
 
 Con i primi due gruppi (10 immagini) il sito è già presentabile ovunque.

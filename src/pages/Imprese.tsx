@@ -85,7 +85,7 @@ const Imprese = () => {
   const openContact = () => setIsContactOpen(true);
 
   const guideImprese = articlesMeta.filter(
-    (a) => a.category === "Impresa" || a.category === "Controllo" || a.category === "Fisco",
+    (a) => a.category !== "Patrimonio",
   );
 
   const serviceSchema = {

@@ -1,5 +1,8 @@
 # Piano editoriale — argomenti mancanti
 
+> **Stato:** il blocco 1 è stato pubblicato ad agosto 2026 (6 guide, sito da 30 a 36).
+> Restano i blocchi 2-7, 21 guide.
+
 Analisi dei buchi di copertura sulle 30 guide pubblicate.
 Aggiornato ad agosto 2026.
 
@@ -27,18 +30,18 @@ Stesso schema per gli argomenti citati di passaggio e mai spiegati:
 
 ---
 
-## Blocco 1 — Buchi che il sito apre da solo (priorità massima)
+## Blocco 1 — Buchi che il sito apre da solo ✅ FATTO
 
 Sei guide che chiudono le promesse già fatte in home e negli hub.
 
 | Slug proposto | Perché | Categoria |
 |---|---|---|
-| `durc-irregolare-impresa-edile` | Blocca incassi pubblici e gare. Volume di ricerca alto, urgenza reale, citato in 4 guide senza approfondimento. | Impresa |
-| `cassa-edile-come-funziona` | Accantonamenti, APE, gratifica, trasferte. È la voce che rende il costo del lavoro edile diverso da tutti gli altri, e la citiamo 7 volte senza mai spiegarla. | Impresa |
-| `attestazione-soa-requisiti-economici` | Il punto esatto in cui bilancio e gare si toccano: cifra d'affari, patrimonio netto, attrezzatura. Nessuno lo spiega dal lato numeri. | Appalti |
-| `fiscalita-fotovoltaico-impianti` | «Fotovoltaico» è nell'H1 di `/imprese`. Detrazioni, IVA, comunità energetiche, cessione dell'energia. | Impresa |
-| `consorzi-ati-fiscalita` | «Consorzi e ATI» è nell'H1. Consorzio stabile, ribaltamento dei costi ai consorziati, ATI orizzontale e verticale: fiscalità genuinamente complessa e poco presidiata. | Appalti |
-| `bonus-edilizi-come-si-fatturano` | Oggi copriamo solo il contenzioso Superbonus. Manca cosa esiste adesso e come si fattura. | Impresa |
+| ✅ `durc-irregolare-impresa-edile` | Blocca incassi pubblici e gare. Volume di ricerca alto, urgenza reale, citato in 4 guide senza approfondimento. | Impresa |
+| ✅ `cassa-edile-come-funziona` | Accantonamenti, APE, gratifica, trasferte. È la voce che rende il costo del lavoro edile diverso da tutti gli altri, e la citiamo 7 volte senza mai spiegarla. | Impresa |
+| ✅ `attestazione-soa-requisiti-economici` | Il punto esatto in cui bilancio e gare si toccano: cifra d'affari, patrimonio netto, attrezzatura. Nessuno lo spiega dal lato numeri. | Appalti |
+| ✅ `fiscalita-fotovoltaico-impianti` | «Fotovoltaico» è nell'H1 di `/imprese`. Detrazioni, IVA, comunità energetiche, cessione dell'energia. | Impresa |
+| ✅ `consorzi-ati-fiscalita` | «Consorzi e ATI» è nell'H1. Consorzio stabile, ribaltamento dei costi ai consorziati, ATI orizzontale e verticale: fiscalità genuinamente complessa e poco presidiata. | Appalti |
+| ✅ `bonus-edilizi-come-si-fatturano` | Oggi copriamo solo il contenzioso Superbonus. Manca cosa esiste adesso e come si fattura. | Impresa |
 
 ## Blocco 2 — Cluster «Lavoro e contributi» (oggi inesistente)
 
@@ -120,5 +123,5 @@ La prima è più coerente con l'impianto del sito, che è costruito sui silo.
 3. **Blocco 3 + 4** (6 guide) — aprono due segmenti oggi dichiarati e non serviti.
 4. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
 
-Totale proposto: **27 guide**, che porterebbero il sito da 30 a 57.
-Con il solo blocco 1 il sito smette di promettere cose che non mantiene.
+Totale proposto: **27 guide**. Con il blocco 1 pubblicato il sito è a 36; ne restano 21.
+Con il blocco 1 il sito ha smesso di promettere cose che non mantiene.

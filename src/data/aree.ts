@@ -73,8 +73,8 @@ export const areeImprese: Area[] = [
   {
     icon: BadgePercent,
     title: "Bonus edilizi e crediti d'imposta",
-    desc: "Difesa dei crediti da Superbonus e altri bonus: contestazioni su credito inesistente o non spettante, crediti incagliati nel cassetto fiscale, responsabilità del cessionario.",
-    guida: "accertamento-superbonus-imprese",
+    desc: "Come si fatturano oggi le detrazioni edilizie, bonifico parlante e ritenuta dell'8%, congruità dei prezzi. E la difesa dei crediti già maturati: credito inesistente o non spettante, cassetto bloccato.",
+    guida: "bonus-edilizi-come-si-fatturano",
   },
   {
     icon: FileSpreadsheet,
@@ -85,8 +85,8 @@ export const areeImprese: Area[] = [
   {
     icon: HardHat,
     title: "Costo del lavoro edile e congruità",
-    desc: "Cassa Edile, DURC di congruità della manodopera, inquadramento corretto di operai e collaboratori, costo orario pieno da usare nei preventivi e non solo in busta paga.",
-    guida: "costo-del-lavoro-impresa-edile",
+    desc: "Cassa Edile, DURC e congruità della manodopera, inquadramento di operai e collaboratori, costo orario pieno da usare nei preventivi e non solo in busta paga.",
+    guida: "cassa-edile-come-funziona",
   },
   {
     icon: Wallet,
@@ -185,4 +185,8 @@ export const verticali = [
   { title: "Holding edile", kw: "La cassaforte sopra le società di cantiere", guida: "holding-immobiliare-edilizia" },
   { title: "Scissione immobiliare", kw: "Separare il capannone dall'impresa che apre i cantieri", guida: "scissione-immobiliare-impresa-edile" },
   { title: "Passaggio ai figli", kw: "Trasferire quote e governance senza rompere nulla", guida: "passaggio-generazionale-impresa-edile" },
+  { title: "DURC bloccato", kw: "Quindici giorni per sbloccarlo, poi si fermano gli incassi", guida: "durc-irregolare-impresa-edile" },
+  { title: "Attestazione SOA", kw: "Come i bilanci decidono la classifica che puoi ottenere", guida: "attestazione-soa-requisiti-economici" },
+  { title: "Consorzi e ATI", kw: "Chi fattura cosa, e quale dei due conviene", guida: "consorzi-ati-fiscalita" },
+  { title: "Fotovoltaico", kw: "Reverse charge, ammortamento e comunità energetiche", guida: "fiscalita-fotovoltaico-impianti" },
 ] as const;

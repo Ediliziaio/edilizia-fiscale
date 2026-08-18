@@ -23,6 +23,8 @@ const ORDER = [
   "costo-del-lavoro-impresa-edile",
   "costi-deducibili-impresa-edile",
   "split-payment-e-fatturazione-pa",
+  "bonus-edilizi-come-si-fatturano",
+  "fiscalita-fotovoltaico-impianti",
   // Numeri e controllo di gestione
   "bilancio-impresa-edile-lavori-in-corso",
   "margine-di-commessa-edilizia",
@@ -30,6 +32,11 @@ const ORDER = [
   "flussi-di-cassa-impresa-edile",
   "cfo-esterno-impresa-edile",
   "assetti-adeguati-impresa-edile",
+  // Lavoro, contributi e qualificazione
+  "durc-irregolare-impresa-edile",
+  "cassa-edile-come-funziona",
+  "attestazione-soa-requisiti-economici",
+  "consorzi-ati-fiscalita",
   // Verifiche e contenzioso tributario
   "verifica-fiscale-impresa-edile",
   "accertamento-superbonus-imprese",
