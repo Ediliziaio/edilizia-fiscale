@@ -49,15 +49,19 @@ const EFHero = () => {
             Commercialisti e CFO solo per l'edilizia
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-[1.12]">
-            Fatturi tanto. <br className="hidden md:block" />Ma quanto ti resta davvero?
-            <span className="block text-brand mt-3">Il fisco e i numeri dell'impresa edile.</span>
+          {/* La home è un bivio: il titolo deve reggere entrambe le porte — quanto rende
+              l'impresa (silo /imprese) e quanto è al riparo il patrimonio (silo /patrimonio). */}
+          <h1 className="text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-[1.15]">
+            Quanto rende la tua impresa. E quanto di quello che hai costruito è al riparo.
+            <span className="block text-brand mt-3">Due domande a cui il bilancio non risponde.</span>
           </h1>
 
           <p className="text-lg text-white/80 leading-relaxed max-w-2xl mx-auto">
-            Teniamo la contabilità di chi costruisce e leggiamo il margine commessa per commessa:
-            per questo sappiamo dove si perde il denaro in un cantiere, quale IVA si applica a quale
-            lavorazione e quando conviene mettere una holding sopra l'operativa.
+            Teniamo i conti di chi costruisce e leggiamo il margine cantiere per cantiere. Dalla stessa
+            scrivania guardiamo dove sono finiti il capannone, gli immobili e la liquidità.
+            <span className="block mt-2 font-semibold text-white">
+              Quasi sempre: dentro la società che apre i cantieri.
+            </span>
           </p>
         </div>
 
