@@ -25,23 +25,23 @@ import { SITE_URL } from "@/data/site";
  */
 const PROBLEMI: { title: string; desc: string; guida: string }[] = [
   {
-    title: "Non sai quale cantiere sta guadagnando",
-    desc: "Il margine lo vedi a bilancio chiuso, quando quei cantieri sono finiti da mesi e non puoi più farci niente.",
-    guida: "controllo-di-gestione-impresa-edile",
-  },
-  {
-    title: "Reverse charge e IVA li applichi come si è sempre fatto",
-    desc: "Due lettere diverse dell'art. 17, aliquote al 4, 10 o 22%, beni significativi: l'errore non è isolato, si ripete su ogni cantiere.",
-    guida: "reverse-charge-edilizia",
-  },
-  {
-    title: "Fatturi più dell'anno scorso e il conto è più teso",
-    desc: "Ogni cantiere nuovo assorbe materiali, manodopera e noli prima di produrre il primo incasso. Il portafoglio ordini cresce, la cassa peggiora.",
+    title: "Chiudi in utile e non hai i soldi per le tasse",
+    desc: "L'utile è nei cantieri aperti e nei crediti da incassare. Il versamento arriva lo stesso.",
     guida: "flussi-di-cassa-impresa-edile",
   },
   {
-    title: "Il capannone è dentro la società che apre i cantieri",
-    desc: "L'immobile che ti è costato vent'anni risponde di infortuni, vizi dell'opera e solidarietà con i subappaltatori.",
+    title: "Non sai quale cantiere ti ha fatto guadagnare",
+    desc: "Il margine lo vedi a bilancio chiuso. Quei cantieri sono finiti da mesi.",
+    guida: "controllo-di-gestione-impresa-edile",
+  },
+  {
+    title: "L'IVA sui lavori la fai come si è sempre fatta",
+    desc: "Reverse charge, 4, 10 o 22%, beni significativi. Se sbagli, sbagli su ogni cantiere.",
+    guida: "reverse-charge-edilizia",
+  },
+  {
+    title: "Il capannone è nella società che apre i cantieri",
+    desc: "Risponde di infortuni, vizi dell'opera e debiti dei subappaltatori. Come tutto il resto che hai.",
     guida: "protezione-patrimoniale-imprenditore-edile",
   },
 ];
@@ -158,22 +158,25 @@ const Imprese = () => {
                       Nuove costruzioni · Consorzi e ATI · Appalti pubblici
                     </span>
                     <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15]">
-                      Hai un'impresa edile.
+                      Hai un'impresa edile e vuoi pagare meno tasse.
                     </span>
                     <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] text-brand mt-2">
-                      E un commercialista che non conosce il settore.
+                      A giugno è già tardi per deciderlo.
                     </span>
                   </h1>
 
-                  <p className="text-lg text-white/80 mb-6 leading-relaxed">
-                    Non è un problema di bravura: è che l'edilizia ha regole che nessun altro settore ha.
-                    Se ti riconosci in tre delle quattro righe qui sotto, il punto è quello.
+                  <p className="text-lg text-white/80 mb-5 leading-relaxed">
+                    Le tasse che versi a giugno le hai decise mesi prima. Quando hai fatturato quel SAL invece
+                    di quell'altro. Quando nessuno ha valutato i lavori in corso. Quando il capannone è rimasto
+                    dentro la società che apre i cantieri.
+                  </p>
+                  <p className="text-lg text-white/80 mb-8 leading-relaxed">
+                    A giugno non si decide più niente. Si versa.
                   </p>
 
                   <p className="text-base text-white/75 mb-8 leading-relaxed border-l-2 border-brand/50 pl-4">
-                    Commesse pluriennali, reverse charge, congruità della manodopera, lavori in corso su
-                    ordinazione: chi non le pratica ogni giorno non può vederle.{" "}
-                    <strong className="text-white">Noi non facciamo altro.</strong>
+                    Noi quelle scelte le guardiamo a settembre, con i cantieri ancora aperti e i numeri ancora
+                    modificabili. <strong className="text-white">Solo per imprese edili, e non facciamo altro.</strong>
                   </p>
 
                   <Button
@@ -181,8 +184,11 @@ const Imprese = () => {
                     size="lg"
                     className="bg-brand hover:bg-brand-dark text-ink font-semibold text-base h-12 px-6"
                   >
-                    Mandaci i tuoi numeri <ArrowRight className="ml-2 w-5 h-5" />
+                    Mandaci gli ultimi due bilanci <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
+                  <p className="text-sm text-white/50 mt-3">
+                    Entro 2 giorni lavorativi ti diciamo cosa si poteva fare e cosa si può ancora fare.
+                  </p>
                 </div>
 
                 <EFImageSlot id="imprese-hero" tone="dark" className="hidden lg:flex rounded-2xl aspect-[4/3]" />
@@ -191,7 +197,7 @@ const Imprese = () => {
               {/* Fascia 2: i quattro problemi, a tutta larghezza */}
               <div className="mt-14 lg:mt-16 pt-10 border-t border-white/10">
                 <p className="text-brand uppercase tracking-widest text-sm font-semibold mb-7">
-                  I quattro che sentiamo più spesso
+                  Oppure sei qui per uno di questi quattro
                 </p>
                 <ol className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
                   {PROBLEMI.map((p, i) => (
