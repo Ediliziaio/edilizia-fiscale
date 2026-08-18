@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Favicon (Edilizia Fiscale: tetto + istogramma, navy + gold) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Site-wide invariants only. Per-page metadata (title, description, canonical,
+         keywords, Open Graph, Twitter, JSON-LD) is injected per route by the
+         vite-react-ssg Head component (src/components/SEO.tsx) during prerender,
+         so it is intentionally not duplicated in this template. -->
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="Italian" />
+    <meta name="geo.region" content="IT" />
+    <meta name="theme-color" content="#2a3f5f" />
+
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <!-- Fonts -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet" />
+
+    <!-- Organization / LegalService JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["AccountingService", "ProfessionalService", "Organization"],
+      "@id": "https://www.ediliziafiscale.it/#studio",
+      "name": "Edilizia Fiscale",
+      "alternateName": "Studio Edilizia Fiscale — Commercialisti per l'edilizia",
+      "url": "https://www.ediliziafiscale.it",
+      "logo": "https://www.ediliziafiscale.it/favicon.svg",
+      "image": "https://www.ediliziafiscale.it/og-image.png",
+      "description": "Studio di dottori commercialisti specializzato nel settore costruzioni: fiscalità e IVA dei lavori edili, controllo di gestione per commessa, bilancio e lavori in corso, contenzioso tributario, holding e protezione del patrimonio degli imprenditori edili.",
+      "priceRange": "€€",
+      "areaServed": { "@type": "Country", "name": "Italia" },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:30"
+      },
+      "email": "info@ediliziafiscale.it",
+      "knowsAbout": [
+        "Fiscalità dell'impresa edile",
+        "IVA in edilizia",
+        "Reverse charge",
+        "Lavori in corso su ordinazione",
+        "Controllo di gestione per commessa",
+        "Contabilità industriale di cantiere",
+        "CFO esterno",
+        "Bilancio d'esercizio",
+        "Contenzioso tributario",
+        "Crediti d'imposta edilizi",
+        "Superbonus",
+        "Holding di partecipazioni",
+        "Protezione patrimoniale",
+        "Passaggio generazionale",
+        "Riorganizzazioni societarie",
+        "Costo del lavoro edile"
+      ]
+    }
+    </script>
+
+    <!-- WebSite JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.ediliziafiscale.it/#website",
+      "url": "https://www.ediliziafiscale.it",
+      "name": "Edilizia Fiscale",
+      "inLanguage": "it-IT",
+      "publisher": { "@id": "https://www.ediliziafiscale.it/#studio" }
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript>
+      Per utilizzare al meglio il sito Edilizia Fiscale attiva JavaScript nel tuo browser. Puoi comunque contattarci a info@ediliziafiscale.it.
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

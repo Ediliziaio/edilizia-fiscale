@@ -1,0 +1,46 @@
+# Edilizia Fiscale
+
+> Studio italiano di dottori commercialisti specializzato nel settore costruzioni.
+> Assiste imprese edili su fiscalità, IVA dei lavori, controllo di gestione per
+> commessa, bilancio e contenzioso tributario, e i loro imprenditori su holding,
+> protezione patrimoniale e passaggio generazionale. Contenuti con riferimenti
+> normativi (D.P.R. 633/1972, TUIR, OIC 23) ed esempi numerici.
+
+## Fiscalità dell'impresa edile
+- [Fiscalità dell'impresa edile](https://www.ediliziafiscale.it/guide/fiscalita-impresa-edile): la guida madre a IVA, competenza dei ricavi e costi di cantiere
+- [Reverse charge in edilizia](https://www.ediliziafiscale.it/guide/reverse-charge-edilizia): quando si applica la lett. a) e quando la lett. a-ter) dell'art. 17 c. 6
+- [IVA agevolata sui lavori edili](https://www.ediliziafiscale.it/guide/iva-agevolata-lavori-edili): 4%, 10% e 22%, con la regola dei beni significativi
+- [Ritenute negli appalti](https://www.ediliziafiscale.it/guide/ritenute-appalti-17-bis): i quattro requisiti dell'art. 17-bis e l'esonero con certificato
+- [Costo del lavoro edile](https://www.ediliziafiscale.it/guide/costo-del-lavoro-impresa-edile): costo orario pieno, Cassa Edile e congruità della manodopera
+- [Costi deducibili in edilizia](https://www.ediliziafiscale.it/guide/costi-deducibili-impresa-edile): mezzi, attrezzature, trasferte e ammortamenti di cantiere
+
+## Numeri e controllo di gestione
+- [Controllo di gestione per l'impresa edile](https://www.ediliziafiscale.it/guide/controllo-di-gestione-impresa-edile): leggere il margine commessa per commessa
+- [Lavori in corso su ordinazione](https://www.ediliziafiscale.it/guide/bilancio-impresa-edile-lavori-in-corso): OIC 23, cost-to-cost e artt. 92-93 TUIR
+- [Margine di commessa](https://www.ediliziafiscale.it/guide/margine-di-commessa-edilizia): come si calcola davvero, con i costi indiretti ribaltati
+- [Preventivo di commessa](https://www.ediliziafiscale.it/guide/preventivo-di-commessa-edilizia): costruire un prezzo che regge fino alla consegna
+- [Flussi di cassa di cantiere](https://www.ediliziafiscale.it/guide/flussi-di-cassa-impresa-edile): perché il fatturato cresce e la cassa no
+- [CFO esterno](https://www.ediliziafiscale.it/guide/cfo-esterno-impresa-edile): la funzione finanziaria per imprese senza direzione amministrativa
+
+## Verifiche e contenzioso tributario
+- [Verifica fiscale in cantiere](https://www.ediliziafiscale.it/guide/verifica-fiscale-impresa-edile): accesso, PVC e i 60 giorni per le osservazioni
+- [Accertamenti sui crediti Superbonus](https://www.ediliziafiscale.it/guide/accertamento-superbonus-imprese): credito inesistente e non spettante a confronto
+- [Crediti fiscali incagliati](https://www.ediliziafiscale.it/guide/crediti-fiscali-incagliati-edilizia): cassetto bloccato, sequestro e responsabilità del cessionario
+- [Accertamento induttivo](https://www.ediliziafiscale.it/guide/accertamento-induttivo-impresa-edile): ricavi presunti da metri quadri e ore di cantiere
+
+## Patrimonio, holding e famiglia
+- [Holding per l'impresa edile](https://www.ediliziafiscale.it/guide/holding-immobiliare-edilizia): quando serve, cosa costa, come si difende da abuso del diritto
+- [Protezione patrimoniale](https://www.ediliziafiscale.it/guide/protezione-patrimoniale-imprenditore-edile): cosa protegge davvero e cosa è solo apparenza
+- [Scissione immobiliare](https://www.ediliziafiscale.it/guide/scissione-immobiliare-impresa-edile): separare il capannone dall'operativa in neutralità fiscale
+- [Dividendi, PEX e prelievi](https://www.ediliziafiscale.it/guide/dividendi-holding-pex): il 95% di esenzione e i limiti per le immobiliari
+- [Passaggio generazionale](https://www.ediliziafiscale.it/guide/passaggio-generazionale-impresa-edile): l'esenzione dell'art. 3 c. 4-ter e il vincolo dei cinque anni
+- [Cessione d'azienda o di quote](https://www.ediliziafiscale.it/guide/cessione-azienda-impresa-edile): due strade, due carichi fiscali, due rischi diversi
+
+## Riferimenti
+- [Tutte le guide](https://www.ediliziafiscale.it/guide): indice completo per impresa, controllo, fisco e patrimonio
+- [Domande frequenti](https://www.ediliziafiscale.it/domande-frequenti): risposte brevi con riferimenti normativi, una pagina per domanda
+
+## Optional
+- [Lo studio](https://www.ediliziafiscale.it/studio)
+- [Come lavoriamo e quanto costa](https://www.ediliziafiscale.it/studio/come-lavoriamo)
+- [Contatti](https://www.ediliziafiscale.it/contatti)
