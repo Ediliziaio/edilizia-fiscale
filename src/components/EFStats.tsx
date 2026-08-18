@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import { articlesMeta } from "@/data/articlesMeta";
+import { areeImprese, areePatrimonio } from "@/data/aree";
 
 /**
  * Striscia numeri con count-up all'ingresso in viewport.
@@ -7,8 +9,13 @@ import { useEffect, useRef, useState } from "react";
  */
 const stats = [
   { value: 2, suffix: "", label: "fronti presidiati: l'impresa e il patrimonio" },
-  { value: 20, suffix: "", label: "aree di assistenza tra fisco, numeri e patrimonio" },
-  { value: 30, suffix: "", label: "guide con norme, tabelle ed esempi numerici" },
+  {
+    value: areeImprese.length + areePatrimonio.length,
+    suffix: "",
+    label: "aree di assistenza tra fisco, numeri e patrimonio",
+  },
+  // Derivato dai dati: scrivendolo a mano restava indietro a ogni guida nuova.
+  { value: articlesMeta.length, suffix: "", label: "guide con norme, tabelle ed esempi numerici" },
   { value: 12, suffix: "", label: "report mensili l'anno: il margine non aspetta il bilancio" },
 ];
 

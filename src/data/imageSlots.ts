@@ -16,17 +16,17 @@ export type ImageSlotId =
 
 export const imageSlots: Record<ImageSlotId, string | null> = {
   /** Home, sezione "due fronti": cantiere e scrivania, il conto economico accanto al ponteggio */
-  "home-due-fronti": null,
+  "home-due-fronti": "/images/home-due-fronti.webp",
   /** Hub impresa: cantiere reale, gru, operai (no stock finto-americano) */
-  "imprese-hero": null,
+  "imprese-hero": "/images/imprese-hero.webp",
   /** Hub patrimonio: immobili, famiglia dell'imprenditore, chiavi e atti */
-  "patrimonio-hero": null,
+  "patrimonio-hero": "/images/patrimonio-hero.webp",
   /** Pagina studio: foto vera del team / dello studio */
-  "studio-team": null,
+  "studio-team": "/images/studio-team.webp",
   /** Contatti: ingresso o sala riunioni dello studio */
-  "contatti-studio": null,
+  "contatti-studio": "/images/contatti-studio.webp",
   /** Guide: scrivania con bilanci, computo metrico e calcolatrice */
-  "guide-hero": null,
+  "guide-hero": "/images/guide-hero.webp",
 };
 
 /** Didascalie/alt di default per ogni slot (usate anche dal segnaposto). */

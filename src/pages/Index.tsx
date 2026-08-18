@@ -8,6 +8,7 @@ import EFProblemSolution from "@/components/EFProblemSolution";
 // Lazy: recharts (~500 kB) resta fuori dal bundle iniziale della home.
 const EFDeadlinesChart = lazy(() => import("@/components/EFDeadlinesChart"));
 import EFServicesCards from "@/components/EFServicesCards";
+import EFGuideShowcase from "@/components/EFGuideShowcase";
 import EFVerticali from "@/components/EFVerticali";
 import EFProcessFlow from "@/components/EFProcessFlow";
 import EFWhyUs from "@/components/EFWhyUs";
@@ -46,6 +47,7 @@ const Index = () => {
             <EFDeadlinesChart />
           </Suspense>
           <EFVerticali />
+          <EFGuideShowcase />
           <EFProcessFlow />
           <EFWhyUs />
           <EFFAQ />

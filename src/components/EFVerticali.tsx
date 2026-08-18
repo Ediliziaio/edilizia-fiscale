@@ -11,11 +11,11 @@ const EFVerticali = () => (
         <div className="max-w-3xl mb-10">
           <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">I temi ricorrenti</p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
-            Le otto domande che ci arrivano ogni settimana.
+            I {verticali.length} temi su cui ci chiamano più spesso.
           </h2>
           <p className="text-foreground/70 text-lg leading-relaxed">
-            Reverse charge, aliquote agevolate, lavori in corso, ritenute negli appalti, holding, scissione,
-            passaggio ai figli: ogni tema ha la sua norma, la sua tabella e il suo errore tipico. Una guida per ciascuno.
+            Reverse charge, congruità della manodopera, SOA, riserve, holding, permuta del terreno: ogni tema
+            ha la sua norma, la sua tabella e il suo errore tipico. Una guida per ciascuno.
           </p>
         </div>
       </Reveal>

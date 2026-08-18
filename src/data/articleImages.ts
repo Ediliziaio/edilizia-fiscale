@@ -12,81 +12,81 @@
 export const articleImages: Record<string, string | null> = {
   // fiscalita-impresa-edile
   // Copertina — Scrivania di cantiere con computo metrico, fatture e calcolatrice
-  "fiscalita-impresa-edile-cover": null,
+  "fiscalita-impresa-edile-cover": "/images/guide/fiscalita-impresa-edile-cover.webp",
   // Scrivania di cantiere con computo metrico, fatture e calcolatrice
-  "fiscalita-impresa-edile-1": null,
+  "fiscalita-impresa-edile-1": "/images/guide/fiscalita-impresa-edile-1.webp",
   // Registro delle fatture di cantiere con evidenziate le righe in reverse charge
-  "fiscalita-impresa-edile-2": null,
+  "fiscalita-impresa-edile-2": "/images/guide/fiscalita-impresa-edile-2.webp",
 
   // controllo-di-gestione-impresa-edile
   // Copertina — Tabellone di cantiere con avanzamento lavori e costi a confronto
-  "controllo-di-gestione-impresa-edile-cover": null,
+  "controllo-di-gestione-impresa-edile-cover": "/images/guide/controllo-di-gestione-impresa-edile-cover.webp",
   // Tabellone di cantiere con avanzamento lavori e costi a confronto
-  "controllo-di-gestione-impresa-edile-1": null,
+  "controllo-di-gestione-impresa-edile-1": "/images/guide/controllo-di-gestione-impresa-edile-1.webp",
   // Report mensile con margine per commessa e scostamenti evidenziati
-  "controllo-di-gestione-impresa-edile-2": null,
+  "controllo-di-gestione-impresa-edile-2": "/images/guide/controllo-di-gestione-impresa-edile-2.webp",
 
   // holding-immobiliare-edilizia
   // Copertina — Schema di gruppo con holding, immobiliare e società operativa di costruzioni
-  "holding-immobiliare-edilizia-cover": null,
+  "holding-immobiliare-edilizia-cover": "/images/guide/holding-immobiliare-edilizia-cover.webp",
   // Schema di gruppo con holding, immobiliare e società operativa di costruzioni
-  "holding-immobiliare-edilizia-1": null,
+  "holding-immobiliare-edilizia-1": "/images/guide/holding-immobiliare-edilizia-1.webp",
   // Verbale assembleare e perizia di stima su una scrivania
-  "holding-immobiliare-edilizia-2": null,
+  "holding-immobiliare-edilizia-2": "/images/guide/holding-immobiliare-edilizia-2.webp",
 
   // protezione-patrimoniale-imprenditore-edile
   // Copertina — Cantiere in attività visto dall'alto con gru e ponteggi
-  "protezione-patrimoniale-imprenditore-edile-cover": null,
+  "protezione-patrimoniale-imprenditore-edile-cover": "/images/guide/protezione-patrimoniale-imprenditore-edile-cover.webp",
   // Cantiere in attività visto dall'alto con gru e ponteggi
-  "protezione-patrimoniale-imprenditore-edile-1": null,
+  "protezione-patrimoniale-imprenditore-edile-1": "/images/guide/protezione-patrimoniale-imprenditore-edile-1.webp",
   // Elenco di fideiussioni e garanzie bancarie con importi
-  "protezione-patrimoniale-imprenditore-edile-2": null,
+  "protezione-patrimoniale-imprenditore-edile-2": "/images/guide/protezione-patrimoniale-imprenditore-edile-2.webp",
 
   // reverse-charge-edilizia
   // Copertina — Catena appaltatore-subappaltatore in cantiere con documenti contrattuali
-  "reverse-charge-edilizia-cover": null,
+  "reverse-charge-edilizia-cover": "/images/guide/reverse-charge-edilizia-cover.webp",
   // Catena appaltatore-subappaltatore in cantiere con documenti contrattuali
-  "reverse-charge-edilizia-1": null,
+  "reverse-charge-edilizia-1": "/images/guide/reverse-charge-edilizia-1.webp",
   // Fattura elettronica con codice natura per inversione contabile
-  "reverse-charge-edilizia-2": null,
+  "reverse-charge-edilizia-2": "/images/guide/reverse-charge-edilizia-2.webp",
 
   // iva-agevolata-lavori-edili
   // Copertina — Fattura di posa serramenti con evidenziato il calcolo dei beni significativi
-  "iva-agevolata-lavori-edili-cover": null,
+  "iva-agevolata-lavori-edili-cover": "/images/guide/iva-agevolata-lavori-edili-cover.webp",
   // Fattura di posa serramenti con evidenziato il calcolo dei beni significativi
-  "iva-agevolata-lavori-edili-1": null,
+  "iva-agevolata-lavori-edili-1": "/images/guide/iva-agevolata-lavori-edili-1.webp",
   // Titolo edilizio e contratto d'appalto affiancati sulla scrivania
-  "iva-agevolata-lavori-edili-2": null,
+  "iva-agevolata-lavori-edili-2": "/images/guide/iva-agevolata-lavori-edili-2.webp",
 
   // ritenute-appalti-17-bis
   // Copertina — Cantiere con gru e attrezzature, contratto d'appalto in primo piano
-  "ritenute-appalti-17-bis-cover": null,
+  "ritenute-appalti-17-bis-cover": "/images/guide/ritenute-appalti-17-bis-cover.webp",
   // Cantiere con gru e attrezzature, contratto d'appalto in primo piano
-  "ritenute-appalti-17-bis-1": null,
+  "ritenute-appalti-17-bis-1": "/images/guide/ritenute-appalti-17-bis-1.webp",
   // Deleghe F24 e elenco nominativo dei lavoratori impiegati nell'appalto
-  "ritenute-appalti-17-bis-2": null,
+  "ritenute-appalti-17-bis-2": "/images/guide/ritenute-appalti-17-bis-2.webp",
 
   // costo-del-lavoro-impresa-edile
   // Copertina — Squadra di operai al lavoro in cantiere con attrezzature
-  "costo-del-lavoro-impresa-edile-cover": null,
+  "costo-del-lavoro-impresa-edile-cover": "/images/guide/costo-del-lavoro-impresa-edile-cover.webp",
   // Squadra di operai al lavoro in cantiere con attrezzature
-  "costo-del-lavoro-impresa-edile-1": null,
+  "costo-del-lavoro-impresa-edile-1": "/images/guide/costo-del-lavoro-impresa-edile-1.webp",
   // Denuncia Cassa Edile e prospetto di congruità della manodopera
-  "costo-del-lavoro-impresa-edile-2": null,
+  "costo-del-lavoro-impresa-edile-2": "/images/guide/costo-del-lavoro-impresa-edile-2.webp",
 
   // costi-deducibili-impresa-edile
   // Copertina — Deposito di cantiere con materiali accatastati e inventario
-  "costi-deducibili-impresa-edile-cover": null,
+  "costi-deducibili-impresa-edile-cover": "/images/guide/costi-deducibili-impresa-edile-cover.webp",
   // Deposito di cantiere con materiali accatastati e inventario
-  "costi-deducibili-impresa-edile-1": null,
+  "costi-deducibili-impresa-edile-1": "/images/guide/costi-deducibili-impresa-edile-1.webp",
 
   // split-payment-e-fatturazione-pa
   // Copertina — Cantiere di opera pubblica con cartello di lavori
-  "split-payment-e-fatturazione-pa-cover": null,
+  "split-payment-e-fatturazione-pa-cover": "/images/guide/split-payment-e-fatturazione-pa-cover.webp",
   // Cantiere di opera pubblica con cartello di lavori
-  "split-payment-e-fatturazione-pa-1": null,
+  "split-payment-e-fatturazione-pa-1": "/images/guide/split-payment-e-fatturazione-pa-1.webp",
   // Certificato di pagamento SAL e fattura elettronica verso la PA
-  "split-payment-e-fatturazione-pa-2": null,
+  "split-payment-e-fatturazione-pa-2": "/images/guide/split-payment-e-fatturazione-pa-2.webp",
 
   // forfettario-artigiano-edile
   // Copertina — Furgone di un artigiano edile con materiali e attrezzature
@@ -138,45 +138,45 @@ export const articleImages: Record<string, string | null> = {
 
   // bilancio-impresa-edile-lavori-in-corso
   // Copertina — Prospetto di avanzamento commessa con costi sostenuti e costi a finire
-  "bilancio-impresa-edile-lavori-in-corso-cover": null,
+  "bilancio-impresa-edile-lavori-in-corso-cover": "/images/guide/bilancio-impresa-edile-lavori-in-corso-cover.webp",
   // Prospetto di avanzamento commessa con costi sostenuti e costi a finire
-  "bilancio-impresa-edile-lavori-in-corso-1": null,
+  "bilancio-impresa-edile-lavori-in-corso-1": "/images/guide/bilancio-impresa-edile-lavori-in-corso-1.webp",
 
   // margine-di-commessa-edilizia
   // Copertina — Prospetto di margine di commessa con voci di costo dettagliate
-  "margine-di-commessa-edilizia-cover": null,
+  "margine-di-commessa-edilizia-cover": "/images/guide/margine-di-commessa-edilizia-cover.webp",
   // Prospetto di margine di commessa con voci di costo dettagliate
-  "margine-di-commessa-edilizia-1": null,
+  "margine-di-commessa-edilizia-1": "/images/guide/margine-di-commessa-edilizia-1.webp",
   // Grafico a barre con margine per commessa e scostamenti rispetto al preventivo
-  "margine-di-commessa-edilizia-2": null,
+  "margine-di-commessa-edilizia-2": "/images/guide/margine-di-commessa-edilizia-2.webp",
 
   // preventivo-di-commessa-edilizia
   // Copertina — Computo metrico e analisi prezzi su scrivania con calcolatrice
-  "preventivo-di-commessa-edilizia-cover": null,
+  "preventivo-di-commessa-edilizia-cover": "/images/guide/preventivo-di-commessa-edilizia-cover.webp",
   // Computo metrico e analisi prezzi su scrivania con calcolatrice
-  "preventivo-di-commessa-edilizia-1": null,
+  "preventivo-di-commessa-edilizia-1": "/images/guide/preventivo-di-commessa-edilizia-1.webp",
   // Contratto d'appalto con clausola di revisione prezzi evidenziata
-  "preventivo-di-commessa-edilizia-2": null,
+  "preventivo-di-commessa-edilizia-2": "/images/guide/preventivo-di-commessa-edilizia-2.webp",
 
   // flussi-di-cassa-impresa-edile
   // Copertina — Prospetto di cassa prospettica settimanale con incassi e pagamenti
-  "flussi-di-cassa-impresa-edile-cover": null,
+  "flussi-di-cassa-impresa-edile-cover": "/images/guide/flussi-di-cassa-impresa-edile-cover.webp",
   // Prospetto di cassa prospettica settimanale con incassi e pagamenti
-  "flussi-di-cassa-impresa-edile-1": null,
+  "flussi-di-cassa-impresa-edile-1": "/images/guide/flussi-di-cassa-impresa-edile-1.webp",
   // Grafico dell'andamento del capitale circolante rispetto al fatturato
-  "flussi-di-cassa-impresa-edile-2": null,
+  "flussi-di-cassa-impresa-edile-2": "/images/guide/flussi-di-cassa-impresa-edile-2.webp",
 
   // cfo-esterno-impresa-edile
   // Copertina — Riunione di direzione con report mensile e prospetti di commessa
-  "cfo-esterno-impresa-edile-cover": null,
+  "cfo-esterno-impresa-edile-cover": "/images/guide/cfo-esterno-impresa-edile-cover.webp",
   // Riunione di direzione con report mensile e prospetti di commessa
-  "cfo-esterno-impresa-edile-1": null,
+  "cfo-esterno-impresa-edile-1": "/images/guide/cfo-esterno-impresa-edile-1.webp",
 
   // assetti-adeguati-impresa-edile
   // Copertina — Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi
-  "assetti-adeguati-impresa-edile-cover": null,
+  "assetti-adeguati-impresa-edile-cover": "/images/guide/assetti-adeguati-impresa-edile-cover.webp",
   // Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi
-  "assetti-adeguati-impresa-edile-1": null,
+  "assetti-adeguati-impresa-edile-1": "/images/guide/assetti-adeguati-impresa-edile-1.webp",
 
   // leasing-o-acquisto-mezzi-opera
   // Copertina — Escavatore e autocarro in cantiere, con officina di manutenzione sullo sfondo
@@ -292,91 +292,91 @@ export const articleImages: Record<string, string | null> = {
 
   // verifica-fiscale-impresa-edile
   // Copertina — Fascicoli di cantiere e documentazione contabile su un tavolo riunioni
-  "verifica-fiscale-impresa-edile-cover": null,
+  "verifica-fiscale-impresa-edile-cover": "/images/guide/verifica-fiscale-impresa-edile-cover.webp",
   // Fascicoli di cantiere e documentazione contabile su un tavolo riunioni
-  "verifica-fiscale-impresa-edile-1": null,
+  "verifica-fiscale-impresa-edile-1": "/images/guide/verifica-fiscale-impresa-edile-1.webp",
   // Calendario con evidenziato il termine di sessanta giorni dal PVC
-  "verifica-fiscale-impresa-edile-2": null,
+  "verifica-fiscale-impresa-edile-2": "/images/guide/verifica-fiscale-impresa-edile-2.webp",
 
   // accertamento-superbonus-imprese
   // Copertina — Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica
-  "accertamento-superbonus-imprese-cover": null,
+  "accertamento-superbonus-imprese-cover": "/images/guide/accertamento-superbonus-imprese-cover.webp",
   // Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica
-  "accertamento-superbonus-imprese-1": null,
+  "accertamento-superbonus-imprese-1": "/images/guide/accertamento-superbonus-imprese-1.webp",
   // Cassetto fiscale con crediti d'imposta sospesi
-  "accertamento-superbonus-imprese-2": null,
+  "accertamento-superbonus-imprese-2": "/images/guide/accertamento-superbonus-imprese-2.webp",
 
   // crediti-fiscali-incagliati-edilizia
   // Copertina — Prospetto di piano di utilizzo dei crediti fiscali per anno
-  "crediti-fiscali-incagliati-edilizia-cover": null,
+  "crediti-fiscali-incagliati-edilizia-cover": "/images/guide/crediti-fiscali-incagliati-edilizia-cover.webp",
   // Prospetto di piano di utilizzo dei crediti fiscali per anno
-  "crediti-fiscali-incagliati-edilizia-1": null,
+  "crediti-fiscali-incagliati-edilizia-1": "/images/guide/crediti-fiscali-incagliati-edilizia-1.webp",
   // Documentazione di intervento ordinata cronologicamente in faldoni
-  "crediti-fiscali-incagliati-edilizia-2": null,
+  "crediti-fiscali-incagliati-edilizia-2": "/images/guide/crediti-fiscali-incagliati-edilizia-2.webp",
 
   // accertamento-induttivo-impresa-edile
   // Copertina — Confronto tra commesse di tipologia diversa con marginalità differenti
-  "accertamento-induttivo-impresa-edile-cover": null,
+  "accertamento-induttivo-impresa-edile-cover": "/images/guide/accertamento-induttivo-impresa-edile-cover.webp",
   // Confronto tra commesse di tipologia diversa con marginalità differenti
-  "accertamento-induttivo-impresa-edile-1": null,
+  "accertamento-induttivo-impresa-edile-1": "/images/guide/accertamento-induttivo-impresa-edile-1.webp",
   // Contratti e computi metrici usati per ricalcolare la ricostruzione per gruppi omogenei
-  "accertamento-induttivo-impresa-edile-2": null,
+  "accertamento-induttivo-impresa-edile-2": "/images/guide/accertamento-induttivo-impresa-edile-2.webp",
 
   // ravvedimento-e-adesione-impresa-edile
   // Copertina — Calendario con i termini di adesione e ricorso evidenziati
-  "ravvedimento-e-adesione-impresa-edile-cover": null,
+  "ravvedimento-e-adesione-impresa-edile-cover": "/images/guide/ravvedimento-e-adesione-impresa-edile-cover.webp",
   // Calendario con i termini di adesione e ricorso evidenziati
-  "ravvedimento-e-adesione-impresa-edile-1": null,
+  "ravvedimento-e-adesione-impresa-edile-1": "/images/guide/ravvedimento-e-adesione-impresa-edile-1.webp",
   // Documenti di tesoreria e portafoglio ordini a supporto di un'istanza di sospensione
-  "ravvedimento-e-adesione-impresa-edile-2": null,
+  "ravvedimento-e-adesione-impresa-edile-2": "/images/guide/ravvedimento-e-adesione-impresa-edile-2.webp",
 
   // isa-indici-affidabilita-edilizia
   // Copertina — Grafico con andamento dei ricavi per esercizio in un'impresa a commessa
-  "isa-indici-affidabilita-edilizia-cover": null,
+  "isa-indici-affidabilita-edilizia-cover": "/images/guide/isa-indici-affidabilita-edilizia-cover.webp",
   // Grafico con andamento dei ricavi per esercizio in un'impresa a commessa
-  "isa-indici-affidabilita-edilizia-1": null,
+  "isa-indici-affidabilita-edilizia-1": "/images/guide/isa-indici-affidabilita-edilizia-1.webp",
   // Fascicolo esplicativo dello scostamento con prospetti di commessa
-  "isa-indici-affidabilita-edilizia-2": null,
+  "isa-indici-affidabilita-edilizia-2": "/images/guide/isa-indici-affidabilita-edilizia-2.webp",
 
   // scissione-immobiliare-impresa-edile
   // Copertina — Capannone industriale con uffici di un'impresa di costruzioni
-  "scissione-immobiliare-impresa-edile-cover": null,
+  "scissione-immobiliare-impresa-edile-cover": "/images/guide/scissione-immobiliare-impresa-edile-cover.webp",
   // Capannone industriale con uffici di un'impresa di costruzioni
-  "scissione-immobiliare-impresa-edile-1": null,
+  "scissione-immobiliare-impresa-edile-1": "/images/guide/scissione-immobiliare-impresa-edile-1.webp",
   // Contratto di locazione infragruppo con perizia di stima allegata
-  "scissione-immobiliare-impresa-edile-2": null,
+  "scissione-immobiliare-impresa-edile-2": "/images/guide/scissione-immobiliare-impresa-edile-2.webp",
 
   // dividendi-holding-pex
   // Copertina — Schema del flusso dei dividendi da operativa a holding a socio
-  "dividendi-holding-pex-cover": null,
+  "dividendi-holding-pex-cover": "/images/guide/dividendi-holding-pex-cover.webp",
   // Schema del flusso dei dividendi da operativa a holding a socio
-  "dividendi-holding-pex-1": null,
+  "dividendi-holding-pex-1": "/images/guide/dividendi-holding-pex-1.webp",
   // Verbale di assemblea per la delibera di distribuzione utili
-  "dividendi-holding-pex-2": null,
+  "dividendi-holding-pex-2": "/images/guide/dividendi-holding-pex-2.webp",
 
   // societa-immobiliare-o-persona-fisica
   // Copertina — Capannone e appartamenti: immobili con destinazioni diverse
-  "societa-immobiliare-o-persona-fisica-cover": null,
+  "societa-immobiliare-o-persona-fisica-cover": "/images/guide/societa-immobiliare-o-persona-fisica-cover.webp",
   // Capannone e appartamenti: immobili con destinazioni diverse
-  "societa-immobiliare-o-persona-fisica-1": null,
+  "societa-immobiliare-o-persona-fisica-1": "/images/guide/societa-immobiliare-o-persona-fisica-1.webp",
   // Contratto di locazione con perizia di congruità del canone
-  "societa-immobiliare-o-persona-fisica-2": null,
+  "societa-immobiliare-o-persona-fisica-2": "/images/guide/societa-immobiliare-o-persona-fisica-2.webp",
 
   // consolidato-fiscale-gruppo-edile
   // Copertina — Organigramma di gruppo con holding, immobiliare e due società operative
-  "consolidato-fiscale-gruppo-edile-cover": null,
+  "consolidato-fiscale-gruppo-edile-cover": "/images/guide/consolidato-fiscale-gruppo-edile-cover.webp",
   // Organigramma di gruppo con holding, immobiliare e due società operative
-  "consolidato-fiscale-gruppo-edile-1": null,
+  "consolidato-fiscale-gruppo-edile-1": "/images/guide/consolidato-fiscale-gruppo-edile-1.webp",
   // Contratti infragruppo con relazioni e report a supporto
-  "consolidato-fiscale-gruppo-edile-2": null,
+  "consolidato-fiscale-gruppo-edile-2": "/images/guide/consolidato-fiscale-gruppo-edile-2.webp",
 
   // tassazione-vendita-immobili-impresa
   // Copertina — Atto di compravendita immobiliare con documentazione dei lavori eseguiti
-  "tassazione-vendita-immobili-impresa-cover": null,
+  "tassazione-vendita-immobili-impresa-cover": "/images/guide/tassazione-vendita-immobili-impresa-cover.webp",
   // Atto di compravendita immobiliare con documentazione dei lavori eseguiti
-  "tassazione-vendita-immobili-impresa-1": null,
+  "tassazione-vendita-immobili-impresa-1": "/images/guide/tassazione-vendita-immobili-impresa-1.webp",
   // Prospetto di calcolo della rettifica della detrazione IVA
-  "tassazione-vendita-immobili-impresa-2": null,
+  "tassazione-vendita-immobili-impresa-2": "/images/guide/tassazione-vendita-immobili-impresa-2.webp",
 
   // operazione-immobiliare-dal-terreno-alla-vendita
   // Copertina — Area edificabile con cartello di cantiere e scavi in corso
@@ -404,19 +404,19 @@ export const articleImages: Record<string, string | null> = {
 
   // passaggio-generazionale-impresa-edile
   // Copertina — Padre e figlio in cantiere che esaminano insieme un progetto
-  "passaggio-generazionale-impresa-edile-cover": null,
+  "passaggio-generazionale-impresa-edile-cover": "/images/guide/passaggio-generazionale-impresa-edile-cover.webp",
   // Padre e figlio in cantiere che esaminano insieme un progetto
-  "passaggio-generazionale-impresa-edile-1": null,
+  "passaggio-generazionale-impresa-edile-1": "/images/guide/passaggio-generazionale-impresa-edile-1.webp",
   // Statuto societario con clausole di governance familiare evidenziate
-  "passaggio-generazionale-impresa-edile-2": null,
+  "passaggio-generazionale-impresa-edile-2": "/images/guide/passaggio-generazionale-impresa-edile-2.webp",
 
   // patto-di-famiglia-impresa-edile
   // Copertina — Famiglia imprenditoriale attorno a un tavolo con documenti societari
-  "patto-di-famiglia-impresa-edile-cover": null,
+  "patto-di-famiglia-impresa-edile-cover": "/images/guide/patto-di-famiglia-impresa-edile-cover.webp",
   // Famiglia imprenditoriale attorno a un tavolo con documenti societari
-  "patto-di-famiglia-impresa-edile-1": null,
+  "patto-di-famiglia-impresa-edile-1": "/images/guide/patto-di-famiglia-impresa-edile-1.webp",
   // Atto pubblico di patto di famiglia con perizia di valutazione allegata
-  "patto-di-famiglia-impresa-edile-2": null,
+  "patto-di-famiglia-impresa-edile-2": "/images/guide/patto-di-famiglia-impresa-edile-2.webp",
 
   // trasformazione-ditta-individuale-srl
   // Copertina — Titolare di impresa edile individuale in cantiere con il proprio mezzo
@@ -436,11 +436,11 @@ export const articleImages: Record<string, string | null> = {
 
   // cessione-azienda-impresa-edile
   // Copertina — Documenti societari e attestazione SOA su una scrivania durante una trattativa
-  "cessione-azienda-impresa-edile-cover": null,
+  "cessione-azienda-impresa-edile-cover": "/images/guide/cessione-azienda-impresa-edile-cover.webp",
   // Documenti societari e attestazione SOA su una scrivania durante una trattativa
-  "cessione-azienda-impresa-edile-1": null,
+  "cessione-azienda-impresa-edile-1": "/images/guide/cessione-azienda-impresa-edile-1.webp",
   // Contratto di cessione con clausole di garanzia e indennizzo evidenziate
-  "cessione-azienda-impresa-edile-2": null,
+  "cessione-azienda-impresa-edile-2": "/images/guide/cessione-azienda-impresa-edile-2.webp",
 
   // liquidazione-societa-edile
   // Copertina — Cantiere fermo con opere incomplete e attrezzature ancora in posto

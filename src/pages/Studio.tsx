@@ -11,6 +11,8 @@ import EFFinalCTA from "@/components/EFFinalCTA";
 import Reveal from "@/components/Reveal";
 import { Calculator, ShieldCheck, HardHat, ArrowRight, Landmark } from "lucide-react";
 import { SITE_URL } from "@/data/site";
+import { articlesMeta } from "@/data/articlesMeta";
+import { faqEntries } from "@/data/faq";
 import EFImageSlot from "@/components/EFImageSlot";
 
 const Studio = () => {
@@ -125,6 +127,61 @@ const Studio = () => {
                   </Link>
                 </div>
               </Reveal>
+            </div>
+          </section>
+
+
+          {/* Il lavoro pubblico: è la prova di competenza, non un blog */}
+          <section className="py-16 lg:py-20 bg-muted/40">
+            <div className="container mx-auto px-4">
+              <div className="grid lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-14 items-center max-w-6xl mx-auto">
+                <Reveal>
+                  <div>
+                    <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">
+                      Come si verifica una competenza
+                    </p>
+                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
+                      Non puoi sapere se sappiamo fare il nostro mestiere. Ma puoi leggerlo.
+                    </h2>
+                    <p className="text-foreground/70 text-lg leading-relaxed mb-5">
+                      Il codice deontologico non ci consente di pubblicare nomi di clienti, percentuali di
+                      successo o confronti con altri studi. Resta un modo per farsi giudicare prima di
+                      affidare un incarico: scrivere per esteso quello che si sa, e lasciare che chi legge
+                      valuti.
+                    </p>
+                    <p className="text-foreground/70 text-lg leading-relaxed mb-8">
+                      Sono {articlesMeta.length} guide e {faqEntries.length} domande frequenti, con i riferimenti
+                      normativi e gli esempi numerici. Se dopo averle lette risolvi da solo, va bene lo stesso.
+                    </p>
+                    <div className="flex flex-wrap gap-x-6 gap-y-3">
+                      <Link to="/guide" className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark">
+                        Le {articlesMeta.length} guide <ArrowRight className="w-4 h-4" />
+                      </Link>
+                      <Link to="/domande-frequenti" className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark">
+                        Le domande frequenti <ArrowRight className="w-4 h-4" />
+                      </Link>
+                    </div>
+                  </div>
+                </Reveal>
+
+                <Reveal delay={150} direction="right">
+                  <div className="grid grid-cols-2 gap-4">
+                    {[
+                      { n: articlesMeta.filter((a) => a.category === "Impresa").length, l: "Fiscalità dell'impresa" },
+                      { n: articlesMeta.filter((a) => a.category === "Controllo").length, l: "Numeri e controllo" },
+                      { n: articlesMeta.filter((a) => a.category === "Lavoro").length, l: "Lavoro e contributi" },
+                      { n: articlesMeta.filter((a) => a.category === "Appalti").length, l: "Appalti pubblici" },
+                      { n: articlesMeta.filter((a) => a.category === "Fisco").length, l: "Verifiche e contenzioso" },
+                      { n: articlesMeta.filter((a) => a.category === "Patrimonio").length, l: "Holding e patrimonio" },
+                    ].map((c) => (
+                      <div key={c.l} className="bg-white rounded-xl border border-border p-5">
+                        <div className="text-3xl font-extrabold text-brand-dark tabular-nums">{c.n}</div>
+                        <p className="text-sm text-foreground/70 leading-snug mt-1">{c.l}</p>
+                      </div>
+                    ))}
+                  </div>
+                </Reveal>
+              </div>
             </div>
           </section>
 
