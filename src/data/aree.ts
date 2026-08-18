@@ -97,7 +97,7 @@ export const areeImprese: Area[] = [
   {
     icon: Siren,
     title: "Assetti adeguati e allerta della crisi",
-    desc: "Obbligo di assetti organizzativi, amministrativi e contabili adeguati (art. 2086 c.c.), indicatori di squilibrio, composizione negoziata: prevenire prima che sia tardi.",
+    desc: "Assetti organizzativi, amministrativi e contabili adeguati (art. 2086 c.c.), indicatori di squilibrio, composizione negoziata con il vincolo del DURC: prevenire prima che sia tardi.",
     guida: "assetti-adeguati-impresa-edile",
   },
 ];
@@ -167,7 +167,7 @@ export const areePatrimonio: Area[] = [
   {
     icon: LogOut,
     title: "Cessione d'azienda e uscita dall'impresa",
-    desc: "Vendere l'impresa, cedere le quote o liquidarla: valutazione, cessione d'azienda contro cessione di partecipazioni, carico fiscale a confronto e gestione del dopo.",
+    desc: "Vendere l'impresa, cederla in affitto, liquidarla: valutazione, cessione d'azienda contro cessione di quote, carico fiscale a confronto e cosa sopravvive alla chiusura.",
     guida: "cessione-azienda-impresa-edile",
   },
 ];
@@ -194,4 +194,6 @@ export const verticali = [
   { title: "Riserve negli appalti", kw: "Firmare senza riserva è accettare: quando diventano ricavo", guida: "riserve-e-contabilita-lavori-pubblici" },
   { title: "Permuta col terreno", kw: "Due cessioni distinte, non un baratto senza imposte", guida: "permuta-terreno-appartamenti" },
   { title: "Vendere su carta", kw: "Acconti, fideiussione obbligatoria e preliminare vincolato", guida: "vendita-su-carta-acconti-garanzie" },
+  { title: "Leasing o acquisto", kw: "Il confronto si fa sul costo orario, non sulla rata", guida: "leasing-o-acquisto-mezzi-opera" },
+  { title: "Rating e banche", kw: "Come il sistema legge un bilancio edile, e cosa si migliora", guida: "rating-bancario-centrale-rischi-edilizia" },
 ] as const;

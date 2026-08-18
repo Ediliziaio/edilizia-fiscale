@@ -195,6 +195,82 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "Negli appalti pubblici l'IVA non viene incassata dall'impresa ma versata direttamente dall'ente committente. L'effetto fiscale è neutro, quello finanziario no: si genera un credito IVA strutturale che va gestito con compensazione o rimborso. A questo si sommano gli obblighi di fatturazione elettronica verso la PA e i tempi di incasso, che in edilizia decidono la sostenibilità della commessa."
   },
   {
+    "slug": "forfettario-artigiano-edile",
+    "title": "Regime forfettario per l'artigiano edile: perché conviene meno di quanto sembra",
+    "excerpt": "Coefficiente di redditività all'86%, IVA sugli acquisti indetraibile e — il punto che quasi nessuno conosce — l'IVA da versare sulle fatture ricevute in reverse charge, senza poterla detrarre. Quando il forfettario funziona in edilizia e quando è una trappola.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "regime forfettario edilizia coefficiente",
+      "forfettario reverse charge iva",
+      "forfettario 85.000 limite ricavi",
+      "coefficiente redditività costruzioni 86",
+      "quando conviene uscire dal forfettario",
+      "artigiano edile partita iva regime"
+    ],
+    "intro": "Il forfettario sembra la scelta naturale per l'impiantista o il piccolo artigiano edile: imposta sostitutiva bassa, contabilità semplificata, nessuna IVA da addebitare. In edilizia però due elementi lo rendono meno conveniente di quanto appaia — il coefficiente di redditività per il settore è tra i più alti, e l'IVA sugli acquisti non si detrae. A cui si aggiunge il nodo del reverse charge."
+  },
+  {
+    "slug": "iva-per-cassa-e-acconti",
+    "title": "IVA per cassa e acconti: perché in edilizia serve meno di quanto sembri",
+    "excerpt": "Versare l'IVA quando incassi invece che quando fatturi sembra la risposta ai committenti lenti. Ma il regime esclude le operazioni in reverse charge e in split payment — cioè quasi tutto quello che fa un'impresa edile — e differisce anche la detrazione sugli acquisti.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "12 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "iva per cassa requisiti",
+      "regime iva per cassa edilizia",
+      "esigibilità iva acconti appalto",
+      "caparra confirmatoria iva",
+      "iva per cassa reverse charge esclusione",
+      "differimento esigibilità imposta"
+    ],
+    "intro": "Il regime dell'IVA per cassa consente di versare l'imposta quando si incassa anziché quando si emette fattura. Per un'impresa che aspetta i pagamenti sembra la soluzione. In edilizia però funziona poco, per una ragione strutturale: le operazioni in reverse charge e in split payment ne sono escluse, e sono proprio quelle che compongono la maggior parte del fatturato del settore."
+  },
+  {
+    "slug": "beni-strumentali-credito-imposta",
+    "title": "Crediti d'imposta sui beni strumentali: cosa serve perché reggano",
+    "excerpt": "Misure che cambiano quasi ogni anno, ma adempimenti che restano gli stessi: riferimento normativo in fattura, perizia o attestazione sopra soglia, interconnessione documentata, periodo di sorveglianza. Il metodo che vale a prescindere dalla misura vigente.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "12 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "credito imposta beni strumentali edilizia",
+      "interconnessione macchine di cantiere",
+      "dicitura fattura credito imposta",
+      "perizia asseverata beni 4.0",
+      "recapture credito imposta cessione bene",
+      "investimenti macchinari impresa edile"
+    ],
+    "intro": "Le misure agevolative sugli investimenti in beni strumentali cambiano con ogni legge di bilancio: aliquote, massimali e requisiti hanno una vita breve. Gli adempimenti che le reggono, invece, sono stabili nel tempo — e sono quelli che fanno perdere il beneficio quando mancano. Questa guida sta sul metodo, non sulle percentuali."
+  },
+  {
+    "slug": "cantieri-all-estero-stabile-organizzazione",
+    "title": "Cantieri all'estero: quando scatta la stabile organizzazione",
+    "excerpt": "Un cantiere che supera la soglia temporale prevista dalla convenzione diventa stabile organizzazione, con obbligo di tassazione nello Stato estero. La soglia va monitorata dal primo giorno, e frazionare i contratti per restare sotto è una strada che non regge.",
+    "category": "Impresa",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "cantiere estero stabile organizzazione",
+      "soglia temporale cantiere convenzione",
+      "distacco personale all'estero a1",
+      "iva prestazioni su immobili estero",
+      "credito imposta redditi esteri art 165",
+      "impresa edile lavori all'estero"
+    ],
+    "intro": "Un cantiere di costruzione o montaggio all'estero costituisce stabile organizzazione se supera la durata prevista dalla convenzione contro le doppie imposizioni con quello Stato — spesso dodici mesi, ma in molte convenzioni sei o nove. Superarla comporta obblighi di tassazione locale che vanno preparati prima, non scoperti quando il cantiere è già avviato."
+  },
+  {
     "slug": "bonus-edilizi-come-si-fatturano",
     "title": "Bonus edilizi: cosa resta e come si fatturano oggi",
     "excerpt": "Finita la stagione dello sconto in fattura generalizzato, il lavoro dell'impresa è cambiato: bonifico parlante con ritenuta dell'8%, congruità dei prezzi, fascicolo di commessa. Cosa serve davvero perché il committente porti la detrazione in dichiarazione.",
@@ -345,6 +421,63 @@ export const articlesMeta: ArticleMeta[] = [
       "codice crisi impresa edilizia"
     ],
     "intro": "L'art. 2086, comma 2, del codice civile impone all'imprenditore che opera in forma societaria di istituire assetti organizzativi, amministrativi e contabili adeguati alla natura e alle dimensioni dell'impresa, anche in funzione della rilevazione tempestiva della crisi. In un'impresa che lavora per commessa, un assetto privo di margine di cantiere e di cassa prospettica difficilmente può dirsi adeguato."
+  },
+  {
+    "slug": "leasing-o-acquisto-mezzi-opera",
+    "title": "Leasing, acquisto o noleggio dei mezzi d'opera: come si decide davvero",
+    "excerpt": "Escavatore, gru, autocarro: tre strade con effetti diversi su deduzione, cassa, bilancio e requisiti di qualificazione. Il confronto va fatto sul costo orario del mezzo, non sulla rata — ed è lì che quasi tutti sbagliano.",
+    "category": "Controllo",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-trust-dark",
+    "keywords": [
+      "leasing o acquisto mezzi d'opera",
+      "deducibilità canoni leasing durata minima",
+      "noleggio a lungo termine escavatore",
+      "ammortamento macchine operatrici edilizia",
+      "costo orario mezzo di cantiere",
+      "leasing requisiti soa attrezzatura"
+    ],
+    "intro": "La domanda arriva sempre nella stessa forma: conviene comprare o prendere in leasing? È la domanda sbagliata, perché mette a confronto una rata con un esborso. Il confronto utile è tra costi orari del mezzo nelle tre configurazioni — acquisto, leasing, noleggio — e tiene dentro deduzione, cassa, impegni bancari e requisiti di qualificazione."
+  },
+  {
+    "slug": "rating-bancario-centrale-rischi-edilizia",
+    "title": "Rating bancario e Centrale dei Rischi: come la banca legge un'impresa edile",
+    "excerpt": "Il bilancio pesa meno di quanto si creda: contano l'andamentale — utilizzo degli affidamenti, sconfini, insoluti — e la capacità di spiegare voci che in edilizia una banca legge male. Cosa si può migliorare e in quanto tempo.",
+    "category": "Controllo",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-trust-dark",
+    "keywords": [
+      "rating bancario impresa edile",
+      "centrale rischi banca d'italia soglia",
+      "come migliorare il rating aziendale",
+      "sconfinamento centrale rischi conseguenze",
+      "dossier bancario impresa costruzioni",
+      "posizione finanziaria netta edilizia"
+    ],
+    "intro": "Il giudizio della banca su un'impresa nasce da tre fonti: i dati di bilancio, i dati andamentali su come l'impresa usa il credito, e le informazioni qualitative che l'impresa fornisce. In edilizia la prima fonte è quella che comunica peggio, perché lavori in corso, invenduto e riserve sono voci che un modello standard legge male. La terza è l'unica su cui si può agire subito."
+  },
+  {
+    "slug": "composizione-negoziata-impresa-edile",
+    "title": "Composizione negoziata per l'impresa edile: il DURC è la variabile critica",
+    "excerpt": "Uno strumento riservato per trattare con i creditori mantenendo la gestione. In edilizia ha una specificità che decide tutto: senza DURC regolare non si incassa, e senza incassi il risanamento non esiste. Come si imposta il percorso attorno a questo vincolo.",
+    "category": "Controllo",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-trust-dark",
+    "keywords": [
+      "composizione negoziata crisi impresa",
+      "esperto indipendente composizione negoziata",
+      "misure protettive patrimonio impresa",
+      "risanamento impresa edile cantieri",
+      "durc risanamento appalti",
+      "codice della crisi impresa costruzioni"
+    ],
+    "intro": "La composizione negoziata è un percorso volontario e riservato in cui l'imprenditore, affiancato da un esperto indipendente, tratta con i creditori mantenendo la gestione dell'impresa. Il presupposto è la probabilità della crisi, non l'insolvenza: è pensata per essere attivata prima. In edilizia ha un vincolo suo, che va messo al centro fin dal primo giorno: la continuità dei cantieri passa dal DURC."
   },
   {
     "slug": "durc-irregolare-impresa-edile",
@@ -860,6 +993,44 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "Il problema che questi strumenti risolvono è preciso: mettere al riparo il trasferimento dell'impresa dalle contestazioni degli altri legittimari. Il patto di famiglia lo fa con un accordo che coinvolge tutti; il trust segrega beni per una finalità; i vincoli di destinazione li legano a uno scopo. Ognuno risponde a un'esigenza diversa, e nessuno è uno schermo generale."
   },
   {
+    "slug": "trasformazione-ditta-individuale-srl",
+    "title": "Da ditta individuale a S.r.l.: conferimento, tempi e cosa si porta dietro",
+    "excerpt": "Non è una trasformazione ma un conferimento d'azienda, e in regime di neutralità non costa imposte sui plusvalori. Il punto delicato è cosa segue l'azienda: debiti, dipendenti, contratti, qualificazioni e responsabilità già maturate.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "da ditta individuale a srl edilizia",
+      "conferimento azienda art 176 tuir",
+      "neutralità fiscale conferimento",
+      "perizia stima conferimento srl",
+      "responsabilità debiti conferimento azienda",
+      "quando passare a srl impresa edile"
+    ],
+    "intro": "In edilizia il passaggio da ditta individuale a società non nasce quasi mai da un calcolo fiscale: nasce dal rischio. Un'impresa che apre cantieri risponde di danni, infortuni e vizi dell'opera con tutto il patrimonio dell'imprenditore. Il conferimento d'azienda in una S.r.l. si fa in neutralità fiscale; il lavoro vero è governare cosa l'azienda si porta dietro."
+  },
+  {
+    "slug": "affitto-azienda-edile",
+    "title": "Affitto d'azienda in edilizia: passaggio graduale, prova prima della vendita, risanamento",
+    "excerpt": "Chi affitta continua a possedere e incassa un canone; chi prende in affitto esercita senza comprare. È lo strumento del passaggio generazionale graduale e della prova prima della cessione, ma sulle qualificazioni e sui debiti richiede verifiche precise.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "affitto azienda edile",
+      "affitto ramo azienda costruzioni",
+      "art 2562 codice civile affitto azienda",
+      "ammortamenti affitto azienda deroga",
+      "affitto azienda passaggio generazionale",
+      "affitto azienda debiti pregressi"
+    ],
+    "intro": "Nell'affitto d'azienda il titolare conserva la proprietà del complesso e ne concede il godimento a un altro soggetto, che lo esercita in nome proprio pagando un canone. In edilizia serve a tre cose: accompagnare un passaggio generazionale senza cedere subito, far provare l'azienda a chi la comprerà, e mantenere in vita l'attività quando la società titolare è in difficoltà."
+  },
+  {
     "slug": "cessione-azienda-impresa-edile",
     "title": "Vendere l'impresa edile: cessione d'azienda o cessione di quote?",
     "excerpt": "Due strade con carichi fiscali e rischi opposti: chi vende preferisce le quote, chi compra preferisce l'azienda. Imposte a confronto, responsabilità per i debiti, sorte dell'attestazione SOA e come si prepara la società alla vendita.",
@@ -877,5 +1048,24 @@ export const articlesMeta: ArticleMeta[] = [
       "due diligence impresa costruzioni"
     ],
     "intro": "La scelta tra cedere l'azienda e cedere le quote non è tecnica ma sostanziale: cambia il carico fiscale del venditore, il rischio dell'acquirente e la sorte delle qualificazioni. Il venditore persona fisica preferisce quasi sempre le quote, tassate con imposta sostitutiva del 26%; l'acquirente preferisce l'azienda, che circoscrive il perimetro dei rischi ereditati."
+  },
+  {
+    "slug": "liquidazione-societa-edile",
+    "title": "Liquidare una società edile: cosa sopravvive alla cancellazione",
+    "excerpt": "Chiudere non è finire. Le commesse in corso, le garanzie rilasciate, la responsabilità per vizi delle opere consegnate e le sopravvenienze passive continuano a esistere dopo la cancellazione, e possono raggiungere soci e liquidatori entro limiti precisi.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "liquidazione societa edile",
+      "cancellazione societa responsabilità soci",
+      "art 2495 codice civile creditori",
+      "commesse in corso liquidazione",
+      "garanzie dopo la chiusura societa",
+      "reddito periodo di liquidazione art 182 tuir"
+    ],
+    "intro": "Nel settore costruzioni la liquidazione ha una complicazione che altri settori non hanno: l'impresa lascia dietro di sé opere che rispondono per anni. Alla cancellazione dal registro imprese la società si estingue, ma i creditori insoddisfatti possono agire verso i soci nei limiti di quanto riscosso in liquidazione e verso i liquidatori se il mancato pagamento dipende da loro colpa."
   }
 ];

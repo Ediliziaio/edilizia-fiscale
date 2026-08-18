@@ -88,6 +88,38 @@ export const articleImages: Record<string, string | null> = {
   // Certificato di pagamento SAL e fattura elettronica verso la PA
   "split-payment-e-fatturazione-pa-2": null,
 
+  // forfettario-artigiano-edile
+  // Copertina — Furgone di un artigiano edile con materiali e attrezzature
+  "forfettario-artigiano-edile-cover": null,
+  // Furgone di un artigiano edile con materiali e attrezzature
+  "forfettario-artigiano-edile-1": null,
+  // Prospetto di confronto tra reddito forfetizzato e reddito effettivo di un artigiano
+  "forfettario-artigiano-edile-2": null,
+
+  // iva-per-cassa-e-acconti
+  // Copertina — Scadenzario delle liquidazioni IVA accanto a un prospetto di incassi da committenti
+  "iva-per-cassa-e-acconti-cover": null,
+  // Scadenzario delle liquidazioni IVA accanto a un prospetto di incassi da committenti
+  "iva-per-cassa-e-acconti-1": null,
+  // Contratto d'appalto con clausola sugli acconti e sulla caparra
+  "iva-per-cassa-e-acconti-2": null,
+
+  // beni-strumentali-credito-imposta
+  // Copertina — Macchina operatrice di cantiere con sistemi di controllo e monitoraggio
+  "beni-strumentali-credito-imposta-cover": null,
+  // Macchina operatrice di cantiere con sistemi di controllo e monitoraggio
+  "beni-strumentali-credito-imposta-1": null,
+  // Fascicolo di investimento con fattura, perizia e documentazione di interconnessione
+  "beni-strumentali-credito-imposta-2": null,
+
+  // cantieri-all-estero-stabile-organizzazione
+  // Copertina — Cantiere edile all'estero con squadre e mezzi di un'impresa italiana
+  "cantieri-all-estero-stabile-organizzazione-cover": null,
+  // Cantiere edile all'estero con squadre e mezzi di un'impresa italiana
+  "cantieri-all-estero-stabile-organizzazione-1": null,
+  // Documentazione di distacco del personale e certificazioni per il lavoro all'estero
+  "cantieri-all-estero-stabile-organizzazione-2": null,
+
   // bonus-edilizi-come-si-fatturano
   // Copertina — Fattura di lavori edili accanto alla ricevuta di un bonifico parlante
   "bonus-edilizi-come-si-fatturano-cover": null,
@@ -145,6 +177,30 @@ export const articleImages: Record<string, string | null> = {
   "assetti-adeguati-impresa-edile-cover": null,
   // Documenti di monitoraggio aziendale con proiezione dei flussi a dodici mesi
   "assetti-adeguati-impresa-edile-1": null,
+
+  // leasing-o-acquisto-mezzi-opera
+  // Copertina — Escavatore e autocarro in cantiere, con officina di manutenzione sullo sfondo
+  "leasing-o-acquisto-mezzi-opera-cover": null,
+  // Escavatore e autocarro in cantiere, con officina di manutenzione sullo sfondo
+  "leasing-o-acquisto-mezzi-opera-1": null,
+  // Prospetto di confronto tra costo orario in acquisto, leasing e noleggio
+  "leasing-o-acquisto-mezzi-opera-2": null,
+
+  // rating-bancario-centrale-rischi-edilizia
+  // Copertina — Estratti conto e prospetto degli affidamenti bancari con evidenza degli utilizzi
+  "rating-bancario-centrale-rischi-edilizia-cover": null,
+  // Estratti conto e prospetto degli affidamenti bancari con evidenza degli utilizzi
+  "rating-bancario-centrale-rischi-edilizia-1": null,
+  // Incontro con il gestore bancario, con report di commessa e cassa prospettica sul tavolo
+  "rating-bancario-centrale-rischi-edilizia-2": null,
+
+  // composizione-negoziata-impresa-edile
+  // Copertina — Cantiere in attività con gru, visto in una giornata di lavoro
+  "composizione-negoziata-impresa-edile-cover": null,
+  // Cantiere in attività con gru, visto in una giornata di lavoro
+  "composizione-negoziata-impresa-edile-1": null,
+  // Tavolo di trattativa con documenti finanziari e piano di risanamento
+  "composizione-negoziata-impresa-edile-2": null,
 
   // durc-irregolare-impresa-edile
   // Copertina — Schermata del portale Durc On Line con esito di irregolarità
@@ -362,6 +418,22 @@ export const articleImages: Record<string, string | null> = {
   // Atto pubblico di patto di famiglia con perizia di valutazione allegata
   "patto-di-famiglia-impresa-edile-2": null,
 
+  // trasformazione-ditta-individuale-srl
+  // Copertina — Titolare di impresa edile individuale in cantiere con il proprio mezzo
+  "trasformazione-ditta-individuale-srl-cover": null,
+  // Titolare di impresa edile individuale in cantiere con il proprio mezzo
+  "trasformazione-ditta-individuale-srl-1": null,
+  // Perizia di stima dell'azienda con inventario dei mezzi e prospetto delle commesse
+  "trasformazione-ditta-individuale-srl-2": null,
+
+  // affitto-azienda-edile
+  // Copertina — Padre e figlio davanti alla sede di un'impresa edile
+  "affitto-azienda-edile-cover": null,
+  // Padre e figlio davanti alla sede di un'impresa edile
+  "affitto-azienda-edile-1": null,
+  // Contratto di affitto d'azienda con inventario dei beni e perizia sul canone
+  "affitto-azienda-edile-2": null,
+
   // cessione-azienda-impresa-edile
   // Copertina — Documenti societari e attestazione SOA su una scrivania durante una trattativa
   "cessione-azienda-impresa-edile-cover": null,
@@ -369,6 +441,14 @@ export const articleImages: Record<string, string | null> = {
   "cessione-azienda-impresa-edile-1": null,
   // Contratto di cessione con clausole di garanzia e indennizzo evidenziate
   "cessione-azienda-impresa-edile-2": null,
+
+  // liquidazione-societa-edile
+  // Copertina — Cantiere fermo con opere incomplete e attrezzature ancora in posto
+  "liquidazione-societa-edile-cover": null,
+  // Cantiere fermo con opere incomplete e attrezzature ancora in posto
+  "liquidazione-societa-edile-1": null,
+  // Bilancio finale di liquidazione con piano di riparto e accantonamenti
+  "liquidazione-societa-edile-2": null,
 };
 
 export const getArticleImage = (slot: string): string | null => articleImages[slot] ?? null;

@@ -46,6 +46,22 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Split Payment e Appalti Pubblici in Edilizia",
     "metaDescription": "IVA versata dall'ente, crediti IVA strutturali, fatturazione elettronica con CIG e CUP e tempi di incasso nella commessa pubblica."
   },
+  "forfettario-artigiano-edile": {
+    "seoTitle": "Forfettario per l'Artigiano Edile: Conviene Davvero?",
+    "metaDescription": "Coefficiente all'86%, IVA sugli acquisti indetraibile e il nodo del reverse charge: quando il forfettario funziona in edilizia e quando no."
+  },
+  "iva-per-cassa-e-acconti": {
+    "seoTitle": "IVA per Cassa e Acconti: Quando Serve in Edilizia",
+    "metaDescription": "Il regime dell'IVA per cassa, le esclusioni che in edilizia lo svuotano, e il trattamento di acconti e caparre nell'appalto."
+  },
+  "beni-strumentali-credito-imposta": {
+    "seoTitle": "Crediti d'Imposta sui Beni Strumentali in Edilizia",
+    "metaDescription": "Riferimento in fattura, perizia sopra soglia, interconnessione documentata e periodo di sorveglianza: gli adempimenti che reggono il beneficio."
+  },
+  "cantieri-all-estero-stabile-organizzazione": {
+    "seoTitle": "Cantieri all'Estero: Quando Scatta la Stabile Organizzazione",
+    "metaDescription": "La soglia temporale delle convenzioni, gli obblighi di tassazione locale, l'IVA sulle prestazioni immobiliari e il distacco del personale."
+  },
   "bonus-edilizi-come-si-fatturano": {
     "seoTitle": "Bonus Edilizi: Cosa Resta e Come si Fatturano",
     "metaDescription": "Bonifico parlante e ritenuta dell'8%, congruità dei prezzi e fascicolo di commessa: cosa serve perché il committente possa portare la detrazione."
@@ -77,6 +93,18 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
   "assetti-adeguati-impresa-edile": {
     "seoTitle": "Assetti Adeguati e Crisi nell'Impresa Edile",
     "metaDescription": "Cosa impone l'art. 2086 c.c. a chi lavora per commessa, quali strumenti dimostrano l'adeguatezza e come funziona la composizione negoziata."
+  },
+  "leasing-o-acquisto-mezzi-opera": {
+    "seoTitle": "Leasing, Acquisto o Noleggio dei Mezzi d'Opera",
+    "metaDescription": "Tre strade a confronto su deduzione, cassa, bilancio e requisiti SOA: come si decide guardando il costo orario del mezzo e non la rata."
+  },
+  "rating-bancario-centrale-rischi-edilizia": {
+    "seoTitle": "Rating Bancario e Centrale Rischi per l'Impresa Edile",
+    "metaDescription": "Come la banca legge un bilancio edile, cosa pesa davvero nell'andamentale e quali interventi migliorano la valutazione in pochi mesi."
+  },
+  "composizione-negoziata-impresa-edile": {
+    "seoTitle": "Composizione Negoziata per l'Impresa Edile",
+    "metaDescription": "Il percorso riservato con l'esperto indipendente, le misure protettive e la specificità del settore: senza DURC non si incassa e non si risana."
   },
   "durc-irregolare-impresa-edile": {
     "seoTitle": "DURC Irregolare: Cosa Blocca e Come si Sblocca",
@@ -186,9 +214,21 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Patto di Famiglia e Trust per l'Impresa Edile",
     "metaDescription": "Come mettere al riparo il trasferimento dell'impresa dalle azioni dei legittimari: patto di famiglia, trust e vincoli di destinazione a confronto."
   },
+  "trasformazione-ditta-individuale-srl": {
+    "seoTitle": "Da Ditta Individuale a S.r.l.: Conferimento e Tempi",
+    "metaDescription": "Il conferimento d'azienda in neutralità fiscale, la perizia di stima e cosa segue l'azienda: debiti, dipendenti, contratti e qualificazioni."
+  },
+  "affitto-azienda-edile": {
+    "seoTitle": "Affitto d'Azienda in Edilizia: Quando e Come",
+    "metaDescription": "Passaggio graduale, prova prima della vendita o risanamento: come funziona l'affitto d'azienda, con le verifiche su qualificazioni e debiti."
+  },
   "cessione-azienda-impresa-edile": {
     "seoTitle": "Vendere l'Impresa Edile: Azienda o Quote?",
     "metaDescription": "Carichi fiscali a confronto, responsabilità per i debiti, sorte dell'attestazione SOA e come si prepara una società di costruzioni alla vendita."
+  },
+  "liquidazione-societa-edile": {
+    "seoTitle": "Liquidare una Società Edile: Cosa Sopravvive",
+    "metaDescription": "Commesse in corso, garanzie rilasciate e responsabilità per vizi: cosa continua a esistere dopo la cancellazione e chi ne risponde."
   }
 };
 

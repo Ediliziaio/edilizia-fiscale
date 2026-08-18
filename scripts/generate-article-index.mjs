@@ -23,6 +23,10 @@ const ORDER = [
   "costo-del-lavoro-impresa-edile",
   "costi-deducibili-impresa-edile",
   "split-payment-e-fatturazione-pa",
+  "forfettario-artigiano-edile",
+  "iva-per-cassa-e-acconti",
+  "beni-strumentali-credito-imposta",
+  "cantieri-all-estero-stabile-organizzazione",
   "bonus-edilizi-come-si-fatturano",
   "fiscalita-fotovoltaico-impianti",
   // Numeri e controllo di gestione
@@ -32,6 +36,9 @@ const ORDER = [
   "flussi-di-cassa-impresa-edile",
   "cfo-esterno-impresa-edile",
   "assetti-adeguati-impresa-edile",
+  "leasing-o-acquisto-mezzi-opera",
+  "rating-bancario-centrale-rischi-edilizia",
+  "composizione-negoziata-impresa-edile",
   // Lavoro, contributi e qualificazione
   "durc-irregolare-impresa-edile",
   "cassa-edile-come-funziona",
@@ -62,7 +69,10 @@ const ORDER = [
   "vendita-su-carta-acconti-garanzie",
   "passaggio-generazionale-impresa-edile",
   "patto-di-famiglia-impresa-edile",
+  "trasformazione-ditta-individuale-srl",
+  "affitto-azienda-edile",
   "cessione-azienda-impresa-edile",
+  "liquidazione-societa-edile",
 ];
 
 const files = readdirSync(dir).filter((f) => f.endsWith(".ts"));

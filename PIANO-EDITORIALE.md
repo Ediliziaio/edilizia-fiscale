@@ -1,7 +1,7 @@
 # Piano editoriale — argomenti mancanti
 
-> **Stato:** pubblicati i blocchi 1, 2, 3 e 4 ad agosto 2026 (16 guide, sito da 30 a 46).
-> Restano i blocchi 5-7, 11 guide.
+> **Stato: piano completato ad agosto 2026.** Tutti e sette i blocchi sono pubblicati:
+> 26 guide nuove, sito da 30 a 56 guide e da 62 a 88 pagine prerenderizzate.
 
 Analisi dei buchi di copertura sulle 30 guide pubblicate.
 Aggiornato ad agosto 2026.
@@ -74,30 +74,30 @@ Il cluster è ora composto da quattro guide, contando quella sulla tassazione de
 | ✅ `vendita-su-carta-acconti-garanzie` | Preliminari, acconti, fideiussione obbligatoria (D.lgs. 122/2005), IVA sugli acconti. |
 | ✅ `operazione-immobiliare-dal-terreno-alla-vendita` | Guida pilastro del cluster: acquisto area, costi capitalizzabili, rimanenze, vendita. |
 
-## Blocco 5 — Approfondimenti di cose già citate
+## Blocco 5 — Approfondimenti di cose già citate ✅ FATTO
 
 | Slug proposto | Perché |
 |---|---|
-| `leasing-o-acquisto-mezzi-opera` | Decisione ricorrente su escavatori, gru, autocarri. Confronto fiscale e finanziario. Oggi mai trattata. |
-| `rating-bancario-centrale-rischi-edilizia` | Citato due volte. Come la banca legge un bilancio edile e cosa si può migliorare. |
-| `composizione-negoziata-impresa-edile` | Citata due volte. Con la specificità del settore: continuità dei cantieri e DURC come condizione del risanamento. |
+| ✅ `leasing-o-acquisto-mezzi-opera` | Decisione ricorrente su escavatori, gru, autocarri. Confronto fiscale e finanziario. Oggi mai trattata. |
+| ✅ `rating-bancario-centrale-rischi-edilizia` | Citato due volte. Come la banca legge un bilancio edile e cosa si può migliorare. |
+| ✅ `composizione-negoziata-impresa-edile` | Citata due volte. Con la specificità del settore: continuità dei cantieri e DURC come condizione del risanamento. |
 
-## Blocco 6 — Forme, regimi e uscita
-
-| Slug proposto | Perché |
-|---|---|
-| `forfettario-artigiano-edile` | Impiantisti e piccoli artigiani: limiti, reverse charge nel forfettario, quando conviene uscirne. |
-| `trasformazione-ditta-individuale-srl` | Ha già una FAQ. Conferimento d'azienda, neutralità, tempi. |
-| `affitto-azienda-edile` | Alternativa alla cessione, usata nei passaggi generazionali e nelle crisi. |
-| `liquidazione-societa-edile` | Chiusura ordinata: commesse in corso, garanzie che sopravvivono, fiscalità della liquidazione. |
-
-## Blocco 7 — Fiscalità operativa da completare
+## Blocco 6 — Forme, regimi e uscita ✅ FATTO
 
 | Slug proposto | Perché |
 |---|---|
-| `iva-per-cassa-e-acconti` | Regime dell'IVA per cassa e trattamento di acconti e caparre: rilevante con committenti lenti. |
-| `beni-strumentali-credito-imposta` | Investimenti in macchinari e attrezzature di cantiere. **Normativa mobile: verificare le misure vigenti prima di scrivere.** |
-| `cantieri-all-estero-stabile-organizzazione` | Imprese che lavorano fuori Italia: soglia di stabile organizzazione, distacco del personale, IVA. |
+| ✅ `forfettario-artigiano-edile` | Impiantisti e piccoli artigiani: limiti, reverse charge nel forfettario, quando conviene uscirne. |
+| ✅ `trasformazione-ditta-individuale-srl` | Ha già una FAQ. Conferimento d'azienda, neutralità, tempi. |
+| ✅ `affitto-azienda-edile` | Alternativa alla cessione, usata nei passaggi generazionali e nelle crisi. |
+| ✅ `liquidazione-societa-edile` | Chiusura ordinata: commesse in corso, garanzie che sopravvivono, fiscalità della liquidazione. |
+
+## Blocco 7 — Fiscalità operativa da completare ✅ FATTO
+
+| Slug proposto | Perché |
+|---|---|
+| ✅ `iva-per-cassa-e-acconti` | Scritta con la conclusione opposta a quella attesa: in edilizia il regime rende poco, perché reverse charge e split payment ne sono esclusi. |
+| ✅ `beni-strumentali-credito-imposta` | Scritta senza percentuali, per scelta: la disciplina cambia ogni anno. Sta sugli adempimenti che restano e che fanno perdere il beneficio. |
+| ✅ `cantieri-all-estero-stabile-organizzazione` | Imprese che lavorano fuori Italia: soglia di stabile organizzazione, distacco del personale, IVA. |
 
 ---
 
@@ -121,8 +121,9 @@ La prima è più coerente con l'impianto del sito, che è costruito sui silo.
 2. ~~**Blocco 2** (4 guide) — il cluster lavoro regge il posizionamento sul costo orario.~~ ✅
 3. ~~**Blocco 3** (3 guide) — apre il segmento appalti pubblici, dichiarato e non servito.~~ ✅
 4. ~~**Blocco 4** (3 guide) — apre il segmento immobiliare di sviluppo.~~ ✅
-5. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
+5. ~~**Blocchi 5-7** (10 guide) — completamento.~~ ✅
 
-Totale proposto: **27 guide**. Con i blocchi da 1 a 4 pubblicati il sito è a 46; ne restano 11.
-Con il blocco 1 il sito ha smesso di promettere cose che non mantiene; con il blocco 2 il
-posizionamento sul costo del lavoro è coperto per intero.
+Totale realizzato: **26 guide**. Il sito è passato da 30 a 56 guide.
+Il piano è chiuso. I prossimi contenuti non nascono più da buchi di copertura ma da
+manutenzione: aggiornare i punti segnati `[DA VERIFICARE]` nel README quando la
+normativa si muove, e aggiungere guide su temi che emergeranno dal lavoro con i clienti.
