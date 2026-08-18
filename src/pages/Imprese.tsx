@@ -157,26 +157,27 @@ const Imprese = () => {
                       Ristrutturazioni · Infissi e serramenti · Impianti · Fotovoltaico · Movimento terra ·
                       Nuove costruzioni · Consorzi e ATI · Appalti pubblici
                     </span>
-                    <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15]">
-                      Hai un'impresa edile e vuoi pagare meno tasse.
+                    <span className="block text-[1.65rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15]">
+                      Quale cantiere guadagna. Quanto pagherai di tasse. Quanta cassa avrai.
                     </span>
-                    <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] text-brand mt-2">
-                      A giugno è già tardi per deciderlo.
+                    <span className="block text-[1.65rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] text-brand mt-3">
+                      Tre numeri che hai ogni mese, non a bilancio chiuso.
                     </span>
                   </h1>
 
                   <p className="text-lg text-white/80 mb-5 leading-relaxed">
-                    Le tasse che versi a giugno le hai decise mesi prima. Quando hai fatturato quel SAL invece
-                    di quell'altro. Quando nessuno ha valutato i lavori in corso. Quando il capannone è rimasto
-                    dentro la società che apre i cantieri.
+                    Il tuo commercialista chiude il bilancio, e fa il suo lavoro. Ma il margine di un cantiere
+                    si legge mentre è aperto. L'IVA si decide nel computo metrico. Le tasse si pianificano a
+                    settembre.
                   </p>
                   <p className="text-lg text-white/80 mb-8 leading-relaxed">
                     A giugno non si decide più niente. Si versa.
                   </p>
 
                   <p className="text-base text-white/75 mb-8 leading-relaxed border-l-2 border-brand/50 pl-4">
-                    Noi quelle scelte le guardiamo a settembre, con i cantieri ancora aperti e i numeri ancora
-                    modificabili. <strong className="text-white">Solo per imprese edili, e non facciamo altro.</strong>
+                    Contabilità, controllo di gestione e fisco solo per imprese edili. E la stessa mano che
+                    guarda i cantieri guarda anche{" "}
+                    <Link to="/patrimonio" className="text-brand hover:underline">il patrimonio dei soci</Link>.
                   </p>
 
                   <Button
@@ -197,7 +198,7 @@ const Imprese = () => {
               {/* Fascia 2: i quattro problemi, a tutta larghezza */}
               <div className="mt-14 lg:mt-16 pt-10 border-t border-white/10">
                 <p className="text-brand uppercase tracking-widest text-sm font-semibold mb-7">
-                  Oppure sei qui per uno di questi quattro
+                  In pratica, suona così
                 </p>
                 <ol className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
                   {PROBLEMI.map((p, i) => (
