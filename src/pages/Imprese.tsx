@@ -165,13 +165,14 @@ const Imprese = () => {
                     </span>
                   </h1>
 
+                  {/* Il sottotitolo tiene lo stesso ordine dell'H1 — margine, tasse, cassa —
+                      e a ciascuno associa il mese in cui la decisione è ancora possibile. */}
                   <p className="text-lg text-white/80 mb-5 leading-relaxed">
-                    Il tuo commercialista chiude il bilancio, e fa il suo lavoro. Ma il margine di un cantiere
-                    si legge mentre è aperto. L'IVA si decide nel computo metrico. Le tasse si pianificano a
-                    settembre.
+                    Il margine di un cantiere si legge mentre è aperto. Le tasse di giugno si decidono a
+                    settembre. La cassa di marzo si vede a dicembre.
                   </p>
-                  <p className="text-lg text-white/80 mb-8 leading-relaxed">
-                    A giugno non si decide più niente. Si versa.
+                  <p className="text-xl md:text-2xl font-semibold text-white mb-8 leading-snug">
+                    Quando i numeri arrivano dopo, non sono più numeri. Sono un consuntivo.
                   </p>
 
                   <p className="text-base text-white/75 mb-8 leading-relaxed border-l-2 border-brand/50 pl-4">
