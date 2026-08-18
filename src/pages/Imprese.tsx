@@ -17,48 +17,31 @@ import ArticleCover from "@/components/ArticleCover";
 import { articlesMeta } from "@/data/articlesMeta";
 import { SITE_URL } from "@/data/site";
 
-const SEGMENTI = [
-  "Imprese generali di costruzione",
-  "Impiantisti e serramentisti",
-  "Movimento terra e strutture",
-  "Costruttori-venditori e sviluppo",
-  "Consorzi, ATI e gruppi",
-  "Imprese che lavorano con la PA",
-];
 
 /**
- * Autodiagnosi: sono i sintomi con cui l'imprenditore edile arriva da noi,
- * scritti come li racconta lui. Ognuno rimanda alla guida che lo affronta.
+ * I quattro problemi con cui l'imprenditore edile arriva davvero da noi.
+ * Stanno nell'hero, subito sotto l'H1: servono a far dire "questo sono io"
+ * prima di qualunque descrizione di servizio. Ognuno linka alla sua guida.
  */
-const SINTOMI: { title: string; desc: string; guida: string }[] = [
+const PROBLEMI: { title: string; desc: string; guida: string }[] = [
   {
-    title: "Il margine lo scopri a giugno",
-    desc: "Il bilancio arriva quando i cantieri che l'hanno generato sono chiusi da mesi. Sai di aver guadagnato meno, non sai dove.",
+    title: "Non sai quale cantiere sta guadagnando",
+    desc: "Il margine lo vedi a bilancio chiuso, quando quei cantieri sono finiti da mesi e non puoi più farci niente.",
     guida: "controllo-di-gestione-impresa-edile",
   },
   {
-    title: "Fatturi di più e hai meno cassa",
-    desc: "Ogni cantiere nuovo assorbe materiali, manodopera e noli prima di produrre un incasso. Il portafoglio ordini cresce, il conto peggiora.",
-    guida: "flussi-di-cassa-impresa-edile",
-  },
-  {
-    title: "L'IVA la decidi in fatturazione",
-    desc: "Reverse charge e aliquote agevolate scelti a lavoro finito. La qualificazione andava fatta nel computo metrico, mesi prima.",
+    title: "Reverse charge e IVA li applichi come si è sempre fatto",
+    desc: "Due lettere diverse dell'art. 17, aliquote al 4, 10 o 22%, beni significativi: l'errore non è isolato, si ripete su ogni cantiere.",
     guida: "reverse-charge-edilizia",
   },
   {
-    title: "Il costo orario è quello di tre anni fa",
-    desc: "I preventivi girano su un numero che non comprende contributi, Cassa Edile, ore non produttive e fermi di cantiere.",
-    guida: "costo-del-lavoro-impresa-edile",
+    title: "Fatturi più dell'anno scorso e il conto è più teso",
+    desc: "Ogni cantiere nuovo assorbe materiali, manodopera e noli prima di produrre il primo incasso. Il portafoglio ordini cresce, la cassa peggiora.",
+    guida: "flussi-di-cassa-impresa-edile",
   },
   {
-    title: "Le varianti si fanno e poi si vedrà",
-    desc: "Lavorazioni eseguite su richiesta verbale del direttore dei lavori: costi certi, ricavi da negoziare a fine opera.",
-    guida: "margine-di-commessa-edilizia",
-  },
-  {
-    title: "Il capannone è nella società dei cantieri",
-    desc: "L'immobile che hai impiegato vent'anni a costruire risponde di ogni infortunio, vizio dell'opera e solidarietà negli appalti.",
+    title: "Il capannone è dentro la società che apre i cantieri",
+    desc: "L'immobile che ti è costato vent'anni risponde di infortuni, vizi dell'opera e solidarietà con i subappaltatori.",
     guida: "protezione-patrimoniale-imprenditore-edile",
   },
 ];
@@ -159,95 +142,84 @@ const Imprese = () => {
           <section className="relative bg-ink text-white overflow-hidden border-b border-white/10">
             <EFHeroBackdrop />
             <div className="container mx-auto px-4 py-14 lg:py-20 relative">
-              <div className="grid lg:grid-cols-[1.2fr_1fr] gap-10 items-center">
-              <div className="max-w-3xl">
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur rounded-full text-xs font-semibold mb-6 uppercase tracking-wider border border-white/15">
-                  <Building2 className="w-4 h-4 text-brand" />
-                  Area impresa
-                </div>
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
-                  Il bilancio te lo chiude chiunque.
-                  <span className="block text-brand mt-2">Dirti quale cantiere perde, no.</span>
-                </h1>
-                <p className="text-lg text-white/80 mb-5 leading-relaxed">
-                  La contabilità la tiene qualsiasi studio. Il punto è che hai nove cantieri aperti e il margine
-                  di ognuno lo vedi a bilancio chiuso, che il reverse charge va per abitudine da due anni, e che
-                  se arriva una verifica la risposta sta nel fascicolo di commessa — quello che nessuno ha
-                  costruito mentre si lavorava.
-                </p>
-                <p className="text-lg text-white/80 mb-7 leading-relaxed">
-                  Le dieci aree qui sotto sono ordinate per urgenza: prima quello che ti sta costando adesso.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-8">
-                  {SEGMENTI.map((seg) => (
-                    <span
-                      key={seg}
-                      className="text-xs font-medium text-white/75 bg-white/[0.07] border border-white/15 rounded-full px-3 py-1.5"
-                    >
-                      {seg}
+              {/* Fascia 1: identificazione e chiamata all'azione */}
+              <div className="grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-14 items-start">
+                <div>
+                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur rounded-full text-xs font-semibold mb-6 uppercase tracking-wider border border-white/15">
+                    <Building2 className="w-4 h-4 text-brand" />
+                    Area impresa
+                  </div>
+
+                  {/* Le lavorazioni restano dentro l'H1 (contano per la ricerca) ma come
+                      occhiello: a dimensione piena occupavano sette righe su mobile. */}
+                  <h1 className="mb-6">
+                    <span className="block text-sm md:text-base font-semibold text-white/60 tracking-wide mb-3">
+                      Ristrutturazioni · Infissi e serramenti · Impianti · Fotovoltaico · Movimento terra ·
+                      Nuove costruzioni · Consorzi e ATI · Appalti pubblici
                     </span>
-                  ))}
-                </div>
-                <Button
-                  onClick={openContact}
-                  size="lg"
-                  className="bg-brand hover:bg-brand-dark text-ink font-semibold text-base h-12 px-6"
-                >
-                  Mandaci i tuoi numeri <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </div>
-              <EFImageSlot id="imprese-hero" tone="dark" className="hidden lg:flex rounded-2xl aspect-[4/3]" />
-              </div>
-            </div>
-          </section>
+                    <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15]">
+                      Hai un'impresa edile.
+                    </span>
+                    <span className="block text-[1.75rem] sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] text-brand mt-2">
+                      E un commercialista che non conosce il settore.
+                    </span>
+                  </h1>
 
-
-          {/* Autodiagnosi */}
-          <section className="py-16 lg:py-20 bg-white">
-            <div className="container mx-auto px-4">
-              <Reveal>
-                <div className="max-w-3xl mb-10">
-                  <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">
-                    Riconosci qualcuna di queste?
+                  <p className="text-lg text-white/80 mb-6 leading-relaxed">
+                    Non è un problema di bravura: è che l'edilizia ha regole che nessun altro settore ha.
+                    Se ti riconosci in tre delle quattro righe qui sotto, il punto è quello.
                   </p>
-                  <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
-                    Se tre di queste sei frasi le hai già dette, non è colpa del commercialista.
-                  </h2>
-                  <p className="text-foreground/70 text-lg leading-relaxed">
-                    È che sono problemi di un settore che lavora per commessa, e uno studio generalista non ha
-                    ragione di conoscerli. Ogni voce rimanda alla guida che la affronta per esteso.
-                  </p>
-                </div>
-              </Reveal>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {SINTOMI.map((s, i) => (
-                  <Reveal key={s.title} delay={(i % 3) * 80}>
-                    <Link
-                      to={`/guide/${s.guida}`}
-                      className="group block h-full bg-muted/40 hover:bg-white rounded-2xl p-6 border border-border hover:border-brand hover:shadow-card transition-all"
+                  <p className="text-base text-white/75 mb-8 leading-relaxed border-l-2 border-brand/50 pl-4">
+                    Commesse pluriennali, reverse charge, congruità della manodopera, lavori in corso su
+                    ordinazione: chi non le pratica ogni giorno non può vederle.{" "}
+                    <strong className="text-white">Noi non facciamo altro.</strong>
+                  </p>
+
+                  <Button
+                    onClick={openContact}
+                    size="lg"
+                    className="bg-brand hover:bg-brand-dark text-ink font-semibold text-base h-12 px-6"
+                  >
+                    Mandaci i tuoi numeri <ArrowRight className="ml-2 w-5 h-5" />
+                  </Button>
+                </div>
+
+                <EFImageSlot id="imprese-hero" tone="dark" className="hidden lg:flex rounded-2xl aspect-[4/3]" />
+              </div>
+
+              {/* Fascia 2: i quattro problemi, a tutta larghezza */}
+              <div className="mt-14 lg:mt-16 pt-10 border-t border-white/10">
+                <p className="text-brand uppercase tracking-widest text-sm font-semibold mb-7">
+                  I quattro che sentiamo più spesso
+                </p>
+                <ol className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
+                  {PROBLEMI.map((p, i) => (
+                    <li
+                      key={p.title}
+                      className="bg-white/[0.04] border border-white/10 rounded-2xl p-6 flex flex-col h-full"
                     >
-                      <div className="flex items-start gap-3 mb-3">
-                        <span className="w-7 h-7 rounded-lg bg-brand/15 text-brand-dark font-bold text-sm flex items-center justify-center shrink-0 mt-0.5">
-                          {i + 1}
-                        </span>
-                        <h3 className="font-bold text-ink leading-snug group-hover:text-brand-dark">
-                          «{s.title}»
-                        </h3>
-                      </div>
-                      <p className="text-sm text-foreground/70 leading-relaxed">{s.desc}</p>
-                      <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark group-hover:gap-2.5 transition-all">
-                        La guida <ArrowRight className="w-4 h-4" />
+                      <span className="w-9 h-9 rounded-lg bg-brand/15 border border-brand/30 text-brand font-bold flex items-center justify-center mb-4">
+                        {i + 1}
                       </span>
-                    </Link>
-                  </Reveal>
-                ))}
+                      <p className="font-bold text-white leading-snug mb-2">{p.title}</p>
+                      <p className="text-sm text-white/65 leading-relaxed flex-1">{p.desc}</p>
+                      <Link
+                        to={`/guide/${p.guida}`}
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:gap-2.5 transition-all mt-4"
+                      >
+                        La guida <ArrowRight className="w-4 h-4" />
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
               </div>
             </div>
           </section>
+
 
           {/* Le 10 aree */}
-          <section className="py-16 lg:py-20 bg-muted/40">
+          <section className="py-16 lg:py-20 bg-white">
             <div className="container mx-auto px-4">
               <Reveal>
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-8 leading-tight">
