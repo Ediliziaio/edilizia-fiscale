@@ -45,12 +45,12 @@ const Contatti = () => {
         <EFHeader onOpenContact={() => setIsContactOpen(true)} />
 
         <main className="flex-1">
-          <section className="relative bg-navy text-white overflow-hidden border-b border-white/10">
+          <section className="relative bg-ink text-white overflow-hidden border-b border-white/10">
             <EFHeroBackdrop />
             <div className="container mx-auto px-4 py-14 lg:py-16 relative">
               <div className="max-w-3xl">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-5 leading-[1.1]">
-                  Parliamo dei tuoi numeri. <span className="text-gold">Con i bilanci davanti.</span>
+                  Parliamo dei tuoi numeri. <span className="text-brand">Con i bilanci davanti.</span>
                 </h1>
                 <p className="text-lg text-white/80 leading-relaxed">
                   Entro 2 giorni lavorativi dalla richiesta ricevi una prima lettura riservata: dove si sta perdendo
@@ -65,7 +65,7 @@ const Contatti = () => {
               <div className="grid lg:grid-cols-[1fr_380px] gap-8 max-w-5xl mx-auto items-start">
                 <Reveal>
                   <div className="bg-white rounded-2xl border border-border p-7 lg:p-9">
-                    <h2 className="text-2xl font-bold text-navy mb-3">Scrivici</h2>
+                    <h2 className="text-2xl font-bold text-ink mb-3">Scrivici</h2>
                     <p className="text-foreground/70 leading-relaxed mb-6">
                       Il modo più rapido è il modulo: ci arriva già organizzato per tipo di attività e tipo di
                       esigenza, e ci permette di risponderti con qualcosa di utile, non con un "ci sentiamo".
@@ -73,44 +73,44 @@ const Contatti = () => {
                     <Button
                       onClick={() => setIsContactOpen(true)}
                       size="lg"
-                      className="bg-gold hover:bg-gold-dark text-navy font-semibold h-12 px-6 mb-8"
+                      className="bg-brand hover:bg-brand-dark text-ink font-semibold h-12 px-6 mb-8"
                     >
                       Apri il modulo di contatto <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
 
                     <div className="space-y-4 border-t border-border pt-6">
-                      <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-3 text-foreground/80 hover:text-navy">
-                        <span className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-                          <Phone className="w-4 h-4 text-navy" />
+                      <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-3 text-foreground/80 hover:text-ink">
+                        <span className="w-10 h-10 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+                          <Phone className="w-4 h-4 text-ink" />
                         </span>
-                        <span><strong className="text-navy">{PHONE_DISPLAY}</strong><br /><span className="text-sm text-foreground/60">lun-ven, 9:00-18:30</span></span>
+                        <span><strong className="text-ink">{PHONE_DISPLAY}</strong><br /><span className="text-sm text-foreground/60">lun-ven, 9:00-18:30</span></span>
                       </a>
-                      <a href={`mailto:${EMAIL}`} className="flex items-center gap-3 text-foreground/80 hover:text-navy">
-                        <span className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-                          <Mail className="w-4 h-4 text-navy" />
+                      <a href={`mailto:${EMAIL}`} className="flex items-center gap-3 text-foreground/80 hover:text-ink">
+                        <span className="w-10 h-10 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+                          <Mail className="w-4 h-4 text-ink" />
                         </span>
-                        <span><strong className="text-navy">{EMAIL}</strong><br /><span className="text-sm text-foreground/60">per richieste e documenti</span></span>
+                        <span><strong className="text-ink">{EMAIL}</strong><br /><span className="text-sm text-foreground/60">per richieste e documenti</span></span>
                       </a>
                       <div className="flex items-center gap-3 text-foreground/80">
-                        <span className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-                          <Shield className="w-4 h-4 text-navy" />
+                        <span className="w-10 h-10 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+                          <Shield className="w-4 h-4 text-ink" />
                         </span>
-                        <span><strong className="text-navy">{PEC}</strong><br /><span className="text-sm text-foreground/60">PEC per comunicazioni formali</span></span>
+                        <span><strong className="text-ink">{PEC}</strong><br /><span className="text-sm text-foreground/60">PEC per comunicazioni formali</span></span>
                       </div>
                       <div className="flex items-center gap-3 text-foreground/80">
-                        <span className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-                          <Clock className="w-4 h-4 text-navy" />
+                        <span className="w-10 h-10 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+                          <Clock className="w-4 h-4 text-ink" />
                         </span>
-                        <span><strong className="text-navy">In tutta Italia</strong><br /><span className="text-sm text-foreground/60">colloqui in studio o da remoto</span></span>
+                        <span><strong className="text-ink">In tutta Italia</strong><br /><span className="text-sm text-foreground/60">colloqui in studio o da remoto</span></span>
                       </div>
                     </div>
                   </div>
                 </Reveal>
 
                 <Reveal delay={120}>
-                  <div className="bg-navy text-white rounded-2xl p-7">
+                  <div className="bg-ink text-white rounded-2xl p-7">
                     <div className="flex items-center gap-2 mb-4">
-                      <FileText className="w-5 h-5 text-gold" />
+                      <FileText className="w-5 h-5 text-brand" />
                       <h2 className="text-lg font-bold">Cosa preparare</h2>
                     </div>
                     <p className="text-white/75 text-sm leading-relaxed mb-5">
@@ -119,7 +119,7 @@ const Contatti = () => {
                     <ul className="space-y-2.5">
                       {docs.map((d) => (
                         <li key={d} className="flex items-start gap-2.5 text-sm text-white/85">
-                          <span className="text-gold mt-1 text-xs">●</span>
+                          <span className="text-brand mt-1 text-xs">●</span>
                           {d}
                         </li>
                       ))}

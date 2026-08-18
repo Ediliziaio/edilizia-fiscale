@@ -42,13 +42,13 @@ const renderBlock = (block: Block, i: number) => {
   switch (block.type) {
     case "h2":
       return (
-        <h2 key={i} id={block.id} className="text-2xl md:text-3xl font-bold text-navy mt-12 mb-5 leading-tight scroll-mt-24">
+        <h2 key={i} id={block.id} className="text-2xl md:text-3xl font-bold text-ink mt-12 mb-5 leading-tight scroll-mt-24">
           {block.text}
         </h2>
       );
     case "h3":
       return (
-        <h3 key={i} className="text-xl font-bold text-navy mt-8 mb-3 leading-tight">
+        <h3 key={i} className="text-xl font-bold text-ink mt-8 mb-3 leading-tight">
           {block.text}
         </h3>
       );
@@ -63,7 +63,7 @@ const renderBlock = (block: Block, i: number) => {
         <ul key={i} className="mb-6 space-y-2.5">
           {block.items.map((it, j) => (
             <li key={j} className="flex items-start gap-3 text-foreground/80 text-lg">
-              <span className="text-gold-dark mt-2 text-xs">●</span>
+              <span className="text-brand-dark mt-2 text-xs">●</span>
               <span>{it}</span>
             </li>
           ))}
@@ -71,7 +71,7 @@ const renderBlock = (block: Block, i: number) => {
       );
     case "ol":
       return (
-        <ol key={i} className="mb-6 space-y-2.5 list-decimal pl-6 marker:text-gold-dark marker:font-bold">
+        <ol key={i} className="mb-6 space-y-2.5 list-decimal pl-6 marker:text-brand-dark marker:font-bold">
           {block.items.map((it, j) => (
             <li key={j} className="text-foreground/80 text-lg pl-2 leading-relaxed">
               {it}
@@ -81,23 +81,23 @@ const renderBlock = (block: Block, i: number) => {
       );
     case "quote":
       return (
-        <blockquote key={i} className="border-l-4 border-gold pl-5 my-7 italic text-foreground/80">
+        <blockquote key={i} className="border-l-4 border-brand pl-5 my-7 italic text-foreground/80">
           <p className="text-lg leading-relaxed">"{block.text}"</p>
           {block.cite && <cite className="text-sm text-foreground/60 not-italic block mt-2">— {block.cite}</cite>}
         </blockquote>
       );
     case "note":
       return (
-        <div key={i} className="bg-gold/10 border-l-4 border-gold rounded-r-xl p-5 my-7 flex items-start gap-3">
-          <Info className="w-5 h-5 text-gold-dark mt-0.5 shrink-0" />
-          <p className="text-navy leading-relaxed">{block.text}</p>
+        <div key={i} className="bg-brand/10 border-l-4 border-brand rounded-r-xl p-5 my-7 flex items-start gap-3">
+          <Info className="w-5 h-5 text-brand-dark mt-0.5 shrink-0" />
+          <p className="text-ink leading-relaxed">{block.text}</p>
         </div>
       );
     case "table":
       return (
         <div key={i} className="my-7 overflow-x-auto rounded-xl border border-border">
           <table className="w-full text-left">
-            <thead className="bg-navy text-white">
+            <thead className="bg-ink text-white">
               <tr>
                 {block.headers.map((h, j) => (
                   <th key={j} className="px-4 py-3 text-sm font-semibold">{h}</th>
@@ -125,7 +125,7 @@ const renderBlock = (block: Block, i: number) => {
               value={`faq-${i}-${j}`}
               className="bg-muted/40 rounded-xl border border-border px-5"
             >
-              <AccordionTrigger className="text-left font-semibold text-navy hover:text-gold-dark py-4 text-base">
+              <AccordionTrigger className="text-left font-semibold text-ink hover:text-brand-dark py-4 text-base">
                 {f.q}
               </AccordionTrigger>
               <AccordionContent className="text-foreground/75 leading-relaxed pb-4 text-base">
@@ -214,7 +214,7 @@ const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
       "url": "https://www.ediliziafiscale.it",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.ediliziafiscale.it/favicon.svg",
+        "url": "https://www.ediliziafiscale.it/favicon-512.png",
       },
     },
     "datePublished": toISODate(article.date) ?? article.date,
@@ -327,10 +327,10 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
   return (
     <aside className="lg:sticky lg:top-24 space-y-5 self-start max-h-[calc(100vh-7rem)] overflow-y-auto pr-1">
       {/* Primary CTA card */}
-      <div className="bg-gradient-to-br from-navy to-navy-light text-white rounded-2xl p-5 lg:p-6 shadow-card relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-24 h-24 rounded-full bg-gold/15 blur-2xl pointer-events-none" aria-hidden="true" />
+      <div className="bg-gradient-to-br from-ink to-ink-light text-white rounded-2xl p-5 lg:p-6 shadow-card relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-24 h-24 rounded-full bg-brand/15 blur-2xl pointer-events-none" aria-hidden="true" />
         <div className="relative">
-          <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-gold/15 text-gold rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 border border-gold/30">
+          <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-brand/15 text-brand rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 border border-brand/30">
             <Sparkles className="w-3 h-3" />
             Analisi del caso
           </div>
@@ -340,11 +340,11 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
           </p>
           <Button
             onClick={onOpenContact}
-            className="w-full bg-gold hover:bg-gold-dark text-navy font-bold mb-2"
+            className="w-full bg-brand hover:bg-brand-dark text-ink font-bold mb-2"
           >
             Richiedi l'analisi <ArrowRight className="ml-2 w-4 h-4" />
           </Button>
-          <a href={`tel:${PHONE_TEL}`} className="flex items-center justify-center gap-1.5 text-xs text-white/70 hover:text-gold mt-2">
+          <a href={`tel:${PHONE_TEL}`} className="flex items-center justify-center gap-1.5 text-xs text-white/70 hover:text-brand mt-2">
             <Phone className="w-3.5 h-3.5" />
             {PHONE_DISPLAY}
           </a>
@@ -353,28 +353,28 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
 
       {/* Author + meta card */}
       <div className="bg-white rounded-2xl p-5 border border-border">
-        <div className="text-[10px] uppercase tracking-wider text-gold-dark font-bold mb-2">Autore</div>
+        <div className="text-[10px] uppercase tracking-wider text-brand-dark font-bold mb-2">Autore</div>
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-navy to-navy-light flex items-center justify-center text-gold font-bold text-sm">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-ink to-ink-light flex items-center justify-center text-brand font-bold text-sm">
             {article.author.split(" ").slice(-2).map((s) => s[0]).join("")}
           </div>
           <div className="min-w-0">
-            <div className="font-bold text-navy text-sm leading-tight">{article.author}</div>
+            <div className="font-bold text-ink text-sm leading-tight">{article.author}</div>
             <div className="text-xs text-foreground/60">Edilizia Fiscale</div>
           </div>
         </div>
         <div className="space-y-1.5 text-xs text-foreground/70 pt-3 border-t border-border">
           <div className="flex items-center gap-2">
-            <Calendar className="w-3.5 h-3.5 text-gold-dark shrink-0" />
+            <Calendar className="w-3.5 h-3.5 text-brand-dark shrink-0" />
             <span>Pubblicato: {article.date}</span>
           </div>
           <div className="flex items-center gap-2">
-            <Clock className="w-3.5 h-3.5 text-gold-dark shrink-0" />
+            <Clock className="w-3.5 h-3.5 text-brand-dark shrink-0" />
             <span>Lettura: {article.readTime}</span>
           </div>
           <div className="flex items-center gap-2">
-            <Tag className="w-3.5 h-3.5 text-gold-dark shrink-0" />
-            <span>Categoria: <strong className="text-navy">{article.category}</strong></span>
+            <Tag className="w-3.5 h-3.5 text-brand-dark shrink-0" />
+            <span>Categoria: <strong className="text-ink">{article.category}</strong></span>
           </div>
         </div>
       </div>
@@ -383,8 +383,8 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
       {headings.length >= 3 && (
         <div className="bg-muted/40 border border-border rounded-2xl p-5">
           <div className="flex items-center gap-2 mb-3">
-            <List className="w-4 h-4 text-gold-dark" />
-            <h3 className="font-bold text-navy text-sm">In questo articolo</h3>
+            <List className="w-4 h-4 text-brand-dark" />
+            <h3 className="font-bold text-ink text-sm">In questo articolo</h3>
           </div>
           <ol className="space-y-1.5 text-sm">
             {headings.map((h, i) => (
@@ -393,11 +393,11 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
                   href={`#${h.id}`}
                   className={`flex items-start gap-2 py-1 px-2 rounded-md transition-colors border-l-2 ${
                     activeId === h.id
-                      ? "bg-gold/10 text-navy font-semibold border-gold"
-                      : "text-foreground/70 hover:text-navy hover:bg-white border-transparent"
+                      ? "bg-brand/10 text-ink font-semibold border-brand"
+                      : "text-foreground/70 hover:text-ink hover:bg-white border-transparent"
                   }`}
                 >
-                  <span className={`tabular-nums shrink-0 text-xs mt-0.5 ${activeId === h.id ? "text-gold-dark font-bold" : "text-gold-dark/60"}`}>
+                  <span className={`tabular-nums shrink-0 text-xs mt-0.5 ${activeId === h.id ? "text-brand-dark font-bold" : "text-brand-dark/60"}`}>
                     {String(i + 1).padStart(2, "0")}.
                   </span>
                   <span className="leading-tight">{h.text}</span>
@@ -411,8 +411,8 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
       {/* Share buttons */}
       <div className="bg-white border border-border rounded-2xl p-5">
         <div className="flex items-center gap-2 mb-3">
-          <Share2 className="w-4 h-4 text-gold-dark" />
-          <h3 className="font-bold text-navy text-sm">Condividi l'articolo</h3>
+          <Share2 className="w-4 h-4 text-brand-dark" />
+          <h3 className="font-bold text-ink text-sm">Condividi l'articolo</h3>
         </div>
         <div className="grid grid-cols-4 gap-2">
           <a
@@ -437,7 +437,7 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
           </a>
           <a
             href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent("Ti segnalo questo articolo: " + articleUrl)}`}
-            className="flex flex-col items-center gap-1 py-2 rounded-lg bg-muted hover:bg-navy hover:text-white text-foreground/70 transition-colors"
+            className="flex flex-col items-center gap-1 py-2 rounded-lg bg-muted hover:bg-ink hover:text-white text-foreground/70 transition-colors"
             aria-label="Condividi via email"
           >
             <Mail className="w-4 h-4" />
@@ -445,7 +445,7 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
           </a>
           <button
             onClick={copyLink}
-            className="flex flex-col items-center gap-1 py-2 rounded-lg bg-muted hover:bg-gold hover:text-navy text-foreground/70 transition-colors"
+            className="flex flex-col items-center gap-1 py-2 rounded-lg bg-muted hover:bg-brand hover:text-ink text-foreground/70 transition-colors"
             aria-label="Copia link"
           >
             {copied ? <Check className="w-4 h-4 text-success" /> : <LinkIcon className="w-4 h-4" />}
@@ -458,8 +458,8 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
       {related.length > 0 && (
         <div className="bg-white border border-border rounded-2xl p-5">
           <div className="flex items-center gap-2 mb-3">
-            <BookOpen className="w-4 h-4 text-gold-dark" />
-            <h3 className="font-bold text-navy text-sm">Articoli correlati</h3>
+            <BookOpen className="w-4 h-4 text-brand-dark" />
+            <h3 className="font-bold text-ink text-sm">Articoli correlati</h3>
           </div>
           <ul className="space-y-3">
             {related.slice(0, 3).map((a) => (
@@ -470,10 +470,10 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
                 >
                   <ArticleCover article={a} className="shrink-0 w-12 h-12 rounded-lg" />
                   <div className="min-w-0 flex-1">
-                    <div className="text-[10px] uppercase tracking-wider text-gold-dark font-bold leading-tight mb-0.5">
+                    <div className="text-[10px] uppercase tracking-wider text-brand-dark font-bold leading-tight mb-0.5">
                       {a.category}
                     </div>
-                    <div className="text-sm font-semibold text-navy leading-snug group-hover:text-gold-dark line-clamp-2">
+                    <div className="text-sm font-semibold text-ink leading-snug group-hover:text-brand-dark line-clamp-2">
                       {a.title}
                     </div>
                   </div>
@@ -483,7 +483,7 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
           </ul>
           <Link
             to="/guide"
-            className="mt-4 pt-3 border-t border-border flex items-center justify-between text-xs font-semibold text-navy hover:text-gold-dark"
+            className="mt-4 pt-3 border-t border-border flex items-center justify-between text-xs font-semibold text-ink hover:text-brand-dark"
           >
             Tutte le guide <ChevronRight className="w-3.5 h-3.5" />
           </Link>
@@ -493,8 +493,8 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
       {/* Categories navigation */}
       <div className="bg-white border border-border rounded-2xl p-5">
         <div className="flex items-center gap-2 mb-3">
-          <Tag className="w-4 h-4 text-gold-dark" />
-          <h3 className="font-bold text-navy text-sm">Esplora per categoria</h3>
+          <Tag className="w-4 h-4 text-brand-dark" />
+          <h3 className="font-bold text-ink text-sm">Esplora per categoria</h3>
         </div>
         <ul className="space-y-1">
           {allCategories.map((cat) => {
@@ -505,7 +505,7 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
                   to="/guide"
                   className="flex items-center justify-between py-1.5 px-2 rounded-md hover:bg-muted text-sm transition-colors group"
                 >
-                  <span className={`font-medium ${article.category === cat ? "text-gold-dark" : "text-foreground/75 group-hover:text-navy"}`}>
+                  <span className={`font-medium ${article.category === cat ? "text-brand-dark" : "text-foreground/75 group-hover:text-ink"}`}>
                     {cat}
                   </span>
                   <span className="text-xs text-foreground/50 tabular-nums">{count}</span>
@@ -517,15 +517,15 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
       </div>
 
       {/* FAQ mini-card */}
-      <div className="bg-gradient-to-br from-gold/15 to-gold/5 border border-gold/40 rounded-2xl p-5">
+      <div className="bg-gradient-to-br from-brand/15 to-brand/5 border border-brand/40 rounded-2xl p-5">
         <div className="flex items-center gap-2 mb-2">
-          <FileText className="w-4 h-4 text-gold-dark" />
-          <h3 className="font-bold text-navy text-sm">Domande frequenti</h3>
+          <FileText className="w-4 h-4 text-brand-dark" />
+          <h3 className="font-bold text-ink text-sm">Domande frequenti</h3>
         </div>
         <p className="text-xs text-foreground/75 leading-relaxed mb-3">
           Termini, garanzie, decreti ingiuntivi: risposte brevi con i riferimenti normativi.
         </p>
-        <Link to="/domande-frequenti" className="text-xs font-bold text-navy hover:text-gold-dark inline-flex items-center gap-1">
+        <Link to="/domande-frequenti" className="text-xs font-bold text-ink hover:text-brand-dark inline-flex items-center gap-1">
           Vai alle domande frequenti <ChevronRight className="w-3.5 h-3.5" />
         </Link>
       </div>
@@ -582,16 +582,16 @@ const Articolo = () => {
         <EFHeader onOpenContact={openContact} />
 
         <main className="flex-1">
-          {/* Article Hero — navy band; l'intro è il blocco di risposta diretta */}
-          <section className="bg-navy text-white border-b border-white/10">
+          {/* Article Hero — ink band; l'intro è il blocco di risposta diretta */}
+          <section className="bg-ink text-white border-b border-white/10">
             <div className="container mx-auto px-4 py-10 lg:py-14">
-              <Link to="/guide" className="inline-flex items-center gap-1.5 text-white/70 hover:text-gold text-sm font-semibold mb-6">
+              <Link to="/guide" className="inline-flex items-center gap-1.5 text-white/70 hover:text-brand text-sm font-semibold mb-6">
                 <ArrowLeft className="w-4 h-4" /> Tutte le guide
               </Link>
               <div className="grid lg:grid-cols-[1.35fr_1fr] gap-8 lg:gap-12 items-center">
                 <div className="max-w-4xl">
                 <div className="flex items-center gap-3 flex-wrap mb-5">
-                  <span className="px-3 py-1 rounded-full bg-gold/15 text-gold text-xs font-bold uppercase tracking-wider">
+                  <span className="px-3 py-1 rounded-full bg-brand/15 text-brand text-xs font-bold uppercase tracking-wider">
                     {article.category}
                   </span>
                   <span className="text-sm text-white/60 flex items-center gap-1.5"><Calendar className="w-4 h-4" /> Aggiornato: {article.date}</span>
@@ -601,7 +601,7 @@ const Articolo = () => {
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
                   {article.title}
                 </h1>
-                <div className="bg-white/5 border-l-4 border-gold rounded-r-xl p-5 lg:p-6">
+                <div className="bg-white/5 border-l-4 border-brand rounded-r-xl p-5 lg:p-6">
                   <p className="text-lg lg:text-xl text-white/90 leading-relaxed">
                     {article.intro}
                   </p>
@@ -625,7 +625,7 @@ const Articolo = () => {
                   <article>{article.content.map(renderBlock)}</article>
 
                   {/* CTA box */}
-                  <div className="mt-12 bg-navy text-white rounded-2xl p-7 lg:p-9">
+                  <div className="mt-12 bg-ink text-white rounded-2xl p-7 lg:p-9">
                     <h3 className="text-xl lg:text-2xl font-bold mb-3">Vuoi capire come si applica al tuo caso?</h3>
                     <p className="text-white/80 mb-6 leading-relaxed">
                       Gli articoli del blog hanno carattere informativo. Per una valutazione concreta della tua posizione è sempre necessario un colloquio individuale con esame della documentazione.
@@ -633,7 +633,7 @@ const Articolo = () => {
                     <div className="flex flex-col sm:flex-row gap-3">
                       <Button
                         onClick={openContact}
-                        className="bg-gold hover:bg-gold-dark text-navy font-semibold"
+                        className="bg-brand hover:bg-brand-dark text-ink font-semibold"
                       >
                         Richiedi l'analisi del caso <ArrowRight className="ml-2 w-4 h-4" />
                       </Button>
@@ -657,24 +657,24 @@ const Articolo = () => {
             <section className="py-14 lg:py-20 bg-muted/40">
               <div className="container mx-auto px-4">
                 <div className="max-w-7xl mx-auto">
-                  <h2 className="text-2xl md:text-3xl font-bold text-navy mb-8">Continua a leggere</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-ink mb-8">Continua a leggere</h2>
                   <div className="grid md:grid-cols-3 gap-5">
                     {related.map((a) => (
                       <Link
                         key={a.slug}
                         to={`/guide/${a.slug}`}
-                        className="group bg-white rounded-2xl overflow-hidden border border-border hover:border-gold hover:shadow-card flex flex-col"
+                        className="group bg-white rounded-2xl overflow-hidden border border-border hover:border-brand hover:shadow-card flex flex-col"
                       >
                         <div className="relative">
                           <ArticleCover article={a} className="aspect-[16/9]" />
-                          <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-white/95 text-navy text-xs font-semibold z-10">
+                          <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-white/95 text-ink text-xs font-semibold z-10">
                             {a.category}
                           </span>
                         </div>
                         <div className="p-5 flex-1 flex flex-col">
-                          <h3 className="font-bold text-navy mb-2 leading-snug group-hover:text-gold-dark">{a.title}</h3>
+                          <h3 className="font-bold text-ink mb-2 leading-snug group-hover:text-brand-dark">{a.title}</h3>
                           <p className="text-sm text-foreground/70 leading-relaxed mb-3 flex-1">{a.excerpt}</p>
-                          <span className="text-sm font-semibold text-navy group-hover:text-gold-dark flex items-center gap-1 mt-auto">
+                          <span className="text-sm font-semibold text-ink group-hover:text-brand-dark flex items-center gap-1 mt-auto">
                             Leggi <ArrowRight className="w-4 h-4" />
                           </span>
                         </div>

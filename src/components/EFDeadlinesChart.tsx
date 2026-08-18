@@ -16,8 +16,8 @@ const deadlines = [
   { label: "Sospensione da istanza di adesione", giorni: 90, norma: "art. 6 D.lgs. 218/1997", scala: 90 },
 ];
 
-const GOLD = "hsl(45 90% 61%)";
-const NAVY_LIGHT = "hsl(217 38% 40%)";
+const BRAND = "hsl(19 89% 53%)";
+const INK_LIGHT = "hsl(0 0% 22%)";
 
 type TooltipPayload = { payload?: { label: string; giorni: number; norma: string } };
 
@@ -25,9 +25,9 @@ const ChartTooltip = ({ active, payload }: { active?: boolean; payload?: Tooltip
   if (!active || !payload?.length || !payload[0].payload) return null;
   const d = payload[0].payload;
   return (
-    <div className="bg-navy text-white rounded-lg px-4 py-3 shadow-soft text-sm">
+    <div className="bg-ink text-white rounded-lg px-4 py-3 shadow-soft text-sm">
       <p className="font-bold">{d.label}</p>
-      <p className="text-gold font-semibold">{d.giorni} giorni · {d.norma}</p>
+      <p className="text-brand font-semibold">{d.giorni} giorni · {d.norma}</p>
     </div>
   );
 };
@@ -38,10 +38,10 @@ const EFDeadlinesChart = () => (
       <div className="grid lg:grid-cols-[1fr_1.3fr] gap-10 lg:gap-14 items-center max-w-6xl mx-auto">
         <Reveal>
           <div>
-            <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3 flex items-center gap-2">
+            <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3 flex items-center gap-2">
               <Hourglass className="w-4 h-4" /> I termini che corrono
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy mb-5 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
               Col fisco non si perde per torto. Si perde per termine scaduto.
             </h2>
             <p className="text-foreground/70 text-lg leading-relaxed mb-6">
@@ -51,7 +51,7 @@ const EFDeadlinesChart = () => (
             </p>
             <Link
               to="/domande-frequenti"
-              className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark"
+              className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark"
             >
               Verifica il tuo termine nelle domande frequenti <ArrowRight className="w-4 h-4" />
             </Link>
@@ -62,26 +62,26 @@ const EFDeadlinesChart = () => (
           <div className="bg-white rounded-2xl border border-border shadow-card p-5 lg:p-7">
             <ResponsiveContainer width="100%" height={320}>
               <BarChart data={deadlines} layout="vertical" margin={{ left: 8, right: 48, top: 8, bottom: 8 }}>
-                <CartesianGrid horizontal={false} stroke="hsl(214 32% 91%)" />
+                <CartesianGrid horizontal={false} stroke="hsl(0 0% 90%)" />
                 <XAxis type="number" domain={[0, 110]} hide />
                 <YAxis
                   type="category"
                   dataKey="label"
                   width={210}
-                  tick={{ fill: "hsl(220 20% 15% / 0.75)", fontSize: 12.5 }}
+                  tick={{ fill: "hsl(0 0% 12% / 0.75)", fontSize: 12.5 }}
                   axisLine={false}
                   tickLine={false}
                 />
-                <Tooltip content={<ChartTooltip />} cursor={{ fill: "hsl(45 90% 61% / 0.08)" }} />
+                <Tooltip content={<ChartTooltip />} cursor={{ fill: "hsl(19 89% 53% / 0.1)" }} />
                 <Bar dataKey="scala" radius={[0, 6, 6, 0]} barSize={22}>
                   {deadlines.map((d) => (
-                    <Cell key={d.label} fill={d.giorni <= 60 ? GOLD : NAVY_LIGHT} />
+                    <Cell key={d.label} fill={d.giorni <= 60 ? BRAND : INK_LIGHT} />
                   ))}
                   <LabelList
                     dataKey="giorni"
                     position="right"
                     formatter={(v: number) => `${v} gg`}
-                    style={{ fill: "hsl(217 38% 27%)", fontWeight: 700, fontSize: 13 }}
+                    style={{ fill: "hsl(0 0% 8%)", fontWeight: 700, fontSize: 13 }}
                   />
                 </Bar>
               </BarChart>

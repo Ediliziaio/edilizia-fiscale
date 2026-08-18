@@ -9,7 +9,7 @@ export const meta: ArticleMeta = {
   date: "Agosto 2026",
   readTime: "11 min",
   author: "Redazione Edilizia Fiscale",
-  cover: "from-gold-dark to-gold",
+  cover: "from-brand-dark to-brand",
   keywords: [
     "consolidato fiscale nazionale requisiti",
     "gruppo societario edilizia",

@@ -17,14 +17,14 @@ const NotFound = () => {
         <EFHeader onOpenContact={() => setIsContactOpen(true)} />
         <main className="flex-1 flex items-center justify-center py-24">
           <div className="text-center px-4">
-            <p className="text-7xl font-extrabold text-navy/10 mb-4">404</p>
-            <h1 className="text-3xl font-bold text-navy mb-3">Questa pagina non esiste.</h1>
+            <p className="text-7xl font-extrabold text-ink/10 mb-4">404</p>
+            <h1 className="text-3xl font-bold text-ink mb-3">Questa pagina non esiste.</h1>
             <p className="text-foreground/70 mb-8 max-w-md mx-auto">
               Forse il link è cambiato. Riparti dalla home, oppure cerca la risposta nelle guide.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link to="/">
-                <Button className="bg-navy hover:bg-navy-light text-white font-semibold">Torna alla home</Button>
+                <Button className="bg-ink hover:bg-ink-light text-white font-semibold">Torna alla home</Button>
               </Link>
               <Link to="/guide">
                 <Button variant="outline" className="font-semibold">

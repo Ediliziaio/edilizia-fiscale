@@ -7,21 +7,21 @@ import { areeImprese, areePatrimonio, type Area } from "@/data/aree";
 
 const AreaCard = ({ area }: { area: Area }) => {
   const inner = (
-    <div className="group bg-white rounded-2xl p-6 border border-border shadow-card hover:border-gold hover:shadow-soft transition-all h-full flex flex-col">
+    <div className="group bg-white rounded-2xl p-6 border border-border shadow-card hover:border-brand hover:shadow-soft transition-all h-full flex flex-col">
       <div className="flex items-start justify-between mb-4">
-        <div className="w-11 h-11 rounded-xl bg-gold/15 flex items-center justify-center">
-          <area.icon className="w-5 h-5 text-navy" />
+        <div className="w-11 h-11 rounded-xl bg-brand/15 flex items-center justify-center">
+          <area.icon className="w-5 h-5 text-ink" />
         </div>
         {area.badge && (
-          <span className="text-[10px] uppercase tracking-wider font-bold text-gold-dark bg-gold/10 rounded-full px-2.5 py-1">
+          <span className="text-[10px] uppercase tracking-wider font-bold text-brand-dark bg-brand/10 rounded-full px-2.5 py-1">
             {area.badge}
           </span>
         )}
       </div>
-      <h3 className="text-base font-bold text-navy mb-2 leading-snug">{area.title}</h3>
+      <h3 className="text-base font-bold text-ink mb-2 leading-snug">{area.title}</h3>
       <p className="text-sm text-foreground/70 leading-relaxed flex-1">{area.desc}</p>
       {area.guida && (
-        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-gold-dark group-hover:gap-2.5 transition-all">
+        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark group-hover:gap-2.5 transition-all">
           Leggi la guida <ArrowRight className="w-4 h-4" />
         </span>
       )}
@@ -38,14 +38,14 @@ const EFServicesCards = () => (
         <Reveal>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
             <div>
-              <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Per l'impresa</p>
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy leading-tight">
+              <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Per l'impresa</p>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink leading-tight">
                 Il cantiere l'hai chiuso. <br className="hidden md:block" />Ora vediamo quanto ti è rimasto.
               </h2>
             </div>
             <Link
               to="/imprese"
-              className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark shrink-0"
+              className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark shrink-0"
             >
               Tutte le aree impresa <ArrowRight className="w-4 h-4" />
             </Link>
@@ -65,14 +65,14 @@ const EFServicesCards = () => (
         <Reveal>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
             <div>
-              <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Per il patrimonio</p>
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy leading-tight">
+              <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Per il patrimonio</p>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink leading-tight">
                 L'impresa rischia ogni giorno. <br className="hidden md:block" />La tua famiglia non dovrebbe.
               </h2>
             </div>
             <Link
               to="/patrimonio"
-              className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark shrink-0"
+              className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark shrink-0"
             >
               Tutte le aree patrimonio <ArrowRight className="w-4 h-4" />
             </Link>

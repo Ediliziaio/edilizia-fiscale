@@ -4,7 +4,7 @@ Sito dello studio **Edilizia Fiscale** — commercialisti e CFO per il settore c
 (impresa edile / patrimonio dell'imprenditore) con due percorsi separati.
 
 - Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (62 pagine prerenderizzate).
-- Design: palette navy/gold, font Inter Tight (ereditati dal design system di partenza).
+- Design: palette di brand **nero `#0C0C0C` e arancione `#F2621D`**, font Inter Tight.
 - Dominio previsto: `https://www.ediliziafiscale.it` (placeholder — un solo punto di modifica, vedi sotto).
 
 ## Comandi
@@ -30,6 +30,27 @@ npm run preview   # serve la build da dist/
 - **Legali**: `/privacy`, `/cookie`, `/note-legali`.
 - SEO tecnico: sitemap generata da `scripts/generate-sitemap.mjs`, `robots.txt` con allow espliciti per i
   crawler AI, `llms.txt`, canonical + OG per pagina via `src/components/SEO.tsx` (head prerenderizzato).
+
+### Identità visiva
+
+Palette derivata dal logo fornito dal cliente. I token vivono in `src/index.css`
+e sono esposti a Tailwind da `tailwind.config.ts`:
+
+| Token | Valore | Uso |
+|---|---|---|
+| `ink` | `hsl(0 0% 8%)` | superfici scure, testo forte, primary |
+| `ink-light` | `hsl(0 0% 20%)` | gradienti e hover sulle superfici scure |
+| `brand` | `hsl(19 89% 53%)` — `#F2621D` | accento, CTA, testo su fondo scuro |
+| `brand-dark` | `hsl(19 84% 42%)` | testo arancione **su fondo chiaro** (contrasto 4.8:1) |
+| `trust` | `hsl(19 45% 42%)` | terracotta desaturata, accento caldo secondario |
+
+Regola pratica: `text-brand` solo su fondo scuro, `text-brand-dark` su fondo chiaro.
+
+I loghi sono in `src/assets/`: `logo-full.png` (nero + arancione, sfondi chiari),
+`logo-light.png` (bianco + arancione, sfondi scuri), `logo-mono.png` (monocromatico).
+Il componente `EFLogo` in `src/components/EFHeader.tsx` sceglie la variante con la
+prop `light`. Favicon e apple-touch-icon sono ritagliati dal marchio del logo;
+`public/og-image.png` è generata sulla stessa palette.
 
 ### Tassonomia
 

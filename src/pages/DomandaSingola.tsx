@@ -74,20 +74,20 @@ const DomandaSingola = () => {
               <div className="max-w-3xl mx-auto">
                 <Link
                   to="/domande-frequenti"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-foreground/60 hover:text-navy mb-6"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-foreground/60 hover:text-ink mb-6"
                 >
                   <ArrowLeft className="w-4 h-4" /> Tutte le domande frequenti
                 </Link>
 
-                <span className="block text-xs uppercase tracking-wider font-bold text-gold-dark mb-3">
+                <span className="block text-xs uppercase tracking-wider font-bold text-brand-dark mb-3">
                   {faq.silo === "imprese" ? "Per l'impresa" : "Per il patrimonio"}
                 </span>
 
-                <h1 className="text-3xl md:text-4xl font-bold text-navy leading-tight mb-6">{faq.question}</h1>
+                <h1 className="text-3xl md:text-4xl font-bold text-ink leading-tight mb-6">{faq.question}</h1>
 
                 {/* Risposta diretta */}
-                <div className="bg-gold/10 border-l-4 border-gold rounded-r-xl p-6 mb-8">
-                  <p className="text-lg text-navy leading-relaxed font-medium">{faq.answer}</p>
+                <div className="bg-brand/10 border-l-4 border-brand rounded-r-xl p-6 mb-8">
+                  <p className="text-lg text-ink leading-relaxed font-medium">{faq.answer}</p>
                 </div>
 
                 {/* Approfondimento */}
@@ -101,15 +101,15 @@ const DomandaSingola = () => {
                 {guida && (
                   <Link
                     to={`/guide/${guida.slug}`}
-                    className="mt-9 group flex items-start gap-4 bg-muted/40 hover:bg-white border border-border hover:border-gold rounded-2xl p-6 transition-all"
+                    className="mt-9 group flex items-start gap-4 bg-muted/40 hover:bg-white border border-border hover:border-brand rounded-2xl p-6 transition-all"
                   >
-                    <div className="w-11 h-11 rounded-xl bg-navy flex items-center justify-center shrink-0">
-                      <BookOpen className="w-5 h-5 text-gold" />
+                    <div className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center shrink-0">
+                      <BookOpen className="w-5 h-5 text-brand" />
                     </div>
                     <div>
-                      <span className="text-xs uppercase tracking-wider font-bold text-gold-dark">La guida completa</span>
-                      <h2 className="font-bold text-navy leading-snug mt-1 group-hover:text-gold-dark">{guida.title}</h2>
-                      <span className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-navy group-hover:text-gold-dark">
+                      <span className="text-xs uppercase tracking-wider font-bold text-brand-dark">La guida completa</span>
+                      <h2 className="font-bold text-ink leading-snug mt-1 group-hover:text-brand-dark">{guida.title}</h2>
+                      <span className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-ink group-hover:text-brand-dark">
                         Leggi la guida <ArrowRight className="w-4 h-4" />
                       </span>
                     </div>
@@ -117,7 +117,7 @@ const DomandaSingola = () => {
                 )}
 
                 {/* CTA */}
-                <div className="mt-10 bg-navy text-white rounded-2xl p-7">
+                <div className="mt-10 bg-ink text-white rounded-2xl p-7">
                   <h2 className="text-xl font-bold mb-2">Il tuo caso è diverso? Probabilmente sì.</h2>
                   <p className="text-white/80 mb-5 leading-relaxed">
                     Le risposte generali servono a orientarsi, ma i termini si calcolano sui documenti. Raccontaci il
@@ -125,7 +125,7 @@ const DomandaSingola = () => {
                   </p>
                   <Button
                     onClick={() => setIsContactOpen(true)}
-                    className="bg-gold hover:bg-gold-dark text-navy font-semibold"
+                    className="bg-brand hover:bg-brand-dark text-ink font-semibold"
                   >
                     Richiedi l'analisi del caso <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
@@ -134,16 +134,16 @@ const DomandaSingola = () => {
                 {/* Correlate */}
                 {related.length > 0 && (
                   <div className="mt-12">
-                    <h2 className="text-xl font-bold text-navy mb-4">Altre domande frequenti</h2>
+                    <h2 className="text-xl font-bold text-ink mb-4">Altre domande frequenti</h2>
                     <ul className="space-y-3">
                       {related.map((r) => (
                         <li key={r.slug}>
                           <Link
                             to={`/domande-frequenti/${r.slug}`}
-                            className="group flex items-center justify-between gap-3 bg-muted/40 hover:bg-white border border-border hover:border-gold rounded-xl px-5 py-4 transition-all"
+                            className="group flex items-center justify-between gap-3 bg-muted/40 hover:bg-white border border-border hover:border-brand rounded-xl px-5 py-4 transition-all"
                           >
-                            <span className="font-semibold text-navy group-hover:text-gold-dark leading-snug">{r.question}</span>
-                            <ArrowRight className="w-4 h-4 text-foreground/30 group-hover:text-gold-dark shrink-0" />
+                            <span className="font-semibold text-ink group-hover:text-brand-dark leading-snug">{r.question}</span>
+                            <ArrowRight className="w-4 h-4 text-foreground/30 group-hover:text-brand-dark shrink-0" />
                           </Link>
                         </li>
                       ))}

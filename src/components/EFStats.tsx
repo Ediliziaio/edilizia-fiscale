@@ -38,7 +38,7 @@ const StatItem = ({ value, suffix, label, run }: { value: number; suffix: string
   const n = useCountUp(value, run);
   return (
     <div className="text-center px-4">
-      <div className="text-4xl lg:text-5xl font-extrabold text-gold tabular-nums">
+      <div className="text-4xl lg:text-5xl font-extrabold text-brand tabular-nums">
         {n}
         {suffix}
       </div>
@@ -68,7 +68,7 @@ const EFStats = () => {
   }, []);
 
   return (
-    <section ref={ref} className="bg-navy border-b border-white/10 py-10 lg:py-12">
+    <section ref={ref} className="bg-ink border-b border-white/10 py-10 lg:py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 divide-white/10">
           {stats.map((s) => (

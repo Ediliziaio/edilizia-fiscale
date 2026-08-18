@@ -58,22 +58,22 @@ export default {
           light: "hsl(var(--success-light))",
           dark: "hsl(var(--success-dark))",
         },
-        /* Trust Blue */
+        /* Terracotta (accento caldo secondario) */
         trust: {
           DEFAULT: "hsl(var(--trust))",
           light: "hsl(var(--trust-light))",
           dark: "hsl(var(--trust-dark))",
         },
-        /* Navy */
-        navy: {
-          DEFAULT: "hsl(var(--navy))",
-          light: "hsl(var(--navy-light))",
+        /* Nero del logo */
+        ink: {
+          DEFAULT: "hsl(var(--ink))",
+          light: "hsl(var(--ink-light))",
         },
-        /* Gold */
-        gold: {
-          DEFAULT: "hsl(var(--gold))",
-          light: "hsl(var(--gold-light))",
-          dark: "hsl(var(--gold-dark))",
+        /* Arancione di brand */
+        brand: {
+          DEFAULT: "hsl(var(--brand))",
+          light: "hsl(var(--brand-light))",
+          dark: "hsl(var(--brand-dark))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -109,8 +109,8 @@ export default {
           to: { opacity: "1", transform: "scale(1)" },
         },
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(45 90% 61% / 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsl(45 90% 61% / 0.6)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(19 89% 53% / 0.35)" },
+          "50%": { boxShadow: "0 0 40px hsl(19 89% 53% / 0.6)" },
         },
         "count-up": {
           from: { opacity: "0", transform: "scale(0.5) translateY(20px)" },

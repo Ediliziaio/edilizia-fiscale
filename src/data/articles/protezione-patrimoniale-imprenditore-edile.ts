@@ -9,7 +9,7 @@ export const meta: ArticleMeta = {
   date: "Agosto 2026",
   readTime: "15 min",
   author: "Redazione Edilizia Fiscale",
-  cover: "from-gold-dark to-gold",
+  cover: "from-brand-dark to-brand",
   keywords: [
     "protezione patrimoniale imprenditore edile",
     "proteggere il patrimonio dai debiti aziendali",

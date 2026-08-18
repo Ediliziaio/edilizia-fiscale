@@ -40,17 +40,17 @@ const Studio = () => {
 
         <main className="flex-1">
           {/* Hero */}
-          <section className="relative bg-navy text-white overflow-hidden border-b border-white/10">
+          <section className="relative bg-ink text-white overflow-hidden border-b border-white/10">
             <EFHeroBackdrop />
             <div className="container mx-auto px-4 py-14 lg:py-20 relative">
               <div className="grid lg:grid-cols-[1.2fr_1fr] gap-10 items-center">
               <div className="max-w-3xl">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur rounded-full text-xs font-semibold mb-6 uppercase tracking-wider border border-white/15">
-                  <Calculator className="w-4 h-4 text-gold" />
+                  <Calculator className="w-4 h-4 text-brand" />
                   Lo studio
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
-                  Uno studio costruito <span className="text-gold">attorno a un solo settore.</span>
+                  Uno studio costruito <span className="text-brand">attorno a un solo settore.</span>
                 </h1>
                 <p className="text-lg text-white/80 leading-relaxed">
                   La fiscalità dell'edilizia non è una specializzazione di facciata: è un intreccio di IVA, contratti
@@ -69,10 +69,10 @@ const Studio = () => {
               <div className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
                 <Reveal>
                   <div className="bg-muted/40 rounded-2xl p-7 border border-border h-full">
-                    <div className="w-11 h-11 rounded-xl bg-navy flex items-center justify-center mb-4">
-                      <HardHat className="w-5 h-5 text-gold" />
+                    <div className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center mb-4">
+                      <HardHat className="w-5 h-5 text-brand" />
                     </div>
-                    <h2 className="text-lg font-bold text-navy mb-2">Dentro il cantiere, non sopra</h2>
+                    <h2 className="text-lg font-bold text-ink mb-2">Dentro il cantiere, non sopra</h2>
                     <p className="text-sm text-foreground/70 leading-relaxed">
                       Leggiamo computi metrici, SAL e listini prima ancora del bilancio. È l'unico modo per dire a
                       un'impresa dove sta perdendo margine: nel conto economico d'esercizio quell'informazione non
@@ -82,10 +82,10 @@ const Studio = () => {
                 </Reveal>
                 <Reveal delay={100}>
                   <div className="bg-muted/40 rounded-2xl p-7 border border-border h-full">
-                    <div className="w-11 h-11 rounded-xl bg-navy flex items-center justify-center mb-4">
-                      <Landmark className="w-5 h-5 text-gold" />
+                    <div className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center mb-4">
+                      <Landmark className="w-5 h-5 text-brand" />
                     </div>
-                    <h2 className="text-lg font-bold text-navy mb-2">Impresa e patrimonio insieme</h2>
+                    <h2 className="text-lg font-bold text-ink mb-2">Impresa e patrimonio insieme</h2>
                     <p className="text-sm text-foreground/70 leading-relaxed">
                       Reverse charge, crediti d'imposta e verifiche da un lato; holding, scissione immobiliare e
                       passaggio generazionale dall'altro. Sono lo stesso problema visto a due altezze: chi guarda
@@ -95,10 +95,10 @@ const Studio = () => {
                 </Reveal>
                 <Reveal delay={200}>
                   <div className="bg-muted/40 rounded-2xl p-7 border border-border h-full">
-                    <div className="w-11 h-11 rounded-xl bg-navy flex items-center justify-center mb-4">
-                      <ShieldCheck className="w-5 h-5 text-gold" />
+                    <div className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center mb-4">
+                      <ShieldCheck className="w-5 h-5 text-brand" />
                     </div>
-                    <h2 className="text-lg font-bold text-navy mb-2">Informazione conforme</h2>
+                    <h2 className="text-lg font-bold text-ink mb-2">Informazione conforme</h2>
                     <p className="text-sm text-foreground/70 leading-relaxed">
                       Niente risparmi promessi, niente percentuali di successo, niente confronti con altri studi:
                       il Codice deontologico della professione non lo consente, e non ne abbiamo bisogno. Descriviamo
@@ -109,9 +109,9 @@ const Studio = () => {
               </div>
 
               <Reveal delay={250}>
-                <div className="max-w-5xl mx-auto mt-8 bg-gold/10 border border-gold/30 rounded-2xl p-6 flex flex-col md:flex-row md:items-center gap-4 justify-between">
+                <div className="max-w-5xl mx-auto mt-8 bg-brand/10 border border-brand/30 rounded-2xl p-6 flex flex-col md:flex-row md:items-center gap-4 justify-between">
                   <div>
-                    <h3 className="font-bold text-navy mb-1">I professionisti dello studio</h3>
+                    <h3 className="font-bold text-ink mb-1">I professionisti dello studio</h3>
                     <p className="text-sm text-foreground/70 leading-relaxed">
                       Le schede dei professionisti — con Ordine di appartenenza, anno di iscrizione all'albo dei
                       dottori commercialisti ed eventuale iscrizione al registro dei revisori legali — sono in
@@ -119,7 +119,7 @@ const Studio = () => {
                     </p>
                   </div>
                   <Link to="/studio/come-lavoriamo" className="shrink-0">
-                    <span className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark">
+                    <span className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark">
                       Come lavoriamo e quanto costa <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>

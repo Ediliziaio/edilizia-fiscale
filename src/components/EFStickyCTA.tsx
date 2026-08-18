@@ -24,14 +24,14 @@ const EFStickyCTA = ({ onOpenContact }: EFStickyCTAProps) => {
       <div className="grid grid-cols-2 gap-2 p-2">
         <a
           href={`tel:${PHONE_TEL}`}
-          className="flex items-center justify-center gap-2 py-3 rounded-lg bg-navy text-white font-semibold text-sm"
+          className="flex items-center justify-center gap-2 py-3 rounded-lg bg-ink text-white font-semibold text-sm"
         >
           <Phone className="w-4 h-4" />
           Chiama
         </a>
         <Button
           onClick={onOpenContact}
-          className="bg-gold hover:bg-gold-dark text-navy font-semibold text-sm h-12"
+          className="bg-brand hover:bg-brand-dark text-ink font-semibold text-sm h-12"
         >
           Analisi numeri
         </Button>

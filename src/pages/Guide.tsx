@@ -26,10 +26,10 @@ const FILTERS: { key: FilterKey; label: string; short: string }[] = [
 
 /** Accento cromatico per silo: il lettore capisce a colpo d'occhio se è roba sua. */
 const CAT_STYLE: Record<Category, { bar: string; badge: string }> = {
-  Impresa: { bar: "from-navy to-navy-light", badge: "bg-navy/10 text-navy" },
-  Controllo: { bar: "from-trust-dark to-trust", badge: "bg-trust/10 text-trust-dark" },
-  Fisco: { bar: "from-navy via-trust-dark to-trust", badge: "bg-trust/10 text-navy" },
-  Patrimonio: { bar: "from-gold-dark to-gold", badge: "bg-gold/20 text-gold-dark" },
+  Impresa: { bar: "from-ink to-ink-light", badge: "bg-ink/10 text-ink" },
+  Controllo: { bar: "from-ink to-trust", badge: "bg-ink/[0.07] text-trust-dark" },
+  Fisco: { bar: "from-trust-dark to-trust-light", badge: "bg-trust/15 text-trust-dark" },
+  Patrimonio: { bar: "from-brand-dark to-brand", badge: "bg-brand/20 text-brand-dark" },
 };
 
 /** minuscole + accenti rimossi: "perizià" e "perizia" devono trovarsi a vicenda. */
@@ -49,7 +49,7 @@ const GuideCard = ({ a, featured = false }: { a: ArticleMeta; featured?: boolean
   return (
     <Link
       to={`/guide/${a.slug}`}
-      className="group bg-white rounded-2xl overflow-hidden border border-border hover:border-gold hover:shadow-card transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
+      className="group bg-white rounded-2xl overflow-hidden border border-border hover:border-brand hover:shadow-card transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
     >
       <ArticleCover article={a} className={featured ? "aspect-[21/9]" : "aspect-[16/9]"} />
       <div className={`h-1.5 bg-gradient-to-r ${style.bar}`} />
@@ -59,7 +59,7 @@ const GuideCard = ({ a, featured = false }: { a: ArticleMeta; featured?: boolean
             {a.category}
           </span>
           {featured && (
-            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-gold text-navy text-[10px] font-bold uppercase tracking-wider">
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-brand text-ink text-[10px] font-bold uppercase tracking-wider">
               <Star className="w-3 h-3 fill-current" /> Guida pilastro
             </span>
           )}
@@ -68,14 +68,14 @@ const GuideCard = ({ a, featured = false }: { a: ArticleMeta; featured?: boolean
           </span>
         </div>
 
-        <h3 className={`font-bold text-navy mb-2 leading-snug group-hover:text-gold-dark ${featured ? "text-xl" : "text-lg"}`}>
+        <h3 className={`font-bold text-ink mb-2 leading-snug group-hover:text-brand-dark ${featured ? "text-xl" : "text-lg"}`}>
           {a.title}
         </h3>
         <p className={`text-foreground/70 leading-relaxed mb-4 flex-1 ${featured ? "text-[15px] line-clamp-4" : "text-sm line-clamp-3"}`}>
           {featured ? a.intro : a.excerpt}
         </p>
 
-        <span className="text-sm font-semibold text-navy group-hover:text-gold-dark flex items-center gap-1.5 mt-auto group-hover:gap-2.5 transition-all">
+        <span className="text-sm font-semibold text-ink group-hover:text-brand-dark flex items-center gap-1.5 mt-auto group-hover:gap-2.5 transition-all">
           Leggi la guida <ArrowRight className="w-4 h-4" />
         </span>
       </div>
@@ -167,25 +167,25 @@ const Guide = () => {
 
         <main className="flex-1">
           {/* Hero */}
-          <section className="relative bg-navy text-white overflow-hidden border-b border-white/10">
+          <section className="relative bg-ink text-white overflow-hidden border-b border-white/10">
             <EFHeroBackdrop />
             <div className="container mx-auto px-4 py-12 lg:py-16 relative">
               <div className="grid lg:grid-cols-[1.25fr_1fr] gap-10 items-center">
                 <div className="max-w-3xl">
                   <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur rounded-full text-xs font-semibold mb-6 uppercase tracking-wider border border-white/15">
-                    <BookOpen className="w-4 h-4 text-gold" />
+                    <BookOpen className="w-4 h-4 text-brand" />
                     Guide
                   </div>
                   <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-5 leading-[1.1]">
-                    Le guide di <span className="text-gold">fiscalità per l'edilizia</span>
+                    Le guide di <span className="text-brand">fiscalità per l'edilizia</span>
                   </h1>
                   <p className="text-lg text-white/80 leading-relaxed mb-6">
                     Ogni guida risponde a una domanda precisa: quale regola si applica, come si calcola, quale
                     errore costa caro. Con i riferimenti normativi e un esempio numerico, sempre.
                   </p>
                   <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/60">
-                    <span><strong className="text-gold">{articlesMeta.length}</strong> guide pubblicate</span>
-                    <span><strong className="text-gold">{pillars.length}</strong> guide pilastro</span>
+                    <span><strong className="text-brand">{articlesMeta.length}</strong> guide pubblicate</span>
+                    <span><strong className="text-brand">{pillars.length}</strong> guide pilastro</span>
                     <span>Aggiornate ad <strong className="text-white/80">agosto 2026</strong></span>
                   </div>
                 </div>
@@ -208,13 +208,13 @@ const Guide = () => {
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder="Cerca: reverse charge, holding, commessa…"
-                    className="w-full h-11 pl-10 pr-9 rounded-full border border-border bg-muted/40 text-sm text-foreground placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold focus:bg-white transition-colors"
+                    className="w-full h-11 pl-10 pr-9 rounded-full border border-border bg-muted/40 text-sm text-foreground placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-brand/60 focus:border-brand focus:bg-white transition-colors"
                   />
                   {query && (
                     <button
                       onClick={() => setQuery("")}
                       aria-label="Cancella la ricerca"
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-foreground/40 hover:text-navy"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-foreground/40 hover:text-ink"
                     >
                       <X className="w-4 h-4" />
                     </button>
@@ -229,8 +229,8 @@ const Guide = () => {
                       aria-pressed={filter === f.key}
                       className={`px-4 h-11 lg:h-10 rounded-full text-sm font-semibold border transition-colors ${
                         filter === f.key
-                          ? "bg-navy text-white border-navy"
-                          : "bg-white text-foreground/70 border-border hover:border-navy hover:text-navy"
+                          ? "bg-ink text-white border-ink"
+                          : "bg-white text-foreground/70 border-border hover:border-ink hover:text-ink"
                       }`}
                     >
                       <span className="lg:hidden">{f.short}</span>
@@ -251,8 +251,8 @@ const Guide = () => {
               <div className="container mx-auto px-4">
                 <Reveal>
                   <div className="mb-8 max-w-2xl">
-                    <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Da dove iniziare</p>
-                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-navy leading-tight">
+                    <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Da dove iniziare</p>
+                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-ink leading-tight">
                       Le quattro guide che coprono i casi più frequenti
                     </h2>
                     <p className="text-foreground/70 mt-3 leading-relaxed">
@@ -276,7 +276,7 @@ const Guide = () => {
           <section className={`py-12 lg:py-16 ${showPillars ? "bg-white" : "bg-muted/40"}`}>
             <div className="container mx-auto px-4">
               <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-8">
-                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-navy leading-tight">
+                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-ink leading-tight">
                   {searching
                     ? "Risultati della ricerca"
                     : showPillars
@@ -307,7 +307,7 @@ const Guide = () => {
                   <div className="w-12 h-12 rounded-xl bg-muted flex items-center justify-center mx-auto mb-4">
                     <Search className="w-6 h-6 text-foreground/40" />
                   </div>
-                  <h3 className="text-lg font-bold text-navy mb-2">Nessuna guida per questa ricerca</h3>
+                  <h3 className="text-lg font-bold text-ink mb-2">Nessuna guida per questa ricerca</h3>
                   <p className="text-foreground/70 max-w-md mx-auto mb-5">
                     Prova con una parola più generica — "IVA", "commessa", "holding" — oppure scrivici
                     direttamente: se la guida non c'è, la risposta esiste comunque.
@@ -317,7 +317,7 @@ const Guide = () => {
                       setQuery("");
                       setFilter("Tutte");
                     }}
-                    className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark"
+                    className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark"
                   >
                     Azzera i filtri <ArrowRight className="w-4 h-4" />
                   </button>
@@ -328,11 +328,11 @@ const Guide = () => {
               <Reveal>
                 <Link
                   to="/domande-frequenti"
-                  className="group mt-10 flex flex-col sm:flex-row sm:items-center gap-4 justify-between bg-navy text-white rounded-2xl p-7 hover:bg-navy-light transition-colors"
+                  className="group mt-10 flex flex-col sm:flex-row sm:items-center gap-4 justify-between bg-ink text-white rounded-2xl p-7 hover:bg-ink-light transition-colors"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="w-11 h-11 rounded-xl bg-gold/15 flex items-center justify-center shrink-0">
-                      <HelpCircle className="w-5 h-5 text-gold" />
+                    <div className="w-11 h-11 rounded-xl bg-brand/15 flex items-center justify-center shrink-0">
+                      <HelpCircle className="w-5 h-5 text-brand" />
                     </div>
                     <div>
                       <h3 className="text-lg font-bold mb-1">Cerchi una risposta secca, non una guida?</h3>
@@ -341,7 +341,7 @@ const Guide = () => {
                       </p>
                     </div>
                   </div>
-                  <span className="inline-flex items-center gap-2 text-gold font-semibold shrink-0 group-hover:gap-3 transition-all">
+                  <span className="inline-flex items-center gap-2 text-brand font-semibold shrink-0 group-hover:gap-3 transition-all">
                     Vai alle domande <ArrowRight className="w-4 h-4" />
                   </span>
                 </Link>

@@ -50,10 +50,10 @@ const EFImageSlot = ({ id, className = "", tone = "light" }: EFImageSlotProps) =
         }}
       />
       <div className="relative text-center px-6 py-10">
-        <div className={`w-12 h-12 rounded-xl mx-auto mb-3 flex items-center justify-center ${dark ? "bg-gold/15" : "bg-navy/5"}`}>
-          <ImageIcon className={`w-6 h-6 ${dark ? "text-gold" : "text-navy/50"}`} />
+        <div className={`w-12 h-12 rounded-xl mx-auto mb-3 flex items-center justify-center ${dark ? "bg-brand/15" : "bg-ink/5"}`}>
+          <ImageIcon className={`w-6 h-6 ${dark ? "text-brand" : "text-ink/50"}`} />
         </div>
-        <p className={`text-sm font-semibold ${dark ? "text-white/70" : "text-navy/60"}`}>{label}</p>
+        <p className={`text-sm font-semibold ${dark ? "text-white/70" : "text-ink/60"}`}>{label}</p>
         <p className={`text-xs mt-1 ${dark ? "text-white/40" : "text-foreground/40"}`}>Foto in arrivo</p>
       </div>
     </div>

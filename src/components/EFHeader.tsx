@@ -3,6 +3,8 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import { PHONE_TEL, PHONE_DISPLAY } from "@/data/site";
+import logoFull from "@/assets/logo-full.png";
+import logoLight from "@/assets/logo-light.png";
 
 interface EFHeaderProps {
   onOpenContact: () => void;
@@ -18,24 +20,22 @@ const navItems = [
   { to: "/contatti", label: "Contatti" },
 ];
 
+/**
+ * Logo di brand. Due varianti reali fornite dal cliente: quella a colori pieni
+ * per gli sfondi chiari (header) e quella con il lettering bianco per gli
+ * sfondi scuri (footer). Il file contiene già il lockup completo
+ * "EDILIZIA FISCALE": il payoff resta fuori, nella top bar.
+ */
 export const EFLogo = ({ light = false }: { light?: boolean }) => (
-  <span className="flex items-center gap-2.5">
-    <svg viewBox="0 0 64 64" className="w-10 h-10 md:w-11 md:h-11 shrink-0" aria-hidden="true">
-      <rect width="64" height="64" rx="12" fill={light ? "hsl(0 0% 100% / 0.1)" : "hsl(217 38% 27%)"} />
-      <path d="M13 27 L32 12 L51 27" fill="none" stroke="hsl(45 90% 61%)" strokeWidth="4" strokeLinejoin="round" strokeLinecap="round" />
-      <rect x="16" y="42" width="8" height="10" rx="1.5" fill="hsl(45 90% 61%)" />
-      <rect x="28" y="36" width="8" height="16" rx="1.5" fill="hsl(45 90% 61%)" />
-      <rect x="40" y="30" width="8" height="22" rx="1.5" fill="hsl(45 90% 61%)" />
-    </svg>
-    <span className="leading-none text-left">
-      <span className={`block font-heading font-extrabold text-xl md:text-2xl tracking-tight ${light ? "text-white" : "text-navy"}`}>
-        Edilizia <span className={light ? "text-gold" : "text-gold-dark"}>Fiscale</span>
-      </span>
-      <span className={`block text-[10px] md:text-[11px] uppercase tracking-[0.18em] font-semibold mt-1 ${light ? "text-white/60" : "text-foreground/50"}`}>
-        Fisco, numeri e patrimonio in edilizia
-      </span>
-    </span>
-  </span>
+  <img
+    src={light ? logoLight : logoFull}
+    alt="Edilizia Fiscale"
+    width={760}
+    height={215}
+    className="h-11 md:h-12 w-auto shrink-0"
+    loading="eager"
+    decoding="async"
+  />
 );
 
 const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
@@ -49,12 +49,12 @@ const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
   return (
     <>
       {/* Top bar */}
-      <div className="hidden lg:block bg-navy text-white text-sm">
+      <div className="hidden lg:block bg-ink text-white text-sm">
         <div className="container mx-auto px-4 flex items-center justify-between h-9">
           <div className="flex items-center gap-6 text-white/80">
             <span>Commercialisti e CFO specializzati solo in edilizia</span>
           </div>
-          <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-2 hover:text-gold">
+          <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-2 hover:text-brand">
             <Phone className="w-3.5 h-3.5" />
             <span className="font-medium">{PHONE_DISPLAY}</span>
           </a>
@@ -77,8 +77,8 @@ const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
                   className={({ isActive }) =>
                     `px-3 py-2 text-sm font-medium rounded-md ${
                       isActive
-                        ? "text-navy bg-muted"
-                        : "text-foreground/70 hover:text-navy hover:bg-muted/60"
+                        ? "text-ink bg-muted"
+                        : "text-foreground/70 hover:text-ink hover:bg-muted/60"
                     }`
                   }
                 >
@@ -90,14 +90,14 @@ const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
             <div className="hidden lg:flex items-center gap-3">
               <Button
                 onClick={onOpenContact}
-                className="bg-gold hover:bg-gold-dark text-navy font-semibold"
+                className="bg-brand hover:bg-brand-dark text-ink font-semibold"
               >
                 Analisi dei numeri
               </Button>
             </div>
 
             <button
-              className="lg:hidden p-2 relative w-11 h-11 flex items-center justify-center text-navy touch-target"
+              className="lg:hidden p-2 relative w-11 h-11 flex items-center justify-center text-ink touch-target"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Apri menu"
               aria-expanded={isMobileMenuOpen}
@@ -119,8 +119,8 @@ const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
                     className={({ isActive }) =>
                       `block py-3 px-3 min-h-[48px] rounded-lg ${
                         isActive
-                          ? "text-navy bg-muted font-semibold"
-                          : "text-foreground/80 hover:text-navy hover:bg-muted/60"
+                          ? "text-ink bg-muted font-semibold"
+                          : "text-foreground/80 hover:text-ink hover:bg-muted/60"
                       }`
                     }
                   >
@@ -139,7 +139,7 @@ const EFHeader = ({ onOpenContact }: EFHeaderProps) => {
                     setIsMobileMenuOpen(false);
                     onOpenContact();
                   }}
-                  className="mt-3 min-h-[48px] w-full bg-gold hover:bg-gold-dark text-navy font-semibold"
+                  className="mt-3 min-h-[48px] w-full bg-brand hover:bg-brand-dark text-ink font-semibold"
                 >
                   Richiedi l'analisi dei numeri
                 </Button>

@@ -4,10 +4,10 @@ import type { ArticleMeta, Category } from "@/data/articles";
 
 /** Identità visiva per silo: la copertina dice a colpo d'occhio di chi parla la guida. */
 const CAT: Record<Category, { from: string; to: string; icon: LucideIcon }> = {
-  Impresa: { from: "hsl(217 38% 22%)", to: "hsl(217 38% 40%)", icon: Calculator },
-  Controllo: { from: "hsl(217 60% 30%)", to: "hsl(217 91% 55%)", icon: Gauge },
-  Fisco: { from: "hsl(217 38% 20%)", to: "hsl(217 70% 42%)", icon: Scale },
-  Patrimonio: { from: "hsl(217 38% 27%)", to: "hsl(45 90% 45%)", icon: Landmark },
+  Impresa: { from: "hsl(0 0% 6%)", to: "hsl(0 0% 26%)", icon: Calculator },
+  Controllo: { from: "hsl(0 0% 10%)", to: "hsl(19 45% 40%)", icon: Gauge },
+  Fisco: { from: "hsl(19 50% 26%)", to: "hsl(19 60% 48%)", icon: Scale },
+  Patrimonio: { from: "hsl(19 70% 38%)", to: "hsl(19 89% 56%)", icon: Landmark },
 };
 
 interface ArticleCoverProps {
@@ -54,7 +54,7 @@ const ArticleCover = ({ article, className = "", eager = false }: ArticleCoverPr
         className="absolute inset-0 opacity-[0.13]"
         style={{
           backgroundImage:
-            "linear-gradient(hsl(45 90% 61%) 1px, transparent 1px), linear-gradient(90deg, hsl(45 90% 61%) 1px, transparent 1px)",
+            "linear-gradient(hsl(19 89% 53%) 1px, transparent 1px), linear-gradient(90deg, hsl(19 89% 53%) 1px, transparent 1px)",
           backgroundSize: "26px 26px",
         }}
       />
@@ -62,7 +62,7 @@ const ArticleCover = ({ article, className = "", eager = false }: ArticleCoverPr
       <div
         className="absolute inset-0"
         style={{
-          background: "radial-gradient(ellipse at 78% 22%, hsl(45 90% 61% / 0.35) 0%, transparent 55%)",
+          background: "radial-gradient(ellipse at 78% 22%, hsl(19 89% 53% / 0.35) 0%, transparent 55%)",
         }}
       />
       <Icon

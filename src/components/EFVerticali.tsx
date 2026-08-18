@@ -9,8 +9,8 @@ const EFVerticali = () => (
     <div className="container mx-auto px-4">
       <Reveal>
         <div className="max-w-3xl mb-10">
-          <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">I temi ricorrenti</p>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy mb-5 leading-tight">
+          <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">I temi ricorrenti</p>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
             Le otto domande che ci arrivano ogni settimana.
           </h2>
           <p className="text-foreground/70 text-lg leading-relaxed">
@@ -25,11 +25,11 @@ const EFVerticali = () => (
           <Reveal key={v.guida} delay={(i % 4) * 80}>
             <Link
               to={`/guide/${v.guida}`}
-              className="group block bg-muted/40 hover:bg-white rounded-xl p-5 border border-border hover:border-gold hover:shadow-card transition-all h-full"
+              className="group block bg-muted/40 hover:bg-white rounded-xl p-5 border border-border hover:border-brand hover:shadow-card transition-all h-full"
             >
-              <h3 className="font-bold text-navy mb-1.5 flex items-center justify-between gap-2">
+              <h3 className="font-bold text-ink mb-1.5 flex items-center justify-between gap-2">
                 {v.title}
-                <ArrowRight className="w-4 h-4 text-foreground/30 group-hover:text-gold-dark shrink-0" />
+                <ArrowRight className="w-4 h-4 text-foreground/30 group-hover:text-brand-dark shrink-0" />
               </h3>
               <p className="text-sm text-foreground/65 leading-snug">{v.kw}</p>
             </Link>

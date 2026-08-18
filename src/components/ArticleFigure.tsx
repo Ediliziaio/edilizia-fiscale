@@ -40,10 +40,10 @@ const ArticleFigure = ({ slot, alt, caption }: ArticleFigureProps) => {
             }}
           />
           <div className="relative text-center px-8 max-w-lg">
-            <div className="w-12 h-12 rounded-xl bg-navy/5 flex items-center justify-center mx-auto mb-3">
-              <ImageIcon className="w-6 h-6 text-navy/50" />
+            <div className="w-12 h-12 rounded-xl bg-ink/5 flex items-center justify-center mx-auto mb-3">
+              <ImageIcon className="w-6 h-6 text-ink/50" />
             </div>
-            <p className="text-sm font-semibold text-navy/70 leading-snug">{alt}</p>
+            <p className="text-sm font-semibold text-ink/70 leading-snug">{alt}</p>
             <p className="text-xs text-foreground/40 mt-1.5">Immagine in arrivo</p>
           </div>
         </div>

@@ -12,7 +12,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "16 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "fiscalità impresa edile",
       "tassazione impresa edile",
@@ -50,7 +50,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "16 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "holding impresa edile",
       "holding immobiliare",
@@ -69,7 +69,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "15 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "protezione patrimoniale imprenditore edile",
       "proteggere il patrimonio dai debiti aziendali",
@@ -88,7 +88,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "reverse charge edilizia",
       "quando si applica il reverse charge",
@@ -107,7 +107,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "iva agevolata lavori edili",
       "iva 10 ristrutturazione",
@@ -126,7 +126,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "11 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "ritenute appalti 17-bis",
       "durf certificato agenzia entrate",
@@ -145,7 +145,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "costo orario operaio edile",
       "costo del lavoro impresa edile",
@@ -164,7 +164,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "11 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "costi deducibili impresa edile",
       "ammortamento mezzi d'opera",
@@ -183,7 +183,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "10 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy to-navy-light",
+    "cover": "from-ink to-ink-light",
     "keywords": [
       "split payment appalti pubblici",
       "fatturazione elettronica pa edilizia",
@@ -316,7 +316,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "13 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "verifica fiscale impresa edile",
       "accesso guardia di finanza cantiere",
@@ -335,7 +335,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "13 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "accertamento superbonus impresa",
       "credito inesistente o non spettante",
@@ -354,7 +354,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "11 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "crediti incagliati superbonus",
       "cassetto fiscale bloccato",
@@ -373,7 +373,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "accertamento induttivo impresa edile",
       "accertamento analitico induttivo",
@@ -392,7 +392,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "11 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "ravvedimento operoso impresa",
       "accertamento con adesione",
@@ -411,7 +411,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "10 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-navy via-trust-dark to-trust",
+    "cover": "from-ink via-trust-dark to-trust",
     "keywords": [
       "isa edilizia punteggio",
       "indici sintetici affidabilità fiscale",
@@ -430,7 +430,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "13 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "scissione immobiliare srl",
       "separare immobili da società operativa",
@@ -449,7 +449,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "tassazione dividendi holding",
       "participation exemption pex requisiti",
@@ -468,7 +468,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "intestare immobili a società o persona fisica",
       "società immobiliare vantaggi",
@@ -487,7 +487,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "11 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "consolidato fiscale nazionale requisiti",
       "gruppo societario edilizia",
@@ -506,7 +506,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "vendita immobili impresa costruzione iva",
       "cessione fabbricati regime iva o registro",
@@ -525,7 +525,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "13 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "passaggio generazionale impresa edile",
       "donazione quote srl ai figli",
@@ -544,7 +544,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "patto di famiglia impresa",
       "trust familiare imprenditore",
@@ -563,7 +563,7 @@ export const articlesMeta: ArticleMeta[] = [
     "date": "Agosto 2026",
     "readTime": "12 min",
     "author": "Redazione Edilizia Fiscale",
-    "cover": "from-gold-dark to-gold",
+    "cover": "from-brand-dark to-brand",
     "keywords": [
       "cessione azienda o cessione quote",
       "vendere impresa edile",

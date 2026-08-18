@@ -28,8 +28,8 @@ const EFProcessFlow = () => (
     <div className="container mx-auto px-4">
       <Reveal>
         <div className="max-w-3xl mb-12">
-          <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Come lavoriamo</p>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy mb-5 leading-tight">
+          <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Come lavoriamo</p>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
             Prima i numeri, poi le proposte. Sempre in quest'ordine.
           </h2>
           <p className="text-foreground/70 text-lg leading-relaxed">
@@ -44,11 +44,11 @@ const EFProcessFlow = () => (
         {steps.map((s, i) => (
           <Reveal key={s.n} delay={i * 120}>
             <div className="bg-white rounded-2xl p-7 border border-border shadow-card h-full relative overflow-hidden">
-              <span className="absolute -top-3 -right-2 text-7xl font-extrabold text-navy/5 select-none">{s.n}</span>
-              <span className="inline-block text-xs font-bold text-gold-dark bg-gold/10 rounded-full px-3 py-1 mb-4">
+              <span className="absolute -top-3 -right-2 text-7xl font-extrabold text-ink/5 select-none">{s.n}</span>
+              <span className="inline-block text-xs font-bold text-brand-dark bg-brand/10 rounded-full px-3 py-1 mb-4">
                 Fase {s.n}
               </span>
-              <h3 className="text-lg font-bold text-navy mb-2">{s.title}</h3>
+              <h3 className="text-lg font-bold text-ink mb-2">{s.title}</h3>
               <p className="text-sm text-foreground/70 leading-relaxed">{s.desc}</p>
             </div>
           </Reveal>

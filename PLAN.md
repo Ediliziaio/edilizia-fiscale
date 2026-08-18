@@ -11,7 +11,7 @@ invariato (navy/gold, Inter Tight). Dominio placeholder: https://www.ediliziafis
 - [x] Copia repo → ~/edilizia-fiscale, git init
 - [x] Rinomina componenti EL* → EF*, brand e dominio
 - [x] index.html nuovo (schema AccountingService/ProfessionalService, knowsAbout fiscale)
-- [x] Favicon e logo (tetto + istogramma)
+- [x] Favicon e logo provvisori (poi sostituiti dai file del cliente)
 - [x] SEO.tsx → SITE ediliziafiscale.it, brand Edilizia Fiscale
 - [x] Tassonomia articoli: Impresa / Controllo / Fisco / Patrimonio
 - [x] Header + Footer nuovi (due silo: impresa e patrimonio)
@@ -81,6 +81,14 @@ Patrimonio:
 - [x] grep "Edilizia Legale|edilizialegale|avvocato" → zero risultati nel codice
 - [x] Verifica visiva browser (home, hub, guida, FAQ)
 - [x] README aggiornato con i punti [DA VERIFICARE] e [DA CONFERMARE]
+
+### Fase 6 — Identità visiva definitiva
+- [x] Loghi reali del cliente (3 varianti) in `src/assets`, componente EFLogo su immagine
+- [x] Palette nero `#0C0C0C` + arancione `#F2621D`: token `navy`→`ink`, `gold`→`brand`
+- [x] `trust` da blu a terracotta desaturata, per restare nella famiglia calda
+- [x] `brand-dark` calibrato a 4.8:1 su bianco (il gold precedente era sotto soglia)
+- [x] Favicon, apple-touch-icon e og-image rigenerate dal marchio del logo
+- [x] Bagliori dell'hero attenuati: l'arancione su nero satura più del gold su navy
 
 ## Prossimi passi consigliati
 - Validare su fonte ufficiale i punti elencati in README (sezione [DA VERIFICARE]).

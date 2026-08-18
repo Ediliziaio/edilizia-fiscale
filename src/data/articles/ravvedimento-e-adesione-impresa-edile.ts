@@ -9,7 +9,7 @@ export const meta: ArticleMeta = {
   date: "Agosto 2026",
   readTime: "11 min",
   author: "Redazione Edilizia Fiscale",
-  cover: "from-navy via-trust-dark to-trust",
+  cover: "from-ink via-trust-dark to-trust",
   keywords: [
     "ravvedimento operoso impresa",
     "accertamento con adesione",

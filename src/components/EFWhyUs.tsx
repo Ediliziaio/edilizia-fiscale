@@ -25,11 +25,11 @@ const points = [
 ];
 
 const EFWhyUs = () => (
-  <section className="py-16 lg:py-24 bg-navy text-white">
+  <section className="py-16 lg:py-24 bg-ink text-white">
     <div className="container mx-auto px-4">
       <Reveal>
         <div className="max-w-3xl mb-12">
-          <p className="text-gold uppercase tracking-widest text-sm font-semibold mb-3">Perché Edilizia Fiscale</p>
+          <p className="text-brand uppercase tracking-widest text-sm font-semibold mb-3">Perché Edilizia Fiscale</p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-5 leading-tight">
             Uno studio verticale, non il reparto edilizia di uno studio generalista.
           </h2>
@@ -39,8 +39,8 @@ const EFWhyUs = () => (
         {points.map((p, i) => (
           <Reveal key={p.title} delay={i * 100}>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-7 h-full">
-              <div className="w-11 h-11 rounded-xl bg-gold/15 flex items-center justify-center mb-4">
-                <p.icon className="w-5 h-5 text-gold" />
+              <div className="w-11 h-11 rounded-xl bg-brand/15 flex items-center justify-center mb-4">
+                <p.icon className="w-5 h-5 text-brand" />
               </div>
               <h3 className="text-lg font-bold mb-2">{p.title}</h3>
               <p className="text-sm text-white/70 leading-relaxed">{p.desc}</p>

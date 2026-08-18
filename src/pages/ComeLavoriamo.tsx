@@ -33,7 +33,7 @@ const ComeLavoriamo = () => {
         <main className="flex-1 py-14 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto legal-content">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink leading-tight mb-6">
                 Come lavoriamo, cosa non facciamo e quanto costa
               </h1>
               <p className="text-xl text-foreground/75 leading-relaxed mb-8">

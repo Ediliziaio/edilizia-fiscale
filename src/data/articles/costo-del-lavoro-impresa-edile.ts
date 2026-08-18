@@ -9,7 +9,7 @@ export const meta: ArticleMeta = {
   date: "Agosto 2026",
   readTime: "12 min",
   author: "Redazione Edilizia Fiscale",
-  cover: "from-navy to-navy-light",
+  cover: "from-ink to-ink-light",
   keywords: [
     "costo orario operaio edile",
     "costo del lavoro impresa edile",

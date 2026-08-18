@@ -44,10 +44,10 @@ const EFContactModal = ({ isOpen, onClose }: EFContactModalProps) => {
       <DialogContent className="sm:max-w-lg">
         <DialogHeader>
           <div className="flex items-center gap-3 mb-1">
-            <div className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-              <ShieldCheck className="w-5 h-5 text-navy" />
+            <div className="w-10 h-10 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+              <ShieldCheck className="w-5 h-5 text-ink" />
             </div>
-            <DialogTitle className="text-xl text-navy text-left">Parliamo dei tuoi numeri</DialogTitle>
+            <DialogTitle className="text-xl text-ink text-left">Parliamo dei tuoi numeri</DialogTitle>
           </div>
           <p className="text-sm text-foreground/70 text-left">
             Due minuti per compilare. Ti ricontattiamo entro 2 giorni lavorativi per capire la situazione e
@@ -61,7 +61,7 @@ const EFContactModal = ({ isOpen, onClose }: EFContactModalProps) => {
             <div className="w-16 h-16 rounded-full bg-success/15 flex items-center justify-center mx-auto mb-4">
               <CheckCircle2 className="w-9 h-9 text-success" />
             </div>
-            <h3 className="text-lg font-bold text-navy mb-2">Richiesta ricevuta</h3>
+            <h3 className="text-lg font-bold text-ink mb-2">Richiesta ricevuta</h3>
             <p className="text-sm text-foreground/70">Ti contattiamo entro 2 giorni lavorativi.</p>
           </div>
         ) : (
@@ -127,14 +127,14 @@ const EFContactModal = ({ isOpen, onClose }: EFContactModalProps) => {
             <label className="flex items-start gap-2 text-xs text-foreground/70">
               <input type="checkbox" required className="mt-0.5" />
               <span>
-                Ho letto e accetto la <a href="/privacy" className="text-navy underline">Privacy Policy</a>. I dati saranno trattati solo per gestire la richiesta.
+                Ho letto e accetto la <a href="/privacy" className="text-ink underline">Privacy Policy</a>. I dati saranno trattati solo per gestire la richiesta.
               </span>
             </label>
 
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-gold hover:bg-gold-dark text-navy font-bold h-11"
+              className="w-full bg-brand hover:bg-brand-dark text-ink font-bold h-11"
             >
               {isSubmitting ? "Invio in corso..." : "Invia la richiesta"}
             </Button>

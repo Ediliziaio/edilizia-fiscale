@@ -9,7 +9,7 @@ export const meta: ArticleMeta = {
   date: "Agosto 2026",
   readTime: "16 min",
   author: "Redazione Edilizia Fiscale",
-  cover: "from-gold-dark to-gold",
+  cover: "from-brand-dark to-brand",
   keywords: [
     "holding impresa edile",
     "holding immobiliare",

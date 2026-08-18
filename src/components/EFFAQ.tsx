@@ -14,8 +14,8 @@ const EFFAQ = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="mb-10">
-            <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Domande frequenti</p>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy mb-5 leading-tight">
+            <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Domande frequenti</p>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-5 leading-tight">
               Le domande che riceviamo più spesso.
             </h2>
             <p className="text-foreground/70 text-lg leading-relaxed">
@@ -27,11 +27,11 @@ const EFFAQ = () => {
           <div className="space-y-4">
             {featured.map((f) => (
               <div key={f.slug} className="bg-muted/40 rounded-xl border border-border p-5 lg:p-6">
-                <h3 className="font-bold text-navy text-base mb-2">{f.question}</h3>
+                <h3 className="font-bold text-ink text-base mb-2">{f.question}</h3>
                 <p className="text-foreground/75 leading-relaxed mb-3">{f.answer}</p>
                 <Link
                   to={`/domande-frequenti/${f.slug}`}
-                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold-dark hover:gap-2.5 transition-all"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark hover:gap-2.5 transition-all"
                 >
                   Leggi l'approfondimento <ArrowRight className="w-4 h-4" />
                 </Link>
@@ -42,7 +42,7 @@ const EFFAQ = () => {
           <div className="mt-8 text-center">
             <Link
               to="/domande-frequenti"
-              className="inline-flex items-center gap-2 text-navy font-semibold hover:text-gold-dark"
+              className="inline-flex items-center gap-2 text-ink font-semibold hover:text-brand-dark"
             >
               Tutte le domande frequenti <ArrowRight className="w-4 h-4" />
             </Link>

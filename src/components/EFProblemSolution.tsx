@@ -31,8 +31,8 @@ const EFProblemSolution = () => (
       <div className="grid lg:grid-cols-[1.2fr_1fr] gap-10 lg:gap-14 items-center max-w-6xl mx-auto mb-14">
         <Reveal>
           <div>
-            <p className="text-gold-dark uppercase tracking-widest text-sm font-semibold mb-3">Perché un verticale</p>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-navy mb-6 leading-tight">
+            <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Perché un verticale</p>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink mb-6 leading-tight">
               Il tuo commercialista registra le fatture. Il problema è che il margine si decide prima.
             </h2>
             <p className="text-foreground/70 text-lg leading-relaxed">
@@ -52,10 +52,10 @@ const EFProblemSolution = () => (
         {rules.map((r, i) => (
           <Reveal key={r.title} delay={i * 120}>
             <div className="bg-white rounded-2xl p-7 border border-border shadow-card h-full">
-              <div className="w-11 h-11 rounded-xl bg-navy flex items-center justify-center mb-4">
-                <r.icon className="w-5 h-5 text-gold" />
+              <div className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center mb-4">
+                <r.icon className="w-5 h-5 text-brand" />
               </div>
-              <h3 className="text-lg font-bold text-navy mb-2">{r.title}</h3>
+              <h3 className="text-lg font-bold text-ink mb-2">{r.title}</h3>
               <p className="text-sm text-foreground/70 leading-relaxed">{r.desc}</p>
             </div>
           </Reveal>

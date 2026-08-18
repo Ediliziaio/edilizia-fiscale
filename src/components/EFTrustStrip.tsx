@@ -13,8 +13,8 @@ const EFTrustStrip = () => (
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {items.map(({ icon: Icon, label }) => (
           <div key={label} className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-gold/15 flex items-center justify-center shrink-0">
-              <Icon className="w-5 h-5 text-navy" />
+            <div className="w-9 h-9 rounded-lg bg-brand/15 flex items-center justify-center shrink-0">
+              <Icon className="w-5 h-5 text-ink" />
             </div>
             <span className="text-sm font-medium text-foreground/80 leading-snug">{label}</span>
           </div>

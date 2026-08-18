@@ -37,22 +37,22 @@ const EFLegalLayout = ({ title, subtitle, lastUpdate, icon, metaDescription, can
 
         <main className="flex-1">
           {/* Hero */}
-          <section className="relative bg-navy text-white overflow-hidden border-b border-white/10 py-14 lg:py-20">
+          <section className="relative bg-ink text-white overflow-hidden border-b border-white/10 py-14 lg:py-20">
             <EFHeroBackdrop />
             <div className="container mx-auto px-4 relative">
               <div className="max-w-4xl">
                 <Link
                   to="/"
-                  className="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-gold mb-6"
+                  className="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-brand mb-6"
                 >
                   <ArrowLeft className="w-4 h-4" /> Torna alla home
                 </Link>
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-gold/15 flex items-center justify-center shrink-0">
-                    <Icon className="w-6 h-6 text-gold" />
+                  <div className="w-12 h-12 rounded-xl bg-brand/15 flex items-center justify-center shrink-0">
+                    <Icon className="w-6 h-6 text-brand" />
                   </div>
                   <div>
-                    <p className="text-gold uppercase tracking-widest text-xs font-bold mb-2">Informativa</p>
+                    <p className="text-brand uppercase tracking-widest text-xs font-bold mb-2">Informativa</p>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
                       {title}
                     </h1>
