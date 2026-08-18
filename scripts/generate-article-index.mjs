@@ -35,6 +35,10 @@ const ORDER = [
   // Lavoro, contributi e qualificazione
   "durc-irregolare-impresa-edile",
   "cassa-edile-come-funziona",
+  "congruita-manodopera-durc",
+  "appalto-non-genuino-distacco-somministrazione",
+  "assunzioni-agevolazioni-contributive-edilizia",
+  "oneri-della-sicurezza-trattamento",
   "attestazione-soa-requisiti-economici",
   "consorzi-ati-fiscalita",
   // Verifiche e contenzioso tributario

@@ -1,7 +1,7 @@
 # Piano editoriale — argomenti mancanti
 
-> **Stato:** il blocco 1 è stato pubblicato ad agosto 2026 (6 guide, sito da 30 a 36).
-> Restano i blocchi 2-7, 21 guide.
+> **Stato:** pubblicati i blocchi 1 e 2 ad agosto 2026 (10 guide, sito da 30 a 40).
+> Restano i blocchi 3-7, 17 guide.
 
 Analisi dei buchi di copertura sulle 30 guide pubblicate.
 Aggiornato ad agosto 2026.
@@ -43,16 +43,16 @@ Sei guide che chiudono le promesse già fatte in home e negli hub.
 | ✅ `consorzi-ati-fiscalita` | «Consorzi e ATI» è nell'H1. Consorzio stabile, ribaltamento dei costi ai consorziati, ATI orizzontale e verticale: fiscalità genuinamente complessa e poco presidiata. | Appalti |
 | ✅ `bonus-edilizi-come-si-fatturano` | Oggi copriamo solo il contenzioso Superbonus. Manca cosa esiste adesso e come si fattura. | Impresa |
 
-## Blocco 2 — Cluster «Lavoro e contributi» (oggi inesistente)
+## Blocco 2 — Cluster «Lavoro e contributi» ✅ FATTO
 
-Il costo del lavoro è un pilastro del posizionamento, ma esiste una sola guida.
+Il cluster è ora composto da sei guide: le quattro di questo blocco più DURC e Cassa Edile del blocco 1.
 
 | Slug proposto | Perché |
 |---|---|
-| `congruita-manodopera-durc` | Ha già una FAQ e viene richiamata in 3 guide. D.M. 143/2021, percentuali per categoria, come si giustifica lo scostamento. |
-| `appalto-non-genuino-distacco-somministrazione` | Interposizione illecita di manodopera: sanzioni pesanti, confine sottile, frequentissimo nei subappalti. |
-| `assunzioni-e-agevolazioni-contributive-edilizia` | Sgravi, apprendistato, contratti di solidarietà nel settore. |
-| `oneri-della-sicurezza-trattamento` | Non soggetti a ribasso negli appalti, deducibilità, imputazione a commessa. |
+| ✅ `congruita-manodopera-durc` | Ha già una FAQ e viene richiamata in 3 guide. D.M. 143/2021, percentuali per categoria, come si giustifica lo scostamento. |
+| ✅ `appalto-non-genuino-distacco-somministrazione` | Interposizione illecita di manodopera: sanzioni pesanti, confine sottile, frequentissimo nei subappalti. |
+| ✅ `assunzioni-agevolazioni-contributive-edilizia` | Riduzione contributiva di settore, apprendistato, CIG maltempo. |
+| ✅ `oneri-della-sicurezza-trattamento` | Non soggetti a ribasso negli appalti, deducibilità, imputazione a commessa. |
 
 ## Blocco 3 — Cluster «Appalti pubblici» (oggi inesistente)
 
@@ -118,10 +118,11 @@ La prima è più coerente con l'impianto del sito, che è costruito sui silo.
 
 ## Ordine consigliato
 
-1. **Blocco 1** (6 guide) — chiude le promesse già fatte. Da fare prima di promuovere il sito.
-2. **Blocco 2** (4 guide) — il cluster lavoro regge il posizionamento sul costo orario.
+1. ~~**Blocco 1** (6 guide) — chiude le promesse già fatte.~~ ✅
+2. ~~**Blocco 2** (4 guide) — il cluster lavoro regge il posizionamento sul costo orario.~~ ✅
 3. **Blocco 3 + 4** (6 guide) — aprono due segmenti oggi dichiarati e non serviti.
 4. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
 
-Totale proposto: **27 guide**. Con il blocco 1 pubblicato il sito è a 36; ne restano 21.
-Con il blocco 1 il sito ha smesso di promettere cose che non mantiene.
+Totale proposto: **27 guide**. Con i blocchi 1 e 2 pubblicati il sito è a 40; ne restano 17.
+Con il blocco 1 il sito ha smesso di promettere cose che non mantiene; con il blocco 2 il
+posizionamento sul costo del lavoro è coperto per intero.

@@ -385,6 +385,82 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "La Cassa Edile è un ente bilaterale territoriale che gestisce, per conto delle imprese, prestazioni che in altri settori restano in busta paga: ferie, gratifica natalizia, anzianità professionale, assistenza sanitaria, formazione. Per l'impresa significa un flusso di contribuzione mensile e un accantonamento che esce dalla cassa prima di diventare costo del lavoro nel senso ordinario."
   },
   {
+    "slug": "congruita-manodopera-durc",
+    "title": "Congruità della manodopera: come si calcola e come si giustifica lo scostamento",
+    "excerpt": "Il D.M. 143/2021 confronta il costo del lavoro denunciato con percentuali minime riferite al valore dell'opera. Sopra i 70.000 euro nei lavori privati e su qualunque importo nel pubblico. Come si verifica in corso d'opera e cosa fare quando non torna.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "congruità manodopera come si calcola",
+      "dm 143 2021 congruità",
+      "attestazione congruità cassa edile",
+      "incidenza manodopera 14,28%",
+      "scostamento congruità giustificazione",
+      "congruità lavori privati 70.000 euro"
+    ],
+    "intro": "La verifica di congruità confronta il costo del lavoro denunciato in Cassa Edile con percentuali minime riferite al valore dell'opera, differenziate per categoria di lavori. Non guarda se hai versato: guarda se hai dichiarato abbastanza manodopera per aver realizzato quell'opera. È una verifica che esiste solo in edilizia e che si vince durante il cantiere, non alla fine."
+  },
+  {
+    "slug": "appalto-non-genuino-distacco-somministrazione",
+    "title": "Appalto non genuino, distacco e somministrazione: dove passa il confine",
+    "excerpt": "Se la squadra che entra in cantiere riceve ordini dal tuo capocantiere, non è un subappalto: è manodopera. Le tre figure a confronto, la responsabilità solidale dell'art. 29, e cosa rischia chi utilizza lavoratori interposti.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "appalto non genuino edilizia",
+      "interposizione illecita manodopera",
+      "differenza appalto somministrazione distacco",
+      "responsabilità solidale appalti art 29",
+      "somministrazione fraudolenta sanzioni",
+      "nolo a caldo o subappalto"
+    ],
+    "intro": "L'appalto genuino richiede che l'appaltatore organizzi i mezzi e gestisca il lavoro a proprio rischio (art. 1655 c.c.). Quando invece mette a disposizione solo persone, dirette da altri, si esce dall'appalto ed entra la disciplina della somministrazione — riservata alle agenzie autorizzate. In cantiere il confine si vede da un dettaglio: chi dà gli ordini."
+  },
+  {
+    "slug": "assunzioni-agevolazioni-contributive-edilizia",
+    "title": "Assumere in edilizia: riduzione contributiva, apprendistato e CIG maltempo",
+    "excerpt": "Il settore ha una riduzione contributiva propria che vale su ogni operaio a tempo pieno e che molte imprese non chiedono. Più l'apprendistato, la cassa integrazione per maltempo e le condizioni — DURC e contratto — senza cui nessun beneficio spetta.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "12 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "riduzione contributiva edilizia 11,50%",
+      "agevolazioni assunzioni imprese edili",
+      "apprendistato professionalizzante edilizia",
+      "cig maltempo edilizia",
+      "durc condizione benefici contributivi",
+      "sgravi contributivi settore costruzioni"
+    ],
+    "intro": "L'edilizia ha una misura che nessun altro settore conosce: una riduzione dei contributi previdenziali riconosciuta sugli operai a tempo pieno, prevista dall'art. 29 del D.L. 244/1995 e confermata di anno in anno. Si ottiene su domanda, non automaticamente, e richiede la regolarità contributiva. Molte imprese non la chiedono perché non sanno che esiste."
+  },
+  {
+    "slug": "oneri-della-sicurezza-trattamento",
+    "title": "Costi della sicurezza: non ribassabili, e vanno tenuti separati",
+    "excerpt": "Costi della sicurezza da PSC e oneri aziendali sono due cose diverse: i primi non sono soggetti a ribasso, i secondi restano nelle spese generali dell'impresa. Come si scorporano in offerta, come si imputano a commessa e come si deducono.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "12 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-trust to-brand-dark",
+    "keywords": [
+      "costi della sicurezza non soggetti a ribasso",
+      "oneri aziendali della sicurezza offerta",
+      "differenza costi e oneri sicurezza",
+      "psc costi sicurezza computo",
+      "deducibilità costi sicurezza cantiere",
+      "art 41 comma 14 dlgs 36 2023"
+    ],
+    "intro": "In edilizia la parola sicurezza indica due voci economiche distinte, che si confondono di continuo. I costi della sicurezza sono quelli previsti dal piano di sicurezza e coordinamento per quel cantiere, e non sono soggetti a ribasso. Gli oneri aziendali sono quelli propri dell'impresa e restano nella sua struttura di costo. Sbagliare la distinzione costa in gara e in verifica."
+  },
+  {
     "slug": "attestazione-soa-requisiti-economici",
     "title": "Attestazione SOA: come il bilancio decide la classifica che puoi ottenere",
     "excerpt": "Cifra d'affari in lavori, patrimonio netto, costo del personale, attrezzatura: i requisiti economico-finanziari della qualificazione si leggono nei tuoi bilanci. Le scelte contabili fatte oggi decidono a quali gare potrai partecipare fra tre anni.",

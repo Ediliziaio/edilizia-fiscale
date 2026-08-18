@@ -86,6 +86,22 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Cassa Edile: Come Funziona e Quanto Pesa",
     "metaDescription": "Accantonamenti per ferie e gratifica, APE, denuncia mensile e trasferte: la voce che rende il costo orario dell'edilizia diverso da ogni altro settore."
   },
+  "congruita-manodopera-durc": {
+    "seoTitle": "Congruità della Manodopera: Calcolo e Scostamenti",
+    "metaDescription": "Il D.M. 143/2021, le percentuali minime per categoria, la soglia dei 70.000 euro nei lavori privati e come si giustifica uno scostamento."
+  },
+  "appalto-non-genuino-distacco-somministrazione": {
+    "seoTitle": "Appalto non Genuino, Distacco e Somministrazione",
+    "metaDescription": "Dove passa il confine tra subappalto e fornitura di manodopera, la responsabilità solidale dell'art. 29 e cosa rischia chi utilizza lavoratori interposti."
+  },
+  "assunzioni-agevolazioni-contributive-edilizia": {
+    "seoTitle": "Assumere in Edilizia: Riduzione Contributiva e CIG",
+    "metaDescription": "La riduzione contributiva del settore, l'apprendistato, la cassa integrazione per maltempo e le condizioni senza cui nessun beneficio spetta."
+  },
+  "oneri-della-sicurezza-trattamento": {
+    "seoTitle": "Costi della Sicurezza: Non Ribassabili e Separati",
+    "metaDescription": "Costi da PSC e oneri aziendali sono voci diverse: come si scorporano in offerta, come si imputano a commessa e come si deducono."
+  },
   "attestazione-soa-requisiti-economici": {
     "seoTitle": "Attestazione SOA: Come il Bilancio Decide la Classifica",
     "metaDescription": "Cifra d'affari in lavori, patrimonio netto, costo del personale e attrezzatura: come i bilanci determinano categorie e classifiche ottenibili."

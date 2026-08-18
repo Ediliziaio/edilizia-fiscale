@@ -189,4 +189,6 @@ export const verticali = [
   { title: "Attestazione SOA", kw: "Come i bilanci decidono la classifica che puoi ottenere", guida: "attestazione-soa-requisiti-economici" },
   { title: "Consorzi e ATI", kw: "Chi fattura cosa, e quale dei due conviene", guida: "consorzi-ati-fiscalita" },
   { title: "Fotovoltaico", kw: "Reverse charge, ammortamento e comunità energetiche", guida: "fiscalita-fotovoltaico-impianti" },
+  { title: "Congruità manodopera", kw: "Il 14,28% e come si giustifica lo scostamento", guida: "congruita-manodopera-durc" },
+  { title: "Subappalto genuino", kw: "Dove passa il confine con la fornitura di manodopera", guida: "appalto-non-genuino-distacco-somministrazione" },
 ] as const;

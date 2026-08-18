@@ -162,6 +162,38 @@ export const articleImages: Record<string, string | null> = {
   // Denuncia mensile telematica con ore per operaio e attribuzione ai cantieri
   "cassa-edile-come-funziona-2": null,
 
+  // congruita-manodopera-durc
+  // Copertina — Prospetto di congruità con costo del lavoro denunciato a confronto con il valore dell'opera
+  "congruita-manodopera-durc-cover": null,
+  // Prospetto di congruità con costo del lavoro denunciato a confronto con il valore dell'opera
+  "congruita-manodopera-durc-1": null,
+  // Riunione mensile di cantiere con prospetto della congruità accanto al margine di commessa
+  "congruita-manodopera-durc-2": null,
+
+  // appalto-non-genuino-distacco-somministrazione
+  // Copertina — Cantiere con squadre di imprese diverse che lavorano nello stesso perimetro
+  "appalto-non-genuino-distacco-somministrazione-cover": null,
+  // Cantiere con squadre di imprese diverse che lavorano nello stesso perimetro
+  "appalto-non-genuino-distacco-somministrazione-1": null,
+  // Contratto di subappalto con computo delle lavorazioni affidate e prezzi unitari
+  "appalto-non-genuino-distacco-somministrazione-2": null,
+
+  // assunzioni-agevolazioni-contributive-edilizia
+  // Copertina — Ufficio amministrativo di un'impresa edile con prospetti contributivi e libro unico
+  "assunzioni-agevolazioni-contributive-edilizia-cover": null,
+  // Ufficio amministrativo di un'impresa edile con prospetti contributivi e libro unico
+  "assunzioni-agevolazioni-contributive-edilizia-1": null,
+  // Giovane apprendista in cantiere affiancato da un operaio specializzato
+  "assunzioni-agevolazioni-contributive-edilizia-2": null,
+
+  // oneri-della-sicurezza-trattamento
+  // Copertina — Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza
+  "oneri-della-sicurezza-trattamento-cover": null,
+  // Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza
+  "oneri-della-sicurezza-trattamento-1": null,
+  // Computo dei costi della sicurezza allegato al piano di sicurezza e coordinamento
+  "oneri-della-sicurezza-trattamento-2": null,
+
   // attestazione-soa-requisiti-economici
   // Copertina — Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio
   "attestazione-soa-requisiti-economici-cover": null,
