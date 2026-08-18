@@ -12,7 +12,8 @@
     "build:dev": "vite-react-ssg build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "articles": "node scripts/generate-article-index.mjs"
+    "articles": "node scripts/generate-article-index.mjs",
+    "immagini": "node scripts/generate-image-brief.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
