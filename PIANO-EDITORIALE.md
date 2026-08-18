@@ -1,7 +1,7 @@
 # Piano editoriale — argomenti mancanti
 
-> **Stato:** pubblicati i blocchi 1, 2 e 3 ad agosto 2026 (13 guide, sito da 30 a 43).
-> Restano i blocchi 4-7, 14 guide.
+> **Stato:** pubblicati i blocchi 1, 2, 3 e 4 ad agosto 2026 (16 guide, sito da 30 a 46).
+> Restano i blocchi 5-7, 11 guide.
 
 Analisi dei buchi di copertura sulle 30 guide pubblicate.
 Aggiornato ad agosto 2026.
@@ -64,16 +64,15 @@ Il cluster è ora composto da cinque guide: le tre di questo blocco più SOA e c
 | ✅ `garanzie-e-polizze-appalto` | Provvisoria, definitiva, CAR, decennale postuma: costo, trattamento contabile, impatto sugli affidamenti. |
 | ✅ `riserve-e-contabilita-lavori-pubblici` | Le riserve dal lato contabile e fiscale: quando diventano ricavo, come si valutano in bilancio. |
 
-## Blocco 4 — Cluster «Immobiliare di sviluppo» (oggi inesistente)
+## Blocco 4 — Cluster «Immobiliare di sviluppo» ✅ FATTO
 
-Il costruttore-venditore è un segmento dichiarato, ma abbiamo solo la guida
-sulla tassazione della vendita.
+Il cluster è ora composto da quattro guide, contando quella sulla tassazione della vendita.
 
 | Slug proposto | Perché |
 |---|---|
-| `permuta-terreno-appartamenti` | L'operazione classica dell'edilizia italiana. IVA, momento impositivo, valutazione: complessa e poco spiegata. |
-| `vendita-su-carta-acconti-garanzie` | Preliminari, acconti, fideiussione obbligatoria (D.lgs. 122/2005), IVA sugli acconti. |
-| `operazione-immobiliare-dal-terreno-alla-vendita` | Guida pilastro del cluster: acquisto area, costi capitalizzabili, rimanenze, vendita. |
+| ✅ `permuta-terreno-appartamenti` | L'operazione classica dell'edilizia italiana. IVA, momento impositivo, valutazione: complessa e poco spiegata. |
+| ✅ `vendita-su-carta-acconti-garanzie` | Preliminari, acconti, fideiussione obbligatoria (D.lgs. 122/2005), IVA sugli acconti. |
+| ✅ `operazione-immobiliare-dal-terreno-alla-vendita` | Guida pilastro del cluster: acquisto area, costi capitalizzabili, rimanenze, vendita. |
 
 ## Blocco 5 — Approfondimenti di cose già citate
 
@@ -121,9 +120,9 @@ La prima è più coerente con l'impianto del sito, che è costruito sui silo.
 1. ~~**Blocco 1** (6 guide) — chiude le promesse già fatte.~~ ✅
 2. ~~**Blocco 2** (4 guide) — il cluster lavoro regge il posizionamento sul costo orario.~~ ✅
 3. ~~**Blocco 3** (3 guide) — apre il segmento appalti pubblici, dichiarato e non servito.~~ ✅
-4. **Blocco 4** (3 guide) — apre il segmento immobiliare di sviluppo.
+4. ~~**Blocco 4** (3 guide) — apre il segmento immobiliare di sviluppo.~~ ✅
 5. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
 
-Totale proposto: **27 guide**. Con i blocchi 1, 2 e 3 pubblicati il sito è a 43; ne restano 14.
+Totale proposto: **27 guide**. Con i blocchi da 1 a 4 pubblicati il sito è a 46; ne restano 11.
 Con il blocco 1 il sito ha smesso di promettere cose che non mantiene; con il blocco 2 il
 posizionamento sul costo del lavoro è coperto per intero.

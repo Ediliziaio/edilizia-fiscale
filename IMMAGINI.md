@@ -12,10 +12,10 @@ node scripts/generate-image-brief.mjs
 
 | Tipo | Quantità | Dimensione | Dove appare |
 |---|---|---|---|
-| Copertine guide | 43 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
-| Figure dentro le guide | 82 | **1600 × 900** (16:9) | nel corpo dell'articolo |
+| Copertine guide | 46 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
+| Figure dentro le guide | 88 | **1600 × 900** (16:9) | nel corpo dell'articolo |
 | Immagini di sito | 6 | vedi sotto | home, hub, studio, contatti |
-| **Totale** | **131** | | |
+| **Totale** | **140** | | |
 
 ## Regole tecniche
 
@@ -62,7 +62,7 @@ Priorità alta: stanno sopra la piega su cinque pagine diverse.
 
 ---
 
-## 2. Copertine delle guide (43)
+## 2. Copertine delle guide (46)
 
 **1920 × 1080**, soggetto nella zona sicura centrale 1440 × 820.
 File in `public/images/guide/`.
@@ -113,13 +113,16 @@ immagini, parti da queste.
 | 38 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
 | 39 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
 | 40 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
-| 41 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
-| 42 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
-| 43 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
+| 41 | `operazione-immobiliare-dal-terreno-alla-vendita-cover` | Operazione immobiliare: dal terreno alla vendita, come si tiene il conto <br><sub>Patrimonio</sub> | Area edificabile con cartello di cantiere e scavi in corso |
+| 42 | `permuta-terreno-appartamenti-cover` | Permuta terreno contro appartamenti: come funziona e dove si sbaglia <br><sub>Patrimonio</sub> | Area edificabile con progetto di intervento e planimetria delle unità |
+| 43 | `vendita-su-carta-acconti-garanzie-cover` | Vendere su carta: preliminari, acconti e la fideiussione obbligatoria <br><sub>Patrimonio</sub> | Cantiere residenziale in costruzione con cartello di vendita delle unità |
+| 44 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
+| 45 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
+| 46 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
 
 ---
 
-## 3. Figure dentro le guide (82)
+## 3. Figure dentro le guide (88)
 
 **1600 × 900**. File in `public/images/guide/`.
 Sono le immagini che spezzano il testo a metà lettura: devono mostrare un
@@ -402,6 +405,27 @@ oggetto o una scena concreta, non un concetto astratto.
 | `tassazione-vendita-immobili-impresa-1` | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
 | `tassazione-vendita-immobili-impresa-2` | Prospetto di calcolo della rettifica della detrazione IVA |
 
+### Operazione immobiliare: dal terreno alla vendita, come si tiene il conto
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `operazione-immobiliare-dal-terreno-alla-vendita-1` | Area edificabile con cartello di cantiere e scavi in corso |
+| `operazione-immobiliare-dal-terreno-alla-vendita-2` | Prospetto di iniziativa immobiliare con costi capitalizzati e ricavato atteso |
+
+### Permuta terreno contro appartamenti: come funziona e dove si sbaglia
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `permuta-terreno-appartamenti-1` | Area edificabile con progetto di intervento e planimetria delle unità |
+| `permuta-terreno-appartamenti-2` | Atto notarile di permuta con perizia di stima e planimetrie allegate |
+
+### Vendere su carta: preliminari, acconti e la fideiussione obbligatoria
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `vendita-su-carta-acconti-garanzie-1` | Cantiere residenziale in costruzione con cartello di vendita delle unità |
+| `vendita-su-carta-acconti-garanzie-2` | Contratto preliminare con allegati progettuali, capitolato e fideiussione |
+
 ### Passaggio generazionale dell'impresa edile: come si prepara
 
 | Slot | Contenuto dell'immagine |
@@ -430,7 +454,7 @@ oggetto o una scena concreta, non un concetto astratto.
 1. **6 immagini di sito** — stanno sopra la piega, si vedono subito.
 2. **4 copertine dei pilastri** (★) — sono in evidenza nel listing delle guide.
 3. **26 copertine restanti** — completano la griglia di `/guide`.
-4. **82 figure interne** — si possono aggiungere una guida alla volta,
+4. **88 figure interne** — si possono aggiungere una guida alla volta,
    senza toccare il codice oltre alla riga in `articleImages.ts`.
 
 Con i primi due gruppi (10 immagini) il sito è già presentabile ovunque.

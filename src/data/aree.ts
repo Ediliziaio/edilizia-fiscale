@@ -155,8 +155,8 @@ export const areePatrimonio: Area[] = [
   {
     icon: Home,
     title: "Compravendite immobiliari e imposte",
-    desc: "Vendita di immobili costruiti o ristrutturati: IVA o registro, plusvalenze, prezzo-valore, regime delle imprese di costruzione e tempistiche che cambiano il conto finale.",
-    guida: "tassazione-vendita-immobili-impresa",
+    desc: "L'iniziativa di sviluppo dal terreno alla vendita: costi capitalizzabili, permuta con il proprietario dell'area, vendita su carta con fideiussione, IVA o registro sulla cessione.",
+    guida: "operazione-immobiliare-dal-terreno-alla-vendita",
   },
   {
     icon: Scale,
@@ -192,4 +192,6 @@ export const verticali = [
   { title: "Congruità manodopera", kw: "Il 14,28% e come si giustifica lo scostamento", guida: "congruita-manodopera-durc" },
   { title: "Subappalto genuino", kw: "Dove passa il confine con la fornitura di manodopera", guida: "appalto-non-genuino-distacco-somministrazione" },
   { title: "Riserve negli appalti", kw: "Firmare senza riserva è accettare: quando diventano ricavo", guida: "riserve-e-contabilita-lavori-pubblici" },
+  { title: "Permuta col terreno", kw: "Due cessioni distinte, non un baratto senza imposte", guida: "permuta-terreno-appartamenti" },
+  { title: "Vendere su carta", kw: "Acconti, fideiussione obbligatoria e preliminare vincolato", guida: "vendita-su-carta-acconti-garanzie" },
 ] as const;

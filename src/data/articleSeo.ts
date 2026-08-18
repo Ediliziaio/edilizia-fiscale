@@ -166,6 +166,18 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Vendita di Immobili: IVA, Registro e Plusvalenze",
     "metaDescription": "Quando la cessione è imponibile IVA e quando esente, l'opzione per l'imponibilità, il reverse charge e il calcolo della plusvalenza per l'impresa edile."
   },
+  "operazione-immobiliare-dal-terreno-alla-vendita": {
+    "seoTitle": "Operazione Immobiliare: dal Terreno alla Vendita",
+    "metaDescription": "Costi capitalizzabili, oneri di urbanizzazione, interessi passivi, rimanenze e vendita: come si tiene il conto di un'iniziativa di sviluppo."
+  },
+  "permuta-terreno-appartamenti": {
+    "seoTitle": "Permuta Terreno contro Appartamenti: Come Funziona",
+    "metaDescription": "Due cessioni distinte, momenti impositivi diversi e valori da determinare: come si imposta una permuta immobiliare e dove si sbaglia."
+  },
+  "vendita-su-carta-acconti-garanzie": {
+    "seoTitle": "Vendere su Carta: Acconti, Fideiussione e Preliminare",
+    "metaDescription": "Fideiussione sugli importi riscossi, polizza decennale, contenuto vincolato del preliminare: gli obblighi di chi vende immobili da costruire."
+  },
   "passaggio-generazionale-impresa-edile": {
     "seoTitle": "Passaggio Generazionale dell'Impresa Edile",
     "metaDescription": "Donazione di quote, usufrutto, esenzione per i trasferimenti d'azienda e vincolo dei cinque anni: come si prepara il passaggio ai figli in edilizia."

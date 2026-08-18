@@ -765,6 +765,63 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "Nella cessione di fabbricati il regime non si sceglie liberamente: dipende da chi vende, da che tipo di immobile si tratta e — per le imprese di costruzione o ristrutturazione — da quanto tempo è passato dall'ultimazione dei lavori. Entro il termine di legge la cessione è imponibile IVA per obbligo; oltre, è esente salvo opzione, con effetti pesanti sulla detrazione."
   },
   {
+    "slug": "operazione-immobiliare-dal-terreno-alla-vendita",
+    "title": "Operazione immobiliare: dal terreno alla vendita, come si tiene il conto",
+    "excerpt": "Acquisto dell'area, oneri di urbanizzazione, costi capitalizzabili, interessi passivi, rimanenze e vendita: in un'iniziativa di sviluppo il margine si vede solo alla fine, e nel frattempo il bilancio racconta cose che vanno sapute leggere.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "15 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "operazione immobiliare fiscalità",
+      "immobili merce rimanenze costruttore",
+      "capitalizzazione oneri urbanizzazione",
+      "interessi passivi capitalizzabili immobiliare",
+      "costruttore venditore iva vendita",
+      "iniziativa immobiliare margine"
+    ],
+    "intro": "In un'iniziativa di sviluppo l'impresa compra un'area, costruisce e vende: tra il primo esborso e il primo incasso possono passare anni. In quel periodo tutto sta nelle rimanenze, il conto economico dice poco e il margine reale si conosce solo alla fine. Sapere cosa si capitalizza e cosa no è ciò che distingue un bilancio leggibile da uno che sorprende."
+  },
+  {
+    "slug": "permuta-terreno-appartamenti",
+    "title": "Permuta terreno contro appartamenti: come funziona e dove si sbaglia",
+    "excerpt": "Il proprietario cede l'area, il costruttore gli dà unità costruite. È l'operazione classica dell'edilizia italiana e una delle più insidiose: due cessioni distinte, momenti impositivi diversi, valori da determinare e un rischio di cassa che pochi mettono a preventivo.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "14 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "permuta terreno contro appartamenti",
+      "permuta area edificabile iva",
+      "cessione terreno contro cosa futura",
+      "momento impositivo permuta immobiliare",
+      "valore normale permuta",
+      "appalto o permuta immobiliare"
+    ],
+    "intro": "Nella permuta il proprietario di un'area la cede al costruttore e riceve in cambio unità immobiliari da realizzare. È l'operazione che ha costruito mezza Italia e resta comune, ma è anche una delle più delicate: ai fini fiscali sono due cessioni autonome, ciascuna con il proprio momento impositivo e il proprio valore, e chi la tratta come un baratto senza denaro si trova conti che non tornano."
+  },
+  {
+    "slug": "vendita-su-carta-acconti-garanzie",
+    "title": "Vendere su carta: preliminari, acconti e la fideiussione obbligatoria",
+    "excerpt": "Incassare durante la costruzione risolve il problema di cassa dell'iniziativa, ma comporta obblighi precisi: fideiussione a garanzia degli importi riscossi, polizza decennale alla consegna, contenuto vincolato del preliminare. Cosa serve e quanto costa.",
+    "category": "Patrimonio",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-brand-dark to-brand",
+    "keywords": [
+      "vendita su carta immobili da costruire",
+      "fideiussione acconti dlgs 122 2005",
+      "preliminare immobile da costruire contenuto",
+      "polizza decennale postuma acquirente",
+      "iva acconti preliminare costruttore",
+      "tutela acquirenti immobili da costruire"
+    ],
+    "intro": "Vendere le unità prima che siano finite è ciò che rende sostenibile un'iniziativa immobiliare: gli acconti finanziano la costruzione. Ma il D.lgs. 122/2005 subordina questa possibilità a tutele precise per l'acquirente — fideiussione sugli importi riscossi, polizza decennale alla consegna, contenuto obbligatorio del preliminare — e la loro assenza ha conseguenze sul contratto."
+  },
+  {
     "slug": "passaggio-generazionale-impresa-edile",
     "title": "Passaggio generazionale dell'impresa edile: come si prepara",
     "excerpt": "Donazione di quote con riserva di usufrutto, esenzione dell'art. 3 comma 4-ter e il vincolo dei cinque anni, governance transitoria e qualificazioni SOA legate alla persona del fondatore. Un percorso che va iniziato anni prima.",

@@ -322,6 +322,30 @@ export const articleImages: Record<string, string | null> = {
   // Prospetto di calcolo della rettifica della detrazione IVA
   "tassazione-vendita-immobili-impresa-2": null,
 
+  // operazione-immobiliare-dal-terreno-alla-vendita
+  // Copertina — Area edificabile con cartello di cantiere e scavi in corso
+  "operazione-immobiliare-dal-terreno-alla-vendita-cover": null,
+  // Area edificabile con cartello di cantiere e scavi in corso
+  "operazione-immobiliare-dal-terreno-alla-vendita-1": null,
+  // Prospetto di iniziativa immobiliare con costi capitalizzati e ricavato atteso
+  "operazione-immobiliare-dal-terreno-alla-vendita-2": null,
+
+  // permuta-terreno-appartamenti
+  // Copertina — Area edificabile con progetto di intervento e planimetria delle unità
+  "permuta-terreno-appartamenti-cover": null,
+  // Area edificabile con progetto di intervento e planimetria delle unità
+  "permuta-terreno-appartamenti-1": null,
+  // Atto notarile di permuta con perizia di stima e planimetrie allegate
+  "permuta-terreno-appartamenti-2": null,
+
+  // vendita-su-carta-acconti-garanzie
+  // Copertina — Cantiere residenziale in costruzione con cartello di vendita delle unità
+  "vendita-su-carta-acconti-garanzie-cover": null,
+  // Cantiere residenziale in costruzione con cartello di vendita delle unità
+  "vendita-su-carta-acconti-garanzie-1": null,
+  // Contratto preliminare con allegati progettuali, capitolato e fideiussione
+  "vendita-su-carta-acconti-garanzie-2": null,
+
   // passaggio-generazionale-impresa-edile
   // Copertina — Padre e figlio in cantiere che esaminano insieme un progetto
   "passaggio-generazionale-impresa-edile-cover": null,
