@@ -1,7 +1,7 @@
 # Piano editoriale — argomenti mancanti
 
-> **Stato:** pubblicati i blocchi 1 e 2 ad agosto 2026 (10 guide, sito da 30 a 40).
-> Restano i blocchi 3-7, 17 guide.
+> **Stato:** pubblicati i blocchi 1, 2 e 3 ad agosto 2026 (13 guide, sito da 30 a 43).
+> Restano i blocchi 4-7, 14 guide.
 
 Analisi dei buchi di copertura sulle 30 guide pubblicate.
 Aggiornato ad agosto 2026.
@@ -54,15 +54,15 @@ Il cluster è ora composto da sei guide: le quattro di questo blocco più DURC e
 | ✅ `assunzioni-agevolazioni-contributive-edilizia` | Riduzione contributiva di settore, apprendistato, CIG maltempo. |
 | ✅ `oneri-della-sicurezza-trattamento` | Non soggetti a ribasso negli appalti, deducibilità, imputazione a commessa. |
 
-## Blocco 3 — Cluster «Appalti pubblici» (oggi inesistente)
+## Blocco 3 — Cluster «Appalti pubblici» ✅ FATTO
 
-Segmento dichiarato nell'H1, zero contenuti. Oltre a SOA e consorzi del blocco 1:
+Il cluster è ora composto da cinque guide: le tre di questo blocco più SOA e consorzi del blocco 1.
 
 | Slug proposto | Perché |
 |---|---|
-| `anticipazione-e-revisione-prezzi` | D.lgs. 36/2023: anticipazione del 20%, clausole di revisione. Incide direttamente sulla cassa di commessa. |
-| `garanzie-e-polizze-appalto` | Provvisoria, definitiva, CAR, decennale postuma: costo, trattamento contabile, impatto sugli affidamenti. |
-| `riserve-e-contabilita-lavori-pubblici` | Le riserve dal lato contabile e fiscale: quando diventano ricavo, come si valutano in bilancio. |
+| ✅ `anticipazione-e-revisione-prezzi` | D.lgs. 36/2023: anticipazione del 20%, clausole di revisione. Incide direttamente sulla cassa di commessa. |
+| ✅ `garanzie-e-polizze-appalto` | Provvisoria, definitiva, CAR, decennale postuma: costo, trattamento contabile, impatto sugli affidamenti. |
+| ✅ `riserve-e-contabilita-lavori-pubblici` | Le riserve dal lato contabile e fiscale: quando diventano ricavo, come si valutano in bilancio. |
 
 ## Blocco 4 — Cluster «Immobiliare di sviluppo» (oggi inesistente)
 
@@ -120,9 +120,10 @@ La prima è più coerente con l'impianto del sito, che è costruito sui silo.
 
 1. ~~**Blocco 1** (6 guide) — chiude le promesse già fatte.~~ ✅
 2. ~~**Blocco 2** (4 guide) — il cluster lavoro regge il posizionamento sul costo orario.~~ ✅
-3. **Blocco 3 + 4** (6 guide) — aprono due segmenti oggi dichiarati e non serviti.
-4. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
+3. ~~**Blocco 3** (3 guide) — apre il segmento appalti pubblici, dichiarato e non servito.~~ ✅
+4. **Blocco 4** (3 guide) — apre il segmento immobiliare di sviluppo.
+5. **Blocchi 5-7** (11 guide) — completamento, senza urgenza.
 
-Totale proposto: **27 guide**. Con i blocchi 1 e 2 pubblicati il sito è a 40; ne restano 17.
+Totale proposto: **27 guide**. Con i blocchi 1, 2 e 3 pubblicati il sito è a 43; ne restano 14.
 Con il blocco 1 il sito ha smesso di promettere cose che non mantiene; con il blocco 2 il
 posizionamento sul costo del lavoro è coperto per intero.

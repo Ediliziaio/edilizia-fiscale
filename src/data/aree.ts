@@ -91,7 +91,7 @@ export const areeImprese: Area[] = [
   {
     icon: Wallet,
     title: "Finanza d'impresa e rapporti con le banche",
-    desc: "Flusso di cassa di cantiere, anticipo SAL e cessione crediti, fidi e garanzie, rating bancario e centrale rischi, dossier per l'affidamento costruito su numeri difendibili.",
+    desc: "Flusso di cassa di cantiere, anticipazione del prezzo negli appalti pubblici, plafond fideiussorio, rating bancario e centrale rischi, dossier per l'affidamento costruito su numeri difendibili.",
     guida: "flussi-di-cassa-impresa-edile",
   },
   {
@@ -191,4 +191,5 @@ export const verticali = [
   { title: "Fotovoltaico", kw: "Reverse charge, ammortamento e comunità energetiche", guida: "fiscalita-fotovoltaico-impianti" },
   { title: "Congruità manodopera", kw: "Il 14,28% e come si giustifica lo scostamento", guida: "congruita-manodopera-durc" },
   { title: "Subappalto genuino", kw: "Dove passa il confine con la fornitura di manodopera", guida: "appalto-non-genuino-distacco-somministrazione" },
+  { title: "Riserve negli appalti", kw: "Firmare senza riserva è accettare: quando diventano ricavo", guida: "riserve-e-contabilita-lavori-pubblici" },
 ] as const;

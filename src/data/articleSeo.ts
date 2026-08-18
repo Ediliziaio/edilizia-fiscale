@@ -110,6 +110,18 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Consorzi e ATI: Fiscalità e Quando Conviene Ciascuno",
     "metaDescription": "Il consorzio fattura e ribalta ai consorziati, l'ATI non è un soggetto autonomo: due meccanismi con effetti opposti su IVA, bilancio e responsabilità."
   },
+  "anticipazione-e-revisione-prezzi": {
+    "seoTitle": "Anticipazione e Revisione Prezzi negli Appalti Pubblici",
+    "metaDescription": "Il 20% di anticipazione all'avvio, la fideiussione che costa, e le clausole di revisione prezzi: le due leve di cassa della commessa pubblica."
+  },
+  "garanzie-e-polizze-appalto": {
+    "seoTitle": "Garanzie e Polizze negli Appalti: Costi e Plafond",
+    "metaDescription": "Provvisoria, definitiva, anticipazione, CAR e decennale postuma: costo, durata e consumo di linee di credito. Come si mettono a preventivo."
+  },
+  "riserve-e-contabilita-lavori-pubblici": {
+    "seoTitle": "Riserve e Contabilità dei Lavori: Quando Fanno Ricavo",
+    "metaDescription": "Come si iscrivono le riserve, perché una riserva tardiva è un diritto perso e come si valutano in bilancio senza gonfiare il margine di commessa."
+  },
   "verifica-fiscale-impresa-edile": {
     "seoTitle": "Verifica Fiscale all'Impresa Edile: Cosa Fare",
     "metaDescription": "Accesso, permanenza, processo verbale e i 60 giorni per le osservazioni: le contestazioni tipiche del settore edile e come si prepara la difesa."

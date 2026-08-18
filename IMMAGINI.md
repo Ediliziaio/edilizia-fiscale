@@ -12,10 +12,10 @@ node scripts/generate-image-brief.mjs
 
 | Tipo | Quantità | Dimensione | Dove appare |
 |---|---|---|---|
-| Copertine guide | 40 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
-| Figure dentro le guide | 76 | **1600 × 900** (16:9) | nel corpo dell'articolo |
+| Copertine guide | 43 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
+| Figure dentro le guide | 82 | **1600 × 900** (16:9) | nel corpo dell'articolo |
 | Immagini di sito | 6 | vedi sotto | home, hub, studio, contatti |
-| **Totale** | **122** | | |
+| **Totale** | **131** | | |
 
 ## Regole tecniche
 
@@ -62,7 +62,7 @@ Priorità alta: stanno sopra la piega su cinque pagine diverse.
 
 ---
 
-## 2. Copertine delle guide (40)
+## 2. Copertine delle guide (43)
 
 **1920 × 1080**, soggetto nella zona sicura centrale 1440 × 820.
 File in `public/images/guide/`.
@@ -99,24 +99,27 @@ immagini, parti da queste.
 | 24 | `oneri-della-sicurezza-trattamento-cover` | Costi della sicurezza: non ribassabili, e vanno tenuti separati <br><sub>Lavoro</sub> | Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza |
 | 25 | `attestazione-soa-requisiti-economici-cover` | Attestazione SOA: come il bilancio decide la classifica che puoi ottenere <br><sub>Appalti</sub> | Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio |
 | 26 | `consorzi-ati-fiscalita-cover` | Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno <br><sub>Appalti</sub> | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
-| 27 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
-| 28 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
-| 29 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
-| 30 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
-| 31 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
-| 32 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
-| 33 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
-| 34 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
-| 35 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
-| 36 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
-| 37 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
-| 38 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
-| 39 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
-| 40 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
+| 27 | `anticipazione-e-revisione-prezzi-cover` | Anticipazione del prezzo e revisione: le due leve di cassa negli appalti pubblici <br><sub>Appalti</sub> | Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere |
+| 28 | `garanzie-e-polizze-appalto-cover` | Garanzie e polizze negli appalti: quanto costano e quanto plafond consumano <br><sub>Appalti</sub> | Documenti di garanzia fideiussoria e polizza assicurativa di cantiere |
+| 29 | `riserve-e-contabilita-lavori-pubblici-cover` | Riserve e contabilità dei lavori: quando diventano ricavo e come si valutano <br><sub>Appalti</sub> | Registro di contabilità dei lavori con firma e iscrizione di riserva |
+| 30 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
+| 31 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
+| 32 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
+| 33 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
+| 34 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
+| 35 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
+| 36 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
+| 37 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
+| 38 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
+| 39 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
+| 40 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
+| 41 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
+| 42 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
+| 43 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
 
 ---
 
-## 3. Figure dentro le guide (76)
+## 3. Figure dentro le guide (82)
 
 **1600 × 900**. File in `public/images/guide/`.
 Sono le immagini che spezzano il testo a metà lettura: devono mostrare un
@@ -301,6 +304,27 @@ oggetto o una scena concreta, non un concetto astratto.
 | `consorzi-ati-fiscalita-1` | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
 | `consorzi-ati-fiscalita-2` | Atto costitutivo di consorzio stabile con statuto e regolamento interno |
 
+### Anticipazione del prezzo e revisione: le due leve di cassa negli appalti pubblici
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `anticipazione-e-revisione-prezzi-1` | Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere |
+| `anticipazione-e-revisione-prezzi-2` | Prospetto di cassa di commessa con anticipazione, SAL e recuperi progressivi |
+
+### Garanzie e polizze negli appalti: quanto costano e quanto plafond consumano
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `garanzie-e-polizze-appalto-1` | Documenti di garanzia fideiussoria e polizza assicurativa di cantiere |
+| `garanzie-e-polizze-appalto-2` | Prospetto di monitoraggio dei plafond fideiussori per istituto e per commessa |
+
+### Riserve e contabilità dei lavori: quando diventano ricavo e come si valutano
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `riserve-e-contabilita-lavori-pubblici-1` | Registro di contabilità dei lavori con firma e iscrizione di riserva |
+| `riserve-e-contabilita-lavori-pubblici-2` | Report mensile di commessa con registro delle riserve accanto al margine |
+
 ### Verifica fiscale all'impresa edile: cosa succede e cosa fare
 
 | Slot | Contenuto dell'immagine |
@@ -406,7 +430,7 @@ oggetto o una scena concreta, non un concetto astratto.
 1. **6 immagini di sito** — stanno sopra la piega, si vedono subito.
 2. **4 copertine dei pilastri** (★) — sono in evidenza nel listing delle guide.
 3. **26 copertine restanti** — completano la griglia di `/guide`.
-4. **76 figure interne** — si possono aggiungere una guida alla volta,
+4. **82 figure interne** — si possono aggiungere una guida alla volta,
    senza toccare il codice oltre alla riga in `articleImages.ts`.
 
 Con i primi due gruppi (10 immagini) il sito è già presentabile ovunque.

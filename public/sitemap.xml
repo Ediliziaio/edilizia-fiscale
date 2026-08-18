@@ -79,6 +79,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.ediliziafiscale.it/guide/anticipazione-e-revisione-prezzi</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ediliziafiscale.it/guide/appalto-non-genuino-distacco-somministrazione</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -205,6 +211,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.ediliziafiscale.it/guide/garanzie-e-polizze-appalto</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ediliziafiscale.it/guide/holding-immobiliare-edilizia</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -266,6 +278,12 @@
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/reverse-charge-edilizia</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ediliziafiscale.it/guide/riserve-e-contabilita-lavori-pubblici</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

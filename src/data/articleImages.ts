@@ -210,6 +210,30 @@ export const articleImages: Record<string, string | null> = {
   // Atto costitutivo di consorzio stabile con statuto e regolamento interno
   "consorzi-ati-fiscalita-2": null,
 
+  // anticipazione-e-revisione-prezzi
+  // Copertina — Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere
+  "anticipazione-e-revisione-prezzi-cover": null,
+  // Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere
+  "anticipazione-e-revisione-prezzi-1": null,
+  // Prospetto di cassa di commessa con anticipazione, SAL e recuperi progressivi
+  "anticipazione-e-revisione-prezzi-2": null,
+
+  // garanzie-e-polizze-appalto
+  // Copertina — Documenti di garanzia fideiussoria e polizza assicurativa di cantiere
+  "garanzie-e-polizze-appalto-cover": null,
+  // Documenti di garanzia fideiussoria e polizza assicurativa di cantiere
+  "garanzie-e-polizze-appalto-1": null,
+  // Prospetto di monitoraggio dei plafond fideiussori per istituto e per commessa
+  "garanzie-e-polizze-appalto-2": null,
+
+  // riserve-e-contabilita-lavori-pubblici
+  // Copertina — Registro di contabilità dei lavori con firma e iscrizione di riserva
+  "riserve-e-contabilita-lavori-pubblici-cover": null,
+  // Registro di contabilità dei lavori con firma e iscrizione di riserva
+  "riserve-e-contabilita-lavori-pubblici-1": null,
+  // Report mensile di commessa con registro delle riserve accanto al margine
+  "riserve-e-contabilita-lavori-pubblici-2": null,
+
   // verifica-fiscale-impresa-edile
   // Copertina — Fascicoli di cantiere e documentazione contabile su un tavolo riunioni
   "verifica-fiscale-impresa-edile-cover": null,

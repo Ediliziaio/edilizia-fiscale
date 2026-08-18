@@ -499,6 +499,63 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "Consorzio e raggruppamento temporaneo servono allo stesso scopo pratico — mettere insieme più imprese per un lavoro che nessuna reggerebbe da sola — ma sono strumenti giuridicamente opposti. Il consorzio è un soggetto autonomo con partita IVA che fattura e poi ribalta ai consorziati. L'ATI non è un soggetto: ogni impresa resta sé stessa e fattura la propria quota."
   },
   {
+    "slug": "anticipazione-e-revisione-prezzi",
+    "title": "Anticipazione del prezzo e revisione: le due leve di cassa negli appalti pubblici",
+    "excerpt": "Il 20% di anticipazione all'avvio dei lavori cambia il profilo finanziario di una commessa pubblica, ma costa una fideiussione. La revisione prezzi protegge dall'aumento dei materiali, a condizione di attivarla nei modi e nei tempi previsti.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-brand-dark",
+    "keywords": [
+      "anticipazione del prezzo appalti pubblici 20%",
+      "revisione prezzi dlgs 36 2023",
+      "fideiussione anticipazione appalto",
+      "clausole revisione prezzi materiali",
+      "cassa commessa pubblica",
+      "compensazione caro materiali"
+    ],
+    "intro": "Una commessa pubblica assorbe cassa più di una privata: split payment, SAL lunghi, ritenute a garanzia. Il codice mette a disposizione due strumenti che spostano quel profilo — l'anticipazione del prezzo all'avvio e la revisione dei prezzi in corso d'opera — e nessuno dei due funziona da solo: vanno attivati, garantiti e documentati."
+  },
+  {
+    "slug": "garanzie-e-polizze-appalto",
+    "title": "Garanzie e polizze negli appalti: quanto costano e quanto plafond consumano",
+    "excerpt": "Provvisoria, definitiva, anticipazione, CAR, decennale postuma: ogni garanzia ha un costo, una durata e un effetto sulle linee di credito. Come si mettono a preventivo e perché il plafond va gestito a livello di portafoglio, non di singola gara.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-brand-dark",
+    "keywords": [
+      "garanzia provvisoria definitiva appalto",
+      "polizza car costruzione",
+      "polizza decennale postuma",
+      "fideiussione appalto costo",
+      "plafond fideiussorio impresa edile",
+      "riduzione garanzia certificazione qualità"
+    ],
+    "intro": "Negli appalti pubblici le garanzie non sono un adempimento: sono un costo e un consumo di capacità finanziaria. Provvisoria in gara, definitiva alla firma, fideiussione sull'anticipazione, polizza CAR durante i lavori, decennale postuma dopo. Ognuna ha un premio, una durata e occupa plafond che poi non c'è per la gara successiva."
+  },
+  {
+    "slug": "riserve-e-contabilita-lavori-pubblici",
+    "title": "Riserve e contabilità dei lavori: quando diventano ricavo e come si valutano",
+    "excerpt": "Una riserva non iscritta nei modi e nei tempi previsti è un diritto perso. Ma anche una riserva iscritta correttamente non è automaticamente un ricavo di bilancio: come si valuta in sede di chiusura e come incide sul margine di commessa.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-brand-dark",
+    "keywords": [
+      "riserve appalti pubblici iscrizione",
+      "registro di contabilità riserve",
+      "riserve valutazione bilancio",
+      "accordo bonario appalti",
+      "riserve ricavo competenza",
+      "contabilità dei lavori sal"
+    ],
+    "intro": "Nei lavori pubblici la contabilità di cantiere non è un adempimento amministrativo: è il luogo in cui i diritti economici dell'impresa nascono o si estinguono. Una pretesa non iscritta come riserva nei modi e nei tempi previsti è persa. E una riserva iscritta va poi valutata in bilancio con criteri di prudenza, perché iscritta non significa riconosciuta."
+  },
+  {
     "slug": "verifica-fiscale-impresa-edile",
     "title": "Verifica fiscale all'impresa edile: cosa succede e cosa fare",
     "excerpt": "Accesso in cantiere o in sede, permanenza dei verificatori, processo verbale di constatazione e i 60 giorni per le osservazioni. Le contestazioni tipiche del settore e come si prepara la difesa mentre la verifica è ancora in corso.",

@@ -41,6 +41,9 @@ const ORDER = [
   "oneri-della-sicurezza-trattamento",
   "attestazione-soa-requisiti-economici",
   "consorzi-ati-fiscalita",
+  "anticipazione-e-revisione-prezzi",
+  "garanzie-e-polizze-appalto",
+  "riserve-e-contabilita-lavori-pubblici",
   // Verifiche e contenzioso tributario
   "verifica-fiscale-impresa-edile",
   "accertamento-superbonus-imprese",
