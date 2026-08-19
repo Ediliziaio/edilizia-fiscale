@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
-import handshakeImg from "@/assets/handshake-trust.jpg";
 import EFHeroBackdrop from "./EFHeroBackdrop";
 import { PHONE_TEL, PHONE_DISPLAY } from "@/data/site";
 
@@ -56,10 +55,16 @@ const EFFinalCTA = ({ onOpenContact }: EFFinalCTAProps) => {
             </p>
           </div>
 
+          {/* Servita da /public, non importata: vite-react-ssg emette un
+              <link rel="preload" as="image" crossorigin> per ogni asset del
+              chunk, che qui annullava il loading="lazy" e scaricava 146 kB su
+              ogni pagina, mobile compreso, dove l'immagine è pure nascosta. */}
           <div className="hidden lg:block">
             <img
-              src={handshakeImg}
+              src="/images/handshake-trust.jpg"
               alt="Confronto riservato con lo studio su bilanci e commesse"
+              width={800}
+              height={600}
               loading="lazy"
               decoding="async"
               className="rounded-2xl w-full aspect-[4/3] object-cover shadow-soft"

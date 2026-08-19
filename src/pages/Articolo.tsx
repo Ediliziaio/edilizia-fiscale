@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import EFHeader from "@/components/EFHeader";
 import EFFooter from "@/components/EFFooter";
@@ -29,7 +29,6 @@ import {
   FileText,
 } from "lucide-react";
 import { articlesMeta, getRelated, toISODate, type Block, type Article, type ArticleMeta } from "@/data/articles";
-import { getArticleContent } from "@/data/articlesContent";
 import { getArticleSeo } from "@/data/articleSeo";
 import { getArticleImage } from "@/data/articleImages";
 import { PHONE_TEL, PHONE_DISPLAY, abs } from "@/data/site";
@@ -540,16 +539,16 @@ const Sidebar = ({ article, related, onOpenContact }: SidebarProps) => {
   );
 };
 
-const Articolo = () => {
-  const { slug } = useParams<{ slug: string }>();
+/**
+ * L'articolo arriva dalla rotta (una per slug, vedi App.tsx) già risolto: il
+ * contenuto è disponibile in modo sincrono al primo render, quindi il corpo
+ * finisce nell'HTML prerenderizzato e l'idratazione combacia, senza però che
+ * tutte le guide finiscano nello stesso bundle.
+ */
+const Articolo = ({ article }: { article: Article }) => {
+  const slug = article.slug;
   const [isContactOpen, setIsContactOpen] = useState(false);
   const openContact = () => setIsContactOpen(true);
-
-  if (!slug) return <Navigate to="/guide" replace />;
-  // Full content is available synchronously so the article body is present in the
-  // prerendered static HTML (SSG) — crawlers and AI engines read it without JS.
-  const article = getArticleContent(slug);
-  if (!article) return <Navigate to="/guide" replace />;
 
   const related = getRelated(slug, 3);
   const { articleSchema, breadcrumbSchema, faqSchema } = buildSchemas(article, article.content);

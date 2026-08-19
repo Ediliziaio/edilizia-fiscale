@@ -6,23 +6,44 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
-import Index from "./pages/Index";
-import Imprese from "./pages/Imprese";
-import Patrimonio from "./pages/Patrimonio";
-import Studio from "./pages/Studio";
-import ComeLavoriamo from "./pages/ComeLavoriamo";
-import Guide from "./pages/Guide";
-import Articolo from "./pages/Articolo";
-import DomandeFrequenti from "./pages/DomandeFrequenti";
-import Glossario from "./pages/Glossario";
-import DomandaSingola from "./pages/DomandaSingola";
-import Contatti from "./pages/Contatti";
-import Privacy from "./pages/Privacy";
-import CookiePolicy from "./pages/CookiePolicy";
-import NoteLegali from "./pages/NoteLegali";
 import NotFound from "./pages/NotFound";
-import { articlesMeta } from "./data/articlesMeta";
+import type { Article } from "./data/articles";
 import { faqEntries } from "./data/faq";
+
+/**
+ * Ogni pagina è un chunk a parte.
+ *
+ * vite-react-ssg risolve `lazy` prima di idratare (matchRoutes + await sul
+ * modulo, in index.mjs), quindi lo split non introduce nessun disallineamento
+ * con l'HTML prerenderizzato: la pagina resta completa nel sorgente statico e
+ * il browser scarica solo il codice della rotta che sta aprendo.
+ */
+const page = (load: () => Promise<{ default: React.ComponentType }>) => async () => ({
+  Component: (await load()).default,
+});
+
+/**
+ * Una rotta per guida, non una rotta `/guide/:slug` sola.
+ *
+ * Le 56 guide sono circa un megabyte di testo. Con una rotta parametrica il
+ * componente articolo deve poterle leggere tutte in modo sincrono — perché
+ * l'HTML statico contiene già il corpo dell'articolo e l'idratazione deve
+ * corrispondere — e finivano tutte nel bundle di ogni pagina, home compresa.
+ * Generando una rotta per slug, il testo della guida diventa il chunk della sua
+ * rotta: si scarica solo quando qualcuno apre quella guida.
+ */
+const articleModules = import.meta.glob<{ article: Article }>("./data/articles/*.ts");
+
+const articleRoutes: RouteRecord[] = Object.entries(articleModules).map(([path, load]) => {
+  const slug = path.slice("./data/articles/".length, -".ts".length);
+  return {
+    path: `guide/${slug}`,
+    lazy: async () => {
+      const [{ default: Articolo }, mod] = await Promise.all([import("./pages/Articolo"), load()]);
+      return { Component: () => <Articolo article={mod.article} /> };
+    },
+  };
+});
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -59,28 +80,24 @@ export const routes: RouteRecord[] = [
     path: "/",
     element: <RootLayout />,
     children: [
-      { index: true, element: <Index /> },
-      { path: "imprese", element: <Imprese /> },
-      { path: "patrimonio", element: <Patrimonio /> },
-      { path: "studio", element: <Studio /> },
-      { path: "studio/come-lavoriamo", element: <ComeLavoriamo /> },
-      { path: "guide", element: <Guide /> },
-      {
-        path: "guide/:slug",
-        element: <Articolo />,
-        getStaticPaths: () => articlesMeta.map((a) => `/guide/${a.slug}`),
-      },
-      { path: "domande-frequenti", element: <DomandeFrequenti /> },
+      { index: true, lazy: page(() => import("./pages/Index")) },
+      { path: "imprese", lazy: page(() => import("./pages/Imprese")) },
+      { path: "patrimonio", lazy: page(() => import("./pages/Patrimonio")) },
+      { path: "studio", lazy: page(() => import("./pages/Studio")) },
+      { path: "studio/come-lavoriamo", lazy: page(() => import("./pages/ComeLavoriamo")) },
+      { path: "guide", lazy: page(() => import("./pages/Guide")) },
+      ...articleRoutes,
+      { path: "domande-frequenti", lazy: page(() => import("./pages/DomandeFrequenti")) },
       {
         path: "domande-frequenti/:slug",
-        element: <DomandaSingola />,
+        lazy: page(() => import("./pages/DomandaSingola")),
         getStaticPaths: () => faqEntries.map((f) => `/domande-frequenti/${f.slug}`),
       },
-      { path: "glossario", element: <Glossario /> },
-      { path: "contatti", element: <Contatti /> },
-      { path: "privacy", element: <Privacy /> },
-      { path: "cookie", element: <CookiePolicy /> },
-      { path: "note-legali", element: <NoteLegali /> },
+      { path: "glossario", lazy: page(() => import("./pages/Glossario")) },
+      { path: "contatti", lazy: page(() => import("./pages/Contatti")) },
+      { path: "privacy", lazy: page(() => import("./pages/Privacy")) },
+      { path: "cookie", lazy: page(() => import("./pages/CookiePolicy")) },
+      { path: "note-legali", lazy: page(() => import("./pages/NoteLegali")) },
       { path: "*", element: <NotFound /> },
     ],
   },

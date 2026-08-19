@@ -82,28 +82,14 @@ export const isPillar = (slug: string): boolean =>
 import { articlesMeta } from "./articlesMeta";
 export { articlesMeta };
 
-// Lazy per-article loaders: each ./articles/<slug>.ts becomes its own chunk,
-// loaded only when that article page is opened. Importing only the `article`
-// export (never eagerly) keeps content out of the main bundle.
-const articleLoaders = import.meta.glob("./articles/*.ts", {
-  import: "article",
-}) as Record<string, () => Promise<Article>>;
-
-const loaderBySlug: Record<string, () => Promise<Article>> = {};
-for (const [path, loader] of Object.entries(articleLoaders)) {
-  const slug = path.slice("./articles/".length, -".ts".length);
-  loaderBySlug[slug] = loader;
-}
+// Il caricamento del contenuto è responsabilità delle rotte (una per guida,
+// vedi App.tsx). Qui restava un import.meta.glob di comodo che nessuno usava
+// più: bastava la sua presenza perché ogni pagina che importa questo modulo
+// — home compresa — si portasse dietro un <link modulepreload> per tutte e 56
+// le guide, cioè lo stesso megabyte che lo split doveva evitare.
 
 export const getArticleMeta = (slug: string): ArticleMeta | undefined =>
   articlesMeta.find((a) => a.slug === slug);
-
-/** Load a full article (with content) on demand. Resolves undefined if the slug is unknown. */
-export const getArticle = async (slug: string): Promise<Article | undefined> => {
-  const loader = loaderBySlug[slug];
-  if (!loader) return undefined;
-  return loader();
-};
 
 export const getRelated = (slug: string, limit = 3): ArticleMeta[] => {
   const current = articlesMeta.find((a) => a.slug === slug);

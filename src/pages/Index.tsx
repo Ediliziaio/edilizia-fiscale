@@ -1,12 +1,11 @@
-import { useState, lazy, Suspense } from "react";
+import { useState } from "react";
 import SEO from "@/components/SEO";
 import EFHeader from "@/components/EFHeader";
 import EFHero from "@/components/EFHero";
 import EFTrustStrip from "@/components/EFTrustStrip";
 import EFStats from "@/components/EFStats";
 import EFProblemSolution from "@/components/EFProblemSolution";
-// Lazy: recharts (~500 kB) resta fuori dal bundle iniziale della home.
-const EFDeadlinesChart = lazy(() => import("@/components/EFDeadlinesChart"));
+import EFDeadlinesChart from "@/components/EFDeadlinesChart";
 import EFServicesCards from "@/components/EFServicesCards";
 import EFGuideShowcase from "@/components/EFGuideShowcase";
 import EFVerticali from "@/components/EFVerticali";
@@ -43,9 +42,7 @@ const Index = () => {
           <EFStats />
           <EFProblemSolution />
           <EFServicesCards />
-          <Suspense fallback={<div className="min-h-[400px]" aria-hidden="true" />}>
-            <EFDeadlinesChart />
-          </Suspense>
+          <EFDeadlinesChart />
           <EFVerticali />
           <EFGuideShowcase />
           <EFProcessFlow />

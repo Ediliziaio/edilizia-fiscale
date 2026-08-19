@@ -1,36 +1,28 @@
 import { Link } from "react-router-dom";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, LabelList } from "recharts";
 import Reveal from "@/components/Reveal";
 import { ArrowRight, Hourglass } from "lucide-react";
 
 /**
  * Grafico dei termini che decorrono quando arriva un atto del fisco.
  * Dati normativi, non promozionali: è il modo più onesto (e più efficace) di
- * creare urgenza — i giorni sono quelli di legge. Caricato in lazy (recharts).
+ * creare urgenza — i giorni sono quelli di legge.
+ *
+ * Le barre sono CSS, non una libreria di grafici. Prima erano recharts: 366 kB
+ * (101 kB gzip) sulla home per cinque barre, e per giunta invisibili nell'HTML
+ * statico, perché ResponsiveContainer ha bisogno di misurare il contenitore e
+ * lato server non renderizza niente. Così invece i giorni e la norma stanno nel
+ * sorgente prerenderizzato: li leggono i crawler e i motori di risposta.
  */
 const deadlines = [
-  { label: "Avviso bonario: pagamento ridotto", giorni: 30, norma: "art. 2 D.lgs. 462/1997", scala: 30 },
-  { label: "Osservazioni dopo il PVC", giorni: 60, norma: "art. 12 c. 7 L. 212/2000", scala: 60 },
-  { label: "Ricorso contro l'avviso di accertamento", giorni: 60, norma: "art. 21 D.lgs. 546/1992", scala: 60 },
-  { label: "Cartella: pagare o impugnare", giorni: 60, norma: "art. 25 D.P.R. 602/1973", scala: 60 },
-  { label: "Sospensione da istanza di adesione", giorni: 90, norma: "art. 6 D.lgs. 218/1997", scala: 90 },
+  { label: "Avviso bonario: pagamento ridotto", giorni: 30, norma: "art. 2 D.lgs. 462/1997" },
+  { label: "Osservazioni dopo il PVC", giorni: 60, norma: "art. 12 c. 7 L. 212/2000" },
+  { label: "Ricorso contro l'avviso di accertamento", giorni: 60, norma: "art. 21 D.lgs. 546/1992" },
+  { label: "Cartella: pagare o impugnare", giorni: 60, norma: "art. 25 D.P.R. 602/1973" },
+  { label: "Sospensione da istanza di adesione", giorni: 90, norma: "art. 6 D.lgs. 218/1997" },
 ];
 
-const BRAND = "hsl(19 89% 53%)";
-const INK_LIGHT = "hsl(0 0% 22%)";
-
-type TooltipPayload = { payload?: { label: string; giorni: number; norma: string } };
-
-const ChartTooltip = ({ active, payload }: { active?: boolean; payload?: TooltipPayload[] }) => {
-  if (!active || !payload?.length || !payload[0].payload) return null;
-  const d = payload[0].payload;
-  return (
-    <div className="bg-ink text-white rounded-lg px-4 py-3 shadow-soft text-sm">
-      <p className="font-bold">{d.label}</p>
-      <p className="text-brand font-semibold">{d.giorni} giorni · {d.norma}</p>
-    </div>
-  );
-};
+/** Scala fissa: 110 giorni di fondo scala, così il 90 non arriva a filo bordo. */
+const SCALA = 110;
 
 const EFDeadlinesChart = () => (
   <section className="py-16 lg:py-24 bg-muted/40">
@@ -60,33 +52,28 @@ const EFDeadlinesChart = () => (
 
         <Reveal delay={150} direction="right">
           <div className="bg-white rounded-2xl border border-border shadow-card p-5 lg:p-7">
-            <ResponsiveContainer width="100%" height={320}>
-              <BarChart data={deadlines} layout="vertical" margin={{ left: 8, right: 48, top: 8, bottom: 8 }}>
-                <CartesianGrid horizontal={false} stroke="hsl(0 0% 90%)" />
-                <XAxis type="number" domain={[0, 110]} hide />
-                <YAxis
-                  type="category"
-                  dataKey="label"
-                  width={210}
-                  tick={{ fill: "hsl(0 0% 12% / 0.75)", fontSize: 12.5 }}
-                  axisLine={false}
-                  tickLine={false}
-                />
-                <Tooltip content={<ChartTooltip />} cursor={{ fill: "hsl(19 89% 53% / 0.1)" }} />
-                <Bar dataKey="scala" radius={[0, 6, 6, 0]} barSize={22}>
-                  {deadlines.map((d) => (
-                    <Cell key={d.label} fill={d.giorni <= 60 ? BRAND : INK_LIGHT} />
-                  ))}
-                  <LabelList
-                    dataKey="giorni"
-                    position="right"
-                    formatter={(v: number) => `${v} gg`}
-                    style={{ fill: "hsl(0 0% 8%)", fontWeight: 700, fontSize: 13 }}
-                  />
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-            <p className="text-xs text-foreground/50 mt-3 leading-relaxed">
+            <ul className="space-y-4">
+              {deadlines.map((d) => (
+                <li key={d.label} className="grid sm:grid-cols-[minmax(0,13rem)_1fr] gap-1.5 sm:gap-4 sm:items-center">
+                  <div className="min-w-0">
+                    <p className="text-sm text-foreground/80 leading-snug">{d.label}</p>
+                    <p className="text-[11px] text-foreground/45 mt-0.5">{d.norma}</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="flex-1 h-[22px] bg-muted rounded-r-md overflow-hidden">
+                      <div
+                        className={`h-full rounded-r-md ${d.giorni <= 60 ? "bg-brand" : "bg-ink-light"}`}
+                        style={{ width: `${(d.giorni / SCALA) * 100}%` }}
+                      />
+                    </div>
+                    <span className="text-[13px] font-bold text-ink tabular-nums shrink-0 w-[3.2rem] text-right">
+                      {d.giorni} gg
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <p className="text-xs text-foreground/50 mt-5 leading-relaxed">
               I termini decorrono da eventi diversi (notifica, consegna del processo verbale, presentazione
               dell'istanza) e possono essere sospesi nel periodo feriale: la decorrenza esatta va verificata
               sull'atto ricevuto.
