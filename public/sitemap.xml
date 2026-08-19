@@ -95,18 +95,27 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/affitto-azienda-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/anticipazione-e-revisione-prezzi</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/anticipazione-e-revisione-prezzi-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/appalto-non-genuino-distacco-somministrazione</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/appalto-non-genuino-distacco-somministrazione-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/assetti-adeguati-impresa-edile</loc>
@@ -122,18 +131,27 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/assunzioni-agevolazioni-contributive-edilizia-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/attestazione-soa-requisiti-economici</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/attestazione-soa-requisiti-economici-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/beni-strumentali-credito-imposta</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/beni-strumentali-credito-imposta-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/bilancio-impresa-edile-lavori-in-corso</loc>
@@ -149,18 +167,27 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/bonus-edilizi-come-si-fatturano-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/cantieri-all-estero-stabile-organizzazione</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/cantieri-all-estero-stabile-organizzazione-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/cassa-edile-come-funziona</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/cassa-edile-come-funziona-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/cessione-azienda-impresa-edile</loc>
@@ -185,12 +212,18 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/composizione-negoziata-impresa-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/congruita-manodopera-durc</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/congruita-manodopera-durc-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/consolidato-fiscale-gruppo-edile</loc>
@@ -206,6 +239,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/consorzi-ati-fiscalita-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/controllo-di-gestione-impresa-edile</loc>
@@ -257,12 +293,18 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/durc-irregolare-impresa-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/fiscalita-fotovoltaico-impianti</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/fiscalita-fotovoltaico-impianti-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/fiscalita-impresa-edile</loc>
@@ -287,12 +329,18 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/forfettario-artigiano-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/garanzie-e-polizze-appalto</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/garanzie-e-polizze-appalto-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/holding-immobiliare-edilizia</loc>
@@ -326,18 +374,27 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/iva-per-cassa-e-acconti-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/leasing-o-acquisto-mezzi-opera</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/leasing-o-acquisto-mezzi-opera-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/liquidazione-societa-edile</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/liquidazione-societa-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/margine-di-commessa-edilizia</loc>
@@ -353,12 +410,18 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/oneri-della-sicurezza-trattamento-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/operazione-immobiliare-dal-terreno-alla-vendita</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/operazione-immobiliare-dal-terreno-alla-vendita-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/passaggio-generazionale-impresa-edile</loc>
@@ -383,6 +446,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/permuta-terreno-appartamenti-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/preventivo-di-commessa-edilizia</loc>
@@ -407,6 +473,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/rating-bancario-centrale-rischi-edilizia-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/ravvedimento-e-adesione-impresa-edile</loc>
@@ -431,6 +500,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/riserve-e-contabilita-lavori-pubblici-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/ritenute-appalti-17-bis</loc>
@@ -482,12 +554,18 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/trasformazione-ditta-individuale-srl-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/vendita-su-carta-acconti-garanzie</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/vendita-su-carta-acconti-garanzie-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/verifica-fiscale-impresa-edile</loc>

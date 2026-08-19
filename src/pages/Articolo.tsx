@@ -184,15 +184,21 @@ const wordCountOf = (blocks?: Block[]): number => {
   return n;
 };
 
+/**
+ * Immagine di anteprima della guida: la copertina collegata in
+ * articleImages.ts, con l'OG di sito come ripiego. La copertina non sta in
+ * `meta.coverImage` — quel campo non lo popola nessuno — quindi leggerlo da
+ * solo dava a tutte e 56 le guide la stessa anteprima generica.
+ */
+const coverUrl = (article: ArticleMeta) => {
+  const cover = getArticleImage(`${article.slug}-cover`) ?? article.coverImage;
+  if (!cover) return "https://www.ediliziafiscale.it/og-image.png";
+  return cover.startsWith("http") ? cover : `https://www.ediliziafiscale.it${cover}`;
+};
+
 const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
   const url = `https://www.ediliziafiscale.it/guide/${article.slug}`;
-  // Immagine per schema/Open Graph: la copertina collegata, altrimenti l'OG di sito.
-  const cover = getArticleImage(`${article.slug}-cover`) ?? article.coverImage;
-  const image = cover
-    ? cover.startsWith("http")
-      ? cover
-      : `https://www.ediliziafiscale.it${cover}`
-    : "https://www.ediliziafiscale.it/og-image.png";
+  const image = coverUrl(article);
   const minutes = parseInt(article.readTime, 10);
   
   const articleSchema = {
@@ -556,11 +562,7 @@ const Articolo = ({ article }: { article: Article }) => {
   const seo = getArticleSeo(slug);
   const seoTitle = seo?.seoTitle ?? `${article.title} | Edilizia Fiscale`;
   const seoDescription = seo?.metaDescription ?? article.excerpt;
-  const ogImage = article.coverImage
-    ? (article.coverImage.startsWith("http")
-        ? article.coverImage
-        : `https://www.ediliziafiscale.it${article.coverImage}`)
-    : "https://www.ediliziafiscale.it/og-image.png";
+  const ogImage = coverUrl(article);
 
   return (
     <>
