@@ -3,7 +3,7 @@
 Sito dello studio **Edilizia Fiscale** — commercialisti e CFO per il settore costruzioni, doppio target
 (impresa edile / patrimonio dell'imprenditore) con due percorsi separati.
 
-- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (88 pagine prerenderizzate).
+- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (104 pagine prerenderizzate, una rotta lazy per pagina).
 - Design: palette di brand **nero `#0C0C0C` e arancione `#F2621D`**, font Inter Tight.
 - Dominio previsto: `https://www.ediliziafiscale.it` (placeholder — un solo punto di modifica, vedi sotto).
 
@@ -23,13 +23,30 @@ npm run preview   # serve la build da dist/
 - **Guide** (`/guide`, `/guide/[slug]`): 56 articoli in `src/data/articles/*.ts` — formato a blocchi
   (risposta diretta come intro, riquadro "In sintesi", tabelle, passi numerati, esempio numerico,
   FAQ visibili, CTA + disclaimer). Schema Article + FAQPage + BreadcrumbList.
-- **Domande frequenti** (`/domande-frequenti`, una URL per domanda): 21 pagine da `src/data/faq.ts`,
+- **Domande frequenti** (`/domande-frequenti`, una URL per domanda): 36 pagine da `src/data/faq.ts`,
   schema FAQPage (hub) e QAPage (singole) — motore AEO.
+- **Glossario** (`/glossario`): 29 definizioni da `src/data/glossario.ts`, schema DefinedTermSet, una
+  pagina sola con un'ancora per termine (`/glossario#durc`). Presidia le query «cos'è X», che le guide
+  non coprono: spiegano come si fa, non cosa significa.
 - **Studio**: `/studio`, `/studio/come-lavoriamo` (compensi, indipendenza e limiti dell'incarico:
   è il segnale E-E-A-T pubblico dello studio).
 - **Legali**: `/privacy`, `/cookie`, `/note-legali`.
 - SEO tecnico: sitemap generata da `scripts/generate-sitemap.mjs`, `robots.txt` con allow espliciti per i
-  crawler AI, `llms.txt`, canonical + OG per pagina via `src/components/SEO.tsx` (head prerenderizzato).
+  crawler AI, `llms.txt` generato da `scripts/generate-llms.mjs` (guide, FAQ e glossario, sempre
+  allineato), canonical + OG per pagina via `src/components/SEO.tsx` (head prerenderizzato).
+
+### Come è diviso il JavaScript
+
+Ogni rotta è un chunk `lazy` e **ogni guida è una rotta a sé** (`articleRoutes` in `src/App.tsx`),
+non una `/guide/:slug` parametrica. Il motivo è che il corpo dell'articolo è già nell'HTML statico e
+l'idratazione deve corrispondere: con una rotta parametrica il componente deve poter leggere tutte le
+guide in modo sincrono, e il testo di tutte e 56 finiva nel bundle di ogni pagina. Due conseguenze da
+ricordare quando si tocca `src/data/articles.ts`:
+
+- non reintrodurre `import.meta.glob` sulle guide in un modulo importato dalle pagine: basta la sua
+  presenza perché vite-react-ssg emetta un `modulepreload` per tutte;
+- le immagini usate nelle pagine stanno in `public/`, non importate: per ogni asset di un chunk viene
+  emesso un `<link rel="preload" as="image" crossorigin>` che annulla il `loading="lazy"`.
 
 ### Identità visiva
 
