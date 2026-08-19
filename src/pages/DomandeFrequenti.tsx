@@ -67,6 +67,11 @@ const DomandeFrequenti = () => {
                 <p className="text-lg text-white/80 leading-relaxed">
                   Ogni domanda ha una risposta diretta e una pagina di approfondimento con i riferimenti normativi.
                   Sono risposte generali: il tuo caso va sempre verificato sui documenti e sui numeri.
+                  Se invece cerchi solo il significato di un termine, è nel{" "}
+                  <Link to="/glossario" className="text-brand font-semibold hover:underline">
+                    glossario
+                  </Link>
+                  .
                 </p>
               </div>
             </div>

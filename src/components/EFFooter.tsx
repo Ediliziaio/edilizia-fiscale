@@ -76,6 +76,7 @@ const EFFooter = () => {
               <li><Link to="/studio" className="text-white/70 hover:text-brand">Lo studio</Link></li>
               <li><Link to="/studio/come-lavoriamo" className="text-white/70 hover:text-brand">Come lavoriamo e quanto costa</Link></li>
               <li><Link to="/domande-frequenti" className="text-white/70 hover:text-brand">Domande frequenti</Link></li>
+              <li><Link to="/glossario" className="text-white/70 hover:text-brand">Glossario dell'edilizia</Link></li>
             </ul>
           </div>
         </div>

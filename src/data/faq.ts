@@ -311,6 +311,201 @@ export const faqEntries: FaqEntry[] = [
     guida: "holding-immobiliare-edilizia",
     silo: "patrimonio",
   },
+  {
+    slug: "quanto-tempo-ho-per-sistemare-un-durc-irregolare",
+    question: "Quanto tempo ho per sistemare un DURC irregolare?",
+    answer:
+      "Quindici giorni. Prima di attestare l'irregolarità l'ente invia un preavviso via PEC e invita a regolarizzare entro quel termine (D.M. 30 gennaio 2015). Dentro quella finestra il problema si chiude senza che nessuno lo veda; superata, l'esito negativo diventa visibile a chi ha richiesto il documento.",
+    detail: [
+      "Il termine decorre comunque e non viene ripetuto. Il motivo per cui viene perso è quasi sempre banale: la PEC aziendale non viene letta con continuità, oppure è intestata a un consulente che non la presidia.",
+      "Le strade per regolarizzare sono tre: versare il dovuto, presentare istanza di rateazione pagando le prime rate, oppure dimostrare documentalmente che il debito non esiste — cosa che capita più spesso di quanto si creda, per versamenti imputati a periodi sbagliati.",
+      "Uno scostamento non grave non blocca il documento: la soglia storicamente applicata è di 150 euro per ciascun istituto e gestione, comprensivi di accessori.",
+    ],
+    guida: "durc-irregolare-impresa-edile",
+    silo: "imprese",
+  },
+  {
+    slug: "cosa-contiene-il-versamento-alla-cassa-edile",
+    question: "Cosa contiene il versamento mensile alla Cassa Edile?",
+    answer:
+      "Due componenti di natura diversa: l'accantonamento per ferie, permessi e gratifica natalizia, che è retribuzione del lavoratore anticipata alla Cassa; e la contribuzione vera e propria per le prestazioni — anzianità professionale, assistenza, formazione — che è costo dell'esercizio. Confonderle è l'errore contabile più comune del settore.",
+    detail: [
+      "L'accantonamento non va sommato alla retribuzione lorda come se fosse un onere ulteriore: è una parte della retribuzione che invece di transitare in busta paga transita dalla Cassa. Chi lo tratta come costo aggiuntivo sovrastima il costo orario; chi lo ignora lo sottostima.",
+      "Le aliquote non sono uniformi sul territorio: ogni Cassa territoriale ha le proprie, definite dalla contrattazione integrativa provinciale. Il costo orario va quindi calcolato sulla Cassa di riferimento dei propri cantieri.",
+      "La denuncia mensile è anche il dato di partenza della verifica di congruità e concorre al rilascio del DURC: un arretrato verso la Cassa blocca gli incassi pubblici esattamente come un debito INPS.",
+    ],
+    guida: "cassa-edile-come-funziona",
+    silo: "imprese",
+  },
+  {
+    slug: "come-si-calcola-la-congruita-della-manodopera",
+    question: "Come si calcola la congruità della manodopera?",
+    answer:
+      "Si moltiplica il valore dell'opera per la percentuale minima di incidenza prevista per quella categoria di lavori dal D.M. 143/2021, e si confronta il risultato con il costo del lavoro denunciato alle Casse Edili per quel cantiere. Per la nuova edilizia civile il riferimento è il 14,28%.",
+    detail: [
+      "La verifica si applica ai lavori pubblici di qualunque importo e ai lavori privati di valore complessivo pari o superiore a 70.000 euro. La soglia guarda l'opera, non il singolo affidamento: frazionare i contratti non fa scendere sotto.",
+      "Il calcolo considera anche la manodopera denunciata dai subaffidatari, ma solo se le denunce sono riferite a quel cantiere. Ore regolarmente denunciate e non attribuite producono uno scostamento a carico dell'impresa affidataria.",
+      "Il 14,28% non è universale: le altre categorie hanno percentuali proprie, da leggere nell'allegato al decreto. Applicare un valore unico a lavorazioni diverse è uno degli errori più frequenti.",
+    ],
+    guida: "congruita-manodopera-durc",
+    silo: "imprese",
+  },
+  {
+    slug: "il-capocantiere-puo-dare-ordini-al-subappaltatore",
+    question: "Il mio capocantiere può dare ordini alla squadra del subappaltatore?",
+    answer:
+      "Deve coordinare le attività ai fini della sicurezza, ed è obbligato a farlo. Ma non deve dirigere il lavoro: cosa fa quel lavoratore, come e in che ordine lo decide il preposto del subappaltatore. È la distinzione da cui dipende se l'appalto è genuino o è fornitura di manodopera.",
+    detail: [
+      "In verifica la qualificazione si ricostruisce sentendo i lavoratori e guardando chi impartiva le direttive quotidiane. Se il contratto dice una cosa e il cantiere ne dice un'altra, prevale il cantiere.",
+      "Gli altri indici che pesano: corrispettivo determinato a ore anziché sulla lavorazione, oggetto contrattuale generico, assenza di un preposto del subappaltatore, nessun rischio economico in capo all'affidatario.",
+      "Il rischio non è solo sanzionatorio: il lavoratore interposto può chiedere la costituzione del rapporto di lavoro in capo all'utilizzatore, con l'anzianità maturata.",
+    ],
+    guida: "appalto-non-genuino-distacco-somministrazione",
+    silo: "imprese",
+  },
+  {
+    slug: "la-riduzione-contributiva-edile-va-richiesta",
+    question: "La riduzione contributiva dell'edilizia si applica da sola?",
+    answer:
+      "No, e questo è il punto: va richiesta con istanza telematica. La riduzione prevista dall'art. 29 del D.L. 244/1995 per gli operai a tempo pieno delle imprese edili non viene riconosciuta d'ufficio. Molte imprese non ne beneficiano semplicemente perché nessuno l'ha mai chiesta.",
+    detail: [
+      "Si applica agli operai occupati a tempo pieno: impiegati, quadri e operai a tempo parziale ne sono esclusi. La misura è confermata di anno in anno con decreto e il valore storicamente applicato si colloca attorno all'11,50%.",
+      "Le condizioni sono cumulative: regolarità contributiva attestata dal DURC, rispetto degli accordi collettivi nazionali e territoriali, assenza di provvedimenti che precludano i benefici. Un periodo di irregolarità fa decadere il beneficio per quel periodo, con recupero.",
+      "L'effetto va oltre il risparmio immediato: incide sul costo orario pieno e quindi sui preventivi. Chi la ottiene e chi non la ottiene non ha la stessa struttura di costo, a parità di tutto il resto.",
+    ],
+    guida: "assunzioni-agevolazioni-contributive-edilizia",
+    silo: "imprese",
+  },
+  {
+    slug: "quanto-vale-l-anticipazione-del-prezzo-negli-appalti",
+    question: "Quanto vale l'anticipazione del prezzo in un appalto pubblico?",
+    answer:
+      "Il codice dei contratti la prevede nella misura del 20% del valore del contratto, da erogare dopo l'avvio dell'esecuzione. Non è un ricavo aggiuntivo ma un anticipo, recuperato con trattenute proporzionali sui successivi stati di avanzamento: sposta la cassa nel momento in cui serve.",
+    detail: [
+      "L'erogazione è subordinata alla costituzione di una garanzia fideiussoria di importo pari all'anticipazione maggiorata degli interessi, che si riduce progressivamente con il recupero. Il premio è un costo da mettere a preventivo.",
+      "L'effetto meno considerato è sul plafond: la fideiussione consuma capacità di affidamento presso l'istituto, e con più appalti in corso può mancare la garanzia per la gara successiva.",
+      "Agisce esattamente dove l'esposizione è massima, cioè prima che il cantiere abbia prodotto qualcosa di fatturabile: è la leva di cassa più rilevante della commessa pubblica.",
+    ],
+    guida: "anticipazione-e-revisione-prezzi",
+    silo: "imprese",
+  },
+  {
+    slug: "cosa-serve-per-ottenere-l-attestazione-soa",
+    question: "Cosa serve per ottenere l'attestazione SOA?",
+    answer:
+      "Requisiti tecnici, dimostrati con i certificati di esecuzione lavori rilasciati dalle stazioni appaltanti, e requisiti economico-finanziari, che si leggono nei bilanci depositati: cifra d'affari in lavori, adeguata attrezzatura tecnica, adeguato organico medio annuo e patrimonio netto. Dalla terza classifica serve anche la certificazione di qualità.",
+    detail: [
+      "I requisiti economici si misurano su un arco pluriennale: un esercizio debole non si compensa a ridosso della domanda. Chi vuole salire di classifica deve lavorarci diversi esercizi prima, con scelte coerenti sulla valutazione delle commesse e sulla distribuzione degli utili.",
+      "Il parametro che più spesso blocca il salto è il costo del personale: un ricorso elevato al subappalto lo comprime rispetto alla cifra d'affari, e il requisito dell'organico medio annuo ne risente.",
+      "Attenzione alle operazioni straordinarie: una scissione che trasferisce il capannone a un'immobiliare riduce il patrimonio netto dell'operativa, che è un requisito. Va dimensionata verificando prima l'impatto sulle classifiche possedute.",
+    ],
+    guida: "attestazione-soa-requisiti-economici",
+    silo: "imprese",
+  },
+  {
+    slug: "cosa-succede-se-firmo-il-registro-senza-riserva",
+    question: "Cosa succede se firmo il registro di contabilità senza riserva?",
+    answer:
+      "Il documento si intende accettato senza contestazioni per quanto vi è riportato. È l'atto con cui si perdono più diritti economici negli appalti pubblici, spesso per distrazione: chi firma in cantiere sta compiendo un atto con effetti economici diretti, non un adempimento amministrativo.",
+    detail: [
+      "Scrivere «con riserva» non basta: la riserva va poi esplicata nei termini previsti, indicando le ragioni, i fatti che la giustificano e la quantificazione della pretesa. Una riserva non esplicata o non quantificata può risultare inefficace.",
+      "Per quantificare servono i numeri del controllo di gestione: costo orario pieno delle squadre ferme, costo orario dei mezzi, maggiori oneri di allestimento prolungato. Un'impresa che non conosce il proprio costo orario non riesce a formulare una riserva difendibile.",
+      "Una riserva iscritta non è però un ricavo: concorre alla valutazione della commessa solo per la quota di cui esista ragionevole certezza di riconoscimento, tipicamente dopo una proposta di accordo bonario.",
+    ],
+    guida: "riserve-e-contabilita-lavori-pubblici",
+    silo: "imprese",
+  },
+  {
+    slug: "meglio-consorzio-o-ati",
+    question: "Per una gara conviene di più il consorzio o l'ATI?",
+    answer:
+      "Dipende dall'orizzonte. Se la collaborazione è per un lavoro, l'ATI costa zero e si scioglie da sola. Se è per un modo di lavorare, il consorzio è l'unico che accumula qualcosa nel tempo: è un soggetto autonomo che mantiene i requisiti maturati e si ripresenta alla gara successiva.",
+    detail: [
+      "Il consorzio ha partita IVA e bilancio propri: assume il lavoro, fattura alla stazione appaltante e ribalta ai consorziati esecutori, che fatturano a lui. L'ATI non è un soggetto: è un mandato collettivo, e ciascuna impresa resta autonoma anche fiscalmente.",
+      "Il consorzio stabile può utilizzare i requisiti maturati dalle consorziate secondo le regole di cumulo previste: è la ragione principale per cui viene costituito. Richiede però struttura comune reale e durata non inferiore a cinque anni.",
+      "Un vincolo da coordinare: il consorzio indica in gara le consorziate per le quali concorre, e quelle imprese non possono presentare offerta autonoma per la stessa procedura.",
+    ],
+    guida: "consorzi-ati-fiscalita",
+    silo: "imprese",
+  },
+  {
+    slug: "perche-non-ottengo-piu-una-garanzia-provvisoria",
+    question: "Perché non riesco più a ottenere una garanzia provvisoria?",
+    answer:
+      "Quasi sempre per esaurimento del plafond, non per un problema di merito. Le garanzie in essere sulle commesse in corso — definitive e sull'anticipazione — occupano capacità presso banche e compagnie, e anche le provvisorie delle gare non vinte pesano finché non vengono svincolate.",
+    detail: [
+      "Il plafond è una risorsa scarsa da allocare come la cassa. Va conosciuto — quanto è il massimale presso ciascun istituto e quanto ne è occupato — prima di decidere a quante gare presentarsi contemporaneamente.",
+      "Si libera presidiando gli svincoli progressivi della garanzia definitiva, che sono un diritto ma vanno richiesti, e la riduzione della fideiussione sull'anticipazione man mano che viene recuperata sui SAL.",
+      "Si amplia con gli stessi documenti che migliorano il rating: bilanci ordinati, margine per commessa, cassa prospettica. Ma va negoziato quando i numeri sono buoni, non quando serve.",
+    ],
+    guida: "garanzie-e-polizze-appalto",
+    silo: "imprese",
+  },
+  {
+    slug: "gli-immobili-costruiti-per-la-vendita-si-ammortizzano",
+    question: "Gli immobili costruiti per la vendita si ammortizzano?",
+    answer:
+      "No: sono beni merce e stanno tra le rimanenze, non tra le immobilizzazioni. L'ammortamento riguarda i beni strumentali destinati a essere utilizzati durevolmente nell'attività, non quelli destinati allo scambio. Il costo si recupera con il ricavo della vendita, non con quote annuali.",
+    detail: [
+      "Nel periodo di costruzione i costi vengono capitalizzati nel valore delle rimanenze: costo dell'area, oneri di urbanizzazione, progettazione, costruzione e — al ricorrere delle condizioni — gli interessi passivi sui finanziamenti dell'iniziativa.",
+      "Le spese di commercializzazione non si capitalizzano: provvigioni, pubblicità e costi di vendita sono costi dell'esercizio in cui vengono sostenuti.",
+      "Se l'immobile viene poi destinato stabilmente alla locazione cambia natura: esce dalle rimanenze ed entra tra le immobilizzazioni. È un cambio di destinazione che va deliberato e documentato, non deciso di fatto.",
+    ],
+    guida: "operazione-immobiliare-dal-terreno-alla-vendita",
+    silo: "patrimonio",
+  },
+  {
+    slug: "posso-incassare-acconti-senza-fideiussione",
+    question: "Posso incassare acconti sugli immobili da costruire senza fideiussione?",
+    answer:
+      "No, non validamente. Il D.lgs. 122/2005 obbliga il costruttore a procurare e consegnare all'acquirente una fideiussione di importo corrispondente alle somme riscosse e da riscuotere prima del trasferimento. La mancanza rende il contratto nullo, e la nullità può essere fatta valere dall'acquirente.",
+    detail: [
+      "L'impegno fideiussorio complessivo va negoziato con gli istituti prima di aprire le vendite: senza plafond sufficiente i preliminari non si possono stipulare validamente, e il rischio si manifesta proprio quando il mercato gira.",
+      "Alla stipula dell'atto definitivo va poi consegnata la polizza indennitaria decennale a copertura di rovina e gravi difetti. Il premio va nel costo dell'iniziativa e riscontato sugli esercizi di copertura.",
+      "Sul piano finanziario, degli acconti incassati una parte è IVA da versare e non è liquidità dell'impresa: il piano di cassa va costruito sull'imponibile, non sul lordo.",
+    ],
+    guida: "vendita-su-carta-acconti-garanzie",
+    silo: "patrimonio",
+  },
+  {
+    slug: "la-permuta-terreno-appartamenti-e-senza-imposte",
+    question: "La permuta terreno contro appartamenti è un'operazione senza imposte?",
+    answer:
+      "No. Fiscalmente sono due cessioni autonome, non una compensazione che si annulla: il corrispettivo di ciascuna è costituito dal valore del bene ricevuto in cambio. Gli obblighi maturano al momento di ciascun trasferimento, anche se tra le parti non gira denaro.",
+    detail: [
+      "Il disallineamento dei tempi è il punto critico: la cessione dell'area avviene alla stipula, quella delle unità anni dopo. Gli oneri del primo atto maturano subito, su un'operazione che non ha portato liquidità a nessuno dei due.",
+      "La variabile che cambia tutto è la qualità soggettiva di chi cede l'area: un privato è fuori campo IVA e sconta le imposte d'atto, un'impresa entra nel campo IVA con il regime che le compete.",
+      "Il piano di cassa dell'iniziativa va costruito solo sulle unità che verranno effettivamente vendute: quelle destinate alla permuta sono già state pagate con l'area e non genereranno incassi.",
+    ],
+    guida: "permuta-terreno-appartamenti",
+    silo: "patrimonio",
+  },
+  {
+    slug: "posso-capitalizzare-gli-interessi-passivi-sull-iniziativa",
+    question: "Posso capitalizzare gli interessi passivi su un'iniziativa immobiliare?",
+    answer:
+      "Al ricorrere delle condizioni sì, ma solo quelli riferibili a finanziamenti effettivamente contratti per quell'iniziativa e solo per il periodo di costruzione. Con l'ultimazione il presupposto cessa: gli oneri finanziari successivi sono costi dell'esercizio e non vanno più nel valore delle rimanenze.",
+    detail: [
+      "Continuare a capitalizzarli su un'iniziativa ultimata ma invenduta è l'errore che fa più danni: gonfia il valore dell'attivo e rinvia una perdita che, quando emerge, emerge tutta insieme.",
+      "Le rimanenze si valutano al minore tra il costo e il valore di realizzazione desumibile dal mercato, al netto dei costi ancora da sostenere e di quelli di commercializzazione. Se il mercato si è mosso, la svalutazione va rilevata subito.",
+      "L'indicatore che anticipa il problema è semplice: l'invenduto per unità con la sua anzianità. Chi lo guarda mensilmente svaluta gradualmente e spiega; chi lo scopre a dicembre svaluta tutto insieme.",
+    ],
+    guida: "operazione-immobiliare-dal-terreno-alla-vendita",
+    silo: "patrimonio",
+  },
+  {
+    slug: "cosa-sopravvive-alla-cancellazione-della-societa",
+    question: "Dopo la liquidazione della società i debiti si estinguono?",
+    answer:
+      "No. L'art. 2495 del codice civile consente ai creditori insoddisfatti di agire verso i soci fino a concorrenza delle somme riscosse in base al bilancio finale, e verso i liquidatori se il mancato pagamento è dipeso da loro colpa. La cancellazione chiude la società, non le obbligazioni.",
+    detail: [
+      "In edilizia il tema è più pesante che altrove: le opere consegnate rispondono di vizi e gravi difetti secondo termini che decorrono anche dalla scoperta, e possono attivarsi molti anni dopo la chiusura dell'attività.",
+      "Restano in essere anche le garanzie rilasciate — definitive fino al collaudo, decennale postuma per dieci anni — e le posizioni fiscali e contributive delle annualità ancora accertabili.",
+      "La scelta prudente è accantonare per le passività potenziali nel bilancio finale invece di distribuire l'intero attivo: è la distribuzione integrale che rende aggredibili soci e liquidatore.",
+    ],
+    guida: "liquidazione-societa-edile",
+    silo: "patrimonio",
+  },
 ];
 
 export const getFaq = (slug: string) => faqEntries.find((f) => f.slug === slug);

@@ -8,7 +8,7 @@ import EFContactModal from "@/components/EFContactModal";
 import EFStickyCTA from "@/components/EFStickyCTA";
 import EFFinalCTA from "@/components/EFFinalCTA";
 import Reveal from "@/components/Reveal";
-import { BookOpen, ArrowRight, Clock, Search, X, Star, HelpCircle } from "lucide-react";
+import { BookOpen, ArrowRight, Clock, Search, X, Star, HelpCircle, BookMarked } from "lucide-react";
 import { articlesMeta, isPillar, type ArticleMeta, type Category } from "@/data/articles";
 import { SITE_URL } from "@/data/site";
 import EFImageSlot from "@/components/EFImageSlot";
@@ -341,12 +341,38 @@ const Guide = () => {
                     <div>
                       <h3 className="text-lg font-bold mb-1">Cerchi una risposta secca, non una guida?</h3>
                       <p className="text-white/70 text-sm leading-relaxed">
-                        Nelle domande frequenti trovi i termini e le risposte brevi, una pagina per domanda.
+                        Nelle domande frequenti ogni caso ha una pagina, con la risposta in testa.
                       </p>
                     </div>
                   </div>
                   <span className="inline-flex items-center gap-2 text-brand font-semibold shrink-0 group-hover:gap-3 transition-all">
                     Vai alle domande <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              </Reveal>
+
+              {/* Ponte verso il glossario */}
+              <Reveal delay={60}>
+                <Link
+                  to="/glossario"
+                  className="group mt-4 flex flex-col sm:flex-row sm:items-center gap-4 justify-between bg-white border border-border rounded-2xl p-7 hover:border-ink transition-colors"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="w-11 h-11 rounded-xl bg-muted flex items-center justify-center shrink-0">
+                      <BookMarked className="w-5 h-5 text-brand-dark" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold mb-1 text-ink">
+                        Ti serve solo sapere cosa significa una parola?
+                      </h3>
+                      <p className="text-foreground/70 text-sm leading-relaxed">
+                        Il glossario definisce i termini che trovi in fattura, nel DURC e nei bandi, con la
+                        norma che li regola.
+                      </p>
+                    </div>
+                  </div>
+                  <span className="inline-flex items-center gap-2 text-brand-dark font-semibold shrink-0 group-hover:gap-3 transition-all">
+                    Apri il glossario <ArrowRight className="w-4 h-4" />
                   </span>
                 </Link>
               </Reveal>

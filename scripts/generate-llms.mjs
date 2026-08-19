@@ -12,6 +12,13 @@ const BASE = "https://www.ediliziafiscale.it";
 
 const metaSrc = read("src/data/articlesMeta.ts");
 const meta = JSON.parse(metaSrc.slice(metaSrc.indexOf("] = [") + 4, metaSrc.lastIndexOf("]") + 1));
+const glossSrc = read("src/data/glossario.ts");
+// termine + definizione: sono le voci che rispondono alle query "cos'è X",
+// quelle in cui un motore di risposta cita letteralmente.
+const termini = [...glossSrc.matchAll(
+  /slug:\s*"([^"]+)",\n\s*termine:\s*"([^"]+)",\n(?:\s*altro:\s*"[^"]*",\n)?\s*definizione:\s*\n?\s*"([^"]+)"/g,
+)].map((m) => ({ slug: m[1], termine: m[2], definizione: m[3] }));
+
 const faqSrc = read("src/data/faq.ts");
 const faqs = [...faqSrc.matchAll(/^\s*slug:\s*"([^"]+)",\n\s*question:\s*\n?\s*"([^"]+)"/gm)]
   .map((m) => ({ slug: m[1], question: m[2] }));
@@ -56,9 +63,15 @@ L.push(`Ogni domanda ha una URL propria con schema QAPage e una risposta autonom
 for (const f of faqs) L.push(`- [${f.question}](${BASE}/domande-frequenti/${f.slug})`);
 L.push("");
 
+L.push(`## Glossario`);
+L.push(`Definizioni brevi dei termini ricorrenti. Ogni voce ha un'ancora stabile su ${BASE}/glossario.`);
+for (const t of termini) L.push(`- [${t.termine}](${BASE}/glossario#${t.slug}): ${t.definizione}`);
+L.push("");
+
 L.push(`## Pagine di riferimento`);
 L.push(`- [Tutte le guide](${BASE}/guide): indice completo, filtrabile per categoria`);
 L.push(`- [Domande frequenti](${BASE}/domande-frequenti): indice delle risposte brevi`);
+L.push(`- [Glossario](${BASE}/glossario): ${termini.length} definizioni con riferimento normativo`);
 L.push(`- [Per l'impresa](${BASE}/imprese): fiscalità, numeri, lavoro, appalti, verifiche`);
 L.push(`- [Per il patrimonio](${BASE}/patrimonio): holding, immobili, passaggio generazionale`);
 L.push("");
@@ -74,4 +87,6 @@ L.push(`Ogni guida riporta la data di aggiornamento. La normativa tributaria ita
 L.push(`di frequente: verificare sempre la vigenza delle disposizioni citate.`);
 
 writeFileSync(path.join(root, "public/llms.txt"), L.join("\n") + "\n");
-console.log(`[llms] ${meta.length} guide, ${faqs.length} FAQ scritte in public/llms.txt`);
+console.log(
+  `[llms] ${meta.length} guide, ${faqs.length} FAQ, ${termini.length} termini scritti in public/llms.txt`,
+);

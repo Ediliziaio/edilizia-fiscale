@@ -39,6 +39,7 @@ const staticPages = [
   ["/patrimonio", "weekly", "0.9"],
   ["/guide", "weekly", "0.8"],
   ["/domande-frequenti", "weekly", "0.8"],
+  ["/glossario", "monthly", "0.7"],
   ["/studio", "monthly", "0.7"],
   ["/studio/come-lavoriamo", "yearly", "0.5"],
   ["/contatti", "monthly", "0.7"],

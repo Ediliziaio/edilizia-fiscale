@@ -14,6 +14,7 @@ import ComeLavoriamo from "./pages/ComeLavoriamo";
 import Guide from "./pages/Guide";
 import Articolo from "./pages/Articolo";
 import DomandeFrequenti from "./pages/DomandeFrequenti";
+import Glossario from "./pages/Glossario";
 import DomandaSingola from "./pages/DomandaSingola";
 import Contatti from "./pages/Contatti";
 import Privacy from "./pages/Privacy";
@@ -75,6 +76,7 @@ export const routes: RouteRecord[] = [
         element: <DomandaSingola />,
         getStaticPaths: () => faqEntries.map((f) => `/domande-frequenti/${f.slug}`),
       },
+      { path: "glossario", element: <Glossario /> },
       { path: "contatti", element: <Contatti /> },
       { path: "privacy", element: <Privacy /> },
       { path: "cookie", element: <CookiePolicy /> },
