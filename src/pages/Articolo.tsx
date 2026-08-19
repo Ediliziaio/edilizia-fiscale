@@ -250,6 +250,12 @@ const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
       {
         "@type": "ListItem",
         "position": 3,
+        "name": article.category,
+        "item": `https://www.ediliziafiscale.it/guide?c=${encodeURIComponent(article.category)}`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
         "name": article.title,
         "item": url,
       },
@@ -586,9 +592,29 @@ const Articolo = () => {
           {/* Article Hero — ink band; l'intro è il blocco di risposta diretta */}
           <section className="bg-ink text-white border-b border-white/10">
             <div className="container mx-auto px-4 py-10 lg:py-14">
-              <Link to="/guide" className="inline-flex items-center gap-1.5 text-white/70 hover:text-brand text-sm font-semibold mb-6">
-                <ArrowLeft className="w-4 h-4" /> Tutte le guide
-              </Link>
+              {/* Breadcrumb visibile: lo schema BreadcrumbList c'era già, la
+                  navigazione corrispondente no. Google (e i motori di risposta)
+                  si aspettano che i due coincidano. */}
+              <nav aria-label="Percorso di navigazione" className="mb-6">
+                <ol className="flex items-center gap-1.5 text-sm text-white/60 flex-wrap">
+                  <li>
+                    <Link to="/" className="hover:text-brand">Home</Link>
+                  </li>
+                  <li aria-hidden="true" className="text-white/30">/</li>
+                  <li>
+                    <Link to="/guide" className="hover:text-brand font-semibold text-white/80">Guide</Link>
+                  </li>
+                  <li aria-hidden="true" className="text-white/30">/</li>
+                  <li>
+                    <Link
+                      to={`/guide?c=${encodeURIComponent(article.category)}`}
+                      className="hover:text-brand"
+                    >
+                      {article.category}
+                    </Link>
+                  </li>
+                </ol>
+              </nav>
               <div className="grid lg:grid-cols-[1.35fr_1fr] gap-8 lg:gap-12 items-center">
                 <div className="max-w-4xl">
                 <div className="flex items-center gap-3 flex-wrap mb-5">

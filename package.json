@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite-react-ssg dev",
-    "prebuild": "node scripts/generate-article-index.mjs && node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-article-index.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-llms.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",
     "build": "vite-react-ssg build",
     "build:spa": "vite build",
@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "articles": "node scripts/generate-article-index.mjs",
-    "immagini": "node scripts/generate-image-brief.mjs"
+    "immagini": "node scripts/generate-image-brief.mjs",
+    "llms": "node scripts/generate-llms.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
