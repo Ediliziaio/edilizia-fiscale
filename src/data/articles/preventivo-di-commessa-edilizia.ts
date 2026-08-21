@@ -71,11 +71,19 @@ export const article: Article = {
 
     { type: "h2", text: "Un esempio numerico", id: "esempio" },
     { type: "p", text: "Lavorazione di intonaco su 1.400 metri quadrati. L'analisi prezzi interna considera 0,42 ore di manodopera al metro quadrato, materiali per 4,10 euro al metro quadrato e una quota di nolo ponteggio di 1,80 euro al metro quadrato." },
-    { type: "p", text: "Con il costo orario pieno di 29,60 euro, la manodopera pesa 12,43 euro al metro quadrato. Sommati materiali e nolo, il costo diretto è di 18,33 euro. Aggiungendo l'8% di costi indiretti di cantiere si arriva a 19,80 euro; ribaltando il 12% di struttura, a 22,18 euro; con una contingenza del 3% per l'incertezza sullo stato del supporto murario, a 22,85 euro. Applicando un utile atteso del 10%, il prezzo di vendita è di 25,14 euro al metro quadrato." },
+    { type: "p", text: "Con il [costo orario pieno](/guide/costo-del-lavoro-impresa-edile) di 29,60 euro, la manodopera pesa 12,43 euro al metro quadrato. Sommati materiali e nolo, il costo diretto è di 18,33 euro. Aggiungendo l'8% di costi indiretti di cantiere si arriva a 19,80 euro; ribaltando il 12% di struttura, a 22,18 euro; con una contingenza del 3% per l'incertezza sullo stato del supporto murario, a 22,85 euro. Applicando un utile atteso del 10%, il prezzo di vendita è di 25,14 euro al metro quadrato." },
     { type: "p", text: "La stessa analisi condotta sulla paga oraria di 21 euro anziché sul costo pieno avrebbe restituito un costo diretto di 14,71 euro e un prezzo di vendita di 20,17 euro: quasi cinque euro in meno al metro quadrato. Su 1.400 metri quadrati sono 6.950 euro di margine che l'impresa avrebbe regalato, convinta di applicare un utile del 10%." },
     { type: "note", text: "L'errore da non fare: aggiornare l'analisi prezzi solo quando cambiano i materiali. Il costo orario della manodopera cambia a ogni rinnovo contrattuale e a ogni variazione del mix di qualifiche; il costo dei mezzi cambia con gli acquisti e le dismissioni. Un'analisi prezzi ferma a due anni fa è un preventivo sbagliato in partenza. Lo scenario è illustrativo." },
 
     { type: "figure", slot: "preventivo-di-commessa-edilizia-2", alt: "Contratto d'appalto con clausola di revisione prezzi evidenziata", caption: "La procedura scritta per le varianti è la clausola che salva più margine di tutte." },
+
+    { type: "h2", text: "Gli appigli normativi delle protezioni", id: "fonti" },
+    { type: "caselaw", title: "Riferimenti normativi", items: [
+      { court: "Legislatore", ref: "Art. 1664 c.c.", principle: "Nell'appalto privato, se per circostanze imprevedibili i costi di materiali o manodopera variano oltre un decimo, la parte incisa può chiedere la revisione del prezzo per la parte eccedente.", impact: "È la protezione di legge quando il contratto tace: soglia del 10% e copertura solo dell'eccedenza. Una clausola scritta può fare di meglio, per questo si negozia prima." },
+      { court: "Legislatore", ref: "Art. 1659 c.c.", principle: "L'appaltatore non può apportare variazioni alle modalità convenute dell'opera senza autorizzazione del committente, e l'autorizzazione va provata per iscritto.", impact: "La variante eseguita su richiesta verbale è a rischio ricavo per definizione: la procedura scritta non è burocrazia, è la condizione per farsi pagare." },
+      { court: "Legislatore", ref: "D.lgs. 231/2002", principle: "Nelle transazioni commerciali gli interessi di mora decorrono automaticamente dalla scadenza, con tasso maggiorato e risarcimento dei costi di recupero.", impact: "Il richiamo in contratto rafforza la posizione negoziale sui ritardi di pagamento e sostiene la clausola di sospensione dei lavori." },
+      { court: "Cassazione, Sez. II civile", ref: "", principle: "Nell'appalto a corpo il prezzo è invariabile rispetto alle quantità previste, ma le opere extracontrattuali ordinate dal committente vanno compensate a parte.", impact: "Il confine tra opera compresa e variante va tracciato nel computo allegato al contratto: ciò che non è descritto diventa terreno di contestazione." },
+    ] },
 
     { type: "h2", text: "Domande frequenti", id: "faq" },
     { type: "faq", items: [
@@ -88,7 +96,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Prendi l'ultimo preventivo importante che hai formulato e mandacelo insieme al costo del lavoro dell'ultimo esercizio: verifichiamo su quali costi elementari è costruito e ricalcoliamo il prezzo con i tuoi numeri reali. È l'esercizio che, nella nostra esperienza, produce la reazione più forte. Per il quadro completo leggi le guide su costo del lavoro edile e margine di commessa." },
+    { type: "p", text: "Prendi l'ultimo preventivo importante che hai formulato e mandacelo insieme al costo del lavoro dell'ultimo esercizio: verifichiamo su quali costi elementari è costruito e ricalcoliamo il prezzo con i tuoi numeri reali. È l'esercizio che, nella nostra esperienza, produce la reazione più forte. Per il quadro completo leggi le guide su costo del lavoro edile e [margine di commessa](/guide/margine-di-commessa-edilizia)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

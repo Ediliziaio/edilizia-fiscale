@@ -72,12 +72,12 @@ export const article: Article = {
       "Contratti in corso con clausole di change of control o vincoli patrimoniali: vanno esaminati prima, non dopo",
       "Opposizione dei creditori: il codice civile prevede un termine entro il quale i creditori anteriori possono opporsi, e va messo in conto nel cronoprogramma",
     ] },
-    { type: "p", text: "Il quarto punto è specifico dell'edilizia e viene spesso scoperto tardi. I requisiti economico-finanziari per la qualificazione SOA e per la partecipazione alle gare si basano anche su grandezze patrimoniali: trasferire il capannone alla beneficiaria riduce il patrimonio netto dell'operativa, e questo può incidere sulle classifiche di qualificazione. Va verificato prima di redigere il progetto di scissione." },
+    { type: "p", text: "Il quarto punto è specifico dell'edilizia e viene spesso scoperto tardi. I requisiti economico-finanziari per la [qualificazione SOA](/guide/attestazione-soa-requisiti-economici) e per la partecipazione alle gare si basano anche su grandezze patrimoniali: trasferire il capannone alla beneficiaria riduce il patrimonio netto dell'operativa, e questo può incidere sulle classifiche di qualificazione. Va verificato prima di redigere il progetto di scissione." },
 
     { type: "h2", text: "Dopo l'operazione: far vivere la struttura", id: "dopo" },
     { type: "p", text: "La scissione non finisce con l'atto notarile. L'immobiliare deve concedere in locazione l'immobile all'operativa, con un contratto scritto e registrato e un canone di mercato supportato da una perizia o da riferimenti oggettivi verificabili. Un canone fuori mercato tra parti correlate è una delle contestazioni più semplici da muovere in verifica, in entrambe le direzioni." },
     { type: "p", text: "L'immobiliare deve inoltre avere una vita societaria reale: assemblee, decisioni sugli investimenti, un conto corrente movimentato con logica, la gestione effettiva del patrimonio. Va anche verificata la sua posizione rispetto alla disciplina delle società non operative, che colpisce proprio le società che detengono beni senza svolgere attività adeguata." },
-    { type: "p", text: "Sopra le due società si colloca poi, di norma, una holding: è il passaggio successivo, che consente di far salire gli utili dell'operativa senza passare dalla tassazione personale e di avere una regia unitaria sul gruppo. Non è obbligatorio farlo contestualmente, ma è bene disegnare l'assetto finale fin dall'inizio per non ripetere operazioni straordinarie." },
+    { type: "p", text: "Sopra le due società si colloca poi, di norma, una [holding](/guide/holding-immobiliare-edilizia): è il passaggio successivo, che consente di far salire gli utili dell'operativa senza passare dalla tassazione personale e di avere una regia unitaria sul gruppo. Non è obbligatorio farlo contestualmente, ma è bene disegnare l'assetto finale fin dall'inizio per non ripetere operazioni straordinarie." },
 
     { type: "figure", slot: "scissione-immobiliare-impresa-edile-2", alt: "Contratto di locazione infragruppo con perizia di stima allegata", caption: "Il canone di locazione tra società correlate va supportato: è una delle contestazioni più semplici da muovere." },
 
@@ -99,7 +99,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Il primo passo non è scegliere l'operazione: è fotografare cosa c'è oggi nella società che apre i cantieri e con quali vincoli. Mandaci visura, ultimo bilancio, elenco degli immobili con eventuali ipoteche e l'elenco delle garanzie personali in essere: ti diciamo quale strada è praticabile nel tuo caso, in quali tempi e con quali passaggi bancari. Per il disegno complessivo leggi le guide su holding e protezione patrimoniale." },
+    { type: "p", text: "Il primo passo non è scegliere l'operazione: è fotografare cosa c'è oggi nella società che apre i cantieri e con quali vincoli. Mandaci visura, ultimo bilancio, elenco degli immobili con eventuali ipoteche e l'elenco delle garanzie personali in essere: ti diciamo quale strada è praticabile nel tuo caso, in quali tempi e con quali passaggi bancari. Per il disegno complessivo leggi le guide su holding e [protezione patrimoniale](/guide/protezione-patrimoniale-imprenditore-edile)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

@@ -35,7 +35,7 @@ export const article: Article = {
 
     { type: "h2", text: "Il principio di inerenza applicato al cantiere", id: "inerenza" },
     { type: "p", text: "Sono deducibili i costi riferibili all'attività da cui derivano ricavi. La formula è semplice; l'applicazione in edilizia lo è meno, perché il collegamento tra il costo e la commessa deve poter essere dimostrato, e la prova si costruisce durante i lavori, non in sede di verifica." },
-    { type: "p", text: "Il criterio che consigliamo è pratico: ogni costo deve poter essere ricondotto a una commessa attraverso un documento. Una fattura di materiali con l'indicazione del cantiere di destinazione, un rapportino di nolo firmato, un contratto di subappalto con il computo allegato, un rapportino ore per la manodopera. Non è burocrazia: è la stessa documentazione che serve al controllo di gestione, ed è per questo che le due esigenze si sostengono a vicenda." },
+    { type: "p", text: "Il criterio che consigliamo è pratico: ogni costo deve poter essere ricondotto a una commessa attraverso un documento. Una fattura di materiali con l'indicazione del cantiere di destinazione, un rapportino di nolo firmato, un contratto di subappalto con il computo allegato, un rapportino ore per la manodopera. Non è burocrazia: è la stessa documentazione che serve al [controllo di gestione](/guide/controllo-di-gestione-impresa-edile), ed è per questo che le due esigenze si sostengono a vicenda." },
     { type: "p", text: "Il secondo criterio è la competenza. In un'attività per commessa il costo va imputato all'esercizio in cui matura la relativa prestazione, e il materiale acquistato ma non ancora impiegato non è un costo dell'anno: è una rimanenza. È il punto su cui si concentra la maggior parte delle rettifiche nelle imprese edili di piccola e media dimensione." },
 
     { type: "h2", text: "Mezzi d'opera e attrezzature", id: "mezzi" },
@@ -68,7 +68,7 @@ export const article: Article = {
 
     { type: "h2", text: "Subappalti: la voce più contestata", id: "subappalti" },
     { type: "p", text: "Il costo del subappalto è deducibile, ma è anche la voce su cui si concentrano le contestazioni più pesanti, perché è quella storicamente usata per creare costi fittizi. La difesa si costruisce con tre documenti: il contratto scritto con il computo delle lavorazioni affidate, la fattura coerente con l'avanzamento, la prova del pagamento tracciato." },
-    { type: "p", text: "A questi si aggiungono elementi che pesano molto in sede di verifica: la presenza del subappaltatore nei documenti di cantiere, la notifica preliminare, i badge o i registri di accesso, le denunce in Cassa Edile del personale impiegato. Un subappalto documentato solo da una fattura, senza traccia in cantiere, è la fattispecie che genera i rilievi più difficili da smontare." },
+    { type: "p", text: "A questi si aggiungono elementi che pesano molto in sede di verifica: la presenza del subappaltatore nei documenti di cantiere, la notifica preliminare, i badge o i registri di accesso, le denunce in [Cassa Edile](/guide/cassa-edile-come-funziona) del personale impiegato. Un subappalto documentato solo da una fattura, senza traccia in cantiere, è la fattispecie che genera i rilievi più difficili da smontare." },
     { type: "p", text: "Va tenuto presente anche il profilo della responsabilità solidale in materia retributiva e contributiva: la verifica della regolarità del subappaltatore non è solo un adempimento formale, è la protezione dell'impresa da obbligazioni di cui non ha il controllo diretto." },
 
     { type: "h2", text: "Un esempio concreto", id: "esempio" },
@@ -76,6 +76,14 @@ export const article: Article = {
     { type: "p", text: "In verifica le due contestazioni hanno natura diversa. La prima è un errore di competenza: i 180.000 euro vanno rilevati come rimanenza, con maggior reddito nell'esercizio e corrispondente minor reddito in quello successivo. È una rettifica di timing, con sanzioni e interessi ma senza contestazione di fittizietà." },
     { type: "p", text: "La seconda è più grave: un costo privo di riscontro documentale espone alla contestazione di operazione inesistente, con effetti sull'indeducibilità del costo, sull'indetraibilità dell'IVA e potenziali profili ulteriori. La differenza tra le due situazioni non sta nella sostanza economica ma nella carta prodotta durante i lavori." },
     { type: "note", text: "L'errore da non fare: rimandare la produzione documentale a fine anno. L'inventario di cantiere si fa il 31 dicembre, il contratto di subappalto si firma prima dell'ingresso in cantiere, il rapportino di nolo si compila il giorno stesso. Ricostruire a posteriori è possibile solo in parte, e si vede. Lo scenario è illustrativo." },
+
+    { type: "h2", text: "I principi che i verificatori applicano", id: "fonti" },
+    { type: "caselaw", title: "Riferimenti normativi e di prassi", items: [
+      { court: "Legislatore", ref: "Art. 109 TUIR", principle: "I costi sono deducibili se e in quanto si riferiscono ad attività da cui derivano ricavi: certezza, determinabilità e competenza sono le tre condizioni di base.", impact: "La competenza è il fronte tipico dell'edilizia: materiali approvvigionati e non posati sono rimanenza, non costo dell'esercizio." },
+      { court: "Cassazione, Sez. tributaria", ref: "", principle: "L'inerenza va valutata in termini qualitativi, come riferibilità del costo all'attività d'impresa, anche solo in via potenziale; non richiede una correlazione puntuale con specifici ricavi.", impact: "Un costo di cantiere documentato e coerente con l'attività non diventa indeducibile perché la commessa ha chiuso in perdita." },
+      { court: "Cassazione, Sez. tributaria", ref: "", principle: "Nelle operazioni oggettivamente inesistenti l'onere di provare l'effettività della prestazione grava sul contribuente, una volta che l'ufficio abbia fornito elementi anche presuntivi.", impact: "Per i subappalti la fattura da sola non basta: contratto, tracce di cantiere e pagamenti tracciati sono la difesa, e si producono durante i lavori." },
+      { court: "Legislatore", ref: "Art. 164 TUIR", principle: "Deducibilità limitata dei costi dei veicoli, con eccezione dei veicoli esclusivamente strumentali all'attività.", impact: "Autocarri e mezzi d'opera seguono la strumentalità piena; l'auto del titolare segue i limiti ordinari: la linea passa dall'uso effettivo, non dall'immatricolazione." },
+    ] },
 
     { type: "h2", text: "Domande frequenti", id: "faq" },
     { type: "faq", items: [

@@ -49,7 +49,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il fattore che in edilizia decide: le qualificazioni", id: "soa" },
-    { type: "p", text: "L'attestazione SOA e i requisiti di qualificazione per gli appalti pubblici sono riferiti al soggetto giuridico, non al complesso aziendale. Cedere l'azienda senza cedere la società può quindi significare far perdere all'acquirente esattamente ciò per cui stava pagando: la possibilità di partecipare a gare in determinate categorie e classifiche." },
+    { type: "p", text: "L'[attestazione SOA](/guide/attestazione-soa-requisiti-economici) e i requisiti di qualificazione per gli appalti pubblici sono riferiti al soggetto giuridico, non al complesso aziendale. Cedere l'azienda senza cedere la società può quindi significare far perdere all'acquirente esattamente ciò per cui stava pagando: la possibilità di partecipare a gare in determinate categorie e classifiche." },
     { type: "p", text: "Esistono meccanismi per il trasferimento dei requisiti in caso di operazioni straordinarie, ma sono soggetti a condizioni e verifiche che vanno esaminate prima di impostare la struttura dell'operazione. Un'operazione disegnata sulla sola convenienza fiscale e poi bloccata dalla perdita della qualificazione è un esito che si vede più spesso di quanto si pensi." },
     { type: "p", text: "Lo stesso vale per i requisiti tecnici legati alle persone: il direttore tecnico con determinati titoli ed esperienza, le certificazioni di sistema, le abilitazioni specifiche. Se il venditore è anche la persona che porta questi requisiti, la sua uscita immediata dopo il closing può svuotare il valore acquistato. È il motivo per cui questi contratti prevedono quasi sempre un periodo di affiancamento." },
 
@@ -98,7 +98,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se stai valutando di vendere, il lavoro utile inizia almeno un anno prima della trattativa: contabilità di commessa in ordine, contenziosi quantificati, posizioni fiscali verificate, immobili separati. Mandaci ultimi bilanci, elenco dei contenziosi e situazione delle qualificazioni: costruiamo il percorso di preparazione e simuliamo il carico fiscale delle due strade. Per il contesto leggi le guide su scissione immobiliare e dividendi." },
+    { type: "p", text: "Se stai valutando di vendere, il lavoro utile inizia almeno un anno prima della trattativa: contabilità di commessa in ordine, contenziosi quantificati, posizioni fiscali verificate, immobili separati. Mandaci ultimi bilanci, elenco dei contenziosi e situazione delle qualificazioni: costruiamo il percorso di preparazione e simuliamo il carico fiscale delle due strade. Per il contesto leggi le guide su [scissione immobiliare](/guide/scissione-immobiliare-impresa-edile) e dividendi." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

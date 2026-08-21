@@ -117,7 +117,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se hai contratti di subappalto pagati a ore o con oggetto genericamente descritto, la posizione è più fragile di quanto sembri e si corregge con poco. Mandaci due o tre contratti tipo dalla pagina contatti: verifichiamo la qualificazione, indichiamo cosa cambiare nella struttura del rapporto e nella prassi di cantiere. Per il contesto leggi le guide su costo del lavoro edile, congruità della manodopera e costi deducibili." },
+    { type: "p", text: "Se hai contratti di subappalto pagati a ore o con oggetto genericamente descritto, la posizione è più fragile di quanto sembri e si corregge con poco. Mandaci due o tre contratti tipo dalla pagina contatti: verifichiamo la qualificazione, indichiamo cosa cambiare nella struttura del rapporto e nella prassi di cantiere. Per il contesto leggi le guide su costo del lavoro edile, [congruità della manodopera](/guide/congruita-manodopera-durc) e costi deducibili." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

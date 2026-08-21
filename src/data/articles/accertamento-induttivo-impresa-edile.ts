@@ -48,7 +48,7 @@ export const article: Article = {
       ["Indagini finanziarie", "Movimenti bancari non giustificati presunti come ricavi", "Richiede l'esame analitico dei singoli movimenti, non aggregati"],
     ] },
     { type: "p", text: "Il filo comune di tutte queste ricostruzioni è l'assunzione implicita di omogeneità: che i cantieri dell'impresa siano tra loro abbastanza simili da poter essere rappresentati da un parametro medio. In un'impresa edile reale questa assunzione è quasi sempre falsa, e dimostrarlo è la linea difensiva principale." },
-    { type: "p", text: "Un'impresa che nello stesso triennio ha eseguito una nuova costruzione chiavi in mano, due ristrutturazioni su edifici storici, tre cantieri di sola posa con materiale fornito dal committente e un appalto pubblico con revisione prezzi non ha un ricarico medio significativo: ha sei situazioni economiche diverse che una media non descrive." },
+    { type: "p", text: "Un'impresa che nello stesso triennio ha eseguito una nuova costruzione chiavi in mano, due ristrutturazioni su edifici storici, tre cantieri di sola posa con materiale fornito dal committente e un appalto pubblico con [revisione prezzi](/guide/anticipazione-e-revisione-prezzi) non ha un ricarico medio significativo: ha sei situazioni economiche diverse che una media non descrive." },
 
     { type: "figure", slot: "accertamento-induttivo-impresa-edile-1", alt: "Confronto tra commesse di tipologia diversa con marginalità differenti", caption: "La difesa si costruisce dimostrando che le commesse non sono omogenee: la media non le descrive." },
 
@@ -93,7 +93,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se hai ricevuto un accertamento che ricostruisce i tuoi ricavi con percentuali o parametri medi, la prima cosa da fare è ricostruire il mix reale delle commesse di quel periodo. Mandaci l'atto e l'elenco dei cantieri delle annualità contestate: verifichiamo i presupposti del metodo e prepariamo il ricalcolo per gruppi omogenei. Per il contesto leggi le guide su verifica fiscale e ISA." },
+    { type: "p", text: "Se hai ricevuto un accertamento che ricostruisce i tuoi ricavi con percentuali o parametri medi, la prima cosa da fare è ricostruire il mix reale delle commesse di quel periodo. Mandaci l'atto e l'elenco dei cantieri delle annualità contestate: verifichiamo i presupposti del metodo e prepariamo il ricalcolo per gruppi omogenei. Per il contesto leggi le guide su [verifica fiscale](/guide/verifica-fiscale-impresa-edile) e ISA." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

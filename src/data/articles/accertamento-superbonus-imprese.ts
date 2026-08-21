@@ -37,6 +37,13 @@ export const article: Article = {
     { type: "p", text: "Quando arriva un atto di recupero, la prima domanda non è quanto chiedono ma come qualificano il credito. Un credito non spettante e un credito inesistente possono riguardare lo stesso importo e produrre conseguenze radicalmente diverse: cambia la misura della sanzione, cambiano i termini entro cui l'amministrazione può agire, cambia l'eventuale rilevanza penale della vicenda." },
     { type: "p", text: "La riforma del sistema sanzionatorio operata dal D.lgs. 87/2024 ha ridefinito le due nozioni, chiarendo che il credito non spettante è quello fondato su fatti reali ma utilizzato in difetto di un requisito o di un adempimento previsto, mentre il credito inesistente è quello privo del presupposto costitutivo, perché mancano gli elementi oggettivi o soggettivi che lo generano." },
     { type: "p", text: "Tradotto in linguaggio di cantiere: se i lavori sono stati eseguiti e il problema riguarda una comunicazione tardiva, un'asseverazione con un vizio formale, un massimale superato o un requisito documentale mancante, si è nell'area del credito non spettante. Se i lavori non sono stati eseguiti, o sono stati eseguiti su un immobile privo dei requisiti, o le fatture non corrispondono a prestazioni reali, si è nell'area del credito inesistente." },
+    { type: "table", headers: ["", "Credito non spettante", "Credito inesistente"], rows: [
+      ["Il presupposto", "Esiste: lavori eseguiti, immobile con i requisiti", "Manca in tutto o in parte: lavori non eseguiti o requisiti assenti"],
+      ["Il vizio tipico", "Requisito o adempimento mancante, massimale superato, vizio formale", "Fatture per prestazioni non reali, rappresentazione fraudolenta"],
+      ["Sanzione", "Più contenuta, definibile con gli istituti premiali", "Molto più severa, margini di definizione ridotti"],
+      ["Termini di recupero", "Ordinari", "Più lunghi"],
+      ["Rilevanza penale", "Eventuale, sopra le soglie", "Frequente: la contestazione nasce spesso già in sede penale"],
+    ] },
 
     { type: "h2", text: "Il fascicolo che regge la difesa", id: "fascicolo" },
     { type: "p", text: "Nella quasi totalità delle contestazioni la differenza tra le due qualificazioni non si argomenta: si dimostra. E si dimostra con la documentazione prodotta durante i lavori, che nessun ragionamento successivo può sostituire." },
@@ -84,7 +91,7 @@ export const article: Article = {
 
     { type: "h2", text: "Un esempio concreto", id: "esempio" },
     { type: "p", text: "Impresa che ha realizzato interventi di efficientamento su tre condomini, per crediti complessivi di 1,9 milioni acquisiti tramite sconto in fattura. Riceve un atto di recupero per 480.000 euro riferito a uno dei tre interventi, con qualificazione di credito inesistente motivata dalla ritenuta incongruità dei prezzi applicati e da un'asseverazione ritenuta non adeguatamente supportata." },
-    { type: "p", text: "L'esame del fascicolo mostra che i lavori sono stati integralmente eseguiti: esistono contratto, computo metrico, SAL approvati dal direttore dei lavori, fatture, bonifici tracciati, documentazione fotografica datata dello stato ante e post operam, documenti di trasporto dei materiali e denunce in Cassa Edile del personale impiegato nel periodo." },
+    { type: "p", text: "L'esame del fascicolo mostra che i lavori sono stati integralmente eseguiti: esistono contratto, computo metrico, SAL approvati dal direttore dei lavori, fatture, bonifici tracciati, documentazione fotografica datata dello stato ante e post operam, documenti di trasporto dei materiali e denunce in [Cassa Edile](/guide/cassa-edile-come-funziona) del personale impiegato nel periodo." },
     { type: "p", text: "La difesa si concentra quindi sulla qualificazione: la contestazione riguarda la congruità dei prezzi e un profilo dell'asseverazione, non l'esistenza dell'intervento. Un intervento realmente eseguito, con un vizio relativo a un requisito o alla documentazione tecnica, non integra la nozione di credito privo del presupposto costitutivo. La riqualificazione da inesistente a non spettante cambia la misura della sanzione, i termini applicabili e i profili ulteriori della vicenda." },
     { type: "note", text: "L'errore da non fare: rispondere all'atto entrando subito nel merito dei prezzi senza contestare prima la qualificazione del credito. È la qualificazione a determinare il perimetro dell'intera vicenda, e va affrontata come prima questione. Lo scenario è illustrativo: ogni atto va valutato sui rilievi concreti." },
 
@@ -100,7 +107,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se hai ricevuto un atto di recupero o hai crediti bloccati nel cassetto fiscale, il primo passo è ricostruire il fascicolo degli interventi interessati. Mandaci l'atto e la documentazione che hai: verifichiamo la qualificazione contestata, i termini di notifica e la tenuta del fascicolo, e ti diciamo su quale linea la posizione è più difendibile. Per il contesto leggi le guide su verifica fiscale e crediti incagliati." },
+    { type: "p", text: "Se hai ricevuto un atto di recupero o hai crediti bloccati nel cassetto fiscale, il primo passo è ricostruire il fascicolo degli interventi interessati. Mandaci l'atto e la documentazione che hai: verifichiamo la qualificazione contestata, i termini di notifica e la tenuta del fascicolo, e ti diciamo su quale linea la posizione è più difendibile. Per il contesto leggi le guide su [verifica fiscale](/guide/verifica-fiscale-impresa-edile) e crediti incagliati." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

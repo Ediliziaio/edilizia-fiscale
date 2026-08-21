@@ -257,7 +257,7 @@ const Guide = () => {
                   <div className="mb-8 max-w-2xl">
                     <p className="text-brand-dark uppercase tracking-widest text-sm font-semibold mb-3">Da dove iniziare</p>
                     <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-ink leading-tight">
-                      Le quattro guide che coprono i casi più frequenti
+                      Le sei guide da cui partire, una per area
                     </h2>
                     <p className="text-foreground/70 mt-3 leading-relaxed">
                       Se non sai da dove partire, parti da qui: sono le guide più complete, e da ciascuna si arriva

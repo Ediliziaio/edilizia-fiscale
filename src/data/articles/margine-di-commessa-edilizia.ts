@@ -39,7 +39,7 @@ export const article: Article = {
     { type: "p", text: "Confondere i due livelli produce decisioni sbagliate in entrambe le direzioni. Valutare la performance di un cantiere sul margine netto significa attribuire al capocantiere responsabilità su costi che non controlla; valutare la convenienza commerciale sul solo margine industriale significa accettare commesse che non coprono la struttura." },
 
     { type: "h2", text: "I ricavi: maturati, non fatturati", id: "ricavi" },
-    { type: "p", text: "Il primo errore si commette già sul numeratore. I ricavi da considerare non sono quelli fatturati ma quelli maturati per avanzamento, calcolati applicando la percentuale di completamento ai corrispettivi contrattuali. Confrontare il fatturato con i costi sostenuti produce un margine che oscilla con il calendario di fatturazione e non dice nulla sull'andamento reale." },
+    { type: "p", text: "Il primo errore si commette già sul numeratore. I ricavi da considerare non sono quelli fatturati ma quelli maturati per avanzamento, calcolati applicando la [percentuale di completamento](/guide/bilancio-impresa-edile-lavori-in-corso) ai corrispettivi contrattuali. Confrontare il fatturato con i costi sostenuti produce un margine che oscilla con il calendario di fatturazione e non dice nulla sull'andamento reale." },
     { type: "p", text: "Vanno inoltre inclusi i ricavi per varianti, ma solo quando sono contrattualmente riconosciute. Le varianti eseguite su richiesta verbale e non ancora formalizzate sono la voce più insidiosa: i costi sono già stati sostenuti, i ricavi non esistono ancora e potrebbero non esistere mai. Nel calcolo del margine vanno tenute separate, e il loro importo va monitorato come indicatore di rischio." },
 
     { type: "h2", text: "I costi diretti: le voci che si dimenticano", id: "costi-diretti" },
@@ -70,7 +70,7 @@ export const article: Article = {
 
     { type: "h2", text: "Un esempio numerico", id: "esempio" },
     { type: "p", text: "Commessa da 420.000 euro, avanzamento 70%, ricavi maturati 294.000 euro. Il consuntivo aziendale espone costi diretti per 244.000 euro, con un margine industriale apparente di 50.000 euro, pari al 17%." },
-    { type: "p", text: "La revisione delle voci cambia il quadro. La manodopera, 3.100 ore, era valorizzata alla paga base di 21 euro anziché al costo orario pieno di 29,60: mancano 26.660 euro. Il costo dei mezzi propri, 480 ore di escavatore e autocarro, non era attribuito: mancano 14.400 euro. Gli oneri di allestimento e sicurezza specifici del cantiere, 6.200 euro, erano nelle spese generali." },
+    { type: "p", text: "La revisione delle voci cambia il quadro. La manodopera, 3.100 ore, era valorizzata alla paga base di 21 euro anziché al [costo orario pieno](/guide/costo-del-lavoro-impresa-edile) di 29,60: mancano 26.660 euro. Il costo dei mezzi propri, 480 ore di escavatore e autocarro, non era attribuito: mancano 14.400 euro. Gli oneri di allestimento e sicurezza specifici del cantiere, 6.200 euro, erano nelle spese generali." },
     { type: "p", text: "Il margine industriale corretto scende quindi a 2.740 euro, meno dell'1%. Aggiungendo il ribaltamento dei costi di struttura, la commessa chiude in perdita. La differenza rispetto alla lettura iniziale non è dovuta a un peggioramento del cantiere: quel cantiere ha sempre avuto questi numeri, semplicemente nessuno li aveva attribuiti." },
     { type: "note", text: "L'errore da non fare: leggere il margine solo a fine commessa. Con l'avanzamento al 70% e il quadro corretto sotto gli occhi, restava ancora un 30% di lavorazioni su cui intervenire — rinegoziando le varianti, rivedendo l'organizzazione delle squadre, chiedendo la revisione prezzi dove contrattualmente prevista. A consuntivo non resta niente da fare. Lo scenario è illustrativo." },
 
@@ -87,7 +87,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Scegli due commesse chiuse di recente, una che ti è sembrata buona e una che ti è sembrata problematica, e mandaci contratto, consuntivo dei costi e rapportini ore. Ricostruiamo il margine con tutte le voci attribuite e ti mostriamo la distanza rispetto a quello che il tuo gestionale ti sta dicendo. Per il metodo completo leggi la guida sul controllo di gestione, e per il numero base quella sul costo del lavoro edile." },
+    { type: "p", text: "Scegli due commesse chiuse di recente, una che ti è sembrata buona e una che ti è sembrata problematica, e mandaci contratto, consuntivo dei costi e rapportini ore. Ricostruiamo il margine con tutte le voci attribuite e ti mostriamo la distanza rispetto a quello che il tuo gestionale ti sta dicendo. Per il metodo completo leggi la guida sul [controllo di gestione](/guide/controllo-di-gestione-impresa-edile), e per il numero base quella sul costo del lavoro edile." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

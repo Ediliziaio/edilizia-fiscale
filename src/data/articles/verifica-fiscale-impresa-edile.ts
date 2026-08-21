@@ -76,7 +76,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Dopo l'accertamento: le strade disponibili", id: "dopo" },
-    { type: "p", text: "Se l'avviso arriva, le opzioni non sono solo pagare o fare ricorso. L'accertamento con adesione consente di aprire un contraddittorio con l'ufficio e di definire la pretesa con una riduzione delle sanzioni, e la presentazione dell'istanza sospende il termine per il ricorso di 90 giorni. È lo strumento più usato quando i rilievi sono in parte fondati." },
+    { type: "p", text: "Se l'avviso arriva, le opzioni non sono solo pagare o fare ricorso. L'[accertamento con adesione](/guide/ravvedimento-e-adesione-impresa-edile) consente di aprire un contraddittorio con l'ufficio e di definire la pretesa con una riduzione delle sanzioni, e la presentazione dell'istanza sospende il termine per il ricorso di 90 giorni. È lo strumento più usato quando i rilievi sono in parte fondati." },
     { type: "p", text: "L'autotutela è la strada per gli errori evidenti, quelli che non richiedono valutazione: un periodo d'imposta sbagliato, un documento già prodotto e non considerato, un calcolo errato. Non sospende però i termini di impugnazione, e questo va tenuto presente." },
     { type: "p", text: "Il ricorso alla Corte di giustizia tributaria va proposto entro 60 giorni dalla notifica, con possibilità di chiedere la sospensione dell'atto quando dall'esecuzione può derivare un danno grave e irreparabile. La scelta tra adesione e ricorso non è alternativa in senso stretto: l'adesione può essere tentata e, se non si conclude, il termine per il ricorso riprende a decorrere." },
 
@@ -100,7 +100,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se hai ricevuto un processo verbale di constatazione, il tempo che hai è già iniziato a correre. Mandacelo insieme alla documentazione di cantiere delle annualità interessate: analizziamo i rilievi, individuiamo quelli attaccabili sul metodo e quelli smontabili con i documenti, e prepariamo le osservazioni entro il termine. Per il quadro d'insieme leggi le guide su accertamento induttivo e su ravvedimento e adesione." },
+    { type: "p", text: "Se hai ricevuto un processo verbale di constatazione, il tempo che hai è già iniziato a correre. Mandacelo insieme alla documentazione di cantiere delle annualità interessate: analizziamo i rilievi, individuiamo quelli attaccabili sul metodo e quelli smontabili con i documenti, e prepariamo le osservazioni entro il termine. Per il quadro d'insieme leggi le guide su [accertamento induttivo](/guide/accertamento-induttivo-impresa-edile) e su ravvedimento e adesione." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

@@ -87,7 +87,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Mandaci l'elenco dei tuoi immobili con destinazione d'uso attuale, intestazione, valore e eventuali ipoteche: ti restituiamo lo schema di assetto per destinazione, con i passaggi necessari e il carico fiscale di ciascuna strada. Se l'assetto attuale funziona già, te lo diciamo. Per approfondire leggi le guide su scissione immobiliare, holding e tassazione della vendita di immobili." },
+    { type: "p", text: "Mandaci l'elenco dei tuoi immobili con destinazione d'uso attuale, intestazione, valore e eventuali ipoteche: ti restituiamo lo schema di assetto per destinazione, con i passaggi necessari e il carico fiscale di ciascuna strada. Se l'assetto attuale funziona già, te lo diciamo. Per approfondire leggi le guide su [scissione immobiliare](/guide/scissione-immobiliare-impresa-edile), holding e tassazione della vendita di immobili." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

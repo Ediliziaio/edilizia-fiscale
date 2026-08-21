@@ -46,7 +46,7 @@ export const article: Article = {
       ["Garanzie in essere", "Fideiussioni definitive e sull'anticipazione sono già rilasciate sui cantieri aperti", "L'escussione o il mancato rinnovo blocca l'esecuzione dei lavori in corso"],
       ["Attestazione SOA", "Serve per i lavori pubblici sopra soglia e dipende anche da requisiti economici", "Si perde l'accesso al mercato che genera i flussi su cui si basa il piano"],
     ] },
-    { type: "p", text: "La prima riga è quella che va affrontata per prima, ed è controintuitiva. Il debito contributivo è quasi sempre tra i primi a formarsi quando la cassa si tende, perché è quello che non ha un interlocutore che telefona. Ma è anche quello che, restando aperto, chiude il rubinetto degli incassi pubblici attraverso il meccanismo dell'intervento sostitutivo descritto nella guida sul DURC." },
+    { type: "p", text: "La prima riga è quella che va affrontata per prima, ed è controintuitiva. Il debito contributivo è quasi sempre tra i primi a formarsi quando la cassa si tende, perché è quello che non ha un interlocutore che telefona. Ma è anche quello che, restando aperto, chiude il rubinetto degli incassi pubblici attraverso il meccanismo dell'intervento sostitutivo descritto nella guida sul [DURC](/guide/durc-irregolare-impresa-edile)." },
     { type: "p", text: "Ne discende una regola pratica che diamo sempre in questi percorsi: la posizione contributiva va messa in sicurezza per prima, tipicamente attraverso una rateazione, anche se questo significa destinare risorse a un creditore che non sta facendo pressione. Non è una scelta di equità tra creditori: è la condizione perché esista qualcosa da distribuire." },
     { type: "p", text: "La seconda variabile riguarda il rapporto con banche e compagnie che hanno rilasciato le garanzie sui cantieri in corso. Vanno coinvolte presto, perché una revoca o un mancato rinnovo su un appalto in esecuzione produce un effetto a catena immediato. La riservatezza del percorso aiuta, ma non sostituisce il dialogo." },
 
@@ -75,7 +75,7 @@ export const article: Article = {
       "Piano finanziario con proiezione dei flussi, che è il documento su cui si giudica la perseguibilità del risanamento",
       "Elenco delle garanzie rilasciate e delle fideiussioni personali dei soci",
     ] },
-    { type: "p", text: "I punti quattro e sei sono quelli che distinguono un'impresa che può accedere con qualche giorno di lavoro da una che impiega mesi. Sono gli stessi documenti descritti nella guida sugli assetti adeguati e in quella sul controllo di gestione: margine per commessa, costi a finire, cassa prospettica. Un'impresa che li produce mensilmente ha già il novanta per cento del materiale." },
+    { type: "p", text: "I punti quattro e sei sono quelli che distinguono un'impresa che può accedere con qualche giorno di lavoro da una che impiega mesi. Sono gli stessi documenti descritti nella guida sugli assetti adeguati e in quella sul [controllo di gestione](/guide/controllo-di-gestione-impresa-edile): margine per commessa, costi a finire, cassa prospettica. Un'impresa che li produce mensilmente ha già il novanta per cento del materiale." },
     { type: "p", text: "È il collegamento che rende questa guida meno teorica di quanto sembri. Il controllo di gestione non serve solo a guadagnare di più: serve anche a poter accedere a uno strumento di risanamento quando serve, e ad accedervi in tempo utile." },
 
     { type: "h2", text: "Gli esiti possibili", id: "esiti" },
@@ -104,7 +104,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se la tensione finanziaria è già visibile e ci sono debiti contributivi aperti, il tempo lavora contro: ogni mese di attesa riduce le opzioni e peggiora il rapporto tra debito e valore recuperabile. Mandaci situazione contabile, elenco creditori, posizione fiscale e contributiva e commesse in corso dalla pagina contatti: valutiamo la perseguibilità del risanamento e la sequenza degli interventi, a partire dal DURC. Per il contesto leggi le guide su assetti adeguati, DURC irregolare e flussi di cassa." },
+    { type: "p", text: "Se la tensione finanziaria è già visibile e ci sono debiti contributivi aperti, il tempo lavora contro: ogni mese di attesa riduce le opzioni e peggiora il rapporto tra debito e valore recuperabile. Mandaci situazione contabile, elenco creditori, posizione fiscale e contributiva e commesse in corso dalla pagina contatti: valutiamo la perseguibilità del risanamento e la sequenza degli interventi, a partire dal DURC. Per il contesto leggi le guide su [assetti adeguati](/guide/assetti-adeguati-impresa-edile), DURC irregolare e flussi di cassa." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

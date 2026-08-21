@@ -41,8 +41,8 @@ export const article: Article = {
     { type: "figure", slot: "controllo-di-gestione-impresa-edile-1", alt: "Tabellone di cantiere con avanzamento lavori e costi a confronto", caption: "Il confronto preventivo-consuntivo va fatto alla stessa data e sulle stesse voci: altrimenti non è un confronto." },
 
     { type: "h2", text: "Il numero da cui dipende tutto: il costo orario pieno", id: "costo-orario" },
-    { type: "p", text: "Se un solo numero merita attenzione prima di tutti gli altri, è il costo orario pieno della manodopera. È il moltiplicatore che entra in ogni preventivo e in ogni consuntivo: se è sbagliato del 15%, tutto il sistema restituisce numeri sbagliati del 15%, per quanto sofisticato sia il resto." },
-    { type: "p", text: "Il calcolo ha due lati. Al numeratore va il costo annuo completo: retribuzione lorda, contributi INPS e INAIL, contribuzione alla Cassa Edile, TFR, tredicesima e quattordicesima, ferie, permessi, festività, malattia media, formazione obbligatoria, dispositivi di protezione. Al denominatore vanno le ore realmente lavorabili in cantiere, non quelle teoriche del contratto." },
+    { type: "p", text: "Se un solo numero merita attenzione prima di tutti gli altri, è il [costo orario pieno](/guide/costo-del-lavoro-impresa-edile) della manodopera. È il moltiplicatore che entra in ogni preventivo e in ogni consuntivo: se è sbagliato del 15%, tutto il sistema restituisce numeri sbagliati del 15%, per quanto sofisticato sia il resto." },
+    { type: "p", text: "Il calcolo ha due lati. Al numeratore va il costo annuo completo: retribuzione lorda, contributi INPS e INAIL, contribuzione alla [Cassa Edile](/guide/cassa-edile-come-funziona), TFR, tredicesima e quattordicesima, ferie, permessi, festività, malattia media, formazione obbligatoria, dispositivi di protezione. Al denominatore vanno le ore realmente lavorabili in cantiere, non quelle teoriche del contratto." },
     { type: "table", headers: ["Voce", "Effetto sul calcolo", "Errore tipico"], rows: [
       ["Retribuzione lorda", "Base di partenza", "Fermarsi qui e usare la paga oraria come costo"],
       ["Contributi, INAIL, Cassa Edile", "Incremento rilevante sul lordo", "Usare una percentuale forfettaria mai verificata"],
@@ -102,7 +102,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se vuoi sapere quale dei tuoi cantieri sta guadagnando davvero, il punto di partenza è più semplice di quanto sembri: l'elenco delle commesse aperte con importo contrattuale e avanzamento stimato, gli ultimi due bilanci e un mese di rapportini ore. Scrivici dalla pagina contatti: ricostruiamo il margine di due o tre commesse rappresentative e ti mostriamo la distanza tra il preventivo e quello che sta succedendo. Per i singoli tasselli, leggi le guide sul margine di commessa, sul preventivo e sui lavori in corso." },
+    { type: "p", text: "Se vuoi sapere quale dei tuoi cantieri sta guadagnando davvero, il punto di partenza è più semplice di quanto sembri: l'elenco delle commesse aperte con importo contrattuale e avanzamento stimato, gli ultimi due bilanci e un mese di rapportini ore. Scrivici dalla pagina contatti: ricostruiamo il margine di due o tre commesse rappresentative e ti mostriamo la distanza tra il preventivo e quello che sta succedendo. Per i singoli tasselli, leggi le guide sul [margine di commessa](/guide/margine-di-commessa-edilizia), sul preventivo e sui lavori in corso." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

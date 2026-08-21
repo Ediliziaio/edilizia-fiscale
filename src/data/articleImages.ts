@@ -202,6 +202,14 @@ export const articleImages: Record<string, string | null> = {
   // Tavolo di trattativa con documenti finanziari e piano di risanamento
   "composizione-negoziata-impresa-edile-2": "/images/guide/composizione-negoziata-impresa-edile-2.webp",
 
+  // lavoro-e-contributi-in-edilizia
+  // Copertina — Ufficio del personale di un'impresa edile con denunce mensili e prospetti per cantiere
+  "lavoro-e-contributi-in-edilizia-cover": null,
+  // Ufficio del personale di un'impresa edile con denunce mensili e prospetti per cantiere
+  "lavoro-e-contributi-in-edilizia-1": null,
+  // Cantiere con squadre di più imprese al lavoro sullo stesso fronte
+  "lavoro-e-contributi-in-edilizia-2": null,
+
   // durc-irregolare-impresa-edile
   // Copertina — Schermata del portale Durc On Line con esito di irregolarità
   "durc-irregolare-impresa-edile-cover": "/images/guide/durc-irregolare-impresa-edile-cover.webp",
@@ -249,6 +257,14 @@ export const articleImages: Record<string, string | null> = {
   "oneri-della-sicurezza-trattamento-1": "/images/guide/oneri-della-sicurezza-trattamento-1.webp",
   // Computo dei costi della sicurezza allegato al piano di sicurezza e coordinamento
   "oneri-della-sicurezza-trattamento-2": "/images/guide/oneri-della-sicurezza-trattamento-2.webp",
+
+  // appalti-pubblici-impresa-edile
+  // Copertina — Attestazione SOA e bilanci d'esercizio sul tavolo di un ufficio gare
+  "appalti-pubblici-impresa-edile-cover": null,
+  // Attestazione SOA e bilanci d'esercizio sul tavolo di un ufficio gare
+  "appalti-pubblici-impresa-edile-1": null,
+  // Prospetto di cassa di una commessa pubblica con anticipazione, SAL e trattenute
+  "appalti-pubblici-impresa-edile-2": null,
 
   // attestazione-soa-requisiti-economici
   // Copertina — Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio

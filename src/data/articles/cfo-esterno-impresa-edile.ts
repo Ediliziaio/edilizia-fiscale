@@ -91,7 +91,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Un modo semplice per capire se questa funzione ti manca: prova a rispondere a tre domande senza aprire nulla. Quale commessa sta guadagnando di più in questo momento? Quanta cassa avrai tra otto settimane? Quanto ti costa realmente un'ora di squadra? Se una risposta manca, scrivici dalla pagina contatti. Per il metodo leggi le guide su controllo di gestione, margine di commessa e flussi di cassa." },
+    { type: "p", text: "Un modo semplice per capire se questa funzione ti manca: prova a rispondere a tre domande senza aprire nulla. Quale commessa sta guadagnando di più in questo momento? Quanta cassa avrai tra otto settimane? Quanto ti costa realmente un'ora di squadra? Se una risposta manca, scrivici dalla pagina contatti. Per il metodo leggi le guide su controllo di gestione, [margine di commessa](/guide/margine-di-commessa-edilizia) e flussi di cassa." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

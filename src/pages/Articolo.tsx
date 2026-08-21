@@ -37,6 +37,40 @@ import ArticleTimeline from "@/components/ArticleTimeline";
 import ArticleCover from "@/components/ArticleCover";
 import ArticleCaselaw from "@/components/ArticleCaselaw";
 
+/**
+ * Link inline nei testi dei blocchi: [ancora](/guide/slug), [termine](/glossario#slug),
+ * o un URL esterno. Parsing esplicito, niente HTML iniettato: tutto ciò che non
+ * combacia con la sintassi resta testo semplice.
+ */
+const LINK_RE = /\[([^\]]+)\]\((\/[^\s)]+|https?:\/\/[^\s)]+)\)/g;
+
+const rich = (text: string): React.ReactNode => {
+  if (!text.includes("](")) return text;
+  const out: React.ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(LINK_RE)) {
+    if (m.index! > last) out.push(text.slice(last, m.index));
+    const [, label, href] = m;
+    out.push(
+      href.startsWith("/") ? (
+        <Link key={m.index} to={href} className="text-brand-dark font-medium underline decoration-brand/40 underline-offset-2 hover:decoration-brand">
+          {label}
+        </Link>
+      ) : (
+        <a key={m.index} href={href} target="_blank" rel="noopener noreferrer" className="text-brand-dark font-medium underline decoration-brand/40 underline-offset-2 hover:decoration-brand">
+          {label}
+        </a>
+      ),
+    );
+    last = m.index! + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+};
+
+/** Testo piatto per JSON-LD e meta: [ancora](url) -> ancora. */
+const plain = (text: string): string => text.replace(LINK_RE, "$1");
+
 const renderBlock = (block: Block, i: number) => {
   switch (block.type) {
     case "h2":
@@ -54,7 +88,7 @@ const renderBlock = (block: Block, i: number) => {
     case "p":
       return (
         <p key={i} className="text-foreground/80 leading-relaxed mb-5 text-lg">
-          {block.text}
+          {rich(block.text)}
         </p>
       );
     case "ul":
@@ -63,7 +97,7 @@ const renderBlock = (block: Block, i: number) => {
           {block.items.map((it, j) => (
             <li key={j} className="flex items-start gap-3 text-foreground/80 text-lg">
               <span className="text-brand-dark mt-2 text-xs">●</span>
-              <span>{it}</span>
+              <span>{rich(it)}</span>
             </li>
           ))}
         </ul>
@@ -73,7 +107,7 @@ const renderBlock = (block: Block, i: number) => {
         <ol key={i} className="mb-6 space-y-2.5 list-decimal pl-6 marker:text-brand-dark marker:font-bold">
           {block.items.map((it, j) => (
             <li key={j} className="text-foreground/80 text-lg pl-2 leading-relaxed">
-              {it}
+              {rich(it)}
             </li>
           ))}
         </ol>
@@ -89,7 +123,7 @@ const renderBlock = (block: Block, i: number) => {
       return (
         <div key={i} className="bg-brand/10 border-l-4 border-brand rounded-r-xl p-5 my-7 flex items-start gap-3">
           <Info className="w-5 h-5 text-brand-dark mt-0.5 shrink-0" />
-          <p className="text-ink leading-relaxed">{block.text}</p>
+          <p className="text-ink leading-relaxed">{rich(block.text)}</p>
         </div>
       );
     case "table":
@@ -128,7 +162,7 @@ const renderBlock = (block: Block, i: number) => {
                 {f.q}
               </AccordionTrigger>
               <AccordionContent className="text-foreground/75 leading-relaxed pb-4 text-base">
-                {f.a}
+                {rich(f.a)}
               </AccordionContent>
             </AccordionItem>
           ))}
@@ -275,7 +309,7 @@ const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
         "mainEntity": faqBlock.items.map((f) => ({
           "@type": "Question",
           "name": f.q,
-          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+          "acceptedAnswer": { "@type": "Answer", "text": plain(f.a) },
         })),
       }
     : null;

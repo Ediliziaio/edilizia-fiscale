@@ -96,7 +96,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Due verifiche rapide che spesso restituiscono qualcosa: come applichi il ribasso nelle ultime gare presentate, e se i costi della sicurezza compaiono come voce autonoma nei tuoi preventivi di commessa. Mandaci due offerte recenti con i relativi documenti di gara dalla pagina contatti. Per il contesto leggi le guide su preventivo di commessa, margine di commessa e costo del lavoro edile." },
+    { type: "p", text: "Due verifiche rapide che spesso restituiscono qualcosa: come applichi il ribasso nelle ultime gare presentate, e se i costi della sicurezza compaiono come voce autonoma nei tuoi preventivi di commessa. Mandaci due offerte recenti con i relativi documenti di gara dalla pagina contatti. Per il contesto leggi le guide su preventivo di commessa, [margine di commessa](/guide/margine-di-commessa-edilizia) e costo del lavoro edile." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

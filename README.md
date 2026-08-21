@@ -3,7 +3,7 @@
 Sito dello studio **Edilizia Fiscale** — commercialisti e CFO per il settore costruzioni, doppio target
 (impresa edile / patrimonio dell'imprenditore) con due percorsi separati.
 
-- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (104 pagine prerenderizzate, una rotta lazy per pagina).
+- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (106 pagine prerenderizzate, una rotta lazy per pagina).
 - Design: palette di brand **nero `#0C0C0C` e arancione `#F2621D`**, font Inter Tight.
 - Dominio previsto: `https://www.ediliziafiscale.it` (placeholder — un solo punto di modifica, vedi sotto).
 
@@ -20,7 +20,7 @@ npm run preview   # serve la build da dist/
 
 - **Home a bivio** (`/`): due porte, "Ho un'impresa edile" / "Ho un patrimonio da proteggere".
 - **Hub silo**: `/imprese` (10 aree, schema Service) e `/patrimonio` (10 aree + verticali).
-- **Guide** (`/guide`, `/guide/[slug]`): 56 articoli in `src/data/articles/*.ts` — formato a blocchi
+- **Guide** (`/guide`, `/guide/[slug]`): 58 articoli in `src/data/articles/*.ts` — formato a blocchi
   (risposta diretta come intro, riquadro "In sintesi", tabelle, passi numerati, esempio numerico,
   FAQ visibili, CTA + disclaimer). Schema Article + FAQPage + BreadcrumbList.
 - **Domande frequenti** (`/domande-frequenti`, una URL per domanda): 36 pagine da `src/data/faq.ts`,
@@ -140,8 +140,8 @@ Tutti i placeholder sono centralizzati in **`src/data/site.ts`**:
   citabilità sui motori di risposta;
 - P.IVA, sede e dati d'albo in `/privacy`, `/note-legali`, schema `index.html`;
 - endpoint reale del form contatti (`src/components/EFContactModal.tsx`, oggi simulato);
-- immagini: **complete** — 170 su 170 (6 di sito, 56 copertine, 108 figure), nessuno slot a
-  `null`. Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
+- immagini: 170 collegate su 176; le 6 mancanti sono degli ultimi due pilastri (Lavoro,
+  Appalti) e mostrano il segnaposto con il brief. Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
   sua anteprima. L'elenco con slot, dimensioni e brief resta in **[IMMAGINI.md](IMMAGINI.md)**,
   rigenerato da `npm run immagini` a ogni guida nuova. Finché uno slot è `null` la pagina mostra
   un segnaposto con il brief scritto dentro: il sito resta pubblicabile a immagini mancanti.

@@ -102,7 +102,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se stai per aprire le vendite di un'iniziativa, tre cose vanno definite prima del primo preliminare: il plafond fideiussorio complessivo negoziato con gli istituti, il modello di preliminare con il contenuto vincolato e gli allegati, e il piano di cassa costruito sugli acconti al netto dell'IVA. Mandaci i dati dell'iniziativa dalla pagina contatti. Per il contesto leggi le guide su operazione immobiliare, garanzie negli appalti e tassazione della vendita." },
+    { type: "p", text: "Se stai per aprire le vendite di un'iniziativa, tre cose vanno definite prima del primo preliminare: il [plafond fideiussorio](/guide/garanzie-e-polizze-appalto) complessivo negoziato con gli istituti, il modello di preliminare con il contenuto vincolato e gli allegati, e il piano di cassa costruito sugli acconti al netto dell'IVA. Mandaci i dati dell'iniziativa dalla pagina contatti. Per il contesto leggi le guide su operazione immobiliare, garanzie negli appalti e tassazione della vendita." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale e legale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

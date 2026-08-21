@@ -480,6 +480,25 @@ export const articlesMeta: ArticleMeta[] = [
     "intro": "La composizione negoziata è un percorso volontario e riservato in cui l'imprenditore, affiancato da un esperto indipendente, tratta con i creditori mantenendo la gestione dell'impresa. Il presupposto è la probabilità della crisi, non l'insolvenza: è pensata per essere attivata prima. In edilizia ha un vincolo suo, che va messo al centro fin dal primo giorno: la continuità dei cantieri passa dal DURC."
   },
   {
+    "slug": "lavoro-e-contributi-in-edilizia",
+    "title": "Lavoro e contributi in edilizia: la mappa completa per chi ha i cantieri",
+    "excerpt": "Cassa Edile, DURC, congruità, subappalti, sicurezza: il lavoro edile è un sistema a parte, con regole che non esistono in nessun altro settore. La guida che le mette in fila, dall'assunzione alla denuncia mensile, e rimanda all'approfondimento giusto per ogni passaggio.",
+    "category": "Lavoro",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "lavoro in edilizia regole",
+      "contributi impresa edile",
+      "cassa edile durc congruità",
+      "gestione personale impresa edile",
+      "adempimenti mensili edilizia",
+      "assumere operai edili"
+    ],
+    "intro": "Il lavoro in edilizia è regolato da un sistema che non esiste in nessun altro settore: una cassa di categoria che gestisce pezzi di retribuzione, un documento di regolarità che condiziona gli incassi, una verifica di congruità sulla manodopera denunciata e un confine sottile tra subappalto lecito e interposizione vietata. Questa guida mette in fila l'intero sistema — dall'assunzione alla denuncia mensile — e indica per ogni passaggio l'approfondimento dedicato."
+  },
+  {
     "slug": "durc-irregolare-impresa-edile",
     "title": "DURC irregolare: cosa blocca e come si sblocca",
     "excerpt": "Senza DURC regolare si fermano gli incassi pubblici, le gare e i benefici contributivi. I quindici giorni del preavviso, la soglia di scostamento non grave, la rateazione che salva il documento e l'intervento sostitutivo della stazione appaltante.",
@@ -592,6 +611,25 @@ export const articlesMeta: ArticleMeta[] = [
       "art 41 comma 14 dlgs 36 2023"
     ],
     "intro": "In edilizia la parola sicurezza indica due voci economiche distinte, che si confondono di continuo. I costi della sicurezza sono quelli previsti dal piano di sicurezza e coordinamento per quel cantiere, e non sono soggetti a ribasso. Gli oneri aziendali sono quelli propri dell'impresa e restano nella sua struttura di costo. Sbagliare la distinzione costa in gara e in verifica."
+  },
+  {
+    "slug": "appalti-pubblici-impresa-edile",
+    "title": "Appalti pubblici per l'impresa edile: qualificazione, garanzie, cassa e riserve",
+    "excerpt": "Un appalto pubblico si vince due volte: in gara e in cassa. La guida che percorre l'intero ciclo economico — dalla SOA costruita in bilancio all'anticipazione, dallo split payment alle riserve — e rimanda all'approfondimento dedicato per ogni fase.",
+    "category": "Appalti",
+    "date": "Agosto 2026",
+    "readTime": "13 min",
+    "author": "Redazione Edilizia Fiscale",
+    "cover": "from-ink to-ink-light",
+    "keywords": [
+      "appalti pubblici impresa edile",
+      "lavori pubblici aspetti fiscali",
+      "qualificazione soa bilancio",
+      "anticipazione 20 appalti",
+      "riserve lavori pubblici",
+      "cassa di commessa appalto pubblico"
+    ],
+    "intro": "Un appalto pubblico è un ciclo economico prima che un cantiere: si entra con una qualificazione costruita sui bilanci, si consuma plafond fideiussorio per garantirlo, si incassa con regole diverse dal privato — anticipazione, SAL, split payment — e si difende il corrispettivo con lo strumento delle riserve. Questa guida percorre l'intero ciclo nell'ordine in cui lo vive l'impresa, e per ogni fase rimanda alla guida che scende nel dettaglio."
   },
   {
     "slug": "attestazione-soa-requisiti-economici",

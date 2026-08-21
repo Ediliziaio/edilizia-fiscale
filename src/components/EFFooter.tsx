@@ -39,6 +39,8 @@ const EFFooter = () => {
               <li><Link to="/guide/reverse-charge-edilizia" className="text-white/70 hover:text-brand">Reverse charge in edilizia</Link></li>
               <li><Link to="/guide/bilancio-impresa-edile-lavori-in-corso" className="text-white/70 hover:text-brand">Lavori in corso su ordinazione</Link></li>
               <li><Link to="/guide/verifica-fiscale-impresa-edile" className="text-white/70 hover:text-brand">Verifica fiscale in cantiere</Link></li>
+              <li><Link to="/guide/lavoro-e-contributi-in-edilizia" className="text-white/70 hover:text-brand">Lavoro e contributi</Link></li>
+              <li><Link to="/guide/appalti-pubblici-impresa-edile" className="text-white/70 hover:text-brand">Appalti pubblici</Link></li>
               <li><Link to="/imprese" className="text-brand hover:text-brand-light font-medium">Tutte le aree impresa →</Link></li>
             </ul>
           </div>

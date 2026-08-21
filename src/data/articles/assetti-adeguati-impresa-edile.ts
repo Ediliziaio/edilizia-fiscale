@@ -71,9 +71,9 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "La composizione negoziata: quando e perché attivarla", id: "composizione" },
-    { type: "p", text: "La composizione negoziata è un percorso volontario e riservato che consente all'imprenditore in condizione di squilibrio di chiedere la nomina di un esperto indipendente, che affianca l'impresa nelle trattative con i creditori. L'impresa resta in gestione, e possono essere richieste misure protettive del patrimonio." },
+    { type: "p", text: "La [composizione negoziata](/guide/composizione-negoziata-impresa-edile) è un percorso volontario e riservato che consente all'imprenditore in condizione di squilibrio di chiedere la nomina di un esperto indipendente, che affianca l'impresa nelle trattative con i creditori. L'impresa resta in gestione, e possono essere richieste misure protettive del patrimonio." },
     { type: "p", text: "Il presupposto è la probabilità della crisi, non l'insolvenza: è uno strumento pensato per essere attivato prima, quando esiste ancora una prospettiva di risanamento. È esattamente ciò che lo rende poco utilizzato — l'imprenditore che si accorge dello squilibrio tende ad aspettare che la situazione si risolva da sola — e insieme ciò che lo rende efficace quando viene usato." },
-    { type: "p", text: "In edilizia il percorso ha una specificità: la continuità dei cantieri e il mantenimento del DURC sono spesso la condizione per qualunque risanamento, perché senza di essi si perdono le commesse e con esse ogni prospettiva. La sequenza degli interventi va quindi costruita attorno a quel vincolo, e ciò richiede di intervenire quando i cantieri sono ancora attivi." },
+    { type: "p", text: "In edilizia il percorso ha una specificità: la continuità dei cantieri e il mantenimento del [DURC](/guide/durc-irregolare-impresa-edile) sono spesso la condizione per qualunque risanamento, perché senza di essi si perdono le commesse e con esse ogni prospettiva. La sequenza degli interventi va quindi costruita attorno a quel vincolo, e ciò richiede di intervenire quando i cantieri sono ancora attivi." },
 
     { type: "h2", text: "Un esempio concreto", id: "esempio" },
     { type: "p", text: "Impresa con ricavi per 5,6 milioni, bilancio dell'esercizio precedente in utile per 82.000 euro. Il report di commessa introdotto in corso d'anno mostra che tre commesse su nove hanno costi a finire in crescita per complessivi 310.000 euro rispetto al preventivo, e che le varianti eseguite e non formalizzate ammontano a 140.000 euro." },
@@ -92,7 +92,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se oggi non sapresti dimostrare, documenti alla mano, che l'impresa rileva tempestivamente uno squilibrio, l'esposizione non è solo economica ma anche personale per chi amministra. Mandaci gli ultimi due bilanci, l'elenco delle commesse aperte e la situazione debitoria fiscale e contributiva: verifichiamo il livello attuale degli assetti e cosa manca per renderli adeguati. Per gli strumenti operativi leggi le guide su controllo di gestione e flussi di cassa." },
+    { type: "p", text: "Se oggi non sapresti dimostrare, documenti alla mano, che l'impresa rileva tempestivamente uno squilibrio, l'esposizione non è solo economica ma anche personale per chi amministra. Mandaci gli ultimi due bilanci, l'elenco delle commesse aperte e la situazione debitoria fiscale e contributiva: verifichiamo il livello attuale degli assetti e cosa manca per renderli adeguati. Per gli strumenti operativi leggi le guide su [controllo di gestione](/guide/controllo-di-gestione-impresa-edile) e flussi di cassa." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

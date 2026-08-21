@@ -106,6 +106,10 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
     "seoTitle": "Composizione Negoziata per l'Impresa Edile",
     "metaDescription": "Il percorso riservato con l'esperto indipendente, le misure protettive e la specificità del settore: senza DURC non si incassa e non si risana."
   },
+  "lavoro-e-contributi-in-edilizia": {
+    "seoTitle": "Lavoro e Contributi in Edilizia: la Guida Completa",
+    "metaDescription": "Cassa Edile, DURC, congruità, subappalti e sicurezza: come funziona il sistema del lavoro edile e come si presidia mese per mese, cantiere per cantiere."
+  },
   "durc-irregolare-impresa-edile": {
     "seoTitle": "DURC Irregolare: Cosa Blocca e Come si Sblocca",
     "metaDescription": "I quindici giorni del preavviso, la soglia di scostamento non grave, la rateazione che salva il documento e l'intervento sostitutivo del committente."
@@ -129,6 +133,10 @@ export const ARTICLE_SEO: Record<string, ArticleSeo> = {
   "oneri-della-sicurezza-trattamento": {
     "seoTitle": "Costi della Sicurezza: Non Ribassabili e Separati",
     "metaDescription": "Costi da PSC e oneri aziendali sono voci diverse: come si scorporano in offerta, come si imputano a commessa e come si deducono."
+  },
+  "appalti-pubblici-impresa-edile": {
+    "seoTitle": "Appalti Pubblici per l'Impresa Edile: la Guida Completa",
+    "metaDescription": "SOA, garanzie, anticipazione del 20%, split payment, revisione prezzi e riserve: il ciclo economico completo di un appalto pubblico, fase per fase."
   },
   "attestazione-soa-requisiti-economici": {
     "seoTitle": "Attestazione SOA: Come il Bilancio Decide la Classifica",

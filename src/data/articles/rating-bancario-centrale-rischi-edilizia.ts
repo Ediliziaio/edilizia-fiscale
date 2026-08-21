@@ -117,7 +117,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se una richiesta di affidamento è andata peggio di quanto ti aspettassi, quasi sempre la spiegazione sta nell'andamentale o nell'assenza di dossier — non nel bilancio. Mandaci gli estratti degli affidamenti, i dati di Centrale dei Rischi e l'ultimo bilancio dalla pagina contatti: ricostruiamo come ti legge il sistema e prepariamo il dossier da presentare. Per il contesto leggi le guide su flussi di cassa, garanzie negli appalti e assetti adeguati." },
+    { type: "p", text: "Se una richiesta di affidamento è andata peggio di quanto ti aspettassi, quasi sempre la spiegazione sta nell'andamentale o nell'assenza di dossier — non nel bilancio. Mandaci gli estratti degli affidamenti, i dati di Centrale dei Rischi e l'ultimo bilancio dalla pagina contatti: ricostruiamo come ti legge il sistema e prepariamo il dossier da presentare. Per il contesto leggi le guide su flussi di cassa, garanzie negli appalti e [assetti adeguati](/guide/assetti-adeguati-impresa-edile)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026: soglie e criteri di segnalazione vanno verificati sulla disciplina vigente." },
   ],
 };

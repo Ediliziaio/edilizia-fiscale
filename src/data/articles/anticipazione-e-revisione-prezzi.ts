@@ -55,7 +55,7 @@ export const article: Article = {
       ["Recupero sui SAL", "Ogni stato di avanzamento è decurtato di una quota: il flusso successivo è più magro"],
       ["Effetto netto", "Nessun ricavo aggiuntivo, ma un profilo di cassa sensibilmente migliore"],
     ] },
-    { type: "p", text: "La terza riga è quella che le imprese sottovalutano e che pesa nella gestione di più commesse contemporanee. Le garanzie rilasciate consumano capacità di affidamento: un'impresa che ha in corso più appalti con anticipazione garantita può trovarsi senza plafond per la garanzia definitiva della gara successiva. È un vincolo da governare a livello di portafoglio, non di singola commessa." },
+    { type: "p", text: "La terza riga è quella che le imprese sottovalutano e che pesa nella gestione di più commesse contemporanee. Le garanzie rilasciate consumano capacità di affidamento: un'impresa che ha in corso più appalti con anticipazione garantita può trovarsi senza plafond per la [garanzia definitiva](/guide/garanzie-e-polizze-appalto) della gara successiva. È un vincolo da governare a livello di portafoglio, non di singola commessa." },
 
     { type: "figure", slot: "anticipazione-e-revisione-prezzi-1", alt: "Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere", caption: "L'anticipazione agisce dove l'esposizione è massima: prima che esista qualcosa da fatturare." },
 
@@ -104,7 +104,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se partecipi a gare pubbliche senza costruire il profilo di cassa della commessa, stai decidendo il prezzo senza conoscere una delle sue componenti. Mandaci i documenti di una gara in valutazione dalla pagina contatti: costruiamo il piano di cassa con anticipazione, recuperi e ritenute, quantifichiamo il costo finanziario e verifichiamo la capienza dei tuoi affidamenti. Per il contesto leggi le guide su split payment, flussi di cassa e attestazione SOA." },
+    { type: "p", text: "Se partecipi a gare pubbliche senza costruire il profilo di cassa della commessa, stai decidendo il prezzo senza conoscere una delle sue componenti. Mandaci i documenti di una gara in valutazione dalla pagina contatti: costruiamo il piano di cassa con anticipazione, recuperi e ritenute, quantifichiamo il costo finanziario e verifichiamo la capienza dei tuoi affidamenti. Per il contesto leggi le guide su [split payment](/guide/split-payment-e-fatturazione-pa), flussi di cassa e attestazione SOA." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026: misure, soglie e indici vanno verificati sulla disciplina vigente e sui documenti della singola procedura." },
   ],
 };

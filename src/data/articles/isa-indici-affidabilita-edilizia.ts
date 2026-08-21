@@ -83,7 +83,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se ogni anno ti trovi davanti alla scelta se adeguarti o no senza avere un criterio, il problema non è il punteggio: è che manca il collegamento tra gli indicatori e i tuoi dati di commessa. Mandaci le ultime tre dichiarazioni e l'elenco delle commesse per anno di apertura e consegna: ricostruiamo l'andamento e prepariamo il fascicolo esplicativo. Per il contesto leggi le guide su verifica fiscale e accertamento induttivo." },
+    { type: "p", text: "Se ogni anno ti trovi davanti alla scelta se adeguarti o no senza avere un criterio, il problema non è il punteggio: è che manca il collegamento tra gli indicatori e i tuoi dati di commessa. Mandaci le ultime tre dichiarazioni e l'elenco delle commesse per anno di apertura e consegna: ricostruiamo l'andamento e prepariamo il fascicolo esplicativo. Per il contesto leggi le guide su verifica fiscale e [accertamento induttivo](/guide/accertamento-induttivo-impresa-edile)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

@@ -90,7 +90,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se la voce lavori in corso del tuo ultimo bilancio non è supportata da un prospetto per singola commessa con costi sostenuti e costi a finire aggiornati, il risultato d'esercizio è meno solido di quanto sembri. Mandaci l'ultimo bilancio e l'elenco delle commesse aperte: ricostruiamo la valutazione commessa per commessa e ti mostriamo la differenza. Per il metodo, leggi la guida sul controllo di gestione e quella sul margine di commessa." },
+    { type: "p", text: "Se la voce lavori in corso del tuo ultimo bilancio non è supportata da un prospetto per singola commessa con costi sostenuti e costi a finire aggiornati, il risultato d'esercizio è meno solido di quanto sembri. Mandaci l'ultimo bilancio e l'elenco delle commesse aperte: ricostruiamo la valutazione commessa per commessa e ti mostriamo la differenza. Per il metodo, leggi la guida sul controllo di gestione e quella sul [margine di commessa](/guide/margine-di-commessa-edilizia)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

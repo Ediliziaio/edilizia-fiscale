@@ -71,6 +71,8 @@ export type ArticleMeta = Omit<Article, "content">;
 export const PILLAR_SLUGS = [
   "fiscalita-impresa-edile",
   "controllo-di-gestione-impresa-edile",
+  "lavoro-e-contributi-in-edilizia",
+  "appalti-pubblici-impresa-edile",
   "holding-immobiliare-edilizia",
   "protezione-patrimoniale-imprenditore-edile",
 ] as const;

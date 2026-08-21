@@ -72,14 +72,14 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "L'esonero: il certificato di regolarità", id: "esonero" },
-    { type: "p", text: "L'uscita ordinaria dal meccanismo passa dal certificato rilasciato dall'Agenzia delle Entrate che attesta la sussistenza di determinati requisiti di regolarità. Nella prassi viene chiamato DURF, per analogia con il DURC contributivo, ed è messo a disposizione presso gli uffici territoriali." },
+    { type: "p", text: "L'uscita ordinaria dal meccanismo passa dal certificato rilasciato dall'Agenzia delle Entrate che attesta la sussistenza di determinati requisiti di regolarità. Nella prassi viene chiamato DURF, per analogia con il [DURC](/guide/durc-irregolare-impresa-edile) contributivo, ed è messo a disposizione presso gli uffici territoriali." },
     { type: "ul", items: [
       "Essere in attività da almeno tre anni ed essere in regola con gli obblighi dichiarativi",
       "Aver eseguito nel corso dei periodi d'imposta di riferimento versamenti complessivi registrati nel conto fiscale per un importo non inferiore al 10% dei ricavi o compensi risultanti dalle dichiarazioni",
       "Non avere iscrizioni a ruolo o accertamenti esecutivi affidati agli agenti della riscossione, relativi a imposte sui redditi, IRAP, ritenute e contributi previdenziali, per importi superiori a 50.000 euro, con scadenze già decorse e non oggetto di provvedimenti di sospensione o rateazione in regola",
     ] },
     { type: "p", text: "Il certificato ha una validità limitata nel tempo dalla data del rilascio, il che significa che va rinnovato con continuità se si lavora stabilmente su appalti soggetti alla norma. Molte imprese lo richiedono una volta e poi se ne dimenticano: alla scadenza gli obblighi si riattivano automaticamente, e il committente è tenuto a chiederlo aggiornato." },
-    { type: "p", text: "Il secondo requisito — versamenti pari almeno al 10% dei ricavi — è quello che più spesso manca alle imprese che lavorano molto in reverse charge o in split payment, proprio perché quei regimi riducono strutturalmente l'IVA versata. È una situazione da verificare in anticipo, perché non si risolve nel giorno in cui serve il certificato." },
+    { type: "p", text: "Il secondo requisito — versamenti pari almeno al 10% dei ricavi — è quello che più spesso manca alle imprese che lavorano molto in [reverse charge](/guide/reverse-charge-edilizia) o in split payment, proprio perché quei regimi riducono strutturalmente l'IVA versata. È una situazione da verificare in anticipo, perché non si risolve nel giorno in cui serve il certificato." },
 
     { type: "figure", slot: "ritenute-appalti-17-bis-2", alt: "Deleghe F24 e elenco nominativo dei lavoratori impiegati nell'appalto", caption: "Cinque giorni lavorativi dalla scadenza per trasmettere le deleghe: è un adempimento a calendario fisso." },
 

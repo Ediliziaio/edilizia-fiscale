@@ -93,7 +93,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se emetti fatture con aliquote agevolate senza avere in fascicolo il titolo edilizio e, dove serve, la dichiarazione del committente, la posizione è più fragile di quanto sembri. Mandaci un estratto delle fatture attive dell'ultimo esercizio con i relativi contratti: verifichiamo la corrispondenza tra intervento, titolo e aliquota e, dove serve, impostiamo la regolarizzazione. Per il quadro d'insieme leggi la guida alla fiscalità dell'impresa edile e quella sul reverse charge." },
+    { type: "p", text: "Se emetti fatture con aliquote agevolate senza avere in fascicolo il titolo edilizio e, dove serve, la dichiarazione del committente, la posizione è più fragile di quanto sembri. Mandaci un estratto delle fatture attive dell'ultimo esercizio con i relativi contratti: verifichiamo la corrispondenza tra intervento, titolo e aliquota e, dove serve, impostiamo la regolarizzazione. Per il quadro d'insieme leggi la guida alla fiscalità dell'impresa edile e quella sul [reverse charge](/guide/reverse-charge-edilizia)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza fiscale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della prassi vigenti." },
   ],
 };

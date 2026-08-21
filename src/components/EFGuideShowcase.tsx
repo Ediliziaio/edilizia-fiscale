@@ -42,7 +42,7 @@ const EFGuideShowcase = () => {
           </div>
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {pillars.map((a, i) => (
             <Reveal key={a.slug} delay={(i % 4) * 90}>
               <Link

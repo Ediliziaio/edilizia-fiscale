@@ -35,13 +35,19 @@ export const article: Article = {
 
     { type: "h2", text: "Come funziona lo split payment", id: "come-funziona" },
     { type: "p", text: "L'art. 17-ter del D.P.R. 633/1972 prevede che per le cessioni e le prestazioni rese nei confronti delle pubbliche amministrazioni e di altri soggetti individuati dalla norma, l'imposta sia versata direttamente dal committente all'erario. L'impresa emette la fattura con l'indicazione dell'IVA e della scissione dei pagamenti, ma incassa solo l'imponibile." },
-    { type: "p", text: "Sul piano della determinazione dell'imposta non cambia nulla: l'operazione è imponibile, l'IVA è esposta, il volume d'affari include l'operazione. Cambia il flusso finanziario, e cambia in modo strutturale: l'impresa continua a pagare l'IVA sugli acquisti di materiali, noli e subappalti non in reverse charge, ma non incassa più l'IVA a valle." },
+    { type: "p", text: "Sul piano della determinazione dell'imposta non cambia nulla: l'operazione è imponibile, l'IVA è esposta, il volume d'affari include l'operazione. Cambia il flusso finanziario, e cambia in modo strutturale: l'impresa continua a pagare l'IVA sugli acquisti di materiali, noli e subappalti non in [reverse charge](/guide/reverse-charge-edilizia), ma non incassa più l'IVA a valle." },
     { type: "p", text: "Il risultato è un credito IVA che cresce a ogni SAL. Su una commessa pubblica da 800.000 euro con acquisti imponibili per 400.000 euro, il credito generato in un esercizio è nell'ordine delle decine di migliaia di euro: liquidità immobilizzata che, se non gestita, si somma alla tensione di cassa già tipica del lavoro pubblico." },
 
     { type: "h2", text: "Gestire il credito IVA: compensazione o rimborso", id: "credito-iva" },
     { type: "p", text: "Le due strade sono la compensazione orizzontale nei limiti previsti dalla normativa e la richiesta di rimborso. La compensazione è più rapida ma incontra due vincoli: il tetto annuo alla compensazione e l'obbligo del visto di conformità sopra la soglia di legge, oltre al divieto di compensazione in presenza di ruoli scaduti sopra la soglia prevista." },
     { type: "p", text: "Il rimborso ha tempi più lunghi ma è la soluzione strutturale per chi lavora stabilmente con la PA. Al ricorrere dei presupposti previsti dall'art. 30 del D.P.R. 633/1972 — tra cui l'effettuazione di operazioni soggette a scissione dei pagamenti — è possibile chiederlo anche in via infrannuale, con cadenza trimestrale, il che riduce sensibilmente il tempo di immobilizzo." },
     { type: "p", text: "La scelta tra le due strade va fatta a inizio esercizio, non quando il credito è già cresciuto. Il rimborso trimestrale richiede la presentazione dell'istanza entro termini precisi e, sopra determinati importi, il visto di conformità o la garanzia: sono adempimenti che vanno pianificati insieme al budget di cassa della commessa." },
+    { type: "table", headers: ["", "Compensazione orizzontale", "Rimborso (annuale o trimestrale)"], rows: [
+      ["Velocità", "Immediata, dalla liquidazione successiva", "Mesi; il trimestrale accorcia sensibilmente"],
+      ["Limiti", "Tetto annuo di compensazione; visto di conformità sopra soglia", "Presupposti art. 30 D.P.R. 633/1972; visto o garanzia sopra soglia"],
+      ["Blocchi", "Vietata con ruoli scaduti oltre la soglia di legge", "Sospeso in presenza di contestazioni sul credito"],
+      ["Quando conviene", "Credito assorbibile da debiti fiscali e contributivi correnti", "Lavoro stabile con la PA: il credito si rigenera a ogni SAL"],
+    ] },
 
     { type: "figure", slot: "split-payment-e-fatturazione-pa-1", alt: "Cantiere di opera pubblica con cartello di lavori", caption: "Nel lavoro pubblico la commessa si vince sul prezzo e si perde sulla cassa." },
 

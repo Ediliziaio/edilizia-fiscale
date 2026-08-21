@@ -12,10 +12,10 @@ node scripts/generate-image-brief.mjs
 
 | Tipo | Quantità | Dimensione | Dove appare |
 |---|---|---|---|
-| Copertine guide | 56 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
-| Figure dentro le guide | 108 | **1600 × 900** (16:9) | nel corpo dell'articolo |
+| Copertine guide | 58 | **1920 × 1080** (16:9) | card nelle liste, hero della guida |
+| Figure dentro le guide | 112 | **1600 × 900** (16:9) | nel corpo dell'articolo |
 | Immagini di sito | 6 | vedi sotto | home, hub, studio, contatti |
-| **Totale** | **170** | | |
+| **Totale** | **176** | | |
 
 ## Regole tecniche
 
@@ -62,7 +62,7 @@ Priorità alta: stanno sopra la piega su cinque pagine diverse.
 
 ---
 
-## 2. Copertine delle guide (56)
+## 2. Copertine delle guide (58)
 
 **1920 × 1080**, soggetto nella zona sicura centrale 1440 × 820.
 File in `public/images/guide/`.
@@ -98,41 +98,43 @@ immagini, parti da queste.
 | 23 | `leasing-o-acquisto-mezzi-opera-cover` | Leasing, acquisto o noleggio dei mezzi d'opera: come si decide davvero <br><sub>Controllo</sub> | Escavatore e autocarro in cantiere, con officina di manutenzione sullo sfondo |
 | 24 | `rating-bancario-centrale-rischi-edilizia-cover` | Rating bancario e Centrale dei Rischi: come la banca legge un'impresa edile <br><sub>Controllo</sub> | Estratti conto e prospetto degli affidamenti bancari con evidenza degli utilizzi |
 | 25 | `composizione-negoziata-impresa-edile-cover` | Composizione negoziata per l'impresa edile: il DURC è la variabile critica <br><sub>Controllo</sub> | Cantiere in attività con gru, visto in una giornata di lavoro |
-| 26 | `durc-irregolare-impresa-edile-cover` | DURC irregolare: cosa blocca e come si sblocca <br><sub>Lavoro</sub> | Schermata del portale Durc On Line con esito di irregolarità |
-| 27 | `cassa-edile-come-funziona-cover` | Cassa Edile: come funziona e quanto pesa sul costo del lavoro <br><sub>Lavoro</sub> | Squadra di operai edili in cantiere con attrezzature e ponteggi |
-| 28 | `congruita-manodopera-durc-cover` | Congruità della manodopera: come si calcola e come si giustifica lo scostamento <br><sub>Lavoro</sub> | Prospetto di congruità con costo del lavoro denunciato a confronto con il valore dell'opera |
-| 29 | `appalto-non-genuino-distacco-somministrazione-cover` | Appalto non genuino, distacco e somministrazione: dove passa il confine <br><sub>Lavoro</sub> | Cantiere con squadre di imprese diverse che lavorano nello stesso perimetro |
-| 30 | `assunzioni-agevolazioni-contributive-edilizia-cover` | Assumere in edilizia: riduzione contributiva, apprendistato e CIG maltempo <br><sub>Lavoro</sub> | Ufficio amministrativo di un'impresa edile con prospetti contributivi e libro unico |
-| 31 | `oneri-della-sicurezza-trattamento-cover` | Costi della sicurezza: non ribassabili, e vanno tenuti separati <br><sub>Lavoro</sub> | Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza |
-| 32 | `attestazione-soa-requisiti-economici-cover` | Attestazione SOA: come il bilancio decide la classifica che puoi ottenere <br><sub>Appalti</sub> | Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio |
-| 33 | `consorzi-ati-fiscalita-cover` | Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno <br><sub>Appalti</sub> | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
-| 34 | `anticipazione-e-revisione-prezzi-cover` | Anticipazione del prezzo e revisione: le due leve di cassa negli appalti pubblici <br><sub>Appalti</sub> | Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere |
-| 35 | `garanzie-e-polizze-appalto-cover` | Garanzie e polizze negli appalti: quanto costano e quanto plafond consumano <br><sub>Appalti</sub> | Documenti di garanzia fideiussoria e polizza assicurativa di cantiere |
-| 36 | `riserve-e-contabilita-lavori-pubblici-cover` | Riserve e contabilità dei lavori: quando diventano ricavo e come si valutano <br><sub>Appalti</sub> | Registro di contabilità dei lavori con firma e iscrizione di riserva |
-| 37 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
-| 38 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
-| 39 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
-| 40 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
-| 41 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
-| 42 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
-| 43 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
-| 44 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
-| 45 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
-| 46 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
-| 47 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
-| 48 | `operazione-immobiliare-dal-terreno-alla-vendita-cover` | Operazione immobiliare: dal terreno alla vendita, come si tiene il conto <br><sub>Patrimonio</sub> | Area edificabile con cartello di cantiere e scavi in corso |
-| 49 | `permuta-terreno-appartamenti-cover` | Permuta terreno contro appartamenti: come funziona e dove si sbaglia <br><sub>Patrimonio</sub> | Area edificabile con progetto di intervento e planimetria delle unità |
-| 50 | `vendita-su-carta-acconti-garanzie-cover` | Vendere su carta: preliminari, acconti e la fideiussione obbligatoria <br><sub>Patrimonio</sub> | Cantiere residenziale in costruzione con cartello di vendita delle unità |
-| 51 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
-| 52 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
-| 53 | `trasformazione-ditta-individuale-srl-cover` | Da ditta individuale a S.r.l.: conferimento, tempi e cosa si porta dietro <br><sub>Patrimonio</sub> | Titolare di impresa edile individuale in cantiere con il proprio mezzo |
-| 54 | `affitto-azienda-edile-cover` | Affitto d'azienda in edilizia: passaggio graduale, prova prima della vendita, risanamento <br><sub>Patrimonio</sub> | Padre e figlio davanti alla sede di un'impresa edile |
-| 55 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
-| 56 | `liquidazione-societa-edile-cover` | Liquidare una società edile: cosa sopravvive alla cancellazione <br><sub>Patrimonio</sub> | Cantiere fermo con opere incomplete e attrezzature ancora in posto |
+| 26 | `lavoro-e-contributi-in-edilizia-cover` | Lavoro e contributi in edilizia: la mappa completa per chi ha i cantieri <br><sub>Lavoro</sub> | Ufficio del personale di un'impresa edile con denunce mensili e prospetti per cantiere |
+| 27 | `durc-irregolare-impresa-edile-cover` | DURC irregolare: cosa blocca e come si sblocca <br><sub>Lavoro</sub> | Schermata del portale Durc On Line con esito di irregolarità |
+| 28 | `cassa-edile-come-funziona-cover` | Cassa Edile: come funziona e quanto pesa sul costo del lavoro <br><sub>Lavoro</sub> | Squadra di operai edili in cantiere con attrezzature e ponteggi |
+| 29 | `congruita-manodopera-durc-cover` | Congruità della manodopera: come si calcola e come si giustifica lo scostamento <br><sub>Lavoro</sub> | Prospetto di congruità con costo del lavoro denunciato a confronto con il valore dell'opera |
+| 30 | `appalto-non-genuino-distacco-somministrazione-cover` | Appalto non genuino, distacco e somministrazione: dove passa il confine <br><sub>Lavoro</sub> | Cantiere con squadre di imprese diverse che lavorano nello stesso perimetro |
+| 31 | `assunzioni-agevolazioni-contributive-edilizia-cover` | Assumere in edilizia: riduzione contributiva, apprendistato e CIG maltempo <br><sub>Lavoro</sub> | Ufficio amministrativo di un'impresa edile con prospetti contributivi e libro unico |
+| 32 | `oneri-della-sicurezza-trattamento-cover` | Costi della sicurezza: non ribassabili, e vanno tenuti separati <br><sub>Lavoro</sub> | Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza |
+| 33 | `appalti-pubblici-impresa-edile-cover` | Appalti pubblici per l'impresa edile: qualificazione, garanzie, cassa e riserve <br><sub>Appalti</sub> | Attestazione SOA e bilanci d'esercizio sul tavolo di un ufficio gare |
+| 34 | `attestazione-soa-requisiti-economici-cover` | Attestazione SOA: come il bilancio decide la classifica che puoi ottenere <br><sub>Appalti</sub> | Attestazione SOA con categorie e classifiche affiancata ai bilanci d'esercizio |
+| 35 | `consorzi-ati-fiscalita-cover` | Consorzi e ATI: come funzionano fiscalmente e quando conviene ciascuno <br><sub>Appalti</sub> | Schema del flusso di fatturazione in un consorzio e in un raggruppamento temporaneo |
+| 36 | `anticipazione-e-revisione-prezzi-cover` | Anticipazione del prezzo e revisione: le due leve di cassa negli appalti pubblici <br><sub>Appalti</sub> | Cantiere di opera pubblica in fase di allestimento, con ponteggi e area di cantiere |
+| 37 | `garanzie-e-polizze-appalto-cover` | Garanzie e polizze negli appalti: quanto costano e quanto plafond consumano <br><sub>Appalti</sub> | Documenti di garanzia fideiussoria e polizza assicurativa di cantiere |
+| 38 | `riserve-e-contabilita-lavori-pubblici-cover` | Riserve e contabilità dei lavori: quando diventano ricavo e come si valutano <br><sub>Appalti</sub> | Registro di contabilità dei lavori con firma e iscrizione di riserva |
+| 39 | `verifica-fiscale-impresa-edile-cover` | Verifica fiscale all'impresa edile: cosa succede e cosa fare <br><sub>Fisco</sub> | Fascicoli di cantiere e documentazione contabile su un tavolo riunioni |
+| 40 | `accertamento-superbonus-imprese-cover` | Accertamenti sui crediti Superbonus: la difesa dell'impresa <br><sub>Fisco</sub> | Fascicolo di commessa con asseverazioni, fatture e documentazione fotografica |
+| 41 | `crediti-fiscali-incagliati-edilizia-cover` | Crediti fiscali incagliati: cosa fare quando il cassetto è bloccato <br><sub>Fisco</sub> | Prospetto di piano di utilizzo dei crediti fiscali per anno |
+| 42 | `accertamento-induttivo-impresa-edile-cover` | Accertamento induttivo in edilizia: ricavi presunti da metri quadri e ore di cantiere <br><sub>Fisco</sub> | Confronto tra commesse di tipologia diversa con marginalità differenti |
+| 43 | `ravvedimento-e-adesione-impresa-edile-cover` | Ravvedimento, adesione e ricorso: come si sceglie la strada <br><sub>Fisco</sub> | Calendario con i termini di adesione e ricorso evidenziati |
+| 44 | `isa-indici-affidabilita-edilizia-cover` | ISA in edilizia: come funziona il punteggio e cosa comporta davvero <br><sub>Fisco</sub> | Grafico con andamento dei ricavi per esercizio in un'impresa a commessa |
+| 45 | `scissione-immobiliare-impresa-edile-cover` | Scissione immobiliare: separare il capannone dall'impresa che apre i cantieri <br><sub>Patrimonio</sub> | Capannone industriale con uffici di un'impresa di costruzioni |
+| 46 | `dividendi-holding-pex-cover` | Dividendi, PEX e prelievi: come si portano a casa gli utili <br><sub>Patrimonio</sub> | Schema del flusso dei dividendi da operativa a holding a socio |
+| 47 | `societa-immobiliare-o-persona-fisica-cover` | Immobili: meglio intestarli alla società o a te personalmente? <br><sub>Patrimonio</sub> | Capannone e appartamenti: immobili con destinazioni diverse |
+| 48 | `consolidato-fiscale-gruppo-edile-cover` | Gruppo edile e consolidato fiscale: compensare utili e perdite tra società <br><sub>Patrimonio</sub> | Organigramma di gruppo con holding, immobiliare e due società operative |
+| 49 | `tassazione-vendita-immobili-impresa-cover` | Vendita di immobili costruiti o ristrutturati: IVA, registro e plusvalenze <br><sub>Patrimonio</sub> | Atto di compravendita immobiliare con documentazione dei lavori eseguiti |
+| 50 | `operazione-immobiliare-dal-terreno-alla-vendita-cover` | Operazione immobiliare: dal terreno alla vendita, come si tiene il conto <br><sub>Patrimonio</sub> | Area edificabile con cartello di cantiere e scavi in corso |
+| 51 | `permuta-terreno-appartamenti-cover` | Permuta terreno contro appartamenti: come funziona e dove si sbaglia <br><sub>Patrimonio</sub> | Area edificabile con progetto di intervento e planimetria delle unità |
+| 52 | `vendita-su-carta-acconti-garanzie-cover` | Vendere su carta: preliminari, acconti e la fideiussione obbligatoria <br><sub>Patrimonio</sub> | Cantiere residenziale in costruzione con cartello di vendita delle unità |
+| 53 | `passaggio-generazionale-impresa-edile-cover` | Passaggio generazionale dell'impresa edile: come si prepara <br><sub>Patrimonio</sub> | Padre e figlio in cantiere che esaminano insieme un progetto |
+| 54 | `patto-di-famiglia-impresa-edile-cover` | Patto di famiglia, trust e strumenti di governo familiare in edilizia <br><sub>Patrimonio</sub> | Famiglia imprenditoriale attorno a un tavolo con documenti societari |
+| 55 | `trasformazione-ditta-individuale-srl-cover` | Da ditta individuale a S.r.l.: conferimento, tempi e cosa si porta dietro <br><sub>Patrimonio</sub> | Titolare di impresa edile individuale in cantiere con il proprio mezzo |
+| 56 | `affitto-azienda-edile-cover` | Affitto d'azienda in edilizia: passaggio graduale, prova prima della vendita, risanamento <br><sub>Patrimonio</sub> | Padre e figlio davanti alla sede di un'impresa edile |
+| 57 | `cessione-azienda-impresa-edile-cover` | Vendere l'impresa edile: cessione d'azienda o cessione di quote? <br><sub>Patrimonio</sub> | Documenti societari e attestazione SOA su una scrivania durante una trattativa |
+| 58 | `liquidazione-societa-edile-cover` | Liquidare una società edile: cosa sopravvive alla cancellazione <br><sub>Patrimonio</sub> | Cantiere fermo con opere incomplete e attrezzature ancora in posto |
 
 ---
 
-## 3. Figure dentro le guide (108)
+## 3. Figure dentro le guide (112)
 
 **1600 × 900**. File in `public/images/guide/`.
 Sono le immagini che spezzano il testo a metà lettura: devono mostrare un
@@ -310,6 +312,13 @@ oggetto o una scena concreta, non un concetto astratto.
 | `composizione-negoziata-impresa-edile-1` | Cantiere in attività con gru, visto in una giornata di lavoro |
 | `composizione-negoziata-impresa-edile-2` | Tavolo di trattativa con documenti finanziari e piano di risanamento |
 
+### Lavoro e contributi in edilizia: la mappa completa per chi ha i cantieri
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `lavoro-e-contributi-in-edilizia-1` | Ufficio del personale di un'impresa edile con denunce mensili e prospetti per cantiere |
+| `lavoro-e-contributi-in-edilizia-2` | Cantiere con squadre di più imprese al lavoro sullo stesso fronte |
+
 ### DURC irregolare: cosa blocca e come si sblocca
 
 | Slot | Contenuto dell'immagine |
@@ -351,6 +360,13 @@ oggetto o una scena concreta, non un concetto astratto.
 |---|---|
 | `oneri-della-sicurezza-trattamento-1` | Cantiere con ponteggi di servizio comune, parapetti e segnaletica di sicurezza |
 | `oneri-della-sicurezza-trattamento-2` | Computo dei costi della sicurezza allegato al piano di sicurezza e coordinamento |
+
+### Appalti pubblici per l'impresa edile: qualificazione, garanzie, cassa e riserve
+
+| Slot | Contenuto dell'immagine |
+|---|---|
+| `appalti-pubblici-impresa-edile-1` | Attestazione SOA e bilanci d'esercizio sul tavolo di un ufficio gare |
+| `appalti-pubblici-impresa-edile-2` | Prospetto di cassa di una commessa pubblica con anticipazione, SAL e trattenute |
 
 ### Attestazione SOA: come il bilancio decide la classifica che puoi ottenere
 
@@ -534,7 +550,7 @@ oggetto o una scena concreta, non un concetto astratto.
 1. **6 immagini di sito** — stanno sopra la piega, si vedono subito.
 2. **4 copertine dei pilastri** (★) — sono in evidenza nel listing delle guide.
 3. **26 copertine restanti** — completano la griglia di `/guide`.
-4. **108 figure interne** — si possono aggiungere una guida alla volta,
+4. **112 figure interne** — si possono aggiungere una guida alla volta,
    senza toccare il codice oltre alla riga in `articleImages.ts`.
 
 Con i primi due gruppi (10 immagini) il sito è già presentabile ovunque.

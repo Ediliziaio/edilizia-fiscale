@@ -57,7 +57,7 @@ export const article: Article = {
 
     { type: "h2", text: "Il trust: quando ha senso e quando no", id: "trust" },
     { type: "p", text: "Il trust è un rapporto in cui un disponente trasferisce beni a un trustee, che li amministra nell'interesse di beneficiari o per uno scopo. In Italia è riconosciuto in forza della Convenzione dell'Aja, e produce un effetto di segregazione: i beni in trust costituiscono una massa distinta dal patrimonio del trustee e non sono aggredibili dai creditori personali di quest'ultimo." },
-    { type: "p", text: "Gli utilizzi che reggono sono quelli con una causa concreta e verificabile: la tutela di un familiare fragile o con disabilità, la gestione unitaria del patrimonio durante un passaggio generazionale complesso, la garanzia dell'esecuzione di un piano di risanamento, la destinazione di beni a un progetto determinato con un orizzonte temporale definito." },
+    { type: "p", text: "Gli utilizzi che reggono sono quelli con una causa concreta e verificabile: la tutela di un familiare fragile o con disabilità, la gestione unitaria del patrimonio durante un [passaggio generazionale](/guide/passaggio-generazionale-impresa-edile) complesso, la garanzia dell'esecuzione di un piano di risanamento, la destinazione di beni a un progetto determinato con un orizzonte temporale definito." },
     { type: "p", text: "Gli utilizzi che non reggono sono altrettanto identificabili: il trust autodichiarato in cui il disponente è anche trustee e conserva di fatto il controllo pieno sui beni, il trust costituito quando esistono già creditori o contenziosi, il trust privo di beneficiari determinati o determinabili e di una finalità reale. In queste situazioni la segregazione viene disconosciuta." },
     { type: "p", text: "Sul piano fiscale la materia ha visto una progressiva definizione, con l'individuazione del momento impositivo ai fini delle imposte indirette e del trattamento dei redditi prodotti dai beni in trust. È un profilo che richiede una valutazione specifica prima della costituzione, perché incide sulla convenienza complessiva dell'operazione." },
 
@@ -98,7 +98,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "La domanda da cui partire non è quale strumento usare, ma se in famiglia esiste oggi la possibilità di un accordo. Se esiste, il patto di famiglia è la strada più solida; se non esiste, va costruito un percorso più graduale. Mandaci la composizione familiare, la valutazione indicativa dell'impresa e l'elenco del patrimonio: ti indichiamo lo strumento adatto e la sequenza. Per il contesto leggi le guide su passaggio generazionale e protezione patrimoniale." },
+    { type: "p", text: "La domanda da cui partire non è quale strumento usare, ma se in famiglia esiste oggi la possibilità di un accordo. Se esiste, il patto di famiglia è la strada più solida; se non esiste, va costruito un percorso più graduale. Mandaci la composizione familiare, la valutazione indicativa dell'impresa e l'elenco del patrimonio: ti indichiamo lo strumento adatto e la sequenza. Per il contesto leggi le guide su passaggio generazionale e [protezione patrimoniale](/guide/protezione-patrimoniale-imprenditore-edile)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

@@ -78,7 +78,7 @@ export const article: Article = {
 
     { type: "h2", text: "Un esempio numerico", id: "esempio" },
     { type: "p", text: "Impresa con ricavi che passano da 3,2 a 4,8 milioni in un esercizio. L'utile netto sale da 96.000 a 154.000 euro. Il conto corrente, però, passa da un saldo positivo di 120.000 euro a un utilizzo dell'affidamento per 260.000 euro." },
-    { type: "p", text: "L'analisi del circolante spiega il movimento. I lavori eseguiti e non fatturati salgono di 180.000 euro, i crediti verso committenti di 240.000, le ritenute a garanzia di 95.000, il magazzino di cantiere di 60.000. I debiti verso fornitori crescono solo di 190.000 euro, perché i fornitori strategici hanno chiesto termini più brevi a fronte dei maggiori volumi. Il credito IVA cresce di 45.000 euro per effetto del reverse charge." },
+    { type: "p", text: "L'analisi del circolante spiega il movimento. I lavori eseguiti e non fatturati salgono di 180.000 euro, i crediti verso committenti di 240.000, le ritenute a garanzia di 95.000, il magazzino di cantiere di 60.000. I debiti verso fornitori crescono solo di 190.000 euro, perché i fornitori strategici hanno chiesto termini più brevi a fronte dei maggiori volumi. Il credito IVA cresce di 45.000 euro per effetto del [reverse charge](/guide/reverse-charge-edilizia)." },
     { type: "p", text: "L'assorbimento netto di circolante è di circa 430.000 euro a fronte di 154.000 euro di utile: la differenza è esattamente il peggioramento della posizione finanziaria. Nessun errore gestionale, nessuna perdita: solo crescita non finanziata. Le contromisure immediate — richiesta di rimborso IVA trimestrale, sostituzione delle ritenute con polizza, anticipo su SAL certificati — recuperano circa la metà del fabbisogno; il resto richiede una fonte strutturale." },
     { type: "note", text: "L'errore da non fare: leggere la tensione di cassa come un problema di redditività e reagire tagliando i costi. In questo scenario i costi non c'entrano: il problema è che la crescita è stata finanziata con lo scoperto di conto anziché con fonti coerenti. Lo scenario è illustrativo." },
 
@@ -95,7 +95,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se il tuo fatturato è cresciuto negli ultimi due anni e la posizione bancaria è peggiorata, il problema quasi certamente non è nei costi. Mandaci gli ultimi due bilanci, la situazione contabile aggiornata e l'elenco degli affidamenti: ricostruiamo l'assorbimento di circolante e ti indichiamo quali leve, nel tuo caso, liberano cassa più in fretta. Per il quadro d'insieme leggi le guide sul controllo di gestione e sullo split payment." },
+    { type: "p", text: "Se il tuo fatturato è cresciuto negli ultimi due anni e la posizione bancaria è peggiorata, il problema quasi certamente non è nei costi. Mandaci gli ultimi due bilanci, la situazione contabile aggiornata e l'elenco degli affidamenti: ricostruiamo l'assorbimento di circolante e ti indichiamo quali leve, nel tuo caso, liberano cassa più in fretta. Per il quadro d'insieme leggi le guide sul controllo di gestione e sullo [split payment](/guide/split-payment-e-fatturazione-pa)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026." },
   ],
 };

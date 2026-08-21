@@ -36,7 +36,7 @@ export const article: Article = {
     { type: "h2", text: "Perché in edilizia esiste un ente che in altri settori non c'è", id: "perche-esiste" },
     { type: "p", text: "Il settore delle costruzioni ha una caratteristica che nessun altro comparto industriale condivide nella stessa misura: gli operai cambiano impresa spesso, seguono i cantieri, lavorano per più datori nell'arco dello stesso anno. In un sistema ordinario questo produrrebbe un problema pratico: ferie, tredicesima e anzianità maturano presso un'impresa e vengono godute presso un'altra, o non vengono godute affatto." },
     { type: "p", text: "Le Casse Edili nascono per risolverlo. Sono enti bilaterali territoriali, costituiti dalle associazioni dei costruttori e dai sindacati, previsti dalla contrattazione collettiva. Ogni impresa versa mensilmente in base alle ore lavorate dai propri operai; la Cassa accumula e poi eroga direttamente al lavoratore, indipendentemente da quale impresa lo occupi in quel momento." },
-    { type: "p", text: "Da qui discende tutto il resto: la denuncia mensile, gli accantonamenti, il ruolo nel DURC, la verifica di congruità. E discende anche il motivo per cui un commercialista abituato ad altri settori sottostima sistematicamente il costo orario di un operaio edile: le voci che qui passano dalla Cassa, altrove non esistono come flusso separato." },
+    { type: "p", text: "Da qui discende tutto il resto: la denuncia mensile, gli accantonamenti, il ruolo nel DURC, la [verifica di congruità](/guide/congruita-manodopera-durc). E discende anche il motivo per cui un commercialista abituato ad altri settori sottostima sistematicamente il costo orario di un operaio edile: le voci che qui passano dalla Cassa, altrove non esistono come flusso separato." },
 
     { type: "figure", slot: "cassa-edile-come-funziona-1", alt: "Squadra di operai edili in cantiere con attrezzature e ponteggi", caption: "L'operaio segue i cantieri e cambia impresa: la Cassa esiste per rendere portabili i suoi diritti." },
 
@@ -58,7 +58,7 @@ export const article: Article = {
 
     { type: "h2", text: "La denuncia mensile e i suoi effetti a catena", id: "denuncia" },
     { type: "p", text: "Ogni mese l'impresa trasmette telematicamente la denuncia con l'elenco degli operai, le ore lavorate, le retribuzioni corrisposte e il cantiere di impiego. Il sistema calcola contribuzione e accantonamenti e genera il flusso di pagamento." },
-    { type: "p", text: "Quella denuncia non serve solo a versare. È il dato di partenza di due verifiche che decidono la vita operativa dell'impresa. La prima è il DURC: la Cassa Edile è uno dei tre enti la cui regolarità viene attestata, insieme a INPS e INAIL. La seconda è la congruità dell'incidenza della manodopera prevista dal D.M. 143/2021, che confronta proprio il costo del lavoro denunciato in Cassa con percentuali minime riferite al valore dell'opera." },
+    { type: "p", text: "Quella denuncia non serve solo a versare. È il dato di partenza di due verifiche che decidono la vita operativa dell'impresa. La prima è il [DURC](/guide/durc-irregolare-impresa-edile): la Cassa Edile è uno dei tre enti la cui regolarità viene attestata, insieme a INPS e INAIL. La seconda è la congruità dell'incidenza della manodopera prevista dal D.M. 143/2021, che confronta proprio il costo del lavoro denunciato in Cassa con percentuali minime riferite al valore dell'opera." },
     { type: "p", text: "Ne segue una conseguenza operativa che molte imprese scoprono tardi: l'indicazione corretta del cantiere nella denuncia mensile non è un dettaglio amministrativo. È il dato su cui si costruisce la congruità di quel cantiere. Ore denunciate senza attribuzione corretta, o attribuite al cantiere sbagliato, producono scostamenti di congruità che poi vanno giustificati o versati." },
 
     { type: "caselaw", title: "Cosa dicono le fonti", items: [
@@ -105,7 +105,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Se il costo orario che usi nei preventivi non è stato ricalcolato dopo l'ultimo rinnovo contrattuale, è quasi certo che sottostimi la componente Cassa Edile. Mandaci il libro unico dell'ultimo esercizio, i prospetti di denuncia mensile e l'elenco delle qualifiche: ricostruiamo il costo orario pieno sulla tua Cassa territoriale e lo confrontiamo con quello che stai applicando. Per il quadro completo leggi le guide su costo del lavoro edile, DURC irregolare e preventivo di commessa." },
+    { type: "p", text: "Se il costo orario che usi nei preventivi non è stato ricalcolato dopo l'ultimo rinnovo contrattuale, è quasi certo che sottostimi la componente Cassa Edile. Mandaci il libro unico dell'ultimo esercizio, i prospetti di denuncia mensile e l'elenco delle qualifiche: ricostruiamo il [costo orario pieno](/guide/costo-del-lavoro-impresa-edile) sulla tua Cassa territoriale e lo confrontiamo con quello che stai applicando. Per il quadro completo leggi le guide su costo del lavoro edile, DURC irregolare e preventivo di commessa." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa e della contrattazione vigenti." },
   ],
 };
