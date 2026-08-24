@@ -9,6 +9,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "./pages/NotFound";
 import type { Article } from "./data/articles";
 import { faqEntries } from "./data/faq";
+import { categorie } from "./data/categorie";
 
 /**
  * Ogni pagina è un chunk a parte.
@@ -54,11 +55,37 @@ const queryClient = new QueryClient({
   },
 });
 
+/**
+ * Porta in cima a ogni cambio pagina — tranne quando la URL indica un'ancora.
+ * Le guide linkano i termini del glossario come /glossario#costi-a-finire:
+ * azzerare lo scroll lì significa scaricare il lettore in cima a una pagina di
+ * ventinove definizioni, cioè rompere il link che gli avevamo promesso.
+ */
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   useEffect(() => {
+    if (hash) {
+      // Su una rotta lazy il bersaglio può non essere ancora nel DOM quando
+      // l'effetto parte: si riprova per mezzo secondo e si smette appena lo si
+      // trova. Con setTimeout e non requestAnimationFrame, perché in una scheda
+      // in background i frame non vengono serviti e il link non arriverebbe mai
+      // a destinazione.
+      const id = decodeURIComponent(hash.slice(1));
+      let attempts = 0;
+      let timer = 0 as unknown as ReturnType<typeof setTimeout>;
+      const tryScroll = () => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView({ block: "start", behavior: "auto" });
+          return;
+        }
+        if (attempts++ < 20) timer = setTimeout(tryScroll, 25);
+      };
+      tryScroll();
+      return () => clearTimeout(timer);
+    }
     window.scrollTo({ top: 0, behavior: "auto" });
-  }, [pathname]);
+  }, [pathname, hash]);
   return null;
 };
 
@@ -86,6 +113,11 @@ export const routes: RouteRecord[] = [
       { path: "studio", lazy: page(() => import("./pages/Studio")) },
       { path: "studio/come-lavoriamo", lazy: page(() => import("./pages/ComeLavoriamo")) },
       { path: "guide", lazy: page(() => import("./pages/Guide")) },
+      {
+        path: "guide/categoria/:slug",
+        lazy: page(() => import("./pages/Categoria")),
+        getStaticPaths: () => categorie.map((c) => `/guide/categoria/${c.slug}`),
+      },
       ...articleRoutes,
       { path: "domande-frequenti", lazy: page(() => import("./pages/DomandeFrequenti")) },
       {

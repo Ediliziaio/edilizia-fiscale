@@ -97,7 +97,7 @@ export const article: Article = {
       "Richiesta del certificato sui carichi pendenti in materia tributaria, per fotografare la posizione",
       "Conservazione ordinata della documentazione di commessa oltre la cancellazione: è ciò che consentirà di difendersi da una contestazione futura",
     ] },
-    { type: "p", text: "L'ultimo punto è quello che viene trascurato con più regolarità, ed è quello che poi costa di più. Un socio che riceve una richiesta risarcitoria su un edificio consegnato sei anni prima si difende con il fascicolo di commessa: computo, SAL, collaudi, certificazioni, documentazione fotografica. Se quel materiale è stato distrutto alla chiusura, la difesa è quasi impossibile." },
+    { type: "p", text: "L'ultimo punto è quello che viene trascurato con più regolarità, ed è quello che poi costa di più. Un socio che riceve una richiesta risarcitoria su un edificio consegnato sei anni prima si difende con il fascicolo di commessa: computo, [SAL](/glossario#sal), collaudi, certificazioni, documentazione fotografica. Se quel materiale è stato distrutto alla chiusura, la difesa è quasi impossibile." },
     { type: "p", text: "La regola pratica che diamo è di conservare la documentazione tecnica delle opere per l'intero arco in cui la responsabilità può essere fatta valere, che è più lungo dei termini di conservazione contabile. Un archivio digitale ordinato costa poco e risolve un problema che si presenta anni dopo." },
 
     { type: "h2", text: "Un esempio concreto", id: "esempio" },

@@ -40,6 +40,13 @@ const staticPages = [
   ["/guide", "weekly", "0.8"],
   ["/domande-frequenti", "weekly", "0.8"],
   ["/glossario", "monthly", "0.7"],
+  // Pagine di categoria: elenco tenuto in sync a mano con src/data/categorie.ts
+  ["/guide/categoria/fiscalita-impresa", "weekly", "0.8"],
+  ["/guide/categoria/numeri-e-controllo", "weekly", "0.8"],
+  ["/guide/categoria/verifiche-e-contenzioso", "weekly", "0.8"],
+  ["/guide/categoria/lavoro-e-contributi", "weekly", "0.8"],
+  ["/guide/categoria/appalti-pubblici", "weekly", "0.8"],
+  ["/guide/categoria/holding-e-patrimonio", "weekly", "0.8"],
   ["/studio", "monthly", "0.7"],
   ["/studio/come-lavoriamo", "yearly", "0.5"],
   ["/contatti", "monthly", "0.7"],

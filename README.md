@@ -3,7 +3,7 @@
 Sito dello studio **Edilizia Fiscale** — commercialisti e CFO per il settore costruzioni, doppio target
 (impresa edile / patrimonio dell'imprenditore) con due percorsi separati.
 
-- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (106 pagine prerenderizzate, una rotta lazy per pagina).
+- Stack: Vite + React + TypeScript + Tailwind + shadcn/ui, **SSG con vite-react-ssg** (112 pagine prerenderizzate, una rotta lazy per pagina).
 - Design: palette di brand **nero `#0C0C0C` e arancione `#F2621D`**, font Inter Tight.
 - Dominio previsto: `https://www.ediliziafiscale.it` (placeholder — un solo punto di modifica, vedi sotto).
 
@@ -25,6 +25,10 @@ npm run preview   # serve la build da dist/
   FAQ visibili, CTA + disclaimer). Schema Article + FAQPage + BreadcrumbList.
 - **Domande frequenti** (`/domande-frequenti`, una URL per domanda): 36 pagine da `src/data/faq.ts`,
   schema FAQPage (hub) e QAPage (singole) — motore AEO.
+- **Aree** (`/guide/categoria/[slug]`): 6 pagine da `src/data/categorie.ts`, una per categoria della
+  tassonomia, con testo proprio e ItemList delle guide del cluster. Sostituiscono il vecchio filtro
+  `?c=` — che non era prerenderizzato e che il BreadcrumbList degli articoli indicava comunque come
+  livello intermedio, puntando a una URL inesistente per un crawler.
 - **Glossario** (`/glossario`): 29 definizioni da `src/data/glossario.ts`, schema DefinedTermSet, una
   pagina sola con un'ancora per termine (`/glossario#durc`). Presidia le query «cos'è X», che le guide
   non coprono: spiegano come si fa, non cosa significa.
@@ -32,8 +36,12 @@ npm run preview   # serve la build da dist/
   è il segnale E-E-A-T pubblico dello studio).
 - **Legali**: `/privacy`, `/cookie`, `/note-legali`.
 - SEO tecnico: sitemap generata da `scripts/generate-sitemap.mjs`, `robots.txt` con allow espliciti per i
-  crawler AI, `llms.txt` generato da `scripts/generate-llms.mjs` (guide, FAQ e glossario, sempre
-  allineato), canonical + OG per pagina via `src/components/SEO.tsx` (head prerenderizzato).
+  crawler AI, canonical + OG per pagina via `src/components/SEO.tsx` (head prerenderizzato).
+- GEO: due file per i motori di risposta, entrambi generati nel prebuild e quindi sempre allineati.
+  `llms.txt` (`scripts/generate-llms.mjs`) è la mappa: guide, FAQ, glossario e aree con una riga di
+  claim ciascuna. `llms-full.txt` (`scripts/generate-llms-full.mjs`) è il corpo: 127.000 parole, il
+  testo integrale in markdown in un solo file, così un crawler non deve fare 58 richieste HTML e
+  ripulire il markup per arrivare al contenuto.
 
 ### Come è diviso il JavaScript
 
@@ -141,7 +149,7 @@ Tutti i placeholder sono centralizzati in **`src/data/site.ts`**:
 - P.IVA, sede e dati d'albo in `/privacy`, `/note-legali`, schema `index.html`;
 - endpoint reale del form contatti (`src/components/EFContactModal.tsx`, oggi simulato);
 - immagini: 170 collegate su 176; le 6 mancanti sono degli ultimi due pilastri (Lavoro,
-  Appalti) e mostrano il segnaposto con il brief. Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
+  Appalti) e mostrano il segnaposto con il brief (elenco in [IMMAGINI.md](IMMAGINI.md)). Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
   sua anteprima. L'elenco con slot, dimensioni e brief resta in **[IMMAGINI.md](IMMAGINI.md)**,
   rigenerato da `npm run immagini` a ogni guida nuova. Finché uno slot è `null` la pagina mostra
   un segnaposto con il brief scritto dentro: il sito resta pubblicabile a immagini mancanti.

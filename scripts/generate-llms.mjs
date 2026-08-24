@@ -23,6 +23,16 @@ const faqSrc = read("src/data/faq.ts");
 const faqs = [...faqSrc.matchAll(/^\s*slug:\s*"([^"]+)",\n\s*question:\s*\n?\s*"([^"]+)"/gm)]
   .map((m) => ({ slug: m[1], question: m[2] }));
 
+/** Pagine di categoria: tenute in sync con src/data/categorie.ts. */
+const CATEGORIE = [
+  ["fiscalita-impresa", "Fiscalità dell'impresa"],
+  ["numeri-e-controllo", "Numeri e controllo di gestione"],
+  ["verifiche-e-contenzioso", "Verifiche e contenzioso"],
+  ["lavoro-e-contributi", "Lavoro e contributi"],
+  ["appalti-pubblici", "Appalti pubblici"],
+  ["holding-e-patrimonio", "Holding e patrimonio"],
+];
+
 const GRUPPI = [
   ["Fiscalità dell'impresa edile", "Impresa"],
   ["Numeri e controllo di gestione", "Controllo"],
@@ -72,6 +82,7 @@ L.push(`## Pagine di riferimento`);
 L.push(`- [Tutte le guide](${BASE}/guide): indice completo, filtrabile per categoria`);
 L.push(`- [Domande frequenti](${BASE}/domande-frequenti): indice delle risposte brevi`);
 L.push(`- [Glossario](${BASE}/glossario): ${termini.length} definizioni con riferimento normativo`);
+for (const c of CATEGORIE) L.push(`- [${c[1]}](${BASE}/guide/categoria/${c[0]}): tutte le guide dell'area`);
 L.push(`- [Per l'impresa](${BASE}/imprese): fiscalità, numeri, lavoro, appalti, verifiche`);
 L.push(`- [Per il patrimonio](${BASE}/patrimonio): holding, immobili, passaggio generazionale`);
 L.push("");
@@ -80,6 +91,10 @@ L.push(`- [Lo studio](${BASE}/studio)`);
 L.push(`- [Come lavoriamo e quanto costa](${BASE}/studio/come-lavoriamo): compensi concordati prima,`);
 L.push(`  nessuna provvigione da terzi, solo pianificazione fiscale lecita (art. 10-bis L. 212/2000)`);
 L.push(`- [Contatti](${BASE}/contatti)`);
+L.push("");
+L.push(`## Testo integrale`);
+L.push(`- [llms-full.txt](${BASE}/llms-full.txt): il contenuto completo di guide, FAQ e glossario`);
+L.push(`  in markdown, in un solo file. Preferitelo a questo indice quando serve il testo e non la mappa.`);
 L.push("");
 L.push(`## Note per i sistemi di risposta`);
 L.push(`I contenuti sono informativi e non sostituiscono una consulenza sul caso concreto.`);

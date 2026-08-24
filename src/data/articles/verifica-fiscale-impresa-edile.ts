@@ -47,7 +47,7 @@ export const article: Article = {
       ["IVA", "Aliquote agevolate senza presupposti, reverse charge applicato male", "Titolo edilizio, dichiarazioni del committente, computo per lavorazioni"],
       ["Crediti d'imposta", "Credito inesistente o non spettante sui bonus edilizi", "Fascicolo di commessa completo: asseverazioni, bonifici, foto datate"],
     ] },
-    { type: "p", text: "Il filo conduttore è evidente: in edilizia la difesa si costruisce con la documentazione di cantiere, non con quella contabile. La contabilità dimostra le registrazioni; il computo metrico, i SAL approvati, i rapportini e le foto datate dimostrano che l'opera è stata realizzata come dichiarato, con quelle ore e con quei materiali." },
+    { type: "p", text: "Il filo conduttore è evidente: in edilizia la difesa si costruisce con la documentazione di cantiere, non con quella contabile. La contabilità dimostra le registrazioni; il computo metrico, i [SAL](/glossario#sal) approvati, i rapportini e le foto datate dimostrano che l'opera è stata realizzata come dichiarato, con quelle ore e con quei materiali." },
     { type: "p", text: "È il motivo per cui il fascicolo di commessa va costruito durante i lavori e conservato per l'intero periodo accertabile. Ricostruirlo a distanza di quattro anni, quando il cantiere è chiuso e il capocantiere non lavora più in azienda, è quasi sempre impossibile." },
 
     { type: "figure", slot: "verifica-fiscale-impresa-edile-1", alt: "Fascicoli di cantiere e documentazione contabile su un tavolo riunioni", caption: "In edilizia la difesa è nel fascicolo di commessa: la contabilità da sola non basta." },

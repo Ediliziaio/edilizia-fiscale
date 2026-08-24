@@ -88,7 +88,7 @@ export const article: Article = {
     ] },
 
     { type: "h2", text: "Il passo successivo", id: "cta" },
-    { type: "p", text: "Il momento giusto per iniziare è quando il fondatore è ancora pienamente operativo: è l'unica condizione in cui il trasferimento delle competenze e delle relazioni può avvenire gradualmente. Mandaci visura, ultimo bilancio, situazione delle qualificazioni SOA e composizione della famiglia: costruiamo il cronoprogramma dei cinque anni, partendo dalla parte che richiede più tempo. Per gli strumenti leggi le guide su holding e patto di famiglia." },
+    { type: "p", text: "Il momento giusto per iniziare è quando il fondatore è ancora pienamente operativo: è l'unica condizione in cui il trasferimento delle competenze e delle relazioni può avvenire gradualmente. Mandaci visura, ultimo bilancio, situazione delle qualificazioni SOA e composizione della famiglia: costruiamo il cronoprogramma dei cinque anni, partendo dalla parte che richiede più tempo. Per gli strumenti leggi le guide su holding e [patto di famiglia](/glossario#patto-di-famiglia)." },
     { type: "p", text: "Questo contenuto ha finalità informative e non sostituisce una consulenza professionale sul caso concreto. Aggiornato ad agosto 2026 sulla base della normativa vigente." },
   ],
 };

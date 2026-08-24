@@ -47,7 +47,7 @@ export const article: Article = {
     { type: "h2", text: "L'anticipazione del prezzo", id: "anticipazione" },
     { type: "p", text: "Il codice prevede che sul valore del contratto sia corrisposta all'appaltatore un'anticipazione nella misura del 20%, da erogare dopo l'avvio dell'esecuzione entro i termini stabiliti. È una misura che nel tempo è stata oggetto di interventi e maggiorazioni straordinarie, ma la struttura resta quella." },
     { type: "p", text: "L'erogazione è subordinata alla costituzione di una garanzia fideiussoria bancaria o assicurativa di importo pari all'anticipazione maggiorata del tasso di interesse legale applicato al periodo necessario al recupero. La garanzia si riduce progressivamente man mano che l'anticipazione viene recuperata." },
-    { type: "p", text: "Il recupero avviene sui successivi certificati di pagamento: su ogni SAL l'ente trattiene una quota proporzionale, fino a estinzione. Significa che l'anticipazione non è un ricavo aggiuntivo ma un anticipo su quanto comunque spettante: sposta la cassa nel tempo, non la aumenta." },
+    { type: "p", text: "Il recupero avviene sui successivi certificati di pagamento: su ogni [SAL](/glossario#sal) l'ente trattiene una quota proporzionale, fino a estinzione. Significa che l'anticipazione non è un ricavo aggiuntivo ma un anticipo su quanto comunque spettante: sposta la cassa nel tempo, non la aumenta." },
     { type: "table", headers: ["Aspetto", "Effetto sull'impresa"], rows: [
       ["Incasso all'avvio", "Liquidità disponibile quando l'esposizione è massima e nulla è ancora fatturabile"],
       ["Costo della fideiussione", "Premio commisurato all'importo garantito e alla durata: va messo a preventivo"],

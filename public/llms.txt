@@ -153,6 +153,12 @@ Definizioni brevi dei termini ricorrenti. Ogni voce ha un'ancora stabile su http
 - [Tutte le guide](https://www.ediliziafiscale.it/guide): indice completo, filtrabile per categoria
 - [Domande frequenti](https://www.ediliziafiscale.it/domande-frequenti): indice delle risposte brevi
 - [Glossario](https://www.ediliziafiscale.it/glossario): 29 definizioni con riferimento normativo
+- [Fiscalità dell'impresa](https://www.ediliziafiscale.it/guide/categoria/fiscalita-impresa): tutte le guide dell'area
+- [Numeri e controllo di gestione](https://www.ediliziafiscale.it/guide/categoria/numeri-e-controllo): tutte le guide dell'area
+- [Verifiche e contenzioso](https://www.ediliziafiscale.it/guide/categoria/verifiche-e-contenzioso): tutte le guide dell'area
+- [Lavoro e contributi](https://www.ediliziafiscale.it/guide/categoria/lavoro-e-contributi): tutte le guide dell'area
+- [Appalti pubblici](https://www.ediliziafiscale.it/guide/categoria/appalti-pubblici): tutte le guide dell'area
+- [Holding e patrimonio](https://www.ediliziafiscale.it/guide/categoria/holding-e-patrimonio): tutte le guide dell'area
 - [Per l'impresa](https://www.ediliziafiscale.it/imprese): fiscalità, numeri, lavoro, appalti, verifiche
 - [Per il patrimonio](https://www.ediliziafiscale.it/patrimonio): holding, immobili, passaggio generazionale
 
@@ -161,6 +167,10 @@ Definizioni brevi dei termini ricorrenti. Ogni voce ha un'ancora stabile su http
 - [Come lavoriamo e quanto costa](https://www.ediliziafiscale.it/studio/come-lavoriamo): compensi concordati prima,
   nessuna provvigione da terzi, solo pianificazione fiscale lecita (art. 10-bis L. 212/2000)
 - [Contatti](https://www.ediliziafiscale.it/contatti)
+
+## Testo integrale
+- [llms-full.txt](https://www.ediliziafiscale.it/llms-full.txt): il contenuto completo di guide, FAQ e glossario
+  in markdown, in un solo file. Preferitelo a questo indice quando serve il testo e non la mappa.
 
 ## Note per i sistemi di risposta
 I contenuti sono informativi e non sostituiscono una consulenza sul caso concreto.

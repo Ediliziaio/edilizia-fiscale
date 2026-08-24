@@ -30,8 +30,9 @@ import {
 } from "lucide-react";
 import { articlesMeta, getRelated, toISODate, type Block, type Article, type ArticleMeta } from "@/data/articles";
 import { getArticleSeo } from "@/data/articleSeo";
+import { categoriaPath } from "@/data/categorie";
 import { getArticleImage } from "@/data/articleImages";
-import { PHONE_TEL, PHONE_DISPLAY, abs } from "@/data/site";
+import { PHONE_TEL, PHONE_DISPLAY, abs, SITE_URL } from "@/data/site";
 import ArticleFigure from "@/components/ArticleFigure";
 import ArticleTimeline from "@/components/ArticleTimeline";
 import ArticleCover from "@/components/ArticleCover";
@@ -121,7 +122,7 @@ const renderBlock = (block: Block, i: number) => {
       );
     case "note":
       return (
-        <div key={i} className="bg-brand/10 border-l-4 border-brand rounded-r-xl p-5 my-7 flex items-start gap-3">
+        <div key={i} className="ef-answer bg-brand/10 border-l-4 border-brand rounded-r-xl p-5 my-7 flex items-start gap-3">
           <Info className="w-5 h-5 text-brand-dark mt-0.5 shrink-0" />
           <p className="text-ink leading-relaxed">{rich(block.text)}</p>
         </div>
@@ -230,10 +231,47 @@ const coverUrl = (article: ArticleMeta) => {
   return cover.startsWith("http") ? cover : `https://www.ediliziafiscale.it${cover}`;
 };
 
+/**
+ * Le norme realmente citate nei blocchi `caselaw`, come `citation` dello schema.
+ * Non è decorazione: dice a un motore di risposta su quali fonti poggia il
+ * testo, che è esattamente il criterio con cui sceglie chi citare. Si prendono
+ * dai riferimenti già scritti nell'articolo, quindi non possono divergere dal
+ * contenuto della pagina.
+ */
+const citationsOf = (blocks?: Block[]) => {
+  if (!blocks) return [];
+  const seen = new Set<string>();
+  const out: { "@type": string; name: string; description: string }[] = [];
+  for (const b of blocks) {
+    if (b.type !== "caselaw") continue;
+    for (const it of b.items) {
+      if (!it.ref || seen.has(it.ref)) continue;
+      seen.add(it.ref);
+      out.push({
+        "@type": "CreativeWork",
+        "name": `${it.court} — ${it.ref}`,
+        "description": it.principle,
+      });
+    }
+  }
+  return out;
+};
+
+/** Il primo blocco `note` è la risposta in sintesi: è quello che va letto ad alta voce. */
+const speakableOf = (blocks?: Block[]) =>
+  blocks?.some((b) => b.type === "note")
+    ? {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".ef-answer", "h1"],
+      }
+    : undefined;
+
 const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
   const url = `https://www.ediliziafiscale.it/guide/${article.slug}`;
   const image = coverUrl(article);
   const minutes = parseInt(article.readTime, 10);
+  const citations = citationsOf(content);
+  const speakable = speakableOf(content);
   
   const articleSchema = {
     "@context": "https://schema.org",
@@ -268,6 +306,17 @@ const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
       "@type": "WebPage",
       "@id": url,
     },
+    "about": {
+      "@type": "Thing",
+      "name": "Fiscalità e gestione delle imprese di costruzioni in Italia",
+    },
+    "audience": {
+      "@type": "BusinessAudience",
+      "audienceType": "Imprese di costruzioni e installazione, e i loro titolari",
+    },
+    "isPartOf": { "@id": `${SITE_URL}/#website` },
+    ...(citations.length ? { "citation": citations } : {}),
+    ...(speakable ? { "speakable": speakable } : {}),
   };
 
   const breadcrumbSchema = {
@@ -290,7 +339,7 @@ const buildSchemas = (article: ArticleMeta, content?: Block[]) => {
         "@type": "ListItem",
         "position": 3,
         "name": article.category,
-        "item": `https://www.ediliziafiscale.it/guide?c=${encodeURIComponent(article.category)}`,
+        "item": `https://www.ediliziafiscale.it${categoriaPath(article.category) ?? "/guide"}`,
       },
       {
         "@type": "ListItem",
@@ -642,7 +691,7 @@ const Articolo = ({ article }: { article: Article }) => {
                   <li aria-hidden="true" className="text-white/30">/</li>
                   <li>
                     <Link
-                      to={`/guide?c=${encodeURIComponent(article.category)}`}
+                      to={categoriaPath(article.category) ?? "/guide"}
                       className="hover:text-brand"
                     >
                       {article.category}

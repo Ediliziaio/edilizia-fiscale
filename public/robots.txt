@@ -65,3 +65,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.ediliziafiscale.it/sitemap.xml
+
+# Per i sistemi di risposta: llms.txt è l'indice del sito, llms-full.txt il
+# testo integrale di guide, domande frequenti e glossario in un solo file.
+# https://www.ediliziafiscale.it/llms.txt
+# https://www.ediliziafiscale.it/llms-full.txt
