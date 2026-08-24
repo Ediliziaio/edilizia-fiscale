@@ -149,6 +149,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/appalti-pubblici-impresa-edile-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/appalto-non-genuino-distacco-somministrazione</loc>
@@ -425,6 +428,9 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.ediliziafiscale.it/images/guide/lavoro-e-contributi-in-edilizia-cover.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.ediliziafiscale.it/guide/leasing-o-acquisto-mezzi-opera</loc>

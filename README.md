@@ -148,8 +148,11 @@ Tutti i placeholder sono centralizzati in **`src/data/site.ts`**:
   citabilità sui motori di risposta;
 - P.IVA, sede e dati d'albo in `/privacy`, `/note-legali`, schema `index.html`;
 - endpoint reale del form contatti (`src/components/EFContactModal.tsx`, oggi simulato);
-- immagini: 170 collegate su 176; le 6 mancanti sono degli ultimi due pilastri (Lavoro,
-  Appalti) e mostrano il segnaposto con il brief (elenco in [IMMAGINI.md](IMMAGINI.md)). Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
+- immagini: **complete**, 176 su 176 (6 di sito, 58 copertine, 112 figure), nessuno slot a `null`.
+  Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una sua
+  anteprima. L'elenco con slot, dimensioni e brief resta in **[IMMAGINI.md](IMMAGINI.md)**,
+  rigenerato da `npm run immagini` a ogni guida nuova. Finché uno slot è `null` la pagina mostra
+  un segnaposto con il brief scritto dentro: il sito resta pubblicabile a immagini mancanti. Le copertine alimentano anche `og:image` e `Article.image`, quindi ogni guida ha una
   sua anteprima. L'elenco con slot, dimensioni e brief resta in **[IMMAGINI.md](IMMAGINI.md)**,
   rigenerato da `npm run immagini` a ogni guida nuova. Finché uno slot è `null` la pagina mostra
   un segnaposto con il brief scritto dentro: il sito resta pubblicabile a immagini mancanti.
