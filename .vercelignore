@@ -1,0 +1,4 @@
+# Deploy da CLI: non caricare segreti locali né artefatti che Vercel ricostruisce.
+.env*
+node_modules
+dist
