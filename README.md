@@ -104,6 +104,17 @@ Quattro categorie (`src/data/articles.ts`), usate nei filtri di `/guide` e nelle
 3. `npm run build` — indice, sitemap e route statica si aggiornano da soli.
    Lo script avvisa se `seoTitle` supera i 62 caratteri o `metaDescription` i 158.
 
+## Pubblicazione (Vercel)
+
+Progetto Vercel **`edilizia-fiscale`** nel team `ediliziaios-projects`, collegato a questo
+repository: ogni push su `main` va in produzione, ogni altro branch genera un'anteprima.
+Build e header sono in `vercel.json`.
+
+Finché il dominio definitivo non è collegato, il sito vive solo su indirizzi `*.vercel.app`.
+Su quegli host `vercel.json` aggiunge `X-Robots-Tag: noindex, nofollow`: il sito si può
+condividere per revisione ma non entra nell'indice di Google con i dati segnaposto. Quando
+colleghi il dominio vero la regola non lo tocca, perché si applica solo agli host `vercel.app`.
+
 ## [DA VERIFICARE] riferimenti normativi e di prassi
 
 Il blocco `caselaw` mostra la regola con gli estremi della fonte: è il segnale di autorevolezza più
