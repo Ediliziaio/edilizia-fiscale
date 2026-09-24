@@ -25,9 +25,38 @@ interface ArticleCoverProps {
  * altrimenti disegna una copertina grafica con i colori del silo: la griglia
  * resta piena e riconoscibile anche prima che le foto esistano.
  */
+/** GIF trasparente 1x1 inline: nessuna richiesta di rete. */
+const BLANK_GIF = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+
 const ArticleCover = ({ article, className = "", eager = false }: ArticleCoverProps) => {
   const src = getArticleImage(`${article.slug}-cover`);
   const { from, to, icon: Icon } = CAT[article.category];
+
+  if (src && eager) {
+    // La copertina "eager" è l'hero della guida, che si mostra solo da lg in su
+    // (hidden lg:block). Due correzioni:
+    //  - `fetchpriority` minuscolo: React 18 scarta la forma camelCase
+    //    `fetchPriority` (avvisa in build e non la scrive nell'HTML), quindi il
+    //    browser non sapeva che era l'immagine da caricare per prima;
+    //  - sotto lg un <source> punta a un GIF 1x1 inline: un'<img> eager dentro un
+    //    contenitore nascosto viene scaricata comunque, e alzarne la priorità
+    //    su mobile avrebbe messo in coda CSS e font dietro un'immagine invisibile.
+    return (
+      <div className={`relative overflow-hidden bg-muted ${className}`}>
+        <picture>
+          <source media="(max-width: 1023.98px)" srcSet={BLANK_GIF} />
+          <img
+            src={src}
+            alt={article.title}
+            loading="eager"
+            decoding="async"
+            {...({ fetchpriority: "high" } as Record<string, string>)}
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </picture>
+      </div>
+    );
+  }
 
   if (src) {
     return (
@@ -35,9 +64,8 @@ const ArticleCover = ({ article, className = "", eager = false }: ArticleCoverPr
         <img
           src={src}
           alt={article.title}
-          loading={eager ? "eager" : "lazy"}
+          loading="lazy"
           decoding="async"
-          {...(eager ? { fetchPriority: "high" as const } : {})}
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
       </div>
