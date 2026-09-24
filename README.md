@@ -110,6 +110,12 @@ Progetto Vercel **`edilizia-fiscale`** nel team `ediliziaios-projects`, collegat
 repository: ogni push su `main` va in produzione, ogni altro branch genera un'anteprima.
 Build e header sono in `vercel.json`.
 
+**Il repository deve restare pubblico.** Il team è sul piano Hobby, che per i repository privati
+pubblica solo i commit il cui autore Vercel riconosce come titolare dell'account: con il
+repository privato ogni deploy da Git risultava `BLOCKED`. Se un giorno servisse renderlo
+privato, prima va passato il team al piano Pro, oppure i deploy vanno fatti a mano con
+`vercel deploy --prod` da una copia della cartella senza `.git`.
+
 Finché il dominio definitivo non è collegato, il sito vive solo su indirizzi `*.vercel.app`.
 Su quegli host `vercel.json` aggiunge `X-Robots-Tag: noindex, nofollow`: il sito si può
 condividere per revisione ma non entra nell'indice di Google con i dati segnaposto. Quando
